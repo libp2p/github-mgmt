@@ -1,1 +1,1589 @@
-{}
+{
+  "Admin": {
+    "community": {
+      "permission": "admin"
+    },
+    "cs-libp2p-crypto": {
+      "permission": "admin"
+    },
+    "cs-libp2p-io": {
+      "permission": "admin"
+    },
+    "cs-libp2p-peer": {
+      "permission": "admin"
+    },
+    "cs-libp2p-protocol": {
+      "permission": "admin"
+    },
+    "cs-libp2p-record": {
+      "permission": "admin"
+    },
+    "cs-libp2p-utils": {
+      "permission": "admin"
+    },
+    "go-addr-util": {
+      "permission": "admin"
+    },
+    "go-libp2p": {
+      "permission": "admin"
+    },
+    "go-libp2p-blankhost": {
+      "permission": "admin"
+    },
+    "go-libp2p-circuit": {
+      "permission": "admin"
+    },
+    "go-libp2p-conn": {
+      "permission": "admin"
+    },
+    "go-libp2p-connmgr": {
+      "permission": "admin"
+    },
+    "go-libp2p-consensus": {
+      "permission": "admin"
+    },
+    "go-libp2p-crypto": {
+      "permission": "admin"
+    },
+    "go-libp2p-dummy-conn": {
+      "permission": "admin"
+    },
+    "go-libp2p-gorpc": {
+      "permission": "admin"
+    },
+    "go-libp2p-host": {
+      "permission": "admin"
+    },
+    "go-libp2p-http": {
+      "permission": "admin"
+    },
+    "go-libp2p-identify": {
+      "permission": "admin"
+    },
+    "go-libp2p-interface-conn": {
+      "permission": "admin"
+    },
+    "go-libp2p-interface-pnet": {
+      "permission": "admin"
+    },
+    "go-libp2p-kad-dht": {
+      "permission": "admin"
+    },
+    "go-libp2p-kbucket": {
+      "permission": "admin"
+    },
+    "go-libp2p-loggables": {
+      "permission": "admin"
+    },
+    "go-libp2p-metrics": {
+      "permission": "admin"
+    },
+    "go-libp2p-nat": {
+      "permission": "admin"
+    },
+    "go-libp2p-net": {
+      "permission": "admin"
+    },
+    "go-libp2p-netutil": {
+      "permission": "admin"
+    },
+    "go-libp2p-peer": {
+      "permission": "admin"
+    },
+    "go-libp2p-peerstore": {
+      "permission": "admin"
+    },
+    "go-libp2p-ping": {
+      "permission": "admin"
+    },
+    "go-libp2p-pnet": {
+      "permission": "admin"
+    },
+    "go-libp2p-protocol": {
+      "permission": "admin"
+    },
+    "go-libp2p-pubsub": {
+      "permission": "admin"
+    },
+    "go-libp2p-quic-transport": {
+      "permission": "admin"
+    },
+    "go-libp2p-raft": {
+      "permission": "admin"
+    },
+    "go-libp2p-record": {
+      "permission": "admin"
+    },
+    "go-libp2p-routing": {
+      "permission": "admin"
+    },
+    "go-libp2p-secio": {
+      "permission": "admin"
+    },
+    "go-libp2p-swarm": {
+      "permission": "admin"
+    },
+    "go-libp2p-transport": {
+      "permission": "admin"
+    },
+    "go-maddr-filter": {
+      "permission": "admin"
+    },
+    "go-mplex": {
+      "permission": "admin"
+    },
+    "go-peerstream": {
+      "permission": "admin"
+    },
+    "go-reuseport": {
+      "permission": "admin"
+    },
+    "go-sockaddr": {
+      "permission": "admin"
+    },
+    "go-stream-muxer": {
+      "permission": "admin"
+    },
+    "go-tcp-transport": {
+      "permission": "admin"
+    },
+    "go-testutil": {
+      "permission": "admin"
+    },
+    "go-udp-transport": {
+      "permission": "admin"
+    },
+    "go-utp-transport": {
+      "permission": "admin"
+    },
+    "go-ws-transport": {
+      "permission": "admin"
+    },
+    "go-xtp": {
+      "permission": "admin"
+    },
+    "haskell-p2pcat": {
+      "permission": "admin"
+    },
+    "interface-connection": {
+      "permission": "admin"
+    },
+    "interface-libp2p": {
+      "permission": "admin"
+    },
+    "interface-peer-discovery": {
+      "permission": "admin"
+    },
+    "interface-peer-routing": {
+      "permission": "admin"
+    },
+    "interface-record-store": {
+      "permission": "admin"
+    },
+    "interface-stream-muxer": {
+      "permission": "admin"
+    },
+    "interface-transport": {
+      "permission": "admin"
+    },
+    "js-iprs-record": {
+      "permission": "admin"
+    },
+    "js-libp2p": {
+      "permission": "admin"
+    },
+    "js-libp2p-bootstrap": {
+      "permission": "admin"
+    },
+    "js-libp2p-circuit": {
+      "permission": "admin"
+    },
+    "js-libp2p-crypto": {
+      "permission": "admin"
+    },
+    "js-libp2p-crypto-secp256k1": {
+      "permission": "admin"
+    },
+    "js-libp2p-distributed-record-store": {
+      "permission": "admin"
+    },
+    "js-libp2p-floodsub": {
+      "permission": "admin"
+    },
+    "js-libp2p-identify": {
+      "permission": "admin"
+    },
+    "js-libp2p-kad-dht": {
+      "permission": "admin"
+    },
+    "js-libp2p-kad-record-store": {
+      "permission": "admin"
+    },
+    "js-libp2p-kad-routing": {
+      "permission": "admin"
+    },
+    "js-libp2p-mdns": {
+      "permission": "admin"
+    },
+    "js-libp2p-mplex": {
+      "permission": "admin"
+    },
+    "js-libp2p-ping": {
+      "permission": "admin"
+    },
+    "js-libp2p-record": {
+      "permission": "admin"
+    },
+    "js-libp2p-secio": {
+      "permission": "admin"
+    },
+    "js-libp2p-spdy": {
+      "permission": "admin"
+    },
+    "js-libp2p-switch": {
+      "permission": "admin"
+    },
+    "js-libp2p-tcp": {
+      "permission": "admin"
+    },
+    "js-libp2p-udp": {
+      "permission": "admin"
+    },
+    "js-libp2p-udt": {
+      "permission": "admin"
+    },
+    "js-libp2p-utp": {
+      "permission": "admin"
+    },
+    "js-libp2p-webrtc-direct": {
+      "permission": "admin"
+    },
+    "js-libp2p-webrtc-star": {
+      "permission": "admin"
+    },
+    "js-libp2p-websockets": {
+      "permission": "admin"
+    },
+    "js-p2pcat": {
+      "permission": "admin"
+    },
+    "js-peer-book": {
+      "permission": "admin"
+    },
+    "js-peer-id": {
+      "permission": "admin"
+    },
+    "js-peer-info": {
+      "permission": "admin"
+    },
+    "js-spdy-stream-muxer": {
+      "permission": "admin"
+    },
+    "libp2p": {
+      "permission": "admin"
+    },
+    "pubsub-notes": {
+      "permission": "admin"
+    },
+    "research-pubsub": {
+      "permission": "admin"
+    },
+    "rust-libp2p": {
+      "permission": "admin"
+    },
+    "specs": {
+      "permission": "admin"
+    },
+    "website": {
+      "permission": "admin"
+    },
+    "xtp": {
+      "permission": "admin"
+    }
+  },
+  "Devgrant editors": {
+    "devgrants": {
+      "permission": "push"
+    }
+  },
+  "Observation UI": {
+    "observation-deck": {
+      "permission": "admin"
+    },
+    "observer-toolkit": {
+      "permission": "push"
+    }
+  },
+  "Repos - C#": {
+    "cs-libp2p-crypto": {
+      "permission": "push"
+    },
+    "cs-libp2p-io": {
+      "permission": "push"
+    },
+    "cs-libp2p-peer": {
+      "permission": "push"
+    },
+    "cs-libp2p-protocol": {
+      "permission": "push"
+    },
+    "cs-libp2p-record": {
+      "permission": "push"
+    },
+    "cs-libp2p-utils": {
+      "permission": "push"
+    }
+  },
+  "Repos - Go": {
+    "awesome-libp2p": {
+      "permission": "pull"
+    },
+    "demo-multi-lang": {
+      "permission": "pull"
+    },
+    "developer-meetings": {
+      "permission": "push"
+    },
+    "dht-tracer": {
+      "permission": "pull"
+    },
+    "docs": {
+      "permission": "push"
+    },
+    "go-addr-util": {
+      "permission": "push"
+    },
+    "go-buffer-pool": {
+      "permission": "push"
+    },
+    "go-conn-security": {
+      "permission": "push"
+    },
+    "go-conn-security-multistream": {
+      "permission": "push"
+    },
+    "go-eventbus": {
+      "permission": "push"
+    },
+    "go-flow-metrics": {
+      "permission": "push"
+    },
+    "go-libp2p": {
+      "permission": "push"
+    },
+    "go-libp2p-autonat": {
+      "permission": "push"
+    },
+    "go-libp2p-autonat-svc": {
+      "permission": "push"
+    },
+    "go-libp2p-blankhost": {
+      "permission": "push"
+    },
+    "go-libp2p-circuit": {
+      "permission": "push"
+    },
+    "go-libp2p-conn": {
+      "permission": "push"
+    },
+    "go-libp2p-connmgr": {
+      "permission": "push"
+    },
+    "go-libp2p-consensus": {
+      "permission": "push"
+    },
+    "go-libp2p-core": {
+      "permission": "push"
+    },
+    "go-libp2p-crypto": {
+      "permission": "push"
+    },
+    "go-libp2p-daemon": {
+      "permission": "push"
+    },
+    "go-libp2p-discovery": {
+      "permission": "push"
+    },
+    "go-libp2p-dummy-conn": {
+      "permission": "push"
+    },
+    "go-libp2p-examples": {
+      "permission": "push"
+    },
+    "go-libp2p-gorpc": {
+      "permission": "push"
+    },
+    "go-libp2p-gostream": {
+      "permission": "push"
+    },
+    "go-libp2p-host": {
+      "permission": "push"
+    },
+    "go-libp2p-http": {
+      "permission": "push"
+    },
+    "go-libp2p-identify": {
+      "permission": "push"
+    },
+    "go-libp2p-interface-conn": {
+      "permission": "push"
+    },
+    "go-libp2p-interface-connmgr": {
+      "permission": "push"
+    },
+    "go-libp2p-interface-pnet": {
+      "permission": "push"
+    },
+    "go-libp2p-introspector": {
+      "permission": "push"
+    },
+    "go-libp2p-kad-dht": {
+      "permission": "push"
+    },
+    "go-libp2p-kbucket": {
+      "permission": "push"
+    },
+    "go-libp2p-loggables": {
+      "permission": "push"
+    },
+    "go-libp2p-metrics": {
+      "permission": "push"
+    },
+    "go-libp2p-mplex": {
+      "permission": "push"
+    },
+    "go-libp2p-nat": {
+      "permission": "push"
+    },
+    "go-libp2p-net": {
+      "permission": "push"
+    },
+    "go-libp2p-netutil": {
+      "permission": "push"
+    },
+    "go-libp2p-noise": {
+      "permission": "push"
+    },
+    "go-libp2p-peer": {
+      "permission": "push"
+    },
+    "go-libp2p-peerstore": {
+      "permission": "push"
+    },
+    "go-libp2p-ping": {
+      "permission": "push"
+    },
+    "go-libp2p-pnet": {
+      "permission": "push"
+    },
+    "go-libp2p-protocol": {
+      "permission": "push"
+    },
+    "go-libp2p-pubsub": {
+      "permission": "push"
+    },
+    "go-libp2p-pubsub-DEPRECATED": {
+      "permission": "push"
+    },
+    "go-libp2p-pubsub-router": {
+      "permission": "push"
+    },
+    "go-libp2p-pubsub-tracer": {
+      "permission": "admin"
+    },
+    "go-libp2p-quic-transport": {
+      "permission": "push"
+    },
+    "go-libp2p-raft": {
+      "permission": "push"
+    },
+    "go-libp2p-record": {
+      "permission": "push"
+    },
+    "go-libp2p-rendezvous": {
+      "permission": "push"
+    },
+    "go-libp2p-routing": {
+      "permission": "push"
+    },
+    "go-libp2p-routing-helpers": {
+      "permission": "push"
+    },
+    "go-libp2p-secio": {
+      "permission": "push"
+    },
+    "go-libp2p-swarm": {
+      "permission": "push"
+    },
+    "go-libp2p-testing": {
+      "permission": "push"
+    },
+    "go-libp2p-tls": {
+      "permission": "push"
+    },
+    "go-libp2p-transport": {
+      "permission": "push"
+    },
+    "go-libp2p-transport-upgrader": {
+      "permission": "push"
+    },
+    "go-libp2p-webrtc-direct": {
+      "permission": "push"
+    },
+    "go-libp2p-websocket-star-rendezvous": {
+      "permission": "push"
+    },
+    "go-libp2p-xor": {
+      "permission": "push"
+    },
+    "go-libp2p-yamux": {
+      "permission": "push"
+    },
+    "go-maddr-filter": {
+      "permission": "push"
+    },
+    "go-mplex": {
+      "permission": "push"
+    },
+    "go-msgio": {
+      "permission": "push"
+    },
+    "go-nat": {
+      "permission": "push"
+    },
+    "go-netroute": {
+      "permission": "push"
+    },
+    "go-openssl": {
+      "permission": "push"
+    },
+    "go-peerstream": {
+      "permission": "push"
+    },
+    "go-reuseport": {
+      "permission": "push"
+    },
+    "go-reuseport-transport": {
+      "permission": "push"
+    },
+    "go-sockaddr": {
+      "permission": "push"
+    },
+    "go-socket-activation": {
+      "permission": "push"
+    },
+    "go-src-select": {
+      "permission": "push"
+    },
+    "go-stream-muxer": {
+      "permission": "push"
+    },
+    "go-stream-muxer-multistream": {
+      "permission": "push"
+    },
+    "go-tcp-transport": {
+      "permission": "push"
+    },
+    "go-testutil": {
+      "permission": "push"
+    },
+    "go-udp-transport": {
+      "permission": "push"
+    },
+    "go-utp-transport": {
+      "permission": "push"
+    },
+    "go-ws-transport": {
+      "permission": "push"
+    },
+    "go-xtp": {
+      "permission": "push"
+    },
+    "go-yamux": {
+      "permission": "push"
+    },
+    "hydra-booster": {
+      "permission": "push"
+    },
+    "interop": {
+      "permission": "push"
+    },
+    "mplex": {
+      "permission": "push"
+    },
+    "notes": {
+      "permission": "push"
+    },
+    "npm-go-libp2p-dep": {
+      "permission": "push"
+    },
+    "projects": {
+      "permission": "push"
+    },
+    "repl": {
+      "permission": "push"
+    },
+    "specs": {
+      "permission": "push"
+    },
+    "team-mgmt": {
+      "permission": "push"
+    },
+    "testlab": {
+      "permission": "push"
+    },
+    "workspace-go-libp2p": {
+      "permission": "push"
+    }
+  },
+  "Repos - Haskell": {
+    "haskell-p2pcat": {
+      "permission": "push"
+    }
+  },
+  "Repos - Java": {
+    "jvm-libp2p": {
+      "permission": "push"
+    }
+  },
+  "Repos - JavaScript": {
+    "awesome-libp2p": {
+      "permission": "pull"
+    },
+    "demo-multi-lang": {
+      "permission": "pull"
+    },
+    "developer-meetings": {
+      "permission": "push"
+    },
+    "docs": {
+      "permission": "push"
+    },
+    "interface-connection": {
+      "permission": "push"
+    },
+    "interface-content-routing": {
+      "permission": "push"
+    },
+    "interface-peer-discovery": {
+      "permission": "push"
+    },
+    "interface-peer-routing": {
+      "permission": "push"
+    },
+    "interface-record-store": {
+      "permission": "push"
+    },
+    "interface-stream-muxer": {
+      "permission": "push"
+    },
+    "interface-transport": {
+      "permission": "push"
+    },
+    "interop": {
+      "permission": "push"
+    },
+    "js-iprs-record": {
+      "permission": "push"
+    },
+    "js-libp2p": {
+      "permission": "push"
+    },
+    "js-libp2p-bootstrap": {
+      "permission": "push"
+    },
+    "js-libp2p-circuit": {
+      "permission": "push"
+    },
+    "js-libp2p-connection-manager": {
+      "permission": "push"
+    },
+    "js-libp2p-crypto": {
+      "permission": "push"
+    },
+    "js-libp2p-crypto-secp256k1": {
+      "permission": "push"
+    },
+    "js-libp2p-daemon": {
+      "permission": "push"
+    },
+    "js-libp2p-daemon-client": {
+      "permission": "push"
+    },
+    "js-libp2p-delegated-content-routing": {
+      "permission": "push"
+    },
+    "js-libp2p-delegated-peer-routing": {
+      "permission": "push"
+    },
+    "js-libp2p-distributed-record-store": {
+      "permission": "push"
+    },
+    "js-libp2p-examples": {
+      "permission": "push"
+    },
+    "js-libp2p-floodsub": {
+      "permission": "push"
+    },
+    "js-libp2p-identify": {
+      "permission": "push"
+    },
+    "js-libp2p-interfaces": {
+      "permission": "push"
+    },
+    "js-libp2p-kad-dht": {
+      "permission": "push"
+    },
+    "js-libp2p-kad-record-store": {
+      "permission": "push"
+    },
+    "js-libp2p-kad-routing": {
+      "permission": "push"
+    },
+    "js-libp2p-keychain": {
+      "permission": "push"
+    },
+    "js-libp2p-mdns": {
+      "permission": "push"
+    },
+    "js-libp2p-mplex": {
+      "permission": "push"
+    },
+    "js-libp2p-nat-mngr": {
+      "permission": "push"
+    },
+    "js-libp2p-ping": {
+      "permission": "push"
+    },
+    "js-libp2p-pnet": {
+      "permission": "push"
+    },
+    "js-libp2p-pubsub": {
+      "permission": "push"
+    },
+    "js-libp2p-pubsub-peer-discovery": {
+      "permission": "push"
+    },
+    "js-libp2p-record": {
+      "permission": "push"
+    },
+    "js-libp2p-relay-server": {
+      "permission": "push"
+    },
+    "js-libp2p-rendezvous": {
+      "permission": "push"
+    },
+    "js-libp2p-secio": {
+      "permission": "push"
+    },
+    "js-libp2p-spdy": {
+      "permission": "push"
+    },
+    "js-libp2p-stardust": {
+      "permission": "push"
+    },
+    "js-libp2p-switch": {
+      "permission": "push"
+    },
+    "js-libp2p-tcp": {
+      "permission": "push"
+    },
+    "js-libp2p-udp": {
+      "permission": "push"
+    },
+    "js-libp2p-udt": {
+      "permission": "push"
+    },
+    "js-libp2p-utils": {
+      "permission": "push"
+    },
+    "js-libp2p-utp": {
+      "permission": "push"
+    },
+    "js-libp2p-webrtc-direct": {
+      "permission": "push"
+    },
+    "js-libp2p-webrtc-star": {
+      "permission": "push"
+    },
+    "js-libp2p-websocket-star": {
+      "permission": "push"
+    },
+    "js-libp2p-websocket-star-multi": {
+      "permission": "push"
+    },
+    "js-libp2p-websocket-star-rendezvous": {
+      "permission": "push"
+    },
+    "js-libp2p-websockets": {
+      "permission": "push"
+    },
+    "js-p2pcat": {
+      "permission": "push"
+    },
+    "js-peer-book": {
+      "permission": "push"
+    },
+    "js-peer-id": {
+      "permission": "push"
+    },
+    "js-peer-info": {
+      "permission": "push"
+    },
+    "js-spdy-stream-muxer": {
+      "permission": "push"
+    },
+    "mplex": {
+      "permission": "push"
+    },
+    "notes": {
+      "permission": "push"
+    },
+    "npm-go-libp2p-dep": {
+      "permission": "push"
+    },
+    "projects": {
+      "permission": "push"
+    },
+    "pull-mplex": {
+      "permission": "push"
+    },
+    "research-pubsub": {
+      "permission": "push"
+    },
+    "specs": {
+      "permission": "push"
+    },
+    "team-mgmt": {
+      "permission": "push"
+    },
+    "testlab": {
+      "permission": "push"
+    }
+  },
+  "Repos - Python": {
+    "libp2p": {
+      "permission": "push"
+    },
+    "notes": {
+      "permission": "push"
+    },
+    "py-libp2p": {
+      "permission": "push"
+    }
+  },
+  "Repos - Rust": {
+    "demo-multi-lang": {
+      "permission": "push"
+    },
+    "developer-meetings": {
+      "permission": "admin"
+    },
+    "docs": {
+      "permission": "push"
+    },
+    "mplex": {
+      "permission": "push"
+    },
+    "notes": {
+      "permission": "push"
+    },
+    "projects": {
+      "permission": "push"
+    },
+    "rust-libp2p": {
+      "permission": "push"
+    },
+    "rust-yamux": {
+      "permission": "push"
+    },
+    "team-mgmt": {
+      "permission": "push"
+    }
+  },
+  "Specs contributors": {
+    "specs": {
+      "permission": "push"
+    }
+  },
+  "ci": {
+    "docs": {
+      "permission": "push"
+    },
+    "go-libp2p-core": {
+      "permission": "pull"
+    },
+    "go-libp2p-noise": {
+      "permission": "pull"
+    },
+    "go-libp2p-testing": {
+      "permission": "pull"
+    },
+    "js-libp2p-relay-server": {
+      "permission": "push"
+    },
+    "js-libp2p-stardust": {
+      "permission": "admin"
+    },
+    "js-libp2p-webrtc-star": {
+      "permission": "admin"
+    },
+    "website": {
+      "permission": "push"
+    }
+  },
+  "contributors": {
+    "demo-multi-lang": {
+      "permission": "pull"
+    },
+    "developer-meetings": {
+      "permission": "pull"
+    },
+    "fclibp2p-zhi": {
+      "permission": "pull"
+    },
+    "go-cidranger": {
+      "permission": "pull"
+    },
+    "go-libp2p-autonat-svc": {
+      "permission": "pull"
+    },
+    "go-netroute": {
+      "permission": "pull"
+    },
+    "go-openssl": {
+      "permission": "pull"
+    },
+    "js-libp2p-connection-manager": {
+      "permission": "pull"
+    },
+    "js-libp2p-utils": {
+      "permission": "pull"
+    },
+    "research": {
+      "permission": "pull"
+    },
+    "research-pubsub": {
+      "permission": "pull"
+    }
+  },
+  "cpp-libp2p": {
+    "cpp-libp2p": {
+      "permission": "maintain"
+    }
+  },
+  "docs": {
+    "docs": {
+      "permission": "pull"
+    }
+  },
+  "go-libp2p Maintainers": {
+    "awesome-libp2p": {
+      "permission": "pull"
+    },
+    "demo-multi-lang": {
+      "permission": "pull"
+    },
+    "developer-meetings": {
+      "permission": "push"
+    },
+    "dht-tracer": {
+      "permission": "pull"
+    },
+    "docs": {
+      "permission": "push"
+    },
+    "go-addr-util": {
+      "permission": "push"
+    },
+    "go-buffer-pool": {
+      "permission": "push"
+    },
+    "go-conn-security": {
+      "permission": "push"
+    },
+    "go-conn-security-multistream": {
+      "permission": "push"
+    },
+    "go-eventbus": {
+      "permission": "push"
+    },
+    "go-flow-metrics": {
+      "permission": "push"
+    },
+    "go-libp2p": {
+      "permission": "maintain"
+    },
+    "go-libp2p-autonat": {
+      "permission": "push"
+    },
+    "go-libp2p-autonat-svc": {
+      "permission": "push"
+    },
+    "go-libp2p-backoff": {
+      "permission": "maintain"
+    },
+    "go-libp2p-blankhost": {
+      "permission": "push"
+    },
+    "go-libp2p-circuit": {
+      "permission": "maintain"
+    },
+    "go-libp2p-conn": {
+      "permission": "push"
+    },
+    "go-libp2p-connmgr": {
+      "permission": "push"
+    },
+    "go-libp2p-consensus": {
+      "permission": "push"
+    },
+    "go-libp2p-core": {
+      "permission": "maintain"
+    },
+    "go-libp2p-crypto": {
+      "permission": "push"
+    },
+    "go-libp2p-daemon": {
+      "permission": "push"
+    },
+    "go-libp2p-discovery": {
+      "permission": "push"
+    },
+    "go-libp2p-dummy-conn": {
+      "permission": "push"
+    },
+    "go-libp2p-examples": {
+      "permission": "push"
+    },
+    "go-libp2p-gorpc": {
+      "permission": "push"
+    },
+    "go-libp2p-gostream": {
+      "permission": "push"
+    },
+    "go-libp2p-host": {
+      "permission": "push"
+    },
+    "go-libp2p-http": {
+      "permission": "push"
+    },
+    "go-libp2p-identify": {
+      "permission": "push"
+    },
+    "go-libp2p-interface-conn": {
+      "permission": "push"
+    },
+    "go-libp2p-interface-connmgr": {
+      "permission": "push"
+    },
+    "go-libp2p-interface-pnet": {
+      "permission": "push"
+    },
+    "go-libp2p-introspector": {
+      "permission": "push"
+    },
+    "go-libp2p-kad-dht": {
+      "permission": "maintain"
+    },
+    "go-libp2p-kbucket": {
+      "permission": "push"
+    },
+    "go-libp2p-loggables": {
+      "permission": "push"
+    },
+    "go-libp2p-metrics": {
+      "permission": "push"
+    },
+    "go-libp2p-mplex": {
+      "permission": "push"
+    },
+    "go-libp2p-nat": {
+      "permission": "maintain"
+    },
+    "go-libp2p-net": {
+      "permission": "push"
+    },
+    "go-libp2p-netutil": {
+      "permission": "push"
+    },
+    "go-libp2p-noise": {
+      "permission": "maintain"
+    },
+    "go-libp2p-peer": {
+      "permission": "push"
+    },
+    "go-libp2p-peerstore": {
+      "permission": "maintain"
+    },
+    "go-libp2p-ping": {
+      "permission": "push"
+    },
+    "go-libp2p-pnet": {
+      "permission": "push"
+    },
+    "go-libp2p-protocol": {
+      "permission": "push"
+    },
+    "go-libp2p-pubsub": {
+      "permission": "maintain"
+    },
+    "go-libp2p-pubsub-DEPRECATED": {
+      "permission": "push"
+    },
+    "go-libp2p-pubsub-router": {
+      "permission": "maintain"
+    },
+    "go-libp2p-pubsub-tracer": {
+      "permission": "admin"
+    },
+    "go-libp2p-quic-transport": {
+      "permission": "maintain"
+    },
+    "go-libp2p-raft": {
+      "permission": "push"
+    },
+    "go-libp2p-record": {
+      "permission": "push"
+    },
+    "go-libp2p-rendezvous": {
+      "permission": "push"
+    },
+    "go-libp2p-routing": {
+      "permission": "push"
+    },
+    "go-libp2p-routing-helpers": {
+      "permission": "push"
+    },
+    "go-libp2p-secio": {
+      "permission": "push"
+    },
+    "go-libp2p-swarm": {
+      "permission": "maintain"
+    },
+    "go-libp2p-testing": {
+      "permission": "maintain"
+    },
+    "go-libp2p-tls": {
+      "permission": "maintain"
+    },
+    "go-libp2p-transport": {
+      "permission": "push"
+    },
+    "go-libp2p-transport-upgrader": {
+      "permission": "maintain"
+    },
+    "go-libp2p-webrtc-direct": {
+      "permission": "maintain"
+    },
+    "go-libp2p-websocket-star-rendezvous": {
+      "permission": "push"
+    },
+    "go-libp2p-yamux": {
+      "permission": "push"
+    },
+    "go-maddr-filter": {
+      "permission": "push"
+    },
+    "go-mplex": {
+      "permission": "push"
+    },
+    "go-msgio": {
+      "permission": "push"
+    },
+    "go-nat": {
+      "permission": "push"
+    },
+    "go-netroute": {
+      "permission": "push"
+    },
+    "go-openssl": {
+      "permission": "push"
+    },
+    "go-peerstream": {
+      "permission": "push"
+    },
+    "go-reuseport": {
+      "permission": "maintain"
+    },
+    "go-reuseport-transport": {
+      "permission": "push"
+    },
+    "go-sockaddr": {
+      "permission": "push"
+    },
+    "go-socket-activation": {
+      "permission": "push"
+    },
+    "go-src-select": {
+      "permission": "push"
+    },
+    "go-stream-muxer": {
+      "permission": "push"
+    },
+    "go-stream-muxer-multistream": {
+      "permission": "push"
+    },
+    "go-tcp-transport": {
+      "permission": "maintain"
+    },
+    "go-testutil": {
+      "permission": "push"
+    },
+    "go-udp-transport": {
+      "permission": "push"
+    },
+    "go-utp-transport": {
+      "permission": "push"
+    },
+    "go-ws-transport": {
+      "permission": "maintain"
+    },
+    "go-xtp": {
+      "permission": "push"
+    },
+    "go-yamux": {
+      "permission": "maintain"
+    },
+    "hydra-booster": {
+      "permission": "push"
+    },
+    "interop": {
+      "permission": "push"
+    },
+    "mplex": {
+      "permission": "push"
+    },
+    "notes": {
+      "permission": "push"
+    },
+    "npm-go-libp2p-dep": {
+      "permission": "push"
+    },
+    "projects": {
+      "permission": "push"
+    },
+    "repl": {
+      "permission": "push"
+    },
+    "specs": {
+      "permission": "push"
+    },
+    "team-mgmt": {
+      "permission": "push"
+    },
+    "testlab": {
+      "permission": "push"
+    },
+    "workspace-go-libp2p": {
+      "permission": "push"
+    }
+  },
+  "infra": {
+    "dht-tracer": {
+      "permission": "pull"
+    }
+  },
+  "w3dt-stewards": {
+    "community": {
+      "permission": "admin"
+    },
+    "cs-libp2p-crypto": {
+      "permission": "admin"
+    },
+    "cs-libp2p-io": {
+      "permission": "admin"
+    },
+    "cs-libp2p-peer": {
+      "permission": "admin"
+    },
+    "cs-libp2p-protocol": {
+      "permission": "admin"
+    },
+    "cs-libp2p-record": {
+      "permission": "admin"
+    },
+    "cs-libp2p-utils": {
+      "permission": "admin"
+    },
+    "demo-multi-lang": {
+      "permission": "admin"
+    },
+    "developer-meetings": {
+      "permission": "admin"
+    },
+    "dht-utils": {
+      "permission": "admin"
+    },
+    "docs": {
+      "permission": "admin"
+    },
+    "docs-old": {
+      "permission": "admin"
+    },
+    "go-addr-util": {
+      "permission": "admin"
+    },
+    "go-buffer-pool": {
+      "permission": "admin"
+    },
+    "go-conn-security-multistream": {
+      "permission": "admin"
+    },
+    "go-flow-metrics": {
+      "permission": "admin"
+    },
+    "go-libp2p": {
+      "permission": "admin"
+    },
+    "go-libp2p-autonat": {
+      "permission": "admin"
+    },
+    "go-libp2p-blankhost": {
+      "permission": "admin"
+    },
+    "go-libp2p-circuit": {
+      "permission": "admin"
+    },
+    "go-libp2p-connmgr": {
+      "permission": "admin"
+    },
+    "go-libp2p-consensus": {
+      "permission": "admin"
+    },
+    "go-libp2p-coral-dht": {
+      "permission": "admin"
+    },
+    "go-libp2p-core": {
+      "permission": "admin"
+    },
+    "go-libp2p-daemon": {
+      "permission": "admin"
+    },
+    "go-libp2p-discovery": {
+      "permission": "admin"
+    },
+    "go-libp2p-gorpc": {
+      "permission": "admin"
+    },
+    "go-libp2p-gostream": {
+      "permission": "admin"
+    },
+    "go-libp2p-http": {
+      "permission": "admin"
+    },
+    "go-libp2p-kad-dht": {
+      "permission": "admin"
+    },
+    "go-libp2p-kbucket": {
+      "permission": "admin"
+    },
+    "go-libp2p-loggables": {
+      "permission": "admin"
+    },
+    "go-libp2p-nat": {
+      "permission": "admin"
+    },
+    "go-libp2p-netutil": {
+      "permission": "admin"
+    },
+    "go-libp2p-noise": {
+      "permission": "admin"
+    },
+    "go-libp2p-peerstore": {
+      "permission": "admin"
+    },
+    "go-libp2p-pnet": {
+      "permission": "admin"
+    },
+    "go-libp2p-pubsub": {
+      "permission": "admin"
+    },
+    "go-libp2p-pubsub-router": {
+      "permission": "admin"
+    },
+    "go-libp2p-quic-transport": {
+      "permission": "admin"
+    },
+    "go-libp2p-raft": {
+      "permission": "admin"
+    },
+    "go-libp2p-record": {
+      "permission": "admin"
+    },
+    "go-libp2p-rendezvous": {
+      "permission": "admin"
+    },
+    "go-libp2p-routing-helpers": {
+      "permission": "admin"
+    },
+    "go-libp2p-swarm": {
+      "permission": "admin"
+    },
+    "go-libp2p-testing": {
+      "permission": "admin"
+    },
+    "go-libp2p-tls": {
+      "permission": "admin"
+    },
+    "go-libp2p-transport-upgrader": {
+      "permission": "admin"
+    },
+    "go-libp2p-webrtc-direct": {
+      "permission": "admin"
+    },
+    "go-libp2p-websocket-star-rendezvous": {
+      "permission": "admin"
+    },
+    "go-mplex": {
+      "permission": "admin"
+    },
+    "go-msgio": {
+      "permission": "admin"
+    },
+    "go-nat": {
+      "permission": "admin"
+    },
+    "go-reuseport": {
+      "permission": "admin"
+    },
+    "go-reuseport-transport": {
+      "permission": "admin"
+    },
+    "go-sockaddr": {
+      "permission": "admin"
+    },
+    "go-tcp-transport": {
+      "permission": "admin"
+    },
+    "go-udp-transport": {
+      "permission": "admin"
+    },
+    "go-ws-transport": {
+      "permission": "admin"
+    },
+    "haskell-p2pcat": {
+      "permission": "admin"
+    },
+    "interface-libp2p": {
+      "permission": "admin"
+    },
+    "interop": {
+      "permission": "admin"
+    },
+    "js-libp2p": {
+      "permission": "admin"
+    },
+    "js-libp2p-bootstrap": {
+      "permission": "admin"
+    },
+    "js-libp2p-crypto": {
+      "permission": "admin"
+    },
+    "js-libp2p-daemon": {
+      "permission": "admin"
+    },
+    "js-libp2p-daemon-client": {
+      "permission": "admin"
+    },
+    "js-libp2p-delegated-content-routing": {
+      "permission": "admin"
+    },
+    "js-libp2p-delegated-peer-routing": {
+      "permission": "admin"
+    },
+    "js-libp2p-floodsub": {
+      "permission": "admin"
+    },
+    "js-libp2p-kad-dht": {
+      "permission": "admin"
+    },
+    "js-libp2p-mdns": {
+      "permission": "admin"
+    },
+    "js-libp2p-mplex": {
+      "permission": "admin"
+    },
+    "js-libp2p-nat-mngr": {
+      "permission": "admin"
+    },
+    "js-libp2p-record": {
+      "permission": "admin"
+    },
+    "js-libp2p-rendezvous": {
+      "permission": "admin"
+    },
+    "js-libp2p-tcp": {
+      "permission": "admin"
+    },
+    "js-libp2p-udp": {
+      "permission": "admin"
+    },
+    "js-libp2p-udt": {
+      "permission": "admin"
+    },
+    "js-libp2p-utp": {
+      "permission": "admin"
+    },
+    "js-libp2p-webrtc-direct": {
+      "permission": "admin"
+    },
+    "js-libp2p-webrtc-star": {
+      "permission": "admin"
+    },
+    "js-libp2p-websockets": {
+      "permission": "admin"
+    },
+    "js-p2pcat": {
+      "permission": "admin"
+    },
+    "js-peer-id": {
+      "permission": "admin"
+    },
+    "libp2p": {
+      "permission": "admin"
+    },
+    "notes": {
+      "permission": "admin"
+    },
+    "npm-go-libp2p-dep": {
+      "permission": "admin"
+    },
+    "projects": {
+      "permission": "admin"
+    },
+    "pubsub-notes": {
+      "permission": "admin"
+    },
+    "pull-mplex": {
+      "permission": "admin"
+    },
+    "py-libp2p": {
+      "permission": "admin"
+    },
+    "research-pubsub": {
+      "permission": "admin"
+    },
+    "rust-libp2p": {
+      "permission": "admin"
+    },
+    "rust-yamux": {
+      "permission": "admin"
+    },
+    "specs": {
+      "permission": "admin"
+    },
+    "team-mgmt": {
+      "permission": "admin"
+    },
+    "website": {
+      "permission": "admin"
+    },
+    "workspace-go-libp2p": {
+      "permission": "admin"
+    },
+    "xtp": {
+      "permission": "admin"
+    }
+  }
+}

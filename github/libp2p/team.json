@@ -1,1 +1,92 @@
-{}
+{
+  "Admin": {
+    "id": "2077192",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Devgrant editors": {
+    "id": "3356302",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Observation UI": {
+    "id": "3891830",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - C#": {
+    "id": "2223530",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Go": {
+    "id": "2100801",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Haskell": {
+    "id": "2570766",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Java": {
+    "id": "2976895",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - JavaScript": {
+    "id": "2120753",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Python": {
+    "id": "2976894",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Repos - Rust": {
+    "id": "2457482",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "Specs contributors": {
+    "id": "4615198",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "ci": {
+    "id": "2562372",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "contributors": {
+    "id": "2051013",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "cpp-libp2p": {
+    "id": "3892167",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "docs": {
+    "id": "5688138",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "go-libp2p Maintainers": {
+    "id": "5253535",
+    "parent_team_id": 2100801,
+    "privacy": "closed"
+  },
+  "infra": {
+    "id": "3152313",
+    "parent_team_id": null,
+    "privacy": "closed"
+  },
+  "w3dt-stewards": {
+    "id": "4657013",
+    "parent_team_id": null,
+    "privacy": "closed"
+  }
+}
