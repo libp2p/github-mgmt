@@ -493,11 +493,6 @@
       "role": "member"
     }
   },
-  "infra": {
-    "stongo": {
-      "role": "maintainer"
-    }
-  },
   "w3dt-stewards": {
     "BigLep": {
       "role": "maintainer"
