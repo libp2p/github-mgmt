@@ -1279,11 +1279,6 @@
       "permission": "push"
     }
   },
-  "infra": {
-    "dht-tracer": {
-      "permission": "pull"
-    }
-  },
   "w3dt-stewards": {
     "community": {
       "permission": "admin"

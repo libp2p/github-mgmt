@@ -79,11 +79,6 @@
     "parent_team_id": 2100801,
     "privacy": "closed"
   },
-  "infra": {
-    "id": "3152313",
-    "parent_team_id": null,
-    "privacy": "closed"
-  },
   "w3dt-stewards": {
     "id": "4657013",
     "parent_team_id": null,
