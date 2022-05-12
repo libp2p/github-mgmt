@@ -1280,10 +1280,9 @@
     }
   },
   "js-libp2p ChainSafe Maintainers": {
-    // Enable ChainSafe Maintainers to create security advisories.
     "js-libp2p": {
       "permission": "admin"
-    },
+    }
   },
   "w3dt-stewards": {
     "community": {
