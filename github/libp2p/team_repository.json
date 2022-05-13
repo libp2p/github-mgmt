@@ -1279,6 +1279,11 @@
       "permission": "push"
     }
   },
+  "js-libp2p ChainSafe Maintainers": {
+    "js-libp2p": {
+      "permission": "admin"
+    }
+  },
   "w3dt-stewards": {
     "community": {
       "permission": "admin"
