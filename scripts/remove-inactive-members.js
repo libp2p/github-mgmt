@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ":" //# comment; exec /usr/bin/env node --input-type=module - "$@" < "$0"
 
-import { writeFileSync, readFileSync, write } from 'fs';
+import { writeFileSync, readFileSync } from 'fs';
 
 const __dirname = process.cwd();
 const args = process.argv.slice(2);
@@ -16,6 +16,8 @@ const membershipFilePath = `${__dirname}/github/libp2p/membership.json`;
 const membership = JSON.parse(readFileSync(membershipFilePath));
 const repositoryCollaboratorFilePath = `${__dirname}/github/libp2p/repository_collaborator.json`;
 const repositoryCollaborator = JSON.parse(readFileSync(repositoryCollaboratorFilePath));
+const teamFilePath = `${__dirname}/github/libp2p/team.json`;
+const team = JSON.parse(readFileSync(teamFilePath));
 const teamMembershipFilePath = `${__dirname}/github/libp2p/team_membership.json`;
 const teamMembership = JSON.parse(readFileSync(teamMembershipFilePath));
 const teamRepositoryFilePath = `${__dirname}/github/libp2p/team_repository.json`;
@@ -65,29 +67,14 @@ for (const [teamName, teamMembers] of Object.entries(teamMembership)) {
   }
   if (Object.keys(teamMembership[teamName]).length === 0) {
     console.log(`There are no members left in ${teamName}. Removing ${teamName}.`)
+    delete team[teamName];
     delete teamMembership[teamName];
-  }
-}
-
-for (const [teamName, teamRepositories] of Object.entries(teamRepository)) {
-  const members = Object.keys(teamMembership[teamName] ?? {});
-  for (const [repositoryName, _config] of Object.entries(teamRepositories)) {
-    const recentActivity = auditLog.find(activity => {
-      const createdAt = new Date(activity.created_at);
-      return members.includes(activity.actor) && activity.repo == `libp2p/${repositoryName}` && createdAt >= cutoffDate;
-    })
-    if (recentActivity === undefined) {
-      console.log(`Didn't find any recent activity for ${repositoryName} by any of the ${teamName} members. Removing ${repositoryName} from ${teamName}.`)
-      delete teamRepository[teamName][repositoryName];
-    }
-  }
-  if (Object.keys(teamRepository[teamName]).length === 0) {
-    console.log(`There are no repositories left in ${teamName}. Removing ${teamName}.`)
     delete teamRepository[teamName];
   }
 }
 
 writeFileSync(membershipFilePath, `${JSON.stringify(membership, null, 2)}\n`);
 writeFileSync(repositoryCollaboratorFilePath, `${JSON.stringify(repositoryCollaborator, null, 2)}\n`);
+writeFileSync(teamFilePath, `${JSON.stringify(team, null, 2)}\n`);
 writeFileSync(teamMembershipFilePath, `${JSON.stringify(teamMembership, null, 2)}\n`);
 writeFileSync(teamRepositoryFilePath, `${JSON.stringify(teamRepository, null, 2)}\n`);
