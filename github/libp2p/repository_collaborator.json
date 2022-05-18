@@ -1,5 +1,8 @@
 {
   "dht-tracer1": {
+    "jbenet": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -25,6 +28,9 @@
     }
   },
   "go-composable-routing": {
+    "petar": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -116,6 +122,9 @@
     }
   },
   "go-libp2p-gostream": {
+    "Stebalien": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -265,6 +274,9 @@
     }
   },
   "go-libp2p-xor": {
+    "petar": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -295,11 +307,23 @@
     }
   },
   "go-routing-language": {
+    "adlrocha": {
+      "permission": "push"
+    },
+    "masih": {
+      "permission": "push"
+    },
+    "petar": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-smart-record": {
+    "petar": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -345,6 +369,11 @@
   "js-libp2p-crypto": {
     "web3-bot": {
       "permission": "push"
+    }
+  },
+  "js-libp2p-daemon-client": {
+    "vasco-santos": {
+      "permission": "admin"
     }
   },
   "js-libp2p-daemon-protocol": {
@@ -423,6 +452,11 @@
   "repl": {
     "web3-bot": {
       "permission": "push"
+    }
+  },
+  "website": {
+    "momack2": {
+      "permission": "admin"
     }
   },
   "workspace-go-libp2p": {

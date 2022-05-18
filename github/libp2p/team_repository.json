@@ -3,16 +3,55 @@
     "go-libp2p": {
       "permission": "admin"
     },
+    "go-libp2p-blankhost": {
+      "permission": "admin"
+    },
+    "go-libp2p-circuit": {
+      "permission": "admin"
+    },
+    "go-libp2p-connmgr": {
+      "permission": "admin"
+    },
     "go-libp2p-kad-dht": {
       "permission": "admin"
     },
+    "go-libp2p-nat": {
+      "permission": "admin"
+    },
+    "go-libp2p-peerstore": {
+      "permission": "admin"
+    },
+    "go-libp2p-pubsub": {
+      "permission": "admin"
+    },
+    "go-libp2p-quic-transport": {
+      "permission": "admin"
+    },
+    "go-libp2p-raft": {
+      "permission": "admin"
+    },
+    "go-libp2p-record": {
+      "permission": "admin"
+    },
     "go-libp2p-swarm": {
+      "permission": "admin"
+    },
+    "go-mplex": {
+      "permission": "admin"
+    },
+    "go-reuseport": {
+      "permission": "admin"
+    },
+    "go-tcp-transport": {
       "permission": "admin"
     },
     "go-ws-transport": {
       "permission": "admin"
     },
     "js-libp2p": {
+      "permission": "admin"
+    },
+    "js-libp2p-crypto": {
       "permission": "admin"
     },
     "js-libp2p-mplex": {
@@ -47,6 +86,9 @@
     "go-buffer-pool": {
       "permission": "push"
     },
+    "go-conn-security-multistream": {
+      "permission": "push"
+    },
     "go-libp2p": {
       "permission": "push"
     },
@@ -65,6 +107,9 @@
     "go-libp2p-core": {
       "permission": "push"
     },
+    "go-libp2p-daemon": {
+      "permission": "push"
+    },
     "go-libp2p-discovery": {
       "permission": "push"
     },
@@ -77,6 +122,9 @@
     "go-libp2p-http": {
       "permission": "push"
     },
+    "go-libp2p-introspector": {
+      "permission": "push"
+    },
     "go-libp2p-kad-dht": {
       "permission": "push"
     },
@@ -84,6 +132,9 @@
       "permission": "push"
     },
     "go-libp2p-mplex": {
+      "permission": "push"
+    },
+    "go-libp2p-nat": {
       "permission": "push"
     },
     "go-libp2p-netutil": {
@@ -125,6 +176,9 @@
     "go-libp2p-webrtc-direct": {
       "permission": "push"
     },
+    "go-libp2p-xor": {
+      "permission": "push"
+    },
     "go-libp2p-yamux": {
       "permission": "push"
     },
@@ -132,6 +186,9 @@
       "permission": "push"
     },
     "go-msgio": {
+      "permission": "push"
+    },
+    "go-nat": {
       "permission": "push"
     },
     "go-netroute": {
@@ -149,13 +206,25 @@
     "go-sockaddr": {
       "permission": "push"
     },
+    "go-socket-activation": {
+      "permission": "push"
+    },
+    "go-src-select": {
+      "permission": "push"
+    },
     "go-stream-muxer-multistream": {
       "permission": "push"
     },
     "go-tcp-transport": {
       "permission": "push"
     },
+    "go-utp-transport": {
+      "permission": "push"
+    },
     "go-ws-transport": {
+      "permission": "push"
+    },
+    "go-xtp": {
       "permission": "push"
     },
     "go-yamux": {
@@ -210,6 +279,9 @@
     "js-libp2p-delegated-peer-routing": {
       "permission": "push"
     },
+    "js-libp2p-examples": {
+      "permission": "push"
+    },
     "js-libp2p-floodsub": {
       "permission": "push"
     },
@@ -232,6 +304,9 @@
       "permission": "push"
     },
     "js-libp2p-relay-server": {
+      "permission": "push"
+    },
+    "js-libp2p-rendezvous": {
       "permission": "push"
     },
     "js-libp2p-tcp": {
@@ -280,6 +355,11 @@
       "permission": "admin"
     }
   },
+  "contributors": {
+    "go-openssl": {
+      "permission": "pull"
+    }
+  },
   "cpp-libp2p": {
     "cpp-libp2p": {
       "permission": "maintain"
@@ -297,11 +377,17 @@
     "go-addr-util": {
       "permission": "push"
     },
+    "go-conn-security-multistream": {
+      "permission": "push"
+    },
     "go-libp2p": {
       "permission": "maintain"
     },
     "go-libp2p-autonat": {
       "permission": "push"
+    },
+    "go-libp2p-backoff": {
+      "permission": "maintain"
     },
     "go-libp2p-blankhost": {
       "permission": "push"
@@ -318,11 +404,23 @@
     "go-libp2p-discovery": {
       "permission": "push"
     },
+    "go-libp2p-gorpc": {
+      "permission": "push"
+    },
+    "go-libp2p-gostream": {
+      "permission": "push"
+    },
+    "go-libp2p-http": {
+      "permission": "push"
+    },
     "go-libp2p-kad-dht": {
       "permission": "maintain"
     },
     "go-libp2p-mplex": {
       "permission": "push"
+    },
+    "go-libp2p-nat": {
+      "permission": "maintain"
     },
     "go-libp2p-netutil": {
       "permission": "push"
@@ -334,6 +432,9 @@
       "permission": "maintain"
     },
     "go-libp2p-pubsub": {
+      "permission": "maintain"
+    },
+    "go-libp2p-pubsub-router": {
       "permission": "maintain"
     },
     "go-libp2p-pubsub-tracer": {
@@ -366,7 +467,13 @@
     "go-msgio": {
       "permission": "push"
     },
+    "go-nat": {
+      "permission": "push"
+    },
     "go-netroute": {
+      "permission": "push"
+    },
+    "go-openssl": {
       "permission": "push"
     },
     "go-reuseport": {
@@ -376,6 +483,12 @@
       "permission": "push"
     },
     "go-sockaddr": {
+      "permission": "push"
+    },
+    "go-socket-activation": {
+      "permission": "push"
+    },
+    "go-src-select": {
       "permission": "push"
     },
     "go-stream-muxer-multistream": {
@@ -395,6 +508,9 @@
     },
     "specs": {
       "permission": "push"
+    },
+    "workspace-go-libp2p": {
+      "permission": "push"
     }
   },
   "js-libp2p ChainSafe Maintainers": {
@@ -403,6 +519,9 @@
     }
   },
   "w3dt-stewards": {
+    "dht-utils": {
+      "permission": "admin"
+    },
     "docs": {
       "permission": "admin"
     },
@@ -412,13 +531,31 @@
     "go-libp2p": {
       "permission": "admin"
     },
+    "go-libp2p-autonat": {
+      "permission": "admin"
+    },
+    "go-libp2p-blankhost": {
+      "permission": "admin"
+    },
+    "go-libp2p-circuit": {
+      "permission": "admin"
+    },
     "go-libp2p-connmgr": {
+      "permission": "admin"
+    },
+    "go-libp2p-coral-dht": {
       "permission": "admin"
     },
     "go-libp2p-core": {
       "permission": "admin"
     },
+    "go-libp2p-daemon": {
+      "permission": "admin"
+    },
     "go-libp2p-discovery": {
+      "permission": "admin"
+    },
+    "go-libp2p-gostream": {
       "permission": "admin"
     },
     "go-libp2p-kad-dht": {
@@ -427,13 +564,22 @@
     "go-libp2p-kbucket": {
       "permission": "admin"
     },
+    "go-libp2p-nat": {
+      "permission": "admin"
+    },
     "go-libp2p-noise": {
       "permission": "admin"
     },
     "go-libp2p-peerstore": {
       "permission": "admin"
     },
+    "go-libp2p-pubsub": {
+      "permission": "admin"
+    },
     "go-libp2p-pubsub-router": {
+      "permission": "admin"
+    },
+    "go-libp2p-quic-transport": {
       "permission": "admin"
     },
     "go-libp2p-routing-helpers": {
@@ -460,7 +606,13 @@
     "go-msgio": {
       "permission": "admin"
     },
+    "go-reuseport": {
+      "permission": "admin"
+    },
     "go-tcp-transport": {
+      "permission": "admin"
+    },
+    "go-ws-transport": {
       "permission": "admin"
     },
     "interop": {
@@ -521,6 +673,9 @@
       "permission": "admin"
     },
     "npm-go-libp2p-dep": {
+      "permission": "admin"
+    },
+    "pubsub-notes": {
       "permission": "admin"
     },
     "rust-libp2p": {

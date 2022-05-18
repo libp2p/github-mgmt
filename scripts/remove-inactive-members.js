@@ -10,7 +10,7 @@ const auditLogFilePath = args[0];
 const auditLog = JSON.parse(readFileSync(auditLogFilePath));
 
 const cutoffDate = new Date();
-cutoffDate.setMonth(cutoffDate.getMonth() - 6);
+cutoffDate.setMonth(cutoffDate.getMonth() - 12);
 
 const membershipFilePath = `${__dirname}/github/libp2p/membership.json`;
 const membership = JSON.parse(readFileSync(membershipFilePath));

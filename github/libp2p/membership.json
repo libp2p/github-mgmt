@@ -8,6 +8,9 @@
   "Gozala": {
     "role": "member"
   },
+  "Harrm": {
+    "role": "member"
+  },
   "Kubuxu": {
     "role": "member"
   },
@@ -26,6 +29,9 @@
   "achingbrain": {
     "role": "member"
   },
+  "adlrocha": {
+    "role": "member"
+  },
   "ajnavarro": {
     "role": "member"
   },
@@ -38,7 +44,13 @@
   "andrew": {
     "role": "member"
   },
+  "andyschwab": {
+    "role": "member"
+  },
   "arajasek": {
+    "role": "member"
+  },
+  "art-gor": {
     "role": "member"
   },
   "aschmahmann": {
@@ -51,6 +63,9 @@
     "role": "member"
   },
   "dirkmc": {
+    "role": "member"
+  },
+  "dvdplm": {
     "role": "member"
   },
   "elenaf9": {
@@ -86,10 +101,19 @@
   "jacobheun": {
     "role": "admin"
   },
+  "jbenet": {
+    "role": "admin"
+  },
   "jchris": {
     "role": "member"
   },
   "jrhea": {
+    "role": "member"
+  },
+  "kamilsa": {
+    "role": "member"
+  },
+  "kumavis": {
     "role": "member"
   },
   "lidel": {
@@ -100,6 +124,9 @@
   },
   "marten-seemann": {
     "role": "admin"
+  },
+  "masih": {
+    "role": "member"
   },
   "momack2": {
     "role": "admin"
@@ -123,6 +150,9 @@
     "role": "admin"
   },
   "rolfyone": {
+    "role": "member"
+  },
+  "romanb": {
     "role": "member"
   },
   "thomaseizinger": {
@@ -151,6 +181,9 @@
   },
   "wemeetagain": {
     "role": "member"
+  },
+  "whyrusleeping": {
+    "role": "admin"
   },
   "willscott": {
     "role": "member"

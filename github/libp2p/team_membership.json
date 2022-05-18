@@ -9,11 +9,17 @@
     "aschmahmann": {
       "role": "maintainer"
     },
+    "jbenet": {
+      "role": "maintainer"
+    },
     "mxinden": {
       "role": "member"
     },
     "raulk": {
       "role": "maintainer"
+    },
+    "yusefnapora": {
+      "role": "member"
     }
   },
   "Repos - Go": {
@@ -46,6 +52,9 @@
     },
     "iand": {
       "role": "member"
+    },
+    "jacobheun": {
+      "role": "maintainer"
     },
     "lidel": {
       "role": "member"
@@ -93,6 +102,9 @@
     "hugomrdias": {
       "role": "member"
     },
+    "jacobheun": {
+      "role": "maintainer"
+    },
     "lidel": {
       "role": "member"
     },
@@ -114,6 +126,9 @@
   },
   "Repos - Rust": {
     "AgeManning": {
+      "role": "member"
+    },
+    "dvdplm": {
       "role": "member"
     },
     "elenaf9": {
@@ -145,11 +160,25 @@
       "role": "member"
     }
   },
+  "contributors": {
+    "BigLep": {
+      "role": "member"
+    }
+  },
   "cpp-libp2p": {
+    "Harrm": {
+      "role": "member"
+    },
     "igor-egorov": {
       "role": "member"
     },
+    "kamilsa": {
+      "role": "maintainer"
+    },
     "turuslan": {
+      "role": "member"
+    },
+    "xDimon": {
       "role": "member"
     }
   },
