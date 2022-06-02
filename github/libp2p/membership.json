@@ -26,6 +26,9 @@
   "Stebalien": {
     "role": "admin"
   },
+  "aarshkshah1992": {
+    "role": "member"
+  },
   "achingbrain": {
     "role": "member"
   },
@@ -139,6 +142,9 @@
   },
   "protocollabsit": {
     "role": "admin"
+  },
+  "protocollabsit-readonly": {
+    "role": "member"
   },
   "protolambda": {
     "role": "member"
