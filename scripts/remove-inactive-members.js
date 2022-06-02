@@ -6,8 +6,13 @@ import { writeFileSync, readFileSync } from 'fs';
 const __dirname = process.cwd();
 const args = process.argv.slice(2);
 
+const unimportantCategories = ['org_credential_authorization'];
+
 const auditLogFilePath = args[0];
-const auditLog = JSON.parse(readFileSync(auditLogFilePath));
+const auditLog = JSON.parse(readFileSync(auditLogFilePath)).filter(event => {
+  const category = event.action.split('.')[0];
+  return ! unimportantCategories.includes(category);
+});
 
 const cutoffDate = new Date();
 cutoffDate.setMonth(cutoffDate.getMonth() - 12);
