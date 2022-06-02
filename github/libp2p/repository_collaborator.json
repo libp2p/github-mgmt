@@ -78,6 +78,9 @@
   "go-libp2p-certbot": {
     "marten-seemann": {
       "permission": "admin"
+    },
+    "web3-bot": {
+      "permission": "push"
     }
   },
   "go-libp2p-circuit": {
@@ -266,6 +269,11 @@
     },
     "web3-bot": {
       "permission": "push"
+    }
+  },
+  "js-libp2p-webrtc-peer": {
+    "achingbrain": {
+      "permission": "admin"
     }
   },
   "go-libp2p-webrtc-direct": {
