@@ -271,11 +271,6 @@
       "permission": "push"
     }
   },
-  "js-libp2p-webrtc-peer": {
-    "achingbrain": {
-      "permission": "admin"
-    }
-  },
   "go-libp2p-webrtc-direct": {
     "web3-bot": {
       "permission": "push"
