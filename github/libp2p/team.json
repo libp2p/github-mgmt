@@ -4,6 +4,9 @@
     "parent_team_id": null,
     "privacy": "closed"
   },
+  "Bifrost": {
+    "privacy": "closed"
+  },
   "Repos - Go": {
     "id": "2100801",
     "parent_team_id": null,
