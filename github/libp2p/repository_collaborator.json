@@ -128,6 +128,9 @@
     "Stebalien": {
       "permission": "admin"
     },
+    "hsanjuan": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -212,6 +215,9 @@
     }
   },
   "go-libp2p-raft": {
+    "hsanjuan": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
