@@ -370,9 +370,6 @@
   "hydra-booster-infra": {
     "guseggert": {
       "permission": "admin"
-    },
-    "thattommyhall": {
-      "permission": "push"
     }
   },
   "js-libp2p-bootstrap": {

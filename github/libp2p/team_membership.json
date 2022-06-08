@@ -22,6 +22,17 @@
       "role": "member"
     }
   },
+  "Bifrost": {
+    "gmasgras": {
+      "permission": "member"
+    },
+    "mcamou": {
+      "permission": "member"
+    },
+    "thattommyhall": {
+      "permission": "member"
+    }
+  },
   "Repos - Go": {
     "BigLep": {
       "role": "member"

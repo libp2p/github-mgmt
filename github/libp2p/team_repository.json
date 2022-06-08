@@ -301,6 +301,11 @@
       "permission": "admin"
     }
   },
+  "Bifrost": {
+    "hydra-booster-infra": {
+      "permission": "push"
+    }
+  },
   "Repos - Go": {
     "awesome-libp2p": {
       "permission": "pull"
