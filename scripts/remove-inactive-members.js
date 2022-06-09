@@ -9,6 +9,8 @@ const args = process.argv.slice(2);
 const unimportantCategories = ['org_credential_authorization'];
 
 const auditLogFilePath = args[0];
+// You can export the audit log from the organization settings page
+// See https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization#exporting-the-audit-log
 const auditLog = JSON.parse(readFileSync(auditLogFilePath)).filter(event => {
   const category = event.action.split('.')[0];
   return ! unimportantCategories.includes(category);
