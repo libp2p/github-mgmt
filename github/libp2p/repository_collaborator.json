@@ -1,4 +1,9 @@
 {
+  "dht-hardening": {
+    "vyzo": {
+      "permission": "admin"
+    }
+  },
   "dht-tracer1": {
     "jbenet": {
       "permission": "admin"
@@ -41,6 +46,9 @@
     }
   },
   "go-doh-resolver": {
+    "vyzo": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -88,6 +96,11 @@
       "permission": "push"
     }
   },
+  "go-libp2p-circuit-progs": {
+    "vyzo": {
+      "permission": "admin"
+    }
+  },
   "go-libp2p-connmgr": {
     "web3-bot": {
       "permission": "push"
@@ -107,6 +120,9 @@
     }
   },
   "go-libp2p-daemon": {
+    "vyzo": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
