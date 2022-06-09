@@ -486,6 +486,11 @@
       "permission": "admin"
     }
   },
+  "py-libp2p": {
+    "carver": {
+      "permission": "admin"
+    }
+  },
   "repl": {
     "web3-bot": {
       "permission": "push"
