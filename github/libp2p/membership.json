@@ -2,7 +2,13 @@
   "AgeManning": {
     "role": "member"
   },
+  "AlanSl": {
+    "role": "member"
+  },
   "BigLep": {
+    "role": "member"
+  },
+  "ChihChengLiang": {
     "role": "member"
   },
   "Gozala": {
@@ -11,13 +17,22 @@
   "Harrm": {
     "role": "member"
   },
+  "JGAntunes": {
+    "role": "member"
+  },
   "Kubuxu": {
     "role": "member"
   },
   "MarcoPolo": {
     "role": "member"
   },
+  "NIC619": {
+    "role": "member"
+  },
   "Nashatyrev": {
+    "role": "member"
+  },
+  "RichardLitt": {
     "role": "member"
   },
   "SgtPooki": {
@@ -25,6 +40,15 @@
   },
   "Stebalien": {
     "role": "admin"
+  },
+  "Warchant": {
+    "role": "member"
+  },
+  "ZenGround0": {
+    "role": "member"
+  },
+  "aamnv": {
+    "role": "member"
   },
   "aarshkshah1992": {
     "role": "member"
@@ -44,10 +68,16 @@
   "alanshaw": {
     "role": "member"
   },
+  "alexh": {
+    "role": "member"
+  },
   "andrew": {
     "role": "member"
   },
   "andyschwab": {
+    "role": "member"
+  },
+  "anorth": {
     "role": "member"
   },
   "arajasek": {
@@ -59,6 +89,15 @@
   "aschmahmann": {
     "role": "admin"
   },
+  "autonome": {
+    "role": "member"
+  },
+  "bigs": {
+    "role": "member"
+  },
+  "cemozerr": {
+    "role": "member"
+  },
   "daviddias": {
     "role": "admin"
   },
@@ -68,7 +107,25 @@
   "dirkmc": {
     "role": "member"
   },
+  "dryajov": {
+    "role": "member"
+  },
+  "dvdplm": {
+    "role": "member"
+  },
   "elenaf9": {
+    "role": "member"
+  },
+  "fbaiodias": {
+    "role": "member"
+  },
+  "flyingzumwalt": {
+    "role": "member"
+  },
+  "frrist": {
+    "role": "member"
+  },
+  "fsdiogo": {
     "role": "member"
   },
   "galargh": {
@@ -77,7 +134,19 @@
   "gammazero": {
     "role": "member"
   },
+  "gavinmcdermott": {
+    "role": "member"
+  },
+  "geoah": {
+    "role": "member"
+  },
   "guseggert": {
+    "role": "member"
+  },
+  "haadcode": {
+    "role": "member"
+  },
+  "hacdias": {
     "role": "member"
   },
   "hannahhoward": {
@@ -92,6 +161,9 @@
   "iand": {
     "role": "member"
   },
+  "iceseer": {
+    "role": "member"
+  },
   "igor-egorov": {
     "role": "member"
   },
@@ -104,16 +176,40 @@
   "jbenet": {
     "role": "admin"
   },
+  "jbenetsafer": {
+    "role": "member"
+  },
   "jchris": {
     "role": "member"
   },
+  "jrhea": {
+    "role": "member"
+  },
+  "jsoares": {
+    "role": "member"
+  },
   "kamilsa": {
+    "role": "member"
+  },
+  "keks": {
+    "role": "member"
+  },
+  "kevina": {
+    "role": "member"
+  },
+  "kishansagathiya": {
     "role": "member"
   },
   "kumavis": {
     "role": "member"
   },
   "lidel": {
+    "role": "member"
+  },
+  "litzenberger": {
+    "role": "member"
+  },
+  "locotorp": {
     "role": "member"
   },
   "magik6k": {
@@ -125,16 +221,55 @@
   "masih": {
     "role": "member"
   },
+  "mbaxter": {
+    "role": "member"
+  },
+  "mcollina": {
+    "role": "member"
+  },
+  "mhchia": {
+    "role": "member"
+  },
+  "mikeal": {
+    "role": "member"
+  },
+  "miyazono": {
+    "role": "member"
+  },
+  "mkalinin": {
+    "role": "member"
+  },
+  "mkg20001": {
+    "role": "member"
+  },
   "momack2": {
     "role": "admin"
   },
   "mpetrunic": {
     "role": "member"
   },
+  "mvid": {
+    "role": "member"
+  },
   "mxinden": {
     "role": "member"
   },
+  "nicola": {
+    "role": "member"
+  },
+  "nunofmn": {
+    "role": "member"
+  },
+  "olizilla": {
+    "role": "member"
+  },
+  "ortyomka": {
+    "role": "member"
+  },
   "petar": {
+    "role": "member"
+  },
+  "pipermerriam": {
     "role": "member"
   },
   "protocollabsit": {
@@ -146,10 +281,37 @@
   "protolambda": {
     "role": "member"
   },
+  "ralexstokes": {
+    "role": "member"
+  },
   "raulk": {
     "role": "admin"
   },
+  "richardschneider": {
+    "role": "member"
+  },
+  "robzajac": {
+    "role": "member"
+  },
   "rolfyone": {
+    "role": "member"
+  },
+  "romanb": {
+    "role": "member"
+  },
+  "shahankhatch": {
+    "role": "member"
+  },
+  "snazha-blkio": {
+    "role": "member"
+  },
+  "stongo": {
+    "role": "member"
+  },
+  "stuckinaboot": {
+    "role": "member"
+  },
+  "tabrath": {
     "role": "member"
   },
   "thomaseizinger": {
@@ -158,10 +320,16 @@
   "tomaka": {
     "role": "member"
   },
+  "travisperson": {
+    "role": "member"
+  },
   "turuslan": {
     "role": "member"
   },
   "vasco-santos": {
+    "role": "member"
+  },
+  "victorb": {
     "role": "member"
   },
   "vmx": {
@@ -188,7 +356,16 @@
   "xDimon": {
     "role": "member"
   },
+  "yiannisbot": {
+    "role": "member"
+  },
   "yusefnapora": {
+    "role": "member"
+  },
+  "zixuanzh": {
+    "role": "member"
+  },
+  "zuiris": {
     "role": "member"
   }
 }

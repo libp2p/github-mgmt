@@ -4,6 +4,9 @@
     "parent_team_id": null,
     "privacy": "closed"
   },
+  "Alumni": {
+    "privacy": "closed"
+  },
   "Bifrost": {
     "privacy": "closed"
   },
