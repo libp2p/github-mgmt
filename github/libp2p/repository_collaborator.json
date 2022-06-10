@@ -1,178 +1,7 @@
 {
-  ".github": {
-    "marten-seemann": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "awesome-libp2p": {
-    "aarshkshah1992": {
-      "permission": "pull"
-    },
-    "vasco-santos": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "community": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cpp-libp2p": {
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cs-libp2p-crypto": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cs-libp2p-io": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cs-libp2p-peer": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cs-libp2p-protocol": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cs-libp2p-record": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "cs-libp2p-utils": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "demo-multi-lang": {
-    "aarshkshah1992": {
-      "permission": "pull"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "developer-meetings": {
-    "42piratas": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "admin"
-    },
-    "b5": {
-      "permission": "admin"
-    },
-    "cpacia": {
-      "permission": "admin"
-    },
-    "ericxtang": {
-      "permission": "admin"
-    },
-    "flyingzumwalt": {
-      "permission": "admin"
-    },
-    "jacobheun": {
-      "permission": "admin"
-    },
-    "meiqimichelle": {
-      "permission": "admin"
-    },
-    "mikiquantum": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "devgrants": {
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "dht-hardening": {
-    "Stebalien": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "adlrocha": {
-      "permission": "push"
-    },
-    "aschmahmann": {
-      "permission": "admin"
-    },
-    "daviddias": {
-      "permission": "admin"
-    },
-    "hacdias": {
-      "permission": "maintain"
-    },
-    "schomatis": {
-      "permission": "pull"
-    },
     "vyzo": {
       "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    },
-    "yusefnapora": {
-      "permission": "admin"
-    }
-  },
-  "dht-tracer": {
-    "Stebalien": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "pull"
-    },
-    "adam-hanna": {
-      "permission": "push"
-    },
-    "aschmahmann": {
-      "permission": "admin"
-    },
-    "jbenet": {
-      "permission": "admin"
-    },
-    "jimpick": {
-      "permission": "push"
-    },
-    "mplaza": {
-      "permission": "admin"
-    },
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "dht-tracer-archived": {
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "dht-tracer1": {
@@ -184,57 +13,21 @@
     }
   },
   "dht-utils": {
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "dht-vis-v0": {
-    "dignifiedquire": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "docs": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "andyschwab": {
-      "permission": "admin"
-    },
     "walkerlj0": {
       "permission": "maintain"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "docs-old": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "fclibp2p-zhi": {
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "go-addr-util": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-buffer-pool": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -247,21 +40,7 @@
       "permission": "push"
     }
   },
-  "go-conn-security": {
-    "Stebalien": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
   "go-conn-security-multistream": {
-    "Stebalien": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -275,35 +54,13 @@
     }
   },
   "go-eventbus": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "magik6k": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-flow-metrics": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
-    }
-  },
-  "go-libp2p-asn": {
-    "aarshkshah1992": {
-      "permission": "admin"
     }
   },
   "go-libp2p-asn-util": {
@@ -312,25 +69,16 @@
     }
   },
   "go-libp2p-autonat": {
-    "aarshkshah1992": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-backoff": {
-    "petar": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-blankhost": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -344,9 +92,6 @@
     }
   },
   "go-libp2p-circuit": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -356,42 +101,17 @@
       "permission": "admin"
     }
   },
-  "go-libp2p-conn": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
   "go-libp2p-connmgr": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-consensus": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-coral-dht": {
-    "bigs": {
-      "permission": "admin"
-    },
-    "carospiegly": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-core": {
-    "dignifiedquire": {
-      "permission": "push"
-    },
     "mvdan": {
       "permission": "push"
     },
@@ -399,21 +119,7 @@
       "permission": "push"
     }
   },
-  "go-libp2p-crypto": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
   "go-libp2p-daemon": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "bigs": {
-      "permission": "admin"
-    },
-    "mvid": {
-      "permission": "push"
-    },
     "vyzo": {
       "permission": "admin"
     },
@@ -426,23 +132,7 @@
       "permission": "push"
     }
   },
-  "go-libp2p-dummy-conn": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-examples": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "go-libp2p-gorpc": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "hsanjuan": {
       "permission": "admin"
     },
@@ -454,60 +144,18 @@
     "Stebalien": {
       "permission": "admin"
     },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "hsanjuan": {
       "permission": "admin"
     },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-holepunch-test": {
-    "aarshkshah1992": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-host": {
-    "aarshkshah1992": {
       "permission": "push"
     }
   },
   "go-libp2p-http": {
-    "Stebalien": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "hsanjuan": {
       "permission": "admin"
     },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-identify": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-interface-conn": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-interface-connmgr": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-interface-pnet": {
-    "aarshkshah1992": {
       "permission": "push"
     }
   },
@@ -517,131 +165,56 @@
     }
   },
   "go-libp2p-kad-dht": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-kbucket": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-loggables": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    },
-    "whyrusleeping": {
-      "permission": "admin"
-    }
-  },
-  "go-libp2p-metrics": {
-    "aarshkshah1992": {
       "permission": "push"
     }
   },
   "go-libp2p-nat": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
-  "go-libp2p-net": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
   "go-libp2p-netutil": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-noise": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
-    },
-    "yusefnapora": {
-      "permission": "admin"
-    }
-  },
-  "go-libp2p-peer": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "whyrusleeping": {
-      "permission": "admin"
     }
   },
   "go-libp2p-peerstore": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "bigs": {
-      "permission": "admin"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-ping": {
-    "aarshkshah1992": {
       "permission": "push"
     }
   },
   "go-libp2p-pnet": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-protocol": {
-    "aarshkshah1992": {
       "permission": "push"
     }
   },
   "go-libp2p-pubsub": {
     "vyzo": {
       "permission": "maintain"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-pubsub-DEPRECATED": {
-    "aarshkshah1992": {
-      "permission": "push"
     }
   },
   "go-libp2p-pubsub-router": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-pubsub-tracer": {
-    "aarshkshah1992": {
-      "permission": "admin"
-    },
     "vyzo": {
       "permission": "admin"
     },
@@ -650,9 +223,6 @@
     }
   },
   "go-libp2p-quic-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "marten-seemann": {
       "permission": "admin"
     },
@@ -661,9 +231,6 @@
     }
   },
   "go-libp2p-raft": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "hsanjuan": {
       "permission": "admin"
     },
@@ -672,29 +239,15 @@
     }
   },
   "go-libp2p-record": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-relay-daemon": {
-    "Stebalien": {
-      "permission": "admin"
-    },
     "marten-seemann": {
       "permission": "admin"
     },
     "vyzo": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-rendezvous": {
-    "aarshkshah1992": {
       "permission": "push"
     },
     "web3-bot": {
@@ -709,52 +262,22 @@
       "permission": "push"
     }
   },
-  "go-libp2p-routing": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
   "go-libp2p-routing-helpers": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-secio": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-slog": {
-    "petar": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-swarm": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-testing": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-tls": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "marten-seemann": {
       "permission": "admin"
     },
@@ -762,46 +285,15 @@
       "permission": "push"
     }
   },
-  "go-libp2p-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
   "go-libp2p-transport-upgrader": {
     "Stebalien": {
       "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
     },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-webrtc-direct": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "albrow": {
-      "permission": "admin"
-    },
-    "backkem": {
-      "permission": "admin"
-    },
-    "mearaj": {
-      "permission": "push"
-    },
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-libp2p-websocket-star-rendezvous": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -815,15 +307,7 @@
     }
   },
   "go-libp2p-yamux": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-maddr-filter": {
-    "aarshkshah1992": {
       "permission": "push"
     }
   },
@@ -835,32 +319,14 @@
   "go-netroute": {
     "web3-bot": {
       "permission": "push"
-    },
-    "willscott": {
-      "permission": "admin"
     }
   },
   "go-reuseport": {
-    "Kubuxu": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "jbenet": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
-    },
-    "whyrusleeping": {
-      "permission": "admin"
     }
   },
   "go-reuseport-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -880,9 +346,6 @@
     }
   },
   "go-smart-record": {
-    "adlrocha": {
-      "permission": "maintain"
-    },
     "petar": {
       "permission": "admin"
     },
@@ -891,224 +354,42 @@
     }
   },
   "go-sockaddr": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-socket-activation": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
-    }
-  },
-  "go-stream-muxer": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "jbenet": {
-      "permission": "admin"
-    },
-    "whyrusleeping": {
-      "permission": "admin"
     }
   },
   "go-tcp-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-testutil": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "go-udp-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-utp-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-ws-transport": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "go-xtp": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-yamux": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "gossipsub-hardening": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dirkmc": {
-      "permission": "admin"
-    },
-    "djrtwo": {
-      "permission": "triage"
-    },
-    "dominictarr": {
-      "permission": "triage"
-    },
-    "dylanlott": {
-      "permission": "triage"
-    },
-    "hacdias": {
-      "permission": "maintain"
-    },
-    "keks": {
-      "permission": "triage"
-    },
-    "nginnever": {
-      "permission": "triage"
-    },
-    "nonsense": {
-      "permission": "admin"
-    },
-    "protolambda": {
-      "permission": "triage"
-    },
     "vyzo": {
       "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    },
-    "whyrusleeping": {
-      "permission": "admin"
-    },
-    "willscott": {
-      "permission": "push"
-    },
-    "yiannisbot": {
-      "permission": "admin"
-    },
-    "yusefnapora": {
-      "permission": "admin"
-    }
-  },
-  "haskell-p2pcat": {
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "hydra-booster-infra": {
-    "gmasgras": {
-      "permission": "push"
-    },
     "guseggert": {
       "permission": "admin"
-    },
-    "mcamou": {
-      "permission": "push"
-    },
-    "thattommyhall": {
-      "permission": "push"
-    }
-  },
-  "interface-connection": {
-    "daviddias": {
-      "permission": "admin"
-    }
-  },
-  "interface-libp2p": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "interface-peer-routing": {
-    "daviddias": {
-      "permission": "admin"
-    }
-  },
-  "interface-record-store": {
-    "daviddias": {
-      "permission": "admin"
-    }
-  },
-  "interface-stream-muxer": {
-    "daviddias": {
-      "permission": "admin"
-    }
-  },
-  "interface-transport": {
-    "daviddias": {
-      "permission": "admin"
-    }
-  },
-  "interop": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-iprs-record": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p": {
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "js-libp2p-bootstrap": {
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-circuit": {
-    "dryajov": {
-      "permission": "push"
-    },
-    "nunofmn": {
       "permission": "push"
     }
   },
@@ -1123,20 +404,11 @@
     }
   },
   "js-libp2p-crypto": {
-    "dignifiedquire": {
-      "permission": "admin"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "js-libp2p-daemon": {
-    "jacobheun": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1144,9 +416,6 @@
   "js-libp2p-daemon-client": {
     "vasco-santos": {
       "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "js-libp2p-daemon-protocol": {
@@ -1164,38 +433,8 @@
       "permission": "push"
     }
   },
-  "js-libp2p-distributed-record-store": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-examples": {
-    "jacobheun": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "js-libp2p-floodsub": {
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-identify": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "nunofmn": {
       "permission": "push"
     }
   },
@@ -1205,32 +444,7 @@
     }
   },
   "js-libp2p-kad-dht": {
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-kad-record-store": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-kad-routing": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
       "permission": "push"
     }
   },
@@ -1240,15 +454,6 @@
     }
   },
   "js-libp2p-mdns": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1259,11 +464,6 @@
     }
   },
   "js-libp2p-multistream-select": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-nat-mngr": {
     "web3-bot": {
       "permission": "push"
     }
@@ -1288,27 +488,6 @@
       "permission": "push"
     }
   },
-  "js-libp2p-ping": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-pnet": {
-    "jacobheun": {
-      "permission": "admin"
-    }
-  },
-  "js-libp2p-pubsub": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "js-libp2p-pubsub-peer-discovery": {
     "web3-bot": {
       "permission": "push"
@@ -1316,46 +495,6 @@
   },
   "js-libp2p-record": {
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-relay-server": {
-    "vasco-santos": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-rendezvous": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-secio": {
-    "dignifiedquire": {
-      "permission": "admin"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-spdy": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "fbaiodias": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-stardust": {
-    "mkg20001": {
       "permission": "push"
     }
   },
@@ -1374,46 +513,7 @@
       "permission": "push"
     }
   },
-  "js-libp2p-udp": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-udt": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "js-libp2p-utils": {
-    "vasco-santos": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-utp": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1442,109 +542,8 @@
       "permission": "push"
     }
   },
-  "js-libp2p-websocket-star-multi": {
-    "mkg20001": {
-      "permission": "push"
-    }
-  },
-  "js-libp2p-websocket-star-rendezvous": {
-    "mkg20001": {
-      "permission": "admin"
-    }
-  },
   "js-libp2p-websockets": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "fbaiodias": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-p2pcat": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-peer-book": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "js-peer-id": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nginnever": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "js-peer-info": {
-    "daviddias": {
-      "permission": "admin"
-    },
-    "dignifiedquire": {
-      "permission": "push"
-    },
-    "nunofmn": {
-      "permission": "push"
-    }
-  },
-  "jvm-libp2p": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "libp2p": {
-    "Mr0grog": {
-      "permission": "pull"
-    },
-    "carospiegly": {
-      "permission": "pull"
-    },
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "mplex": {
-    "aarshkshah1992": {
-      "permission": "push"
-    }
-  },
-  "notes": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "jsoares": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    },
-    "yiannisbot": {
       "permission": "push"
     }
   },
@@ -1553,214 +552,27 @@
       "permission": "admin"
     }
   },
-  "npm-go-libp2p-dep": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "vasco-santos": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "observation-deck": {
-    "AlanSl": {
-      "permission": "admin"
-    },
-    "mcollina": {
-      "permission": "admin"
-    },
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "observer-toolkit": {
-    "AlanSl": {
-      "permission": "admin"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "mcollina": {
-      "permission": "admin"
-    },
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "projects": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "pubsub-notes": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "pull-mplex": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
   "py-libp2p": {
-    "alexh": {
-      "permission": "push"
-    },
     "carver": {
       "permission": "admin"
-    },
-    "ralexstokes": {
-      "permission": "admin"
-    },
-    "robzajac": {
-      "permission": "push"
-    },
-    "stuckinaboot": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    },
-    "zixuanzh": {
-      "permission": "push"
-    }
-  },
-  "py-libp2p-slog": {
-    "petar": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "py-libp2p-xor": {
-    "petar": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "repl": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
     "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "research-dht": {
-    "bigs": {
-      "permission": "admin"
-    }
-  },
-  "research-pubsub": {
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "rust-libp2p": {
-    "raulk": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "rust-yamux": {
-    "ddorgan": {
-      "permission": "push"
-    },
-    "tomaka": {
-      "permission": "push"
-    }
-  },
-  "specs": {
-    "schomatis": {
-      "permission": "triage"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "team-mgmt": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "test-plans": {
-    "hacdias": {
-      "permission": "maintain"
-    },
-    "nonsense": {
-      "permission": "maintain"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "testlab": {
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "jimpick": {
       "permission": "push"
     }
   },
   "website": {
-    "alanshaw": {
-      "permission": "push"
-    },
-    "andyschwab": {
-      "permission": "admin"
-    },
     "momack2": {
       "permission": "admin"
-    },
-    "olizilla": {
-      "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
     }
   },
   "workspace-go-libp2p": {
-    "Kubuxu": {
-      "permission": "push"
-    },
-    "aarshkshah1992": {
-      "permission": "push"
-    },
-    "backkem": {
-      "permission": "push"
-    },
     "mcamou": {
       "permission": "push"
     },
     "raulk": {
       "permission": "admin"
-    },
-    "web3-bot": {
-      "permission": "push"
-    }
-  },
-  "xtp": {
-    "web3-bot": {
-      "permission": "push"
     }
   }
 }

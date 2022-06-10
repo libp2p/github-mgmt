@@ -4,28 +4,14 @@
     "parent_team_id": null,
     "privacy": "closed"
   },
-  "Devgrant editors": {
-    "id": "3356302",
-    "parent_team_id": null,
+  "Alumni": {
     "privacy": "closed"
   },
-  "Observation UI": {
-    "id": "3891830",
-    "parent_team_id": null,
-    "privacy": "closed"
-  },
-  "Repos - C#": {
-    "id": "2223530",
-    "parent_team_id": null,
+  "Bifrost": {
     "privacy": "closed"
   },
   "Repos - Go": {
     "id": "2100801",
-    "parent_team_id": null,
-    "privacy": "closed"
-  },
-  "Repos - Haskell": {
-    "id": "2570766",
     "parent_team_id": null,
     "privacy": "closed"
   },
@@ -36,11 +22,6 @@
   },
   "Repos - JavaScript": {
     "id": "2120753",
-    "parent_team_id": null,
-    "privacy": "closed"
-  },
-  "Repos - Python": {
-    "id": "2976894",
     "parent_team_id": null,
     "privacy": "closed"
   },

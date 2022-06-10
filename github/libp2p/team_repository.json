@@ -301,36 +301,8 @@
       "permission": "admin"
     }
   },
-  "Devgrant editors": {
-    "devgrants": {
-      "permission": "push"
-    }
-  },
-  "Observation UI": {
-    "observation-deck": {
-      "permission": "admin"
-    },
-    "observer-toolkit": {
-      "permission": "push"
-    }
-  },
-  "Repos - C#": {
-    "cs-libp2p-crypto": {
-      "permission": "push"
-    },
-    "cs-libp2p-io": {
-      "permission": "push"
-    },
-    "cs-libp2p-peer": {
-      "permission": "push"
-    },
-    "cs-libp2p-protocol": {
-      "permission": "push"
-    },
-    "cs-libp2p-record": {
-      "permission": "push"
-    },
-    "cs-libp2p-utils": {
+  "Bifrost": {
+    "hydra-booster-infra": {
       "permission": "push"
     }
   },
@@ -636,11 +608,6 @@
       "permission": "push"
     }
   },
-  "Repos - Haskell": {
-    "haskell-p2pcat": {
-      "permission": "push"
-    }
-  },
   "Repos - Java": {
     "jvm-libp2p": {
       "permission": "push"
@@ -888,17 +855,6 @@
       "permission": "push"
     },
     "testlab": {
-      "permission": "push"
-    }
-  },
-  "Repos - Python": {
-    "libp2p": {
-      "permission": "push"
-    },
-    "notes": {
-      "permission": "push"
-    },
-    "py-libp2p": {
       "permission": "push"
     }
   },
