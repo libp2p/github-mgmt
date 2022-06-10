@@ -448,6 +448,11 @@
       "permission": "push"
     }
   },
+  "js-libp2p-pubsub": {
+    "achingbrain": {
+      "permission": "admin"
+    }
+  },
   "js-libp2p-pubsub-peer-discovery": {
     "web3-bot": {
       "permission": "push"
