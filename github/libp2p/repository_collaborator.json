@@ -1289,6 +1289,9 @@
     }
   },
   "js-libp2p-pubsub": {
+    "achingbrain": {
+      "permission": "admin"
+    },
     "vasco-santos": {
       "permission": "push"
     },
