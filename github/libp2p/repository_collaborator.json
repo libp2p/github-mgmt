@@ -32,49 +32,31 @@
     }
   },
   "cs-libp2p-crypto": {
-    "tabrath": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "cs-libp2p-io": {
-    "tabrath": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "cs-libp2p-peer": {
-    "tabrath": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "cs-libp2p-protocol": {
-    "tabrath": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "cs-libp2p-record": {
-    "tabrath": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "cs-libp2p-utils": {
-    "tabrath": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1110,9 +1092,6 @@
     }
   },
   "js-libp2p": {
-    "hugomrdias": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1130,6 +1109,16 @@
       "permission": "push"
     },
     "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-components": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-connection": {
+    "web3-bot": {
       "permission": "push"
     }
   },
@@ -1211,9 +1200,6 @@
     }
   },
   "js-libp2p-interfaces": {
-    "jacobheun": {
-      "permission": "admin"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1248,6 +1234,11 @@
       "permission": "push"
     }
   },
+  "js-libp2p-logger": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
   "js-libp2p-mdns": {
     "daviddias": {
       "permission": "admin"
@@ -1267,7 +1258,32 @@
       "permission": "push"
     }
   },
+  "js-libp2p-multistream-select": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
   "js-libp2p-nat-mngr": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-collections": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-id": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-record": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-store": {
     "web3-bot": {
       "permission": "push"
     }
@@ -1289,12 +1305,6 @@
     }
   },
   "js-libp2p-pubsub": {
-    "achingbrain": {
-      "permission": "admin"
-    },
-    "vasco-santos": {
-      "permission": "push"
-    },
     "web3-bot": {
       "permission": "push"
     }
@@ -1350,6 +1360,16 @@
     }
   },
   "js-libp2p-tcp": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-topology": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-tracked-map": {
     "web3-bot": {
       "permission": "push"
     }

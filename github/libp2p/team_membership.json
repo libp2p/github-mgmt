@@ -62,11 +62,6 @@
       "role": "maintainer"
     }
   },
-  "Repos - C#": {
-    "tabrath": {
-      "role": "member"
-    }
-  },
   "Repos - Go": {
     "BigLep": {
       "role": "member"
@@ -412,9 +407,6 @@
       "role": "member"
     },
     "richardschneider": {
-      "role": "member"
-    },
-    "tabrath": {
       "role": "member"
     },
     "victorb": {

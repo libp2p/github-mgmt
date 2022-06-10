@@ -695,6 +695,12 @@
     "js-libp2p-circuit": {
       "permission": "push"
     },
+    "js-libp2p-components": {
+      "permission": "push"
+    },
+    "js-libp2p-connection": {
+      "permission": "push"
+    },
     "js-libp2p-connection-manager": {
       "permission": "push"
     },
@@ -743,13 +749,31 @@
     "js-libp2p-keychain": {
       "permission": "push"
     },
+    "js-libp2p-logger": {
+      "permission": "push"
+    },
     "js-libp2p-mdns": {
       "permission": "push"
     },
     "js-libp2p-mplex": {
       "permission": "push"
     },
+    "js-libp2p-multistream-select": {
+      "permission": "push"
+    },
     "js-libp2p-nat-mngr": {
+      "permission": "push"
+    },
+    "js-libp2p-peer-collections": {
+      "permission": "push"
+    },
+    "js-libp2p-peer-id": {
+      "permission": "push"
+    },
+    "js-libp2p-peer-record": {
+      "permission": "push"
+    },
+    "js-libp2p-peer-store": {
       "permission": "push"
     },
     "js-libp2p-ping": {
@@ -786,6 +810,12 @@
       "permission": "push"
     },
     "js-libp2p-tcp": {
+      "permission": "push"
+    },
+    "js-libp2p-topology": {
+      "permission": "push"
+    },
+    "js-libp2p-tracked-map": {
       "permission": "push"
     },
     "js-libp2p-udp": {
@@ -1387,9 +1417,6 @@
     "go-libp2p-netutil": {
       "permission": "admin"
     },
-    "go-libp2p-noise": {
-      "permission": "admin"
-    },
     "go-libp2p-peerstore": {
       "permission": "admin"
     },
@@ -1505,6 +1532,9 @@
       "permission": "admin"
     },
     "js-libp2p-nat-mngr": {
+      "permission": "admin"
+    },
+    "js-libp2p-pubsub": {
       "permission": "admin"
     },
     "js-libp2p-record": {
