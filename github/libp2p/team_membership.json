@@ -24,189 +24,178 @@
   },
   "Alumni": {
     "AlanSl": {
-      "permission": "member"
+      "role": "member"
     },
     "ChihChengLiang": {
-      "permission": "member"
+      "role": "member"
     },
     "JGAntunes": {
-      "permission": "member"
+      "role": "member"
     },
     "NIC619": {
-      "permission": "member"
+      "role": "member"
     },
     "RichardLitt": {
-      "permission": "member"
+      "role": "member"
     },
     "Warchant": {
-      "permission": "member"
+      "role": "member"
     },
     "ZenGround0": {
-      "permission": "member"
+      "role": "member"
     },
     "aamnv": {
-      "permission": "member"
+      "role": "member"
     },
     "alexh": {
-      "permission": "member"
+      "role": "member"
     },
     "anorth": {
-      "permission": "member"
+      "role": "member"
     },
     "autonome": {
-      "permission": "member"
+      "role": "member"
     },
     "bigs": {
-      "permission": "member"
+      "role": "member"
     },
     "cemozerr": {
-      "permission": "member"
+      "role": "member"
     },
     "dryajov": {
-      "permission": "member"
+      "role": "member"
     },
     "dvdplm": {
-      "permission": "member"
+      "role": "member"
     },
     "fbaiodias": {
-      "permission": "member"
+      "role": "member"
     },
     "flyingzumwalt": {
-      "permission": "member"
+      "role": "member"
     },
     "frrist": {
-      "permission": "member"
+      "role": "member"
     },
     "fsdiogo": {
-      "permission": "member"
+      "role": "member"
     },
     "gavinmcdermott": {
-      "permission": "member"
+      "role": "member"
     },
     "geoah": {
-      "permission": "member"
+      "role": "member"
     },
     "haadcode": {
-      "permission": "member"
+      "role": "member"
     },
     "hacdias": {
-      "permission": "member"
+      "role": "member"
     },
     "iceseer": {
-      "permission": "member"
+      "role": "member"
     },
     "jbenetsafer": {
-      "permission": "member"
+      "role": "member"
     },
     "jrhea": {
-      "permission": "member"
+      "role": "member"
     },
     "jsoares": {
-      "permission": "member"
+      "role": "member"
     },
     "keks": {
-      "permission": "member"
+      "role": "member"
     },
     "kevina": {
-      "permission": "member"
+      "role": "member"
     },
     "kishansagathiya": {
-      "permission": "member"
+      "role": "member"
     },
     "litzenberger": {
-      "permission": "member"
+      "role": "member"
     },
     "locotorp": {
-      "permission": "member"
+      "role": "member"
     },
     "mbaxter": {
-      "permission": "member"
+      "role": "member"
     },
     "mcollina": {
-      "permission": "member"
+      "role": "member"
     },
     "mhchia": {
-      "permission": "member"
+      "role": "member"
     },
     "mikeal": {
-      "permission": "member"
+      "role": "member"
     },
     "miyazono": {
-      "permission": "member"
+      "role": "member"
     },
     "mkalinin": {
-      "permission": "member"
+      "role": "member"
     },
     "mkg20001": {
-      "permission": "member"
+      "role": "member"
     },
     "mvid": {
-      "permission": "member"
+      "role": "member"
     },
     "nicola": {
-      "permission": "member"
+      "role": "member"
     },
     "nunofmn": {
-      "permission": "member"
+      "role": "member"
     },
     "olizilla": {
-      "permission": "member"
+      "role": "member"
     },
     "ortyomka": {
-      "permission": "member"
+      "role": "member"
     },
     "pipermerriam": {
-      "permission": "member"
+      "role": "member"
     },
     "ralexstokes": {
-      "permission": "member"
+      "role": "member"
     },
     "richardschneider": {
-      "permission": "member"
+      "role": "member"
     },
     "robzajac": {
-      "permission": "member"
+      "role": "member"
     },
     "romanb": {
-      "permission": "member"
+      "role": "member"
     },
     "shahankhatch": {
-      "permission": "member"
+      "role": "member"
     },
     "snazha-blkio": {
-      "permission": "member"
+      "role": "member"
     },
     "stongo": {
-      "permission": "member"
+      "role": "member"
     },
     "stuckinaboot": {
-      "permission": "member"
+      "role": "member"
     },
     "travisperson": {
-      "permission": "member"
+      "role": "member"
     },
     "victorb": {
-      "permission": "member"
+      "role": "member"
     },
     "yiannisbot": {
-      "permission": "member"
+      "role": "member"
     },
     "zixuanzh": {
-      "permission": "member"
+      "role": "member"
     },
     "zuiris": {
-      "permission": "member"
-    }
-  },
-  "Bifrost": {
-    "gmasgras": {
-      "permission": "member"
-    },
-    "mcamou": {
-      "permission": "member"
-    },
-    "thattommyhall": {
-      "permission": "member"
+      "role": "member"
     }
   },
   "Repos - Go": {
@@ -415,10 +404,10 @@
     "Stebalien": {
       "role": "maintainer"
     },
-    "ajnavarro": {
+    "achingbrain": {
       "role": "member"
     },
-    "achingbrain": {
+    "ajnavarro": {
       "role": "member"
     },
     "arajasek": {
