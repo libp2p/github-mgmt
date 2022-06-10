@@ -23,6 +23,9 @@
     }
   },
   "go-addr-util": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -40,7 +43,21 @@
       "permission": "push"
     }
   },
+  "go-conn-security": {
+    "Stebalien": {
+      "permission": "admin"
+    },
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-conn-security-multistream": {
+    "Stebalien": {
+      "permission": "admin"
+    },
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -63,12 +80,20 @@
       "permission": "push"
     }
   },
+  "go-libp2p-asn": {
+    "aarshkshah1992": {
+      "permission": "admin"
+    }
+  },
   "go-libp2p-asn-util": {
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-autonat": {
+    "aarshkshah1992": {
+      "permission": "admin"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -79,6 +104,9 @@
     }
   },
   "go-libp2p-blankhost": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -101,12 +129,31 @@
       "permission": "admin"
     }
   },
+  "go-libp2p-conn": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-connmgr": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-consensus": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-coral-dht": {
+    "bigs": {
+      "permission": "admin"
+    },
+    "carospiegly": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -119,6 +166,11 @@
       "permission": "push"
     }
   },
+  "go-libp2p-crypto": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-daemon": {
     "vyzo": {
       "permission": "admin"
@@ -128,6 +180,19 @@
     }
   },
   "go-libp2p-discovery": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-dummy-conn": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-examples": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -151,11 +216,36 @@
       "permission": "push"
     }
   },
+  "go-libp2p-host": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-http": {
     "hsanjuan": {
       "permission": "admin"
     },
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-identify": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-interface-conn": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-interface-connmgr": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-interface-pnet": {
+    "aarshkshah1992": {
       "permission": "push"
     }
   },
@@ -179,19 +269,49 @@
       "permission": "push"
     }
   },
+  "go-libp2p-metrics": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-nat": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
   },
+  "go-libp2p-net": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-netutil": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-libp2p-noise": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
+    },
+    "yusefnapora": {
+      "permission": "admin"
+    }
+  },
+  "go-libp2p-peer": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
+    "whyrusleeping": {
+      "permission": "admin"
     }
   },
   "go-libp2p-peerstore": {
@@ -199,14 +319,32 @@
       "permission": "push"
     }
   },
+  "go-libp2p-ping": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-pnet": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-protocol": {
+    "aarshkshah1992": {
       "permission": "push"
     }
   },
   "go-libp2p-pubsub": {
     "vyzo": {
       "permission": "maintain"
+    }
+  },
+  "go-libp2p-pubsub-DEPRECATED": {
+    "aarshkshah1992": {
+      "permission": "push"
     }
   },
   "go-libp2p-pubsub-router": {
@@ -223,6 +361,9 @@
     }
   },
   "go-libp2p-quic-transport": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "marten-seemann": {
       "permission": "admin"
     },
@@ -262,12 +403,25 @@
       "permission": "push"
     }
   },
+  "go-libp2p-routing": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-routing-helpers": {
     "web3-bot": {
       "permission": "push"
     }
   },
+  "go-libp2p-secio": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
   "go-libp2p-swarm": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -278,10 +432,18 @@
     }
   },
   "go-libp2p-tls": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "marten-seemann": {
       "permission": "admin"
     },
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-libp2p-transport": {
+    "aarshkshah1992": {
       "permission": "push"
     }
   },
@@ -307,7 +469,15 @@
     }
   },
   "go-libp2p-yamux": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-maddr-filter": {
+    "aarshkshah1992": {
       "permission": "push"
     }
   },
@@ -327,6 +497,9 @@
     }
   },
   "go-reuseport-transport": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -354,6 +527,9 @@
     }
   },
   "go-sockaddr": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -363,12 +539,50 @@
       "permission": "push"
     }
   },
+  "go-stream-muxer": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
+    "jbenet": {
+      "permission": "admin"
+    },
+    "whyrusleeping": {
+      "permission": "admin"
+    }
+  },
   "go-tcp-transport": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-testutil": {
+    "aarshkshah1992": {
+      "permission": "push"
+    }
+  },
+  "go-utp-transport": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
   },
   "go-ws-transport": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "go-xtp": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
     "web3-bot": {
       "permission": "push"
     }
@@ -388,8 +602,52 @@
       "permission": "admin"
     }
   },
+  "interface-connection": {
+    "daviddias": {
+      "permission": "admin"
+    }
+  },
+  "interface-peer-routing": {
+    "daviddias": {
+      "permission": "admin"
+    }
+  },
+  "interface-record-store": {
+    "daviddias": {
+      "permission": "admin"
+    }
+  },
+  "interface-stream-muxer": {
+    "daviddias": {
+      "permission": "admin"
+    }
+  },
+  "interface-transport": {
+    "daviddias": {
+      "permission": "admin"
+    }
+  },
+  "js-iprs-record": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
   "js-libp2p-bootstrap": {
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-circuit": {
+    "dryajov": {
+      "permission": "push"
+    },
+    "nunofmn": {
       "permission": "push"
     }
   },
@@ -433,8 +691,27 @@
       "permission": "push"
     }
   },
+  "js-libp2p-distributed-record-store": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
   "js-libp2p-floodsub": {
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-identify": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "nunofmn": {
       "permission": "push"
     }
   },
@@ -445,6 +722,28 @@
   },
   "js-libp2p-kad-dht": {
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-kad-record-store": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-kad-routing": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "nunofmn": {
       "permission": "push"
     }
   },
@@ -488,6 +787,22 @@
       "permission": "push"
     }
   },
+  "js-libp2p-ping": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-pnet": {
+    "jacobheun": {
+      "permission": "admin"
+    }
+  },
   "js-libp2p-pubsub-peer-discovery": {
     "web3-bot": {
       "permission": "push"
@@ -495,6 +810,33 @@
   },
   "js-libp2p-record": {
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-secio": {
+    "dignifiedquire": {
+      "permission": "admin"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-spdy": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "fbaiodias": {
+      "permission": "push"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-stardust": {
+    "mkg20001": {
       "permission": "push"
     }
   },
@@ -542,14 +884,53 @@
       "permission": "push"
     }
   },
+  "js-libp2p-websocket-star-multi": {
+    "mkg20001": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-websocket-star-rendezvous": {
+    "mkg20001": {
+      "permission": "admin"
+    }
+  },
   "js-libp2p-websockets": {
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-peer-book": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "js-peer-info": {
+    "daviddias": {
+      "permission": "admin"
+    },
+    "dignifiedquire": {
+      "permission": "push"
+    },
+    "nunofmn": {
+      "permission": "push"
+    }
+  },
+  "mplex": {
+    "aarshkshah1992": {
       "permission": "push"
     }
   },
   "npm-go-libp2p": {
     "achingbrain": {
       "permission": "admin"
+    }
+  },
+  "pubsub-notes": {
+    "web3-bot": {
+      "permission": "push"
     }
   },
   "py-libp2p": {
@@ -559,6 +940,19 @@
   },
   "repl": {
     "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "research-dht": {
+    "bigs": {
+      "permission": "admin"
+    }
+  },
+  "testlab": {
+    "aarshkshah1992": {
+      "permission": "push"
+    },
+    "jimpick": {
       "permission": "push"
     }
   },

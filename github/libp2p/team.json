@@ -5,9 +5,13 @@
     "privacy": "closed"
   },
   "Alumni": {
+    "id": "6201424",
+    "parent_team_id": null,
     "privacy": "closed"
   },
   "Bifrost": {
+    "id": "6201425",
+    "parent_team_id": null,
     "privacy": "closed"
   },
   "Repos - Go": {
