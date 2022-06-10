@@ -393,6 +393,16 @@
       "permission": "push"
     }
   },
+  "js-libp2p-components": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-connection": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
   "js-libp2p-crypto": {
     "web3-bot": {
       "permission": "push"
@@ -438,6 +448,11 @@
       "permission": "push"
     }
   },
+  "js-libp2p-logger": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
   "js-libp2p-mdns": {
     "web3-bot": {
       "permission": "push"
@@ -448,9 +463,29 @@
       "permission": "push"
     }
   },
-  "js-libp2p-pubsub": {
-    "achingbrain": {
-      "permission": "admin"
+  "js-libp2p-multistream-select": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-collections": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-id": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-record": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-peer-store": {
+    "web3-bot": {
+      "permission": "push"
     }
   },
   "js-libp2p-pubsub-peer-discovery": {
@@ -464,6 +499,16 @@
     }
   },
   "js-libp2p-tcp": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-topology": {
+    "web3-bot": {
+      "permission": "push"
+    }
+  },
+  "js-libp2p-tracked-map": {
     "web3-bot": {
       "permission": "push"
     }
