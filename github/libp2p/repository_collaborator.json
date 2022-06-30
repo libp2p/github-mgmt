@@ -948,6 +948,11 @@
       "permission": "admin"
     }
   },
+  "test-plans": {
+    "laurentsenta": {
+      "permission": "push"
+    }
+  },
   "testlab": {
     "aarshkshah1992": {
       "permission": "push"
