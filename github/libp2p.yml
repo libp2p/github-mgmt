@@ -468,6 +468,9 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   go-flow-metrics:
+    collaborators:
+      push:
+        - web3-bot
     teams:
       admin:
         - w3dt-stewards
