@@ -2293,6 +2293,9 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-pubsub:
+    collaborators:
+      push:
+        - web3-bot
     description: Pubsub base protocol for libp2p pubsub routers
     teams:
       admin:
