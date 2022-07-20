@@ -6,6 +6,7 @@ members:
     - aschmahmann
     - daviddias
     - galargh
+    - hsanjuan
     - jacobheun
     - jbenet
     - marten-seemann
@@ -3140,4 +3141,5 @@ teams:
         - lidel
         - mxinden
         - laurentsenta
+        - hsanjuan
     privacy: closed
