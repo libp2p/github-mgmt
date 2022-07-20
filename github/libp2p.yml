@@ -1193,16 +1193,15 @@ repositories:
     visibility: public
   go-libp2p-relay-daemon:
     collaborators:
-      admin:
-        - marten-seemann
       push:
-        - vyzo
         - web3-bot
     description: A standalone libp2p circuit relay daemon providing relay service
       for versions v1 and v2 of the protocol.
     teams:
-      push:
+      admin:
         - w3dt-stewards
+      push:
+        - Repos - Go
     visibility: public
   go-libp2p-rendezvous:
     description: Go implementation of rendezvous protocol
