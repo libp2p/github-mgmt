@@ -110,6 +110,7 @@ members:
     - snazha-blkio
     - stongo
     - stuckinaboot
+    - thattommyhall
     - thomaseizinger
     - tomaka
     - travisperson
@@ -3007,6 +3008,7 @@ teams:
       member:
         - gmasgras
         - mcamou
+        - thattommyhall
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
