@@ -101,6 +101,7 @@ members:
     - pipermerriam
     - protocollabsit-readonly
     - protolambda
+    - p-shahi
     - ralexstokes
     - richardschneider
     - robzajac
@@ -3141,4 +3142,5 @@ teams:
         - lidel
         - mxinden
         - laurentsenta
+        - p-shahi
     privacy: closed
