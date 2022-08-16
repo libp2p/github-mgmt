@@ -31,6 +31,7 @@ resource "github_repository" "this" {
   archive_on_destroy                      = try(each.value.archive_on_destroy, null)
   archived                                = try(each.value.archived, null)
   auto_init                               = try(each.value.auto_init, null)
+  default_branch                          = try(each.value.default_branch, null)
   delete_branch_on_merge                  = try(each.value.delete_branch_on_merge, null)
   description                             = try(each.value.description, null)
   gitignore_template                      = try(each.value.gitignore_template, null)
@@ -76,6 +77,7 @@ resource "github_repository" "this" {
       archive_on_destroy,
       archived,
       auto_init,
+      default_branch,
       delete_branch_on_merge,
       description,
       gitignore_template,
@@ -268,6 +270,7 @@ resource "github_repository_file" "this" {
   content             = each.value.content
   branch              = each.value.branch
   overwrite_on_create = try(each.value.overwrite_on_create, null)
+  commit_message      = "chore: Update ${each.value.file} [skip ci]"
 
   lifecycle {
     ignore_changes = [
