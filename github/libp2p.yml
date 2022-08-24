@@ -2890,6 +2890,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      maintain:
+        - dannys03
       push:
         - ci
     visibility: public
