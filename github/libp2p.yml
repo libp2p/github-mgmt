@@ -101,6 +101,7 @@ members:
     - pipermerriam
     - protocollabsit-readonly
     - protolambda
+    - p-shahi
     - ralexstokes
     - richardschneider
     - robzajac
@@ -3104,6 +3105,7 @@ teams:
     members:
       maintainer:
         - momack2
+        - dannys03
       member:
         - jchris
         - walkerlj0
@@ -3143,4 +3145,5 @@ teams:
         - lidel
         - mxinden
         - laurentsenta
+        - p-shahi
     privacy: closed
