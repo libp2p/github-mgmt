@@ -3120,6 +3120,8 @@ teams:
         - marten-seemann
       member:
         - iand
+        - julian88110
+        - MarcoPolo
         - vyzo
     parent_team_id: Repos - Go
     privacy: closed
