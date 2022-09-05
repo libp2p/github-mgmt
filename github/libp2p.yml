@@ -109,7 +109,6 @@ members:
     - robzajac
     - rolfyone
     - romanb
-    - shahankhatch
     - snazha-blkio
     - stongo
     - stuckinaboot
@@ -132,13 +131,16 @@ members:
     - zixuanzh
     - zuiris
     - laurentsenta
+    - DannyS03
 repositories:
   .github:
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   awesome-libp2p:
+    default_branch: master
     description: Useful resources for using libp2p and building things on top of it
     teams:
       admin:
@@ -150,6 +152,7 @@ repositories:
         - Admin
     visibility: public
   community:
+    default_branch: master
     description: General discussion and documentation on community practices
     teams:
       admin:
@@ -160,6 +163,7 @@ repositories:
     branch_protection:
       develop: {}
       master: {}
+    default_branch: master
     description: C++17 implementation of libp2p
     teams:
       admin:
@@ -171,6 +175,7 @@ repositories:
       - libp2p
     visibility: public
   cs-libp2p-crypto:
+    default_branch: master
     description: LibP2P Crypto module
     teams:
       admin:
@@ -178,6 +183,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-io:
+    default_branch: master
     description: IO for libp2p
     teams:
       admin:
@@ -185,6 +191,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-peer:
+    default_branch: master
     description: LibP2P Peer
     teams:
       admin:
@@ -192,6 +199,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-protocol:
+    default_branch: master
     description: ProtocolId
     teams:
       admin:
@@ -199,6 +207,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-record:
+    default_branch: master
     description: DHT Records
     teams:
       admin:
@@ -206,6 +215,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-utils:
+    default_branch: master
     description: LibP2P utilities
     teams:
       admin:
@@ -213,6 +223,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   demo-multi-lang:
+    default_branch: master
     description: Simple libp2p demos implemented in Go, JS and Rust
     teams:
       admin:
@@ -235,6 +246,7 @@ repositories:
       - tutorial
     visibility: public
   developer-meetings:
+    default_branch: master
     description: 2018 libp2p Developers Meeting in Berlin
     teams:
       admin:
@@ -249,6 +261,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   devgrants:
+    default_branch: master
     description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
       for incentivization.
     teams:
@@ -265,12 +278,14 @@ repositories:
     collaborators:
       admin:
         - vyzo
+    default_branch: master
     description: testgound plans for DHT hardening
     teams:
       admin:
         - w3dt-stewards
     visibility: private
   dht-tracer:
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -280,6 +295,7 @@ repositories:
         - Admin
     visibility: public
   dht-tracer-archived:
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -290,6 +306,7 @@ repositories:
         - jbenet
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -298,28 +315,34 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Some utilities for debugging the libp2p dht
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   dht-vis-v0:
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   docs:
     collaborators:
+      admin:
+        - johnnymatthews
       maintain:
         - walkerlj0
-    description: "***WIP**** 🤖 📚 Documentation website for the libp2p project.
-      https://docs.libp2p.io/"
+        - jennijuju
+    default_branch: master
+    description: Official documentation for the libp2p project.
     teams:
       admin:
         - w3dt-stewards
         - Admin
-      pull:
+      maintain:
         - docs
+      pull: []
       push:
         - Repos - Go
         - Repos - JavaScript
@@ -327,12 +350,16 @@ repositories:
         - ci
         - go-libp2p Maintainers
     topics:
+      - documentation
+      - knowledge-base
       - libp2p
+      - networking
       - peer-to-peer
       - type-documentation
       - type-website
     visibility: public
   docs-old:
+    default_branch: master
     description: libp2p documentation website
     teams:
       admin:
@@ -340,6 +367,7 @@ repositories:
         - Admin
     visibility: public
   fclibp2p-zhi:
+    default_branch: master
     description: New Issues for filecoin<=>libp2p deps workspace
     teams:
       admin:
@@ -351,6 +379,7 @@ repositories:
   github-mgmt:
     branch_protection:
       master: {}
+    default_branch: master
     files:
       CODEOWNERS:
         content: >
@@ -364,6 +393,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: Address utilities for libp2p swarm
     teams:
       admin:
@@ -377,6 +407,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -389,6 +420,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Fast IP to CIDR lookup in Golang
     teams:
       admin:
@@ -406,6 +438,7 @@ repositories:
         - petar
       push:
         - web3-bot
+    default_branch: master
     description: Composable routing framework
     teams:
       admin:
@@ -417,6 +450,7 @@ repositories:
         - Stebalien
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] Interfaces for securing libp2p connections; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -433,6 +467,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: Multiplexed secure transport module for go-libp2p
     teams:
       admin:
@@ -448,6 +483,7 @@ repositories:
         - vyzo
       push:
         - web3-bot
+    default_branch: master
     description: DNS over HTTPS resolver
     teams:
       admin:
@@ -462,6 +498,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: a simple and fast eventbus for type-based local event delivery.
     teams:
       admin:
@@ -475,6 +512,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -487,6 +525,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: libp2p implementation in Go
     teams:
       admin:
@@ -505,12 +544,14 @@ repositories:
     collaborators:
       admin:
         - aarshkshah1992
+    default_branch: feat/init
     description: ASN lookup library for IPv4 and IPv6 addresses.
     visibility: private
   go-libp2p-asn-util:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on
       IPv6 addresses for now."
     teams:
@@ -527,6 +568,7 @@ repositories:
         - aarshkshah1992
       push:
         - web3-bot
+    default_branch: master
     description: "DEPRECATED: NAT Autodiscovery"
     teams:
       admin:
@@ -540,6 +582,7 @@ repositories:
       - nat
     visibility: public
   go-libp2p-autonat-svc:
+    default_branch: master
     description: "[DEPRECATED] AutoNAT Service implementation -- use
       github.com/libp2p/go-libp2p-autonat"
     teams:
@@ -558,6 +601,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Backoff data structures for libp2p.
     teams:
       admin:
@@ -570,6 +614,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: The thinnest possible host implementation.
     teams:
       admin:
@@ -585,6 +630,7 @@ repositories:
         - marten-seemann
       push:
         - web3-bot
+    default_branch: master
     teams:
       pull:
         - Admin
@@ -595,6 +641,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Circuit Switching for libp2p
     teams:
       admin:
@@ -609,6 +656,7 @@ repositories:
     collaborators:
       admin:
         - vyzo
+    default_branch: master
     description: "[DEPRECATED] Simple testing programs for go-libp2p-circuit"
     teams:
       admin:
@@ -618,6 +666,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] A package for libp2p connections"
     teams:
       admin:
@@ -631,6 +680,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: a resource sentinel that keeps connection count under reasonable bounds
     teams:
       admin:
@@ -644,6 +694,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A consensus interface for LibP2P
     teams:
       admin:
@@ -660,6 +711,7 @@ repositories:
       push:
         - carospiegly
         - web3-bot
+    default_branch: wip
     description: golang implementation of the CoralDHT protocol
     teams:
       admin:
@@ -672,6 +724,7 @@ repositories:
       push:
         - mvdan
         - web3-bot
+    default_branch: master
     description: Interfaces and abstractions that make up go-libp2p
     teams:
       admin:
@@ -688,6 +741,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] Various cryptographic utilities used by libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -703,6 +757,7 @@ repositories:
         - vyzo
       push:
         - web3-bot
+    default_branch: master
     description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
       for use in other languages
     teams:
@@ -717,6 +772,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "Active Peer Discovery "
     teams:
       admin:
@@ -730,6 +786,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] implementation of go-libp2p-interface-conn"
     teams:
       admin:
@@ -743,6 +800,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: Example libp2p applications
     teams:
       admin:
@@ -759,6 +817,7 @@ repositories:
         - hsanjuan
       push:
         - web3-bot
+    default_branch: master
     description: A simple RPC library for libp2p.
     teams:
       admin:
@@ -777,6 +836,7 @@ repositories:
         - hsanjuan
       push:
         - web3-bot
+    default_branch: master
     description: Go "net" wrappers for libp2p
     teams:
       admin:
@@ -787,6 +847,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   go-libp2p-holepunch-test:
+    default_branch: main
     description: Script for testing Hole Punching among a group of users
     teams:
       admin:
@@ -796,6 +857,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] The host interface for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -813,6 +875,7 @@ repositories:
         - hsanjuan
       push:
         - web3-bot
+    default_branch: master
     description: HTTP on top of libp2p
     teams:
       admin:
@@ -831,6 +894,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: DEPRECATED. Lives in
       github.com/libp2p/go-libp2p/blob/master/p2p/protocol/identify.
     teams:
@@ -844,6 +908,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] An interface for libp2p connection objects"
     teams:
       admin:
@@ -856,6 +921,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] The interface for go-libp2p connection managers; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -869,6 +935,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] Interface for restricting communication to private
       networks; use https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -882,6 +949,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: 🐣 [WIP] introspection endpoint for libp2p hosts
     teams:
       admin:
@@ -895,6 +963,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A Kademlia DHT implementation on go-libp2p
     teams:
       admin:
@@ -909,6 +978,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A kbucket implementation for use as a routing table
     teams:
       admin:
@@ -922,6 +992,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: logging helpers for go-libp2p
     teams:
       admin:
@@ -935,6 +1006,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] A connection wrapper for go-libp2p that provides
       bandwidth metrics; use https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -949,6 +1021,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: adaptor to integrate the mplex multiplexer into libp2p
     teams:
       admin:
@@ -963,6 +1036,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: NAT port mapping library for go-libp2p
     teams:
       admin:
@@ -977,6 +1051,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] Network interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -991,6 +1066,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: Utility methods for creating public and private keys for use in test
     teams:
       admin:
@@ -1009,6 +1085,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: a secure channel for go-libp2p based on the Noise protocol framework
     teams:
       admin:
@@ -1027,6 +1104,7 @@ repositories:
         - whyrusleeping
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] PKI based identities for use in go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1042,6 +1120,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: an object to manage sets of peers, their addresses and other metadata
     teams:
       admin:
@@ -1056,6 +1135,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: Go libp2p ping protocol implementation
     teams:
       admin:
@@ -1069,6 +1149,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: An implementation of go-libp2p-interface-pnet
     teams:
       admin:
@@ -1082,6 +1163,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] Just a type for protocol strings. Nothing more; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1097,6 +1179,7 @@ repositories:
     collaborators:
       maintain:
         - vyzo
+    default_branch: master
     description: The PubSub implementation for go-libp2p
     teams:
       admin:
@@ -1111,6 +1194,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: PubSub interface for go-libp2p
     teams:
       admin:
@@ -1123,6 +1207,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -1138,6 +1223,7 @@ repositories:
         - vyzo
       push:
         - web3-bot
+    default_branch: master
     description: Daemon and tools for pubsub tracing
     teams:
       admin:
@@ -1152,6 +1238,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: An implementation of a libp2p transport using QUIC
     teams:
       admin:
@@ -1172,6 +1259,7 @@ repositories:
         - hsanjuan
       push:
         - web3-bot
+    default_branch: master
     description: A LibP2P wrapper for hashicorp/raft implementation.
     teams:
       admin:
@@ -1185,6 +1273,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: signed records for use with routing systems
     teams:
       admin:
@@ -1198,6 +1287,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A standalone libp2p circuit relay daemon providing relay service
       for versions v1 and v2 of the protocol.
     teams:
@@ -1205,8 +1295,10 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - Go
+        - go-libp2p Maintainers
     visibility: public
   go-libp2p-rendezvous:
+    default_branch: master
     description: Go implementation of rendezvous protocol
     teams:
       admin:
@@ -1222,6 +1314,7 @@ repositories:
         - vyzo
       push:
         - web3-bot
+    default_branch: master
     description: An implementation of the libp2p network resource manager interface
     teams:
       admin:
@@ -1235,6 +1328,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] a collection of routing interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1248,6 +1342,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -1260,6 +1355,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: a minimal secure channel for libp2p
     teams:
       admin:
@@ -1269,6 +1365,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   go-libp2p-slog:
+    default_branch: main
     description: Go API for structured logging and querying
     teams:
       admin:
@@ -1279,6 +1376,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: The libp2p swarm manages groups of connections to peers, and
       handles incoming and outgoing streams
     teams:
@@ -1294,6 +1392,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Test toolbox for go-libp2p modules
     teams:
       admin:
@@ -1312,6 +1411,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: go-libp2p's TLS encrypted transport
     teams:
       admin:
@@ -1326,6 +1426,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] libp2p transport code; moved to
       https://github.com/libp2p/go-libp2p-core/ and
       https://github.com/libp2p/go-libp2p-testing/"
@@ -1342,6 +1443,7 @@ repositories:
         - Stebalien
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - w3dt-stewards
@@ -1357,6 +1459,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A libp2p transport that enables browser-to-server, and
       server-to-server, direct communication over WebRTC without requiring
       signalling servers
@@ -1375,6 +1478,7 @@ repositories:
       - webrtc
     visibility: public
   go-libp2p-websocket-star-rendezvous:
+    default_branch: master
     description: The rendezvous service for libp2p-websocket-star written in go
     teams:
       admin:
@@ -1390,6 +1494,7 @@ repositories:
         - petar
       push:
         - web3-bot
+    default_branch: master
     description: Xor Trie implementation
     teams:
       admin:
@@ -1404,6 +1509,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1416,6 +1522,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] A library for filtering multiaddrs; please use
       https://github.com/multiformats/go-multiaddr"
     teams:
@@ -1429,6 +1536,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A port of maxogden's multiplex to go
     teams:
       admin:
@@ -1443,6 +1551,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: simple package to r/w length-delimited slices.
     teams:
       admin:
@@ -1457,6 +1566,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: NAT port mapping library for Go
     teams:
       admin:
@@ -1470,6 +1580,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Routing table abstraction library
     teams:
       admin:
@@ -1486,6 +1597,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: OpenSSL bindings for Go
     teams:
       admin:
@@ -1501,6 +1613,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] P2P stream multi-multiplexing in Go "
     teams:
       admin:
@@ -1513,6 +1626,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: reuse tcp/udp ports in golang
     teams:
       admin:
@@ -1528,6 +1642,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: A basic transport for automatically (and intelligently) reusing TCP ports
     teams:
       admin:
@@ -1545,6 +1660,7 @@ repositories:
         - adlrocha
         - masih
         - web3-bot
+    default_branch: master
     description: Definition of the grammar for describing routing objectives
     teams:
       admin:
@@ -1556,6 +1672,7 @@ repositories:
         - petar
       push:
         - web3-bot
+    default_branch: master
     description: "ResNetLab Project: Smart Records"
     teams:
       admin:
@@ -1569,6 +1686,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: DEPRECATED - Go Sockaddr -> RawSockaddr conversions
     teams:
       admin:
@@ -1582,6 +1700,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Multiaddr backed systemd socket activation
     teams:
       admin:
@@ -1598,6 +1717,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: With destination address, select the source address from kernel
     teams:
       admin:
@@ -1613,6 +1733,7 @@ repositories:
         - whyrusleeping
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] stream multiplexer interface; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1629,6 +1750,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: multistream implementation of go-stream-muxer
     teams:
       admin:
@@ -1643,6 +1765,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: An implementation of a libp2p transport using tcp
     teams:
       admin:
@@ -1657,6 +1780,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: "[DEPRECATED] A collection of testing utilities for ipfs and
       libp2p; use https://github.com/libp2p/go-libp2p-testing instead."
     teams:
@@ -1667,6 +1791,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   go-udp-transport:
+    default_branch: master
     description: Implementation of an unreliable packet transport for libp2p, using UDP
     teams:
       admin:
@@ -1681,6 +1806,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: An implementation of a libp2p transport using utp
     teams:
       admin:
@@ -1694,6 +1820,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     description: a websocket implementation of a go-libp2p transport
     teams:
       admin:
@@ -1709,6 +1836,7 @@ repositories:
       push:
         - aarshkshah1992
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1720,6 +1848,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
@@ -1733,12 +1862,14 @@ repositories:
     collaborators:
       admin:
         - vyzo
+    default_branch: master
     description: testground plans for evaluating gossipsub under attack scenarios
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   haskell-p2pcat:
+    default_branch: master
     description: nothing to see here, yet!
     teams:
       admin:
@@ -1753,6 +1884,7 @@ repositories:
         - thattommyhall
       push:
         - web3-bot
+    default_branch: master
     description: A DHT Indexer node & Peer Router
     teams:
       admin:
@@ -1770,6 +1902,7 @@ repositories:
     collaborators:
       admin:
         - guseggert
+    default_branch: main
     description: Infrastructure for Hydra Boosters
     teams:
       admin:
@@ -1783,6 +1916,7 @@ repositories:
     collaborators:
       admin:
         - daviddias
+    default_branch: master
     description: "⛔️ DEPRECATED: interface-connection is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -1792,6 +1926,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-content-routing:
+    default_branch: master
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -1801,6 +1936,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-libp2p:
+    default_branch: master
     description: The interface of all of the interfaces for the libp2p modules.
     teams:
       admin:
@@ -1808,6 +1944,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   interface-peer-discovery:
+    default_branch: master
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -1820,6 +1957,7 @@ repositories:
     collaborators:
       admin:
         - daviddias
+    default_branch: master
     description: "⛔️ DEPRECATED: interface-peer-routing is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -1832,6 +1970,7 @@ repositories:
     collaborators:
       admin:
         - daviddias
+    default_branch: master
     description: "[DEPRECATED]: deprecated in favor of
       https://github.com/ipfs/interface-datastore"
     teams:
@@ -1844,6 +1983,7 @@ repositories:
     collaborators:
       admin:
         - daviddias
+    default_branch: master
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -1856,6 +1996,7 @@ repositories:
     collaborators:
       admin:
         - daviddias
+    default_branch: master
     description: "⛔️ DEPRECATED: interface-transport is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -1865,6 +2006,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interop:
+    default_branch: master
     description: Interoperability tests for libp2p Implementations
     teams:
       admin:
@@ -1884,6 +2026,7 @@ repositories:
       push:
         - dignifiedquire
         - nunofmn
+    default_branch: master
     description: JavaScript IPFS record class implementation
     teams:
       admin:
@@ -1892,6 +2035,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p:
+    default_branch: master
     description: The JavaScript Implementation of libp2p networking stack.
     teams:
       admin:
@@ -1911,6 +2055,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Rail a libp2p node through a bootstrap peer list
     teams:
       admin:
@@ -1926,6 +2071,7 @@ repositories:
       push:
         - dryajov
         - nunofmn
+    default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -1937,6 +2083,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Container for libp2p components
     teams:
       admin:
@@ -1949,6 +2096,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JS Libp2p connections
     teams:
       admin:
@@ -1958,6 +2106,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-connection-manager:
+    default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -1976,6 +2125,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: The libp2p crypto primitives, for Node.js and the Browser!
     teams:
       admin:
@@ -1985,6 +2135,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-crypto-secp256k1:
+    default_branch: master
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
       https://github.com/libp2p/js-libp2p-crypto"
     teams:
@@ -1997,6 +2148,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A js-libp2p backed daemon
     teams:
       admin:
@@ -2010,6 +2162,7 @@ repositories:
     collaborators:
       admin:
         - vasco-santos
+    default_branch: master
     description: A js daemon client to interact with a libp2p daemon
     teams:
       admin:
@@ -2021,12 +2174,14 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+    default_branch: master
     description: Protocol for communication between libp2p-daemon and libp2p-client
     visibility: public
   js-libp2p-delegated-content-routing:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Leverage other peers in the network to perform Content Routing calls.
     teams:
       admin:
@@ -2039,6 +2194,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Leverage other peers in the network to perform Peer Routing calls.
     teams:
       admin:
@@ -2056,6 +2212,7 @@ repositories:
       push:
         - dignifiedquire
         - nunofmn
+    default_branch: master
     description: DEPRECATED
     teams:
       admin:
@@ -2064,6 +2221,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-examples:
+    default_branch: master
     description: Examples for the JS implementation of libp2p
     teams:
       admin:
@@ -2076,6 +2234,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Also known as pubsub-flood or just dumbsub, this implementation of
       pubsub focused on delivering an API for Publish/Subscribe, but with no
       CastTree Forming (it just floods the network).
@@ -2092,6 +2251,7 @@ repositories:
         - daviddias
       push:
         - nunofmn
+    default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2103,6 +2263,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Contains test suites and interfaces you can use to implement the
       various components of js libp2p.
     teams:
@@ -2116,6 +2277,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the DHT for libp2p
     teams:
       admin:
@@ -2133,6 +2295,7 @@ repositories:
       push:
         - dignifiedquire
         - nunofmn
+    default_branch: master
     description: DEPRECATED
     teams:
       admin:
@@ -2149,6 +2312,7 @@ repositories:
       push:
         - dignifiedquire
         - nunofmn
+    default_branch: master
     description: Implementation of the Kademlia router for libp2p
     teams:
       admin:
@@ -2157,6 +2321,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-keychain:
+    default_branch: master
     description: Key management and cryptographically protected messages
     teams:
       admin:
@@ -2168,6 +2333,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A logging component for use in js-libp2p modules
     teams:
       admin:
@@ -2180,6 +2346,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: libp2p MulticastDNS Peer Discovery
     teams:
       admin:
@@ -2192,6 +2359,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of https://github.com/libp2p/mplex
     teams:
       admin:
@@ -2204,6 +2372,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of multistream-select
     teams:
       admin:
@@ -2213,6 +2382,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-nat-mngr:
+    default_branch: master
     description: NAT manager that allows handling different aspects of NAT traversal
       in libp2p.
     teams:
@@ -2226,6 +2396,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Store values against a peer id
     teams:
       admin:
@@ -2238,6 +2409,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: libp2p PeerId implementation in JavaScript
     teams:
       admin:
@@ -2250,6 +2422,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Used to transfer signed peer data across the network
     teams:
       admin:
@@ -2262,6 +2435,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Stores information about peers libp2p knows on the network
     teams:
       admin:
@@ -2277,6 +2451,7 @@ repositories:
       push:
         - dignifiedquire
         - nunofmn
+    default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2288,6 +2463,7 @@ repositories:
     collaborators:
       admin:
         - jacobheun
+    default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2299,6 +2475,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Pubsub base protocol for libp2p pubsub routers
     teams:
       admin:
@@ -2311,6 +2488,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
     teams:
       admin:
@@ -2323,6 +2501,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Implementation of go-libp2p-record in JavaScript
     teams:
       admin:
@@ -2332,6 +2511,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-relay-server:
+    default_branch: main
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
     teams:
@@ -2343,6 +2523,7 @@ repositories:
         - ci
     visibility: public
   js-libp2p-rendezvous:
+    default_branch: master
     description: A javascript implementation of the rendezvous protocol for libp2p
     teams:
       admin:
@@ -2357,6 +2538,7 @@ repositories:
         - dignifiedquire
       push:
         - nunofmn
+    default_branch: master
     description: libp2p SECIO
     teams:
       admin:
@@ -2372,6 +2554,7 @@ repositories:
         - dignifiedquire
         - fbaiodias
         - nunofmn
+    default_branch: master
     description: SPDY 3.1 implementation wrapper that is compatible with libp2p
       Stream Muxer expected interface
     teams:
@@ -2384,6 +2567,7 @@ repositories:
     collaborators:
       push:
         - mkg20001
+    default_branch: master
     description: A better ws-star implementation
     teams:
       admin:
@@ -2393,6 +2577,7 @@ repositories:
         - Admin
     visibility: public
   js-libp2p-switch:
+    default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2404,6 +2589,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: JavaScript implementation of the TCP module that libp2p uses that
       implements the interface-transport spec
     teams:
@@ -2417,6 +2603,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: libp2p network topology
     teams:
       admin:
@@ -2429,6 +2616,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Allows tracking of statistics while libp2p is running
     teams:
       admin:
@@ -2438,6 +2626,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-udp:
+    default_branch: master
     description: Node.js implementation of the UDP module that libp2p uses, which
       implements the abstract-transport interface
     teams:
@@ -2448,6 +2637,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-udt:
+    default_branch: master
     description: Node.js implementation of the UDT module that libp2p uses, which
       implements the abstract-transport interface
     teams:
@@ -2461,6 +2651,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
     teams:
       admin:
@@ -2472,6 +2663,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-utp:
+    default_branch: master
     description: uTP module libp2p uses. Implements the interface-transport spec
     teams:
       admin:
@@ -2486,6 +2678,7 @@ repositories:
         - vasco-santos
       push:
         - web3-bot
+    default_branch: master
     description: Dial using WebRTC without the need to set up any Signalling
       Rendezvous Point!
     teams:
@@ -2501,6 +2694,7 @@ repositories:
         - achingbrain
       push:
         - web3-bot
+    default_branch: master
     description: Simple one-to-one WebRTC data channels
     visibility: public
   js-libp2p-webrtc-star:
@@ -2509,6 +2703,7 @@ repositories:
         - vasco-santos
       push:
         - web3-bot
+    default_branch: master
     description: libp2p WebRTC transport that includes a discovery mechanism
       provided by the signalling-star
     teams:
@@ -2520,6 +2715,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star:
+    default_branch: master
     description: libp2p-webrtc-star without webrtc. Just plain socket.io.
     teams:
       admin:
@@ -2531,6 +2727,7 @@ repositories:
     collaborators:
       push:
         - mkg20001
+    default_branch: master
     description: Allows to listen on multiple websocket-star servers while ignoring
       offline ones
     teams:
@@ -2543,6 +2740,7 @@ repositories:
     collaborators:
       admin:
         - mkg20001
+    default_branch: master
     description: The rendezvous service for libp2p-websocket-star enabled nodes meet
       and talk with each other
     teams:
@@ -2555,6 +2753,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "WebSockets module that libp2p uses and that implements the
       interface-transport spec "
     teams:
@@ -2565,6 +2764,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-p2pcat:
+    default_branch: master
     description: A netcat like utility but for the p2p Internet
     teams:
       admin:
@@ -2579,6 +2779,7 @@ repositories:
         - daviddias
       push:
         - nunofmn
+    default_branch: master
     description: "[DEPRECATED]: peer-book is now at
       https://github.com/libp2p/js-libp2p/tree/master/src/peer-store as
       PeerStore"
@@ -2589,6 +2790,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-peer-id:
+    default_branch: master
     description: peer-id implementation in JavaScript
     teams:
       admin:
@@ -2604,6 +2806,7 @@ repositories:
       push:
         - dignifiedquire
         - nunofmn
+    default_branch: master
     description: libp2p Peer abstraction Node.js implementation
     teams:
       admin:
@@ -2614,6 +2817,7 @@ repositories:
   js-spdy-stream-muxer:
     branch_protection:
       master: {}
+    default_branch: master
     description: Abstraction on top of spdy-transport, implementing the
       abstract-stream-muxer interface
     teams:
@@ -2625,6 +2829,7 @@ repositories:
   jvm-libp2p:
     branch_protection:
       master: {}
+    default_branch: develop
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
     teams:
       admin:
@@ -2634,6 +2839,7 @@ repositories:
         - Repos - Java
     visibility: public
   libp2p:
+    default_branch: master
     description: A modular and extensible networking stack which solves many
       challenges of peer-to-peer applications.
     teams:
@@ -2645,6 +2851,7 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
+    default_branch: master
     description: This repo contains the spec of mplex, the friendly Stream
       Multiplexer (that works in 3 languages!)
     teams:
@@ -2657,6 +2864,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   notes:
+    default_branch: master
     description: libp2p Collaborative Notebook for Research
     teams:
       admin:
@@ -2672,9 +2880,11 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+    default_branch: master
     description: Install go-libp2p-daemon via npm
     visibility: public
   npm-go-libp2p-dep:
+    default_branch: master
     description: Install go-libp2p from npm as a dependency of your project
     teams:
       admin:
@@ -2685,6 +2895,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   observation-deck:
+    default_branch: master
     description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
       data, built on libp2p/observer-toolkit
     teams:
@@ -2695,6 +2906,7 @@ repositories:
       - observability
     visibility: public
   observer-toolkit:
+    default_branch: master
     description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
       useful out-of-the-box widgets
     teams:
@@ -2707,6 +2919,7 @@ repositories:
       - widgets
     visibility: public
   projects:
+    default_branch: master
     description: A repo of sub-projects within libp2p for contributors to pick up
     teams:
       admin:
@@ -2722,12 +2935,14 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   pull-mplex:
+    default_branch: master
     description: multiplexer implementing the https://github.com/libp2p/mplex spec
       with pull-streams
     teams:
@@ -2745,6 +2960,7 @@ repositories:
     collaborators:
       admin:
         - carver
+    default_branch: master
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
     teams:
@@ -2752,12 +2968,14 @@ repositories:
         - w3dt-stewards
     visibility: public
   py-libp2p-slog:
+    default_branch: main
     description: Python API for structured logging and querying
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   py-libp2p-xor:
+    default_branch: master
     description: Python facilities for XOR arithmetic and higher-level routing
       computations in XOR space
     teams:
@@ -2768,6 +2986,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: "[toy project 🎈] a libp2p interactive shell"
     teams:
       admin:
@@ -2777,6 +2996,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   research:
+    default_branch: master
     description: "Check https://github.com/libp2p/notes "
     teams:
       admin:
@@ -2785,9 +3005,11 @@ repositories:
         - contributors
     visibility: public
   research-dht:
+    default_branch: master
     description: Moved discussion notes to https://github.com/libp2p/notes
     visibility: public
   research-pubsub:
+    default_branch: master
     description: Research on PubSub algorithms for libp2p
     teams:
       admin:
@@ -2801,6 +3023,7 @@ repositories:
   rust-libp2p:
     branch_protection:
       master: {}
+    default_branch: master
     description: "The Rust Implementation of the libp2p networking stack. "
     teams:
       admin:
@@ -2818,6 +3041,7 @@ repositories:
   rust-yamux:
     branch_protection:
       master: {}
+    default_branch: master
     description: Multiplexer over reliable, ordered connections.
     teams:
       admin:
@@ -2828,6 +3052,7 @@ repositories:
   specs:
     branch_protection:
       master: {}
+    default_branch: master
     description: Technical specifications for the libp2p networking stack
     teams:
       admin:
@@ -2840,6 +3065,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   team-mgmt:
+    default_branch: master
     description: Planning and project management for the libp2p Project
     teams:
       admin:
@@ -2858,6 +3084,7 @@ repositories:
       admin:
         - laurentsenta
       push: []
+    default_branch: master
     description: Testground testplans for libp2p
     teams:
       admin:
@@ -2872,6 +3099,7 @@ repositories:
       push:
         - aarshkshah1992
         - jimpick
+    default_branch: master
     description: A testlab built with Nomad and Consul to analyze the behavior of
       p2p networks at scale
     teams:
@@ -2887,7 +3115,8 @@ repositories:
       admin:
         - momack2
       maintain:
-        - dannys03
+        - DannyS03
+    default_branch: master
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
@@ -2898,12 +3127,22 @@ repositories:
       push:
         - ci
     visibility: public
+  website-1:
+    collaborators:
+      admin:
+        - DannyS03
+    default_branch: master
+    description: Webpage of the libp2p project. A multi protocol approach for a
+      interoperable network stack that follows the 'self description' in favor
+      of assumptions
+    visibility: public
   workspace-go-libp2p:
     collaborators:
       admin:
         - raulk
       push:
         - mcamou
+    default_branch: master
     description: workspace for go-libp2p contributors
     teams:
       admin:
@@ -2916,6 +3155,7 @@ repositories:
       - libp2p
     visibility: public
   xtp:
+    default_branch: master
     description: XTP - eXternal Transports Protocol
     teams:
       admin:
@@ -2926,6 +3166,7 @@ repositories:
     collaborators:
       push:
         - web3-bot
+    default_branch: master
     description: mDNS / DNS-SD Service Discovery in pure Go (also known as Bonjour)
     teams:
       admin:
@@ -2997,7 +3238,6 @@ teams:
         - richardschneider
         - robzajac
         - romanb
-        - shahankhatch
         - snazha-blkio
         - stongo
         - stuckinaboot
@@ -3040,6 +3280,8 @@ teams:
         - vyzo
         - willscott
         - yusefnapora
+        - MarcoPolo
+        - julian88110
     privacy: closed
   Repos - Java:
     members:
@@ -3107,7 +3349,7 @@ teams:
     members:
       maintainer:
         - momack2
-        - dannys03
+        - DannyS03
       member:
         - jchris
         - walkerlj0
