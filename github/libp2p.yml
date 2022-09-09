@@ -3139,6 +3139,7 @@ teams:
       member:
         - MarcoPolo
         - mxinden
+        - p-shahi
         - willscott
     privacy: closed
   go-libp2p Maintainers:
