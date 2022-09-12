@@ -1,6 +1,6 @@
 resource "github_team" "this" {
   lifecycle {
-    ignore_changes = []
+    ignore_changes = [id]
   }
 }
 
