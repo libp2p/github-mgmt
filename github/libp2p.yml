@@ -134,12 +134,14 @@ members:
     - zuiris
 repositories:
   .github:
+    archived: false
     default_branch: master
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   awesome-libp2p:
+    archived: false
     default_branch: master
     description: Useful resources for using libp2p and building things on top of it
     teams:
@@ -152,6 +154,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   community:
+    archived: false
     default_branch: master
     description: General discussion and documentation on community practices
     teams:
@@ -160,6 +163,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cpp-libp2p:
+    archived: false
     branch_protection:
       develop: {}
       master: {}
@@ -175,6 +179,7 @@ repositories:
       - libp2p
     visibility: public
   cs-libp2p-crypto:
+    archived: false
     default_branch: master
     description: LibP2P Crypto module
     teams:
@@ -183,6 +188,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-io:
+    archived: false
     default_branch: master
     description: IO for libp2p
     teams:
@@ -191,6 +197,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-peer:
+    archived: false
     default_branch: master
     description: LibP2P Peer
     teams:
@@ -199,6 +206,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-protocol:
+    archived: false
     default_branch: master
     description: ProtocolId
     teams:
@@ -207,6 +215,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-record:
+    archived: false
     default_branch: master
     description: DHT Records
     teams:
@@ -215,6 +224,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   cs-libp2p-utils:
+    archived: false
     default_branch: master
     description: LibP2P utilities
     teams:
@@ -223,6 +233,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   demo-multi-lang:
+    archived: false
     default_branch: master
     description: Simple libp2p demos implemented in Go, JS and Rust
     teams:
@@ -246,6 +257,7 @@ repositories:
       - tutorial
     visibility: public
   developer-meetings:
+    archived: false
     default_branch: master
     description: 2018 libp2p Developers Meeting in Berlin
     teams:
@@ -261,6 +273,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   devgrants:
+    archived: false
     default_branch: master
     description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
       for incentivization.
@@ -275,6 +288,7 @@ repositories:
       - networking
     visibility: public
   dht-hardening:
+    archived: false
     collaborators:
       admin:
         - vyzo
@@ -285,12 +299,14 @@ repositories:
         - w3dt-stewards
     visibility: private
   dht-tracer-archived:
+    archived: false
     default_branch: master
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   dht-tracer:
+    archived: false
     default_branch: master
     teams:
       admin:
@@ -301,6 +317,7 @@ repositories:
         - Repos - Go
     visibility: public
   dht-tracer1:
+    archived: false
     collaborators:
       admin:
         - jbenet
@@ -312,6 +329,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   dht-utils:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -322,12 +340,14 @@ repositories:
         - w3dt-stewards
     visibility: public
   dht-vis-v0:
+    archived: false
     default_branch: master
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   docs-old:
+    archived: false
     default_branch: master
     description: libp2p documentation website
     teams:
@@ -336,6 +356,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   docs:
+    archived: false
     collaborators:
       admin:
         - johnnymatthews
@@ -366,6 +387,7 @@ repositories:
       - type-website
     visibility: public
   fclibp2p-zhi:
+    archived: false
     default_branch: master
     description: New Issues for filecoin<=>libp2p deps workspace
     teams:
@@ -376,6 +398,7 @@ repositories:
         - contributors
     visibility: public
   github-mgmt:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -388,6 +411,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-addr-util:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -403,6 +427,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-buffer-pool:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -416,6 +441,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-cidranger:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -432,6 +458,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-composable-routing:
+    archived: false
     collaborators:
       admin:
         - petar
@@ -444,6 +471,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-conn-security-multistream:
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -461,6 +489,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-conn-security:
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -477,6 +506,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-doh-resolver:
+    archived: false
     collaborators:
       admin:
         - vyzo
@@ -494,6 +524,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-eventbus:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -508,6 +539,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-flow-metrics:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -521,6 +553,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-asn-util:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -536,6 +569,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-asn:
+    archived: true
     collaborators:
       admin:
         - aarshkshah1992
@@ -543,6 +577,7 @@ repositories:
     description: ASN lookup library for IPv4 and IPv6 addresses.
     visibility: private
   go-libp2p-autonat-svc:
+    archived: true
     default_branch: master
     description: "[DEPRECATED] AutoNAT Service implementation -- use
       github.com/libp2p/go-libp2p-autonat"
@@ -559,6 +594,7 @@ repositories:
       - nat
     visibility: public
   go-libp2p-autonat:
+    archived: true
     collaborators:
       admin:
         - aarshkshah1992
@@ -578,6 +614,7 @@ repositories:
       - nat
     visibility: public
   go-libp2p-backoff:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -590,6 +627,7 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   go-libp2p-blankhost:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -605,6 +643,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-certbot:
+    archived: false
     collaborators:
       admin:
         - marten-seemann
@@ -618,6 +657,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-libp2p-circuit-progs:
+    archived: true
     collaborators:
       admin:
         - vyzo
@@ -628,6 +668,7 @@ repositories:
         - Admin
     visibility: public
   go-libp2p-circuit:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -643,6 +684,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-conn:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -656,6 +698,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-connmgr:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -671,6 +714,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-consensus:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -685,6 +729,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-coral-dht:
+    archived: true
     collaborators:
       admin:
         - bigs
@@ -698,6 +743,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-libp2p-core:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -718,6 +764,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-crypto:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -732,6 +779,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-daemon:
+    archived: false
     collaborators:
       admin:
         - vyzo
@@ -749,6 +797,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-discovery:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -763,6 +812,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-dummy-conn:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -776,6 +826,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-examples:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -790,6 +841,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-gorpc:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -808,6 +860,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-gostream:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -827,6 +880,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-holepunch-test:
+    archived: false
     default_branch: main
     description: Script for testing Hole Punching among a group of users
     teams:
@@ -834,6 +888,7 @@ repositories:
         - w3dt-stewards
     visibility: private
   go-libp2p-host:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -848,6 +903,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-http:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -871,6 +927,7 @@ repositories:
       - libp2p
     visibility: public
   go-libp2p-identify:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -885,6 +942,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-interface-conn:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -898,6 +956,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-interface-connmgr:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -912,6 +971,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-interface-pnet:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -926,6 +986,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-introspector:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -940,6 +1001,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-kad-dht:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -955,6 +1017,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-kbucket:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -969,6 +1032,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-loggables:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -983,6 +1047,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-metrics:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -997,6 +1062,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-mplex:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1012,6 +1078,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-nat:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1028,6 +1095,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-net:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1042,6 +1110,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-netutil:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1057,6 +1126,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-noise:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -1079,6 +1149,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-peer:
+    archived: true
     collaborators:
       admin:
         - whyrusleeping
@@ -1095,6 +1166,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-peerstore:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -1112,6 +1184,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-ping:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1125,6 +1198,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pnet:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1140,6 +1214,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-protocol:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1154,6 +1229,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pubsub-DEPRECATED:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1167,6 +1243,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pubsub-router:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1181,6 +1258,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pubsub-tracer:
+    archived: false
     collaborators:
       admin:
         - vyzo
@@ -1195,6 +1273,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-libp2p-pubsub:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1212,6 +1291,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-quic-transport:
+    archived: true
     collaborators:
       admin:
         - marten-seemann
@@ -1234,6 +1314,7 @@ repositories:
       - quic
     visibility: public
   go-libp2p-raft:
+    archived: false
     collaborators:
       admin:
         - hsanjuan
@@ -1250,6 +1331,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-record:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1264,6 +1346,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-relay-daemon:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1278,6 +1361,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-rendezvous:
+    archived: false
     default_branch: master
     description: Go implementation of rendezvous protocol
     teams:
@@ -1289,6 +1373,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-resource-manager:
+    archived: true
     collaborators:
       admin:
         - vyzo
@@ -1305,6 +1390,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-routing-helpers:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1318,6 +1404,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-routing:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1332,6 +1419,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-secio:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1345,6 +1433,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-slog:
+    archived: false
     default_branch: main
     description: Go API for structured logging and querying
     teams:
@@ -1352,6 +1441,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-libp2p-swarm:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1369,6 +1459,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-testing:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1385,6 +1476,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-tls:
+    archived: true
     collaborators:
       admin:
         - marten-seemann
@@ -1403,6 +1495,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-transport-upgrader:
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -1419,6 +1512,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-transport:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1434,6 +1528,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-webrtc-direct:
+    archived: false
     branch_protection:
       master: {}
     collaborators:
@@ -1458,6 +1553,7 @@ repositories:
       - webrtc
     visibility: public
   go-libp2p-websocket-star-rendezvous:
+    archived: false
     default_branch: master
     description: The rendezvous service for libp2p-websocket-star written in go
     teams:
@@ -1469,6 +1565,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-xor:
+    archived: false
     collaborators:
       admin:
         - petar
@@ -1485,6 +1582,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-yamux:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1499,6 +1597,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1518,6 +1617,7 @@ repositories:
       - p2p
     visibility: public
   go-maddr-filter:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1532,6 +1632,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-mplex:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1546,6 +1647,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-msgio:
+    archived: false
     collaborators:
       push:
         - aarshkshah1992
@@ -1561,6 +1663,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-nat:
+    archived: false
     collaborators:
       push:
         - aarshkshah1992
@@ -1576,6 +1679,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-netroute:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1592,6 +1696,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-openssl:
+    archived: false
     collaborators:
       push:
         - aarshkshah1992
@@ -1609,6 +1714,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-peerstream:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1622,6 +1728,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-reuseport-transport:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1637,6 +1744,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-reuseport:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1652,6 +1760,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-routing-language:
+    archived: false
     collaborators:
       admin:
         - petar
@@ -1666,6 +1775,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-smart-record:
+    archived: false
     collaborators:
       admin:
         - petar
@@ -1681,6 +1791,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-sockaddr:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1696,6 +1807,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-socket-activation:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1710,6 +1822,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-src-select:
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -1726,6 +1839,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-stream-muxer-multistream:
+    archived: true
     collaborators:
       admin:
         - Stebalien
@@ -1743,6 +1857,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-stream-muxer:
+    archived: true
     collaborators:
       admin:
         - jbenet
@@ -1760,6 +1875,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-tcp-transport:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1776,6 +1892,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-testutil:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1790,6 +1907,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-udp-transport:
+    archived: false
     default_branch: master
     description: Implementation of an unreliable packet transport for libp2p, using UDP
     teams:
@@ -1801,6 +1919,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-utp-transport:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1815,6 +1934,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-ws-transport:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1831,6 +1951,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-xtp:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -1844,6 +1965,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-yamux:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -1858,6 +1980,7 @@ repositories:
         - Repos - Go
     visibility: public
   gossipsub-hardening:
+    archived: false
     collaborators:
       admin:
         - vyzo
@@ -1868,6 +1991,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   haskell-p2pcat:
+    archived: false
     default_branch: master
     description: nothing to see here, yet!
     teams:
@@ -1876,6 +2000,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   hydra-booster-infra:
+    archived: false
     collaborators:
       admin:
         - guseggert
@@ -1890,6 +2015,7 @@ repositories:
         - Repos - Go
     visibility: public
   hydra-booster:
+    archived: false
     collaborators:
       admin:
         - alanshaw
@@ -1912,6 +2038,7 @@ repositories:
       - scalability
     visibility: public
   interface-connection:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -1925,6 +2052,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-content-routing:
+    archived: true
     default_branch: master
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
       https://github.com/libp2p/js-interfaces"
@@ -1935,6 +2063,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-libp2p:
+    archived: false
     default_branch: master
     description: The interface of all of the interfaces for the libp2p modules.
     teams:
@@ -1943,6 +2072,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   interface-peer-discovery:
+    archived: true
     default_branch: master
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
       https://github.com/libp2p/js-interfaces"
@@ -1953,6 +2083,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-peer-routing:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -1966,6 +2097,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-record-store:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -1979,6 +2111,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-stream-muxer:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -1992,6 +2125,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-transport:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -2005,6 +2139,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interop:
+    archived: false
     default_branch: master
     description: Interoperability tests for libp2p Implementations
     teams:
@@ -2017,6 +2152,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-iprs-record:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -2034,6 +2170,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-bootstrap:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2049,6 +2186,7 @@ repositories:
       - libp2p
     visibility: public
   js-libp2p-circuit:
+    archived: true
     collaborators:
       push:
         - dryajov
@@ -2062,6 +2200,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-components:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2075,6 +2214,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-connection-manager:
+    archived: true
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
@@ -2091,6 +2231,7 @@ repositories:
       - resource-manager
     visibility: public
   js-libp2p-connection:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2104,6 +2245,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-crypto-secp256k1:
+    archived: true
     default_branch: master
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
       https://github.com/libp2p/js-libp2p-crypto"
@@ -2114,6 +2256,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-crypto:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2127,6 +2270,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-daemon-client:
+    archived: false
     collaborators:
       admin:
         - vasco-santos
@@ -2139,6 +2283,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-daemon-protocol:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -2146,6 +2291,7 @@ repositories:
     description: Protocol for communication between libp2p-daemon and libp2p-client
     visibility: public
   js-libp2p-daemon:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2160,6 +2306,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-delegated-content-routing:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2173,6 +2320,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-delegated-peer-routing:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2186,6 +2334,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-distributed-record-store:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -2203,6 +2352,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-examples:
+    archived: true
     default_branch: master
     description: Examples for the JS implementation of libp2p
     teams:
@@ -2213,6 +2363,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-floodsub:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2228,6 +2379,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-identify:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -2242,6 +2394,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-interfaces:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2256,6 +2409,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-kad-dht:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2269,6 +2423,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-kad-record-store:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -2286,6 +2441,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-kad-routing:
+    archived: true
     branch_protection:
       master: {}
     collaborators:
@@ -2303,6 +2459,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-keychain:
+    archived: true
     default_branch: master
     description: Key management and cryptographically protected messages
     teams:
@@ -2312,6 +2469,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-logger:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2325,6 +2483,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-mdns:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2338,6 +2497,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-mplex:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2351,6 +2511,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-multistream-select:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2364,6 +2525,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-nat-mngr:
+    archived: false
     default_branch: master
     description: NAT manager that allows handling different aspects of NAT traversal
       in libp2p.
@@ -2375,6 +2537,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-collections:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2388,6 +2551,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-id:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2401,6 +2565,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-record:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2414,6 +2579,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-store:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2427,6 +2593,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-ping:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -2442,6 +2609,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-pnet:
+    archived: true
     collaborators:
       admin:
         - jacobheun
@@ -2454,6 +2622,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-pubsub-peer-discovery:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2467,6 +2636,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-pubsub:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2480,6 +2650,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-record:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2493,6 +2664,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-relay-server:
+    archived: false
     default_branch: main
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
@@ -2505,6 +2677,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-rendezvous:
+    archived: false
     default_branch: master
     description: A javascript implementation of the rendezvous protocol for libp2p
     teams:
@@ -2515,6 +2688,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-secio:
+    archived: true
     collaborators:
       admin:
         - dignifiedquire
@@ -2529,6 +2703,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-spdy:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -2546,6 +2721,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-stardust:
+    archived: true
     collaborators:
       push:
         - mkg20001
@@ -2559,6 +2735,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-switch:
+    archived: true
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
@@ -2568,6 +2745,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-tcp:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2582,6 +2760,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-topology:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2595,6 +2774,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-tracked-map:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2608,6 +2788,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-udp:
+    archived: false
     default_branch: master
     description: Node.js implementation of the UDP module that libp2p uses, which
       implements the abstract-transport interface
@@ -2619,6 +2800,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-udt:
+    archived: false
     default_branch: master
     description: Node.js implementation of the UDT module that libp2p uses, which
       implements the abstract-transport interface
@@ -2630,6 +2812,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-utils:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2645,6 +2828,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-utp:
+    archived: false
     default_branch: master
     description: uTP module libp2p uses. Implements the interface-transport spec
     teams:
@@ -2655,6 +2839,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-direct:
+    archived: false
     collaborators:
       admin:
         - vasco-santos
@@ -2671,6 +2856,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-peer:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -2680,6 +2866,7 @@ repositories:
     description: Simple one-to-one WebRTC data channels
     visibility: public
   js-libp2p-webrtc-star:
+    archived: false
     collaborators:
       admin:
         - vasco-santos
@@ -2697,6 +2884,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star-multi:
+    archived: true
     collaborators:
       push:
         - mkg20001
@@ -2710,6 +2898,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star-rendezvous:
+    archived: true
     collaborators:
       admin:
         - mkg20001
@@ -2723,6 +2912,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star:
+    archived: true
     default_branch: master
     description: libp2p-webrtc-star without webrtc. Just plain socket.io.
     teams:
@@ -2732,6 +2922,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websockets:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2746,6 +2937,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p:
+    archived: false
     default_branch: master
     description: The JavaScript Implementation of libp2p networking stack.
     teams:
@@ -2763,6 +2955,7 @@ repositories:
       - p2p
     visibility: public
   js-p2pcat:
+    archived: false
     default_branch: master
     description: A netcat like utility but for the p2p Internet
     teams:
@@ -2773,6 +2966,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-peer-book:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -2789,6 +2983,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-peer-id:
+    archived: false
     default_branch: master
     description: peer-id implementation in JavaScript
     teams:
@@ -2799,6 +2994,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-peer-info:
+    archived: true
     collaborators:
       admin:
         - daviddias
@@ -2814,6 +3010,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-spdy-stream-muxer:
+    archived: true
     branch_protection:
       master: {}
     default_branch: master
@@ -2826,6 +3023,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   jvm-libp2p:
+    archived: false
     branch_protection:
       master: {}
     default_branch: develop
@@ -2838,6 +3036,7 @@ repositories:
         - Repos - Java
     visibility: public
   libp2p:
+    archived: false
     default_branch: master
     description: A modular and extensible networking stack which solves many
       challenges of peer-to-peer applications.
@@ -2847,6 +3046,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   mplex:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -2863,6 +3063,7 @@ repositories:
         - Repos - Rust
     visibility: public
   notes:
+    archived: false
     default_branch: master
     description: libp2p Collaborative Notebook for Research
     teams:
@@ -2876,6 +3077,7 @@ repositories:
         - Repos - Rust
     visibility: public
   npm-go-libp2p-dep:
+    archived: false
     default_branch: master
     description: Install go-libp2p from npm as a dependency of your project
     teams:
@@ -2887,6 +3089,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   npm-go-libp2p:
+    archived: false
     collaborators:
       admin:
         - achingbrain
@@ -2894,6 +3097,7 @@ repositories:
     description: Install go-libp2p-daemon via npm
     visibility: public
   observation-deck:
+    archived: false
     default_branch: master
     description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
       data, built on libp2p/observer-toolkit
@@ -2905,6 +3109,7 @@ repositories:
       - observability
     visibility: public
   observer-toolkit:
+    archived: false
     default_branch: master
     description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
       useful out-of-the-box widgets
@@ -2918,6 +3123,7 @@ repositories:
       - widgets
     visibility: public
   projects:
+    archived: false
     default_branch: master
     description: A repo of sub-projects within libp2p for contributors to pick up
     teams:
@@ -2931,6 +3137,7 @@ repositories:
         - Repos - Rust
     visibility: public
   pubsub-notes:
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2941,6 +3148,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   pull-mplex:
+    archived: false
     default_branch: master
     description: multiplexer implementing the https://github.com/libp2p/mplex spec
       with pull-streams
@@ -2956,6 +3164,7 @@ repositories:
       - pull-stream
     visibility: public
   py-libp2p-slog:
+    archived: false
     default_branch: main
     description: Python API for structured logging and querying
     teams:
@@ -2963,6 +3172,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   py-libp2p-xor:
+    archived: false
     default_branch: master
     description: Python facilities for XOR arithmetic and higher-level routing
       computations in XOR space
@@ -2971,6 +3181,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   py-libp2p:
+    archived: false
     collaborators:
       admin:
         - carver
@@ -2982,6 +3193,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   repl:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -2995,10 +3207,12 @@ repositories:
         - Repos - Go
     visibility: public
   research-dht:
+    archived: true
     default_branch: master
     description: Moved discussion notes to https://github.com/libp2p/notes
     visibility: public
   research-pubsub:
+    archived: false
     default_branch: master
     description: Research on PubSub algorithms for libp2p
     teams:
@@ -3011,6 +3225,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   research:
+    archived: true
     default_branch: master
     description: "Check https://github.com/libp2p/notes "
     teams:
@@ -3020,6 +3235,7 @@ repositories:
         - contributors
     visibility: public
   rust-libp2p:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -3038,6 +3254,7 @@ repositories:
       - rust
     visibility: public
   rust-yamux:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -3049,6 +3266,7 @@ repositories:
         - Repos - Rust
     visibility: public
   specs:
+    archived: false
     branch_protection:
       master: {}
     default_branch: master
@@ -3064,6 +3282,7 @@ repositories:
         - Specs contributors
     visibility: public
   team-mgmt:
+    archived: false
     default_branch: master
     description: Planning and project management for the libp2p Project
     teams:
@@ -3079,6 +3298,7 @@ repositories:
       - libp2p
     visibility: public
   test-plans:
+    archived: false
     collaborators:
       admin:
         - laurentsenta
@@ -3093,6 +3313,7 @@ repositories:
         - Repos - Go
     visibility: public
   testlab:
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
@@ -3109,6 +3330,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   website-1:
+    archived: true
     collaborators:
       admin:
         - DannyS03
@@ -3118,6 +3340,7 @@ repositories:
       of assumptions
     visibility: public
   website:
+    archived: false
     collaborators:
       admin:
         - momack2
@@ -3135,6 +3358,7 @@ repositories:
         - ci
     visibility: public
   workspace-go-libp2p:
+    archived: false
     collaborators:
       admin:
         - raulk
@@ -3153,6 +3377,7 @@ repositories:
       - libp2p
     visibility: public
   xtp:
+    archived: false
     default_branch: master
     description: XTP - eXternal Transports Protocol
     teams:
@@ -3161,6 +3386,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   zeroconf:
+    archived: false
     collaborators:
       push:
         - web3-bot
@@ -3248,8 +3474,9 @@ teams:
   Bifrost:
     create_default_maintainer: false
     members:
-      member:
+      maintainer:
         - gmasgras
+        - hsanjuan
         - mcamou
         - thattommyhall
     privacy: closed
