@@ -3480,10 +3480,10 @@ teams:
         - gmasgras
         - hsanjuan
         - mcamou
+        - thattommyhall
       member:
         - dharmapunk82
         - karolkozlowski
-        - thattommyhall
     privacy: closed
   ci:
     description: ci
