@@ -3254,9 +3254,9 @@ teams:
         - gmasgras
         - mcamou
       member:
-        - thattommyhall
         - dharmapunk82
         - karolkozlowski
+        - thattommyhall
     privacy: closed
   ci:
     description: ci
