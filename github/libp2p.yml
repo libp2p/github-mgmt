@@ -35,6 +35,7 @@ members:
     - cemozerr
     - ChihChengLiang
     - DannyS03
+    - dharmapunk82
     - dignifiedquire
     - dirkmc
     - dryajov
@@ -68,6 +69,7 @@ members:
     - jsoares
     - julian88110
     - kamilsa
+    - karolkozlowski
     - keks
     - kevina
     - kishansagathiya
@@ -4156,6 +4158,9 @@ teams:
         - hsanjuan
         - mcamou
         - thattommyhall
+      member:
+        - dharmapunk82
+        - karolkozlowski
     privacy: closed
   ci:
     description: ci
