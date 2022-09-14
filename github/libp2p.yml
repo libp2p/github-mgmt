@@ -3251,11 +3251,11 @@ teams:
     create_default_maintainer: false
     members:
       member:
+        - dharmapunk82
         - gmasgras
+        - karolkozlowski
         - mcamou
         - thattommyhall
-        - karolkozlowski
-        - dharmapunk82
     privacy: closed
   ci:
     description: ci
