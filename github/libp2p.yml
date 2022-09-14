@@ -3250,12 +3250,13 @@ teams:
   Bifrost:
     create_default_maintainer: false
     members:
-      member:
-        - dharmapunk82
+      maintainer:
         - gmasgras
-        - karolkozlowski
         - mcamou
+      member:
         - thattommyhall
+        - dharmapunk82
+        - karolkozlowski
     privacy: closed
   ci:
     description: ci
