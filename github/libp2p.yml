@@ -69,7 +69,7 @@ members:
     - jsoares
     - julian88110
     - kamilsa
-    - karolkozlowski
+    - KarolKozlowski
     - keks
     - kevina
     - kishansagathiya
@@ -3483,7 +3483,7 @@ teams:
         - thattommyhall
       member:
         - dharmapunk82
-        - karolkozlowski
+        - KarolKozlowski
     privacy: closed
   ci:
     description: ci
