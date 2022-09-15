@@ -138,9 +138,6 @@ repositories:
   .github:
     archived: false
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -149,9 +146,6 @@ repositories:
     archived: false
     default_branch: master
     description: Useful resources for using libp2p and building things on top of it
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -165,9 +159,6 @@ repositories:
     archived: false
     default_branch: master
     description: General discussion and documentation on community practices
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -180,9 +171,6 @@ repositories:
       master: {}
     default_branch: master
     description: C++17 implementation of libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -196,9 +184,6 @@ repositories:
     archived: false
     default_branch: master
     description: LibP2P Crypto module
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -208,9 +193,6 @@ repositories:
     archived: false
     default_branch: master
     description: IO for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -220,9 +202,6 @@ repositories:
     archived: false
     default_branch: master
     description: LibP2P Peer
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -232,9 +211,6 @@ repositories:
     archived: false
     default_branch: master
     description: ProtocolId
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -244,9 +220,6 @@ repositories:
     archived: false
     default_branch: master
     description: DHT Records
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -256,9 +229,6 @@ repositories:
     archived: false
     default_branch: master
     description: LibP2P utilities
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -268,9 +238,6 @@ repositories:
     archived: false
     default_branch: master
     description: Simple libp2p demos implemented in Go, JS and Rust
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -295,9 +262,6 @@ repositories:
     archived: false
     default_branch: master
     description: 2018 libp2p Developers Meeting in Berlin
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -315,9 +279,6 @@ repositories:
     default_branch: master
     description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
       for incentivization.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -335,9 +296,6 @@ repositories:
         - vyzo
     default_branch: master
     description: testgound plans for DHT hardening
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -345,9 +303,6 @@ repositories:
   dht-tracer-archived:
     archived: false
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -355,9 +310,6 @@ repositories:
   dht-tracer:
     archived: false
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -374,9 +326,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -388,9 +337,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Some utilities for debugging the libp2p dht
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -398,9 +344,6 @@ repositories:
   dht-vis-v0:
     archived: false
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -409,9 +352,6 @@ repositories:
     archived: false
     default_branch: master
     description: libp2p documentation website
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -427,9 +367,6 @@ repositories:
         - walkerlj0
     default_branch: master
     description: Official documentation for the libp2p project.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -455,9 +392,6 @@ repositories:
     archived: false
     default_branch: master
     description: New Issues for filecoin<=>libp2p deps workspace
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -471,8 +405,6 @@ repositories:
       master: {}
     default_branch: master
     files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
       CODEOWNERS:
         content: >
           *       @galargh
@@ -488,9 +420,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Address utilities for libp2p swarm
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -505,9 +434,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -523,9 +449,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Fast IP to CIDR lookup in Golang
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -545,9 +468,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Composable routing framework
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -562,9 +482,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Multiplexed secure transport module for go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -583,9 +500,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] Interfaces for securing libp2p connections; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -602,9 +516,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: DNS over HTTPS resolver
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -621,9 +532,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: a simple and fast eventbus for type-based local event delivery.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -638,9 +546,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -657,9 +562,6 @@ repositories:
     default_branch: master
     description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on
       IPv6 addresses for now."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -675,18 +577,12 @@ repositories:
         - aarshkshah1992
     default_branch: feat/init
     description: ASN lookup library for IPv4 and IPv6 addresses.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: private
   go-libp2p-autonat-svc:
     archived: true
     default_branch: master
     description: "[DEPRECATED] AutoNAT Service implementation -- use
       github.com/libp2p/go-libp2p-autonat"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -708,9 +604,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: "DEPRECATED: NAT Autodiscovery"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -729,9 +622,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Backoff data structures for libp2p.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -746,9 +636,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: The thinnest possible host implementation.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -765,9 +652,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       pull:
         - Admin
@@ -781,9 +665,6 @@ repositories:
         - vyzo
     default_branch: master
     description: "[DEPRECATED] Simple testing programs for go-libp2p-circuit"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -795,9 +676,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Circuit Switching for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -814,9 +692,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: "[DEPRECATED] A package for libp2p connections"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -832,9 +707,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: a resource sentinel that keeps connection count under reasonable bounds
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -850,9 +722,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A consensus interface for LibP2P
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -871,9 +740,6 @@ repositories:
         - web3-bot
     default_branch: wip
     description: golang implementation of the CoralDHT protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -888,9 +754,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Interfaces and abstractions that make up go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -910,9 +773,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] Various cryptographic utilities used by libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -930,9 +790,6 @@ repositories:
     default_branch: master
     description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
       for use in other languages
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -948,9 +805,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: "Active Peer Discovery "
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -966,9 +820,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: "[DEPRECATED] implementation of go-libp2p-interface-conn"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -984,9 +835,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Example libp2p applications
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1005,9 +853,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A simple RPC library for libp2p.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1028,9 +873,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Go "net" wrappers for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1043,9 +885,6 @@ repositories:
     archived: false
     default_branch: main
     description: Script for testing Hole Punching among a group of users
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -1058,9 +897,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] The host interface for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1079,9 +915,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: HTTP on top of libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1103,9 +936,6 @@ repositories:
     default_branch: master
     description: DEPRECATED. Lives in
       github.com/libp2p/go-libp2p/blob/master/p2p/protocol/identify.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1120,9 +950,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: "[DEPRECATED] An interface for libp2p connection objects"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1138,9 +965,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] The interface for go-libp2p connection managers; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1156,9 +980,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] Interface for restricting communication to private
       networks; use https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1173,9 +994,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: 🐣 [WIP] introspection endpoint for libp2p hosts
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1191,9 +1009,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A Kademlia DHT implementation on go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1210,9 +1025,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A kbucket implementation for use as a routing table
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1228,9 +1040,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: logging helpers for go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1247,9 +1056,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] A connection wrapper for go-libp2p that provides
       bandwidth metrics; use https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1265,9 +1071,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: adaptor to integrate the mplex multiplexer into libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1284,9 +1087,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: NAT port mapping library for go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1304,9 +1104,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] Network interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1322,9 +1119,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Utility methods for creating public and private keys for use in test
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1345,9 +1139,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: a secure channel for go-libp2p based on the Noise protocol framework
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1369,9 +1160,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] PKI based identities for use in go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1388,9 +1176,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: an object to manage sets of peers, their addresses and other metadata
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1407,9 +1192,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: Go libp2p ping protocol implementation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1425,9 +1207,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: An implementation of go-libp2p-interface-pnet
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1444,9 +1223,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] Just a type for protocol strings. Nothing more; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1461,9 +1237,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: PubSub interface for go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1477,9 +1250,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1498,9 +1268,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Daemon and tools for pubsub tracing
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - go-libp2p Maintainers
@@ -1516,9 +1283,6 @@ repositories:
         - vyzo
     default_branch: master
     description: The PubSub implementation for go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1538,9 +1302,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: An implementation of a libp2p transport using QUIC
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1563,9 +1324,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A LibP2P wrapper for hashicorp/raft implementation.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1581,9 +1339,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: signed records for use with routing systems
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1600,9 +1355,6 @@ repositories:
     default_branch: master
     description: A standalone libp2p circuit relay daemon providing relay service
       for versions v1 and v2 of the protocol.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -1614,9 +1366,6 @@ repositories:
     archived: false
     default_branch: master
     description: Go implementation of rendezvous protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1634,9 +1383,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: An implementation of the libp2p network resource manager interface
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -1651,9 +1397,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1670,9 +1413,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] a collection of routing interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1687,9 +1427,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: a minimal secure channel for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1701,9 +1438,6 @@ repositories:
     archived: false
     default_branch: main
     description: Go API for structured logging and querying
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -1717,9 +1451,6 @@ repositories:
     default_branch: master
     description: The libp2p swarm manages groups of connections to peers, and
       handles incoming and outgoing streams
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1736,9 +1467,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Test toolbox for go-libp2p modules
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -1759,9 +1487,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: go-libp2p's TLS encrypted transport
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1779,9 +1504,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1800,9 +1522,6 @@ repositories:
     description: "[DEPRECATED] libp2p transport code; moved to
       https://github.com/libp2p/go-libp2p-core/ and
       https://github.com/libp2p/go-libp2p-testing/"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1821,9 +1540,6 @@ repositories:
     description: A libp2p transport that enables browser-to-server, and
       server-to-server, direct communication over WebRTC without requiring
       signalling servers
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -1842,9 +1558,6 @@ repositories:
     archived: false
     default_branch: master
     description: The rendezvous service for libp2p-websocket-star written in go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1862,9 +1575,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Xor Trie implementation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1880,9 +1590,6 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1898,9 +1605,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: libp2p implementation in Go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1922,9 +1626,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] A library for filtering multiaddrs; please use
       https://github.com/multiformats/go-multiaddr"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1939,9 +1640,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A port of maxogden's multiplex to go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1958,9 +1656,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: simple package to r/w length-delimited slices.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1977,9 +1672,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: NAT port mapping library for Go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -1995,9 +1687,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Routing table abstraction library
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2016,9 +1705,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: OpenSSL bindings for Go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2036,9 +1722,6 @@ repositories:
         - aarshkshah1992
     default_branch: master
     description: "[DEPRECATED] P2P stream multi-multiplexing in Go "
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2054,9 +1737,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A basic transport for automatically (and intelligently) reusing TCP ports
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2072,9 +1752,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: reuse tcp/udp ports in golang
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2095,9 +1772,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Definition of the grammar for describing routing objectives
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -2111,9 +1785,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: "ResNetLab Project: Smart Records"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -2129,9 +1800,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: DEPRECATED - Go Sockaddr -> RawSockaddr conversions
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2147,9 +1815,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Multiaddr backed systemd socket activation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2168,9 +1833,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: With destination address, select the source address from kernel
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2188,9 +1850,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: multistream implementation of go-stream-muxer
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2210,9 +1869,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] stream multiplexer interface; use
       https://github.com/libp2p/go-libp2p-core/ instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2228,9 +1884,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: An implementation of a libp2p transport using tcp
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2248,9 +1901,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED] A collection of testing utilities for ipfs and
       libp2p; use https://github.com/libp2p/go-libp2p-testing instead."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2262,9 +1912,6 @@ repositories:
     archived: false
     default_branch: master
     description: Implementation of an unreliable packet transport for libp2p, using UDP
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2281,9 +1928,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: An implementation of a libp2p transport using utp
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2299,9 +1943,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: a websocket implementation of a go-libp2p transport
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2318,9 +1959,6 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2334,9 +1972,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2353,9 +1988,6 @@ repositories:
         - vyzo
     default_branch: master
     description: testground plans for evaluating gossipsub under attack scenarios
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -2364,9 +1996,6 @@ repositories:
     archived: false
     default_branch: master
     description: nothing to see here, yet!
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2379,9 +2008,6 @@ repositories:
         - guseggert
     default_branch: main
     description: Infrastructure for Hydra Boosters
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2401,9 +2027,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A DHT Indexer node & Peer Router
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -2424,9 +2047,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: interface-connection is now included in
       https://github.com/libp2p/js-interfaces"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2438,9 +2058,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
       https://github.com/libp2p/js-interfaces"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2451,9 +2068,6 @@ repositories:
     archived: false
     default_branch: master
     description: The interface of all of the interfaces for the libp2p modules.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2464,9 +2078,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
       https://github.com/libp2p/js-interfaces"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2481,9 +2092,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: interface-peer-routing is now included in
       https://github.com/libp2p/js-interfaces"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2498,9 +2106,6 @@ repositories:
     default_branch: master
     description: "[DEPRECATED]: deprecated in favor of
       https://github.com/ipfs/interface-datastore"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2515,9 +2120,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in
       https://github.com/libp2p/js-interfaces"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2532,9 +2134,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: interface-transport is now included in
       https://github.com/libp2p/js-interfaces"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2545,9 +2144,6 @@ repositories:
     archived: false
     default_branch: master
     description: Interoperability tests for libp2p Implementations
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2569,9 +2165,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: JavaScript IPFS record class implementation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2585,9 +2178,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Rail a libp2p node through a bootstrap peer list
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2605,9 +2195,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2621,9 +2208,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Container for libp2p components
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2635,9 +2219,6 @@ repositories:
     archived: true
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2658,9 +2239,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: JS Libp2p connections
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2673,9 +2251,6 @@ repositories:
     default_branch: master
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
       https://github.com/libp2p/js-libp2p-crypto"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2689,9 +2264,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: The libp2p crypto primitives, for Node.js and the Browser!
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2706,9 +2278,6 @@ repositories:
         - vasco-santos
     default_branch: master
     description: A js daemon client to interact with a libp2p daemon
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -2722,9 +2291,6 @@ repositories:
         - achingbrain
     default_branch: master
     description: Protocol for communication between libp2p-daemon and libp2p-client
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   js-libp2p-daemon:
     archived: false
@@ -2733,9 +2299,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A js-libp2p backed daemon
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -2751,9 +2314,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Leverage other peers in the network to perform Content Routing calls.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2768,9 +2328,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Leverage other peers in the network to perform Peer Routing calls.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2790,9 +2347,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: DEPRECATED
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2803,9 +2357,6 @@ repositories:
     archived: true
     default_branch: master
     description: Examples for the JS implementation of libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2822,9 +2373,6 @@ repositories:
     description: Also known as pubsub-flood or just dumbsub, this implementation of
       pubsub focused on delivering an API for Publish/Subscribe, but with no
       CastTree Forming (it just floods the network).
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2841,9 +2389,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2858,9 +2403,6 @@ repositories:
     default_branch: master
     description: Contains test suites and interfaces you can use to implement the
       various components of js libp2p.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2875,9 +2417,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: JavaScript implementation of the DHT for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2897,9 +2436,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: DEPRECATED
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2918,9 +2454,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: Implementation of the Kademlia router for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2931,9 +2464,6 @@ repositories:
     archived: true
     default_branch: master
     description: Key management and cryptographically protected messages
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2947,9 +2477,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A logging component for use in js-libp2p modules
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2964,9 +2491,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: libp2p MulticastDNS Peer Discovery
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2981,9 +2505,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: JavaScript implementation of https://github.com/libp2p/mplex
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2998,9 +2519,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: JavaScript implementation of multistream-select
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3013,9 +2531,6 @@ repositories:
     default_branch: master
     description: NAT manager that allows handling different aspects of NAT traversal
       in libp2p.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3030,9 +2545,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Store values against a peer id
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3047,9 +2559,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: libp2p PeerId implementation in JavaScript
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3064,9 +2573,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Used to transfer signed peer data across the network
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3081,9 +2587,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Stores information about peers libp2p knows on the network
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3101,9 +2604,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3117,9 +2617,6 @@ repositories:
         - jacobheun
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3133,9 +2630,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3150,9 +2644,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Pubsub base protocol for libp2p pubsub routers
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3167,9 +2658,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Implementation of go-libp2p-record in JavaScript
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3182,9 +2670,6 @@ repositories:
     default_branch: main
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3197,9 +2682,6 @@ repositories:
     archived: false
     default_branch: master
     description: A javascript implementation of the rendezvous protocol for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3216,9 +2698,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: libp2p SECIO
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3237,9 +2716,6 @@ repositories:
     default_branch: master
     description: SPDY 3.1 implementation wrapper that is compatible with libp2p
       Stream Muxer expected interface
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3253,9 +2729,6 @@ repositories:
         - mkg20001
     default_branch: master
     description: A better ws-star implementation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - ci
@@ -3267,9 +2740,6 @@ repositories:
     archived: true
     default_branch: master
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3284,9 +2754,6 @@ repositories:
     default_branch: master
     description: JavaScript implementation of the TCP module that libp2p uses that
       implements the interface-transport spec
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3301,9 +2768,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: libp2p network topology
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3318,9 +2782,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Allows tracking of statistics while libp2p is running
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3333,9 +2794,6 @@ repositories:
     default_branch: master
     description: Node.js implementation of the UDP module that libp2p uses, which
       implements the abstract-transport interface
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3348,9 +2806,6 @@ repositories:
     default_branch: master
     description: Node.js implementation of the UDT module that libp2p uses, which
       implements the abstract-transport interface
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3365,9 +2820,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3381,9 +2833,6 @@ repositories:
     archived: false
     default_branch: master
     description: uTP module libp2p uses. Implements the interface-transport spec
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3401,9 +2850,6 @@ repositories:
     default_branch: master
     description: Dial using WebRTC without the need to set up any Signalling
       Rendezvous Point!
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3420,9 +2866,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: Simple one-to-one WebRTC data channels
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   js-libp2p-webrtc-star:
     archived: false
@@ -3434,9 +2877,6 @@ repositories:
     default_branch: master
     description: libp2p WebRTC transport that includes a discovery mechanism
       provided by the signalling-star
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3453,9 +2893,6 @@ repositories:
     default_branch: master
     description: Allows to listen on multiple websocket-star servers while ignoring
       offline ones
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       pull:
         - Admin
@@ -3470,9 +2907,6 @@ repositories:
     default_branch: master
     description: The rendezvous service for libp2p-websocket-star enabled nodes meet
       and talk with each other
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3483,9 +2917,6 @@ repositories:
     archived: true
     default_branch: master
     description: libp2p-webrtc-star without webrtc. Just plain socket.io.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3500,9 +2931,6 @@ repositories:
     default_branch: master
     description: "WebSockets module that libp2p uses and that implements the
       interface-transport spec "
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3514,9 +2942,6 @@ repositories:
     archived: false
     default_branch: master
     description: The JavaScript Implementation of libp2p networking stack.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3535,9 +2960,6 @@ repositories:
     archived: false
     default_branch: master
     description: A netcat like utility but for the p2p Internet
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3556,9 +2978,6 @@ repositories:
     description: "[DEPRECATED]: peer-book is now at
       https://github.com/libp2p/js-libp2p/tree/master/src/peer-store as
       PeerStore"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3569,9 +2988,6 @@ repositories:
     archived: false
     default_branch: master
     description: peer-id implementation in JavaScript
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3589,9 +3005,6 @@ repositories:
         - nunofmn
     default_branch: master
     description: libp2p Peer abstraction Node.js implementation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3605,9 +3018,6 @@ repositories:
     default_branch: master
     description: Abstraction on top of spdy-transport, implementing the
       abstract-stream-muxer interface
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3620,9 +3030,6 @@ repositories:
       master: {}
     default_branch: develop
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3635,9 +3042,6 @@ repositories:
     default_branch: master
     description: A modular and extensible networking stack which solves many
       challenges of peer-to-peer applications.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3651,9 +3055,6 @@ repositories:
     default_branch: master
     description: This repo contains the spec of mplex, the friendly Stream
       Multiplexer (that works in 3 languages!)
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3667,9 +3068,6 @@ repositories:
     archived: false
     default_branch: master
     description: libp2p Collaborative Notebook for Research
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3684,9 +3082,6 @@ repositories:
     archived: false
     default_branch: master
     description: Install go-libp2p from npm as a dependency of your project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3702,18 +3097,12 @@ repositories:
         - achingbrain
     default_branch: master
     description: Install go-libp2p-daemon via npm
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   observation-deck:
     archived: false
     default_branch: master
     description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
       data, built on libp2p/observer-toolkit
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3726,9 +3115,6 @@ repositories:
     default_branch: master
     description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
       useful out-of-the-box widgets
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3742,9 +3128,6 @@ repositories:
     archived: false
     default_branch: master
     description: A repo of sub-projects within libp2p for contributors to pick up
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3761,9 +3144,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3774,9 +3154,6 @@ repositories:
     default_branch: master
     description: multiplexer implementing the https://github.com/libp2p/mplex spec
       with pull-streams
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3792,9 +3169,6 @@ repositories:
     archived: false
     default_branch: main
     description: Python API for structured logging and querying
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3804,9 +3178,6 @@ repositories:
     default_branch: master
     description: Python facilities for XOR arithmetic and higher-level routing
       computations in XOR space
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3819,9 +3190,6 @@ repositories:
     default_branch: master
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3833,9 +3201,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: "[toy project 🎈] a libp2p interactive shell"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3847,17 +3212,11 @@ repositories:
     archived: true
     default_branch: master
     description: Moved discussion notes to https://github.com/libp2p/notes
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   research-pubsub:
     archived: false
     default_branch: master
     description: Research on PubSub algorithms for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3871,9 +3230,6 @@ repositories:
     archived: true
     default_branch: master
     description: "Check https://github.com/libp2p/notes "
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3886,9 +3242,6 @@ repositories:
       master: {}
     default_branch: master
     description: "The Rust Implementation of the libp2p networking stack. "
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3908,9 +3261,6 @@ repositories:
       master: {}
     default_branch: master
     description: Multiplexer over reliable, ordered connections.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -3923,9 +3273,6 @@ repositories:
       master: {}
     default_branch: master
     description: Technical specifications for the libp2p networking stack
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3940,9 +3287,6 @@ repositories:
     archived: false
     default_branch: master
     description: Planning and project management for the libp2p Project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3962,9 +3306,6 @@ repositories:
         - laurentsenta
     default_branch: master
     description: Testground testplans for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3982,9 +3323,6 @@ repositories:
     default_branch: master
     description: A testlab built with Nomad and Consul to analyze the behavior of
       p2p networks at scale
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -4002,9 +3340,6 @@ repositories:
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: public
   website:
     archived: false
@@ -4017,9 +3352,6 @@ repositories:
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -4036,9 +3368,6 @@ repositories:
         - mcamou
     default_branch: master
     description: workspace for go-libp2p contributors
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -4053,9 +3382,6 @@ repositories:
     archived: false
     default_branch: master
     description: XTP - eXternal Transports Protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -4068,9 +3394,6 @@ repositories:
         - web3-bot
     default_branch: master
     description: mDNS / DNS-SD Service Discovery in pure Go (also known as Bonjour)
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
