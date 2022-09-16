@@ -1,9 +1,3 @@
-resource "github_team" "this" {
-  lifecycle {
-    ignore_changes = [id]
-  }
-}
-
 resource "github_repository" "this" {
   lifecycle {
     ignore_changes = [
@@ -12,7 +6,6 @@ resource "github_repository" "this" {
       allow_rebase_merge,
       allow_squash_merge,
       archive_on_destroy,
-      archived,
       auto_init,
       delete_branch_on_merge,
       gitignore_template,
