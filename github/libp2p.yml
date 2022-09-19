@@ -455,9 +455,6 @@ repositories:
     archived: false
     default_branch: master
     description: New Issues for filecoin<=>libp2p deps workspace
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
