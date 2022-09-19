@@ -180,6 +180,9 @@ repositories:
       master: {}
     default_branch: master
     description: C++17 implementation of libp2p
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - w3dt-stewards
@@ -452,6 +455,9 @@ repositories:
     archived: false
     default_branch: master
     description: New Issues for filecoin<=>libp2p deps workspace
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
