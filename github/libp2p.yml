@@ -425,8 +425,10 @@ repositories:
       maintain:
         - jennijuju
         - walkerlj0
+      push:
+        - johndmulhausen
     default_branch: master
-    description: Official documentation for the libp2p project.
+    description: Documentation site for the libp2p project.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -485,6 +487,8 @@ repositories:
         - ipdx # NOTE: ipdx are the creators of GitHub Management framework
       push:
         - github-mgmt stewards
+    topics:
+      - ipdx
     visibility: public
   go-addr-util:
     archived: true
@@ -3267,6 +3271,15 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  js-libp2p-webtransport:
+    archived: false
+    collaborators:
+      admin:
+        - MarcoPolo
+    default_branch: main
+    description: "WebTranport module that libp2p uses and that implements the
+      interface-transport spec "
+    visibility: public
   js-libp2p:
     archived: false
     default_branch: master
@@ -3624,7 +3637,34 @@ repositories:
     description: "The Rust Implementation of the libp2p networking stack. "
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v6
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     teams:
       admin:
         - Admin
@@ -3646,7 +3686,34 @@ repositories:
     description: Multiplexer over reliable, ordered connections.
     files:
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          name: Close and mark stale issue
+
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+
+              runs-on: ubuntu-latest
+              permissions:
+                issues: write
+                pull-requests: write
+
+              steps:
+              - uses: actions/stale@v6
+                with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
+                  close-issue-message: 'This issue was closed because it is missing author input.'
+                  stale-issue-label: 'kind/stale'
+                  any-of-labels: 'need/author-input'
+                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
+                  days-before-issue-stale: 6
+                  days-before-issue-close: 7
+                  enable-statistics: true
     teams:
       admin:
         - w3dt-stewards
