@@ -3279,6 +3279,9 @@ repositories:
     default_branch: main
     description: "WebTranport module that libp2p uses and that implements the
       interface-transport spec "
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   js-libp2p:
     archived: false
