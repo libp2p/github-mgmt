@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: PR
+  - name: Self-serve Request
     url: https://github.com/libp2p/github-mgmt/edit/master/github/libp2p.yml
-    about: Propose GitHub configuration change by modifying libp2p.yml
+    about: Propose a GitHub configuration change by modifying libp2p.yml
