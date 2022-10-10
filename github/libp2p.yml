@@ -3276,7 +3276,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - MarcoPolo
+        - Admin
+        - w3dt-stewards
       push:
         - web3-bot
     default_branch: main
