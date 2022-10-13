@@ -4124,8 +4124,8 @@ teams:
       member:
         - elenaf9
         - jxs
-        - thomaseizinger
         - MarcoPolo
+        - thomaseizinger
     parent_team_id: Repos - Rust
     privacy: closed
   Specs contributors:
