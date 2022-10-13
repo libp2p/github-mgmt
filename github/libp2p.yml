@@ -4050,17 +4050,6 @@ teams:
         - mpetrunic
         - wemeetagain
     privacy: closed
-  rust-libp2p Maintainers:
-    description: Trusted reviewers for merging into rust-libp2p repositories.
-    members:
-      maintainer:
-        - BigLep
-        - mxinden
-      member:
-        - elenaf9
-        - jxs
-        - thomaseizinger
-    parent_team_id: Repos - Rust
   Repos - Go:
     description: For all things go-libp2p
     members:
@@ -4126,6 +4115,17 @@ teams:
         - vmx
         - yusefnapora
     privacy: closed
+  rust-libp2p Maintainers:
+    description: Trusted reviewers for merging into rust-libp2p repositories.
+    members:
+      maintainer:
+        - BigLep
+        - mxinden
+      member:
+        - elenaf9
+        - jxs
+        - thomaseizinger
+    parent_team_id: Repos - Rust
   Specs contributors:
     members:
       member:
