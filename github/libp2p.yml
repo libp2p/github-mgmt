@@ -4126,6 +4126,7 @@ teams:
         - jxs
         - thomaseizinger
     parent_team_id: Repos - Rust
+    privacy: closed
   Specs contributors:
     members:
       member:
