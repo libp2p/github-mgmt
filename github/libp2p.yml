@@ -68,6 +68,7 @@ members:
     - jrhea
     - jsoares
     - julian88110
+    - jxs
     - kamilsa
     - KarolKozlowski
     - keks
@@ -4116,6 +4117,7 @@ teams:
         - yusefnapora
     privacy: closed
   rust-libp2p Maintainers:
+    create_default_maintainer: false
     description: Trusted reviewers for merging into rust-libp2p repositories.
     members:
       maintainer:
