@@ -1770,6 +1770,8 @@ repositories:
     visibility: public
   go-libp2p:
     archived: false
+    branch_protection:
+      master: {}
     collaborators:
       push:
         - web3-bot
