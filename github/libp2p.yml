@@ -4123,7 +4123,6 @@ teams:
     description: Trusted reviewers for merging into rust-libp2p repositories.
     members:
       maintainer:
-        - BigLep
         - mxinden
       member:
         - elenaf9
