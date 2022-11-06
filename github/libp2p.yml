@@ -2386,6 +2386,9 @@ repositories:
         - p-shahi
     default_branch: main
     description: The website for IPFS Camp 2022
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   js-iprs-record:
     archived: true
@@ -2781,6 +2784,9 @@ repositories:
         - achingbrain
     default_branch: main
     description: Extendable implementation of @libp2p/interface-metrics
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   js-libp2p-mplex:
     archived: false
@@ -2935,6 +2941,9 @@ repositories:
         - achingbrain
     default_branch: main
     description: Collect libp2p metrics for scraping by Prometheus
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     archived: false
