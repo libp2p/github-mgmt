@@ -2379,6 +2379,14 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
     visibility: public
+  ipfs-camp-2022:
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    description: The website for IPFS Camp 2022
+    visibility: public
   js-iprs-record:
     archived: true
     branch_protection:
@@ -2766,6 +2774,14 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  js-libp2p-metrics:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Extendable implementation of @libp2p/interface-metrics
+    visibility: public
   js-libp2p-mplex:
     archived: false
     collaborators:
@@ -2911,6 +2927,14 @@ repositories:
         - Admin
       push:
         - Repos - JavaScript
+    visibility: public
+  js-libp2p-prometheus-metrics:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    description: Collect libp2p metrics for scraping by Prometheus
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     archived: false
@@ -3346,7 +3370,8 @@ repositories:
   js-peer-id:
     archived: false
     default_branch: master
-    description: peer-id implementation in JavaScript
+    description: peer-id implementation in JavaScript. Deprecated; use
+      https://github.com/libp2p/js-libp2p-peer-id instead.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -3356,6 +3381,8 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
+    topics:
+      - deprecated
     visibility: public
   js-peer-info:
     archived: true
