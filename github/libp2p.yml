@@ -178,8 +178,34 @@ repositories:
   cpp-libp2p:
     archived: false
     branch_protection:
-      develop: {}
-      master: {}
+      develop:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
     default_branch: master
     description: C++17 implementation of libp2p
     files:
@@ -470,7 +496,22 @@ repositories:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
     default_branch: master
     files:
       .github/workflows/stale.yml:
@@ -854,7 +895,18 @@ repositories:
   go-libp2p-core:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - mvdan
@@ -955,7 +1007,15 @@ repositories:
   go-libp2p-gorpc:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - hsanjuan
@@ -977,7 +1037,17 @@ repositories:
   go-libp2p-gostream:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          contexts:
+            - All
+          strict: false
     collaborators:
       admin:
         - hsanjuan
@@ -1026,7 +1096,15 @@ repositories:
   go-libp2p-http:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - hsanjuan
@@ -1261,7 +1339,20 @@ repositories:
   go-libp2p-noise:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     collaborators:
       admin:
         - yusefnapora
@@ -1301,7 +1392,24 @@ repositories:
   go-libp2p-peerstore:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - All
+            - macos (go 1.17.x)
+            - ubuntu (go 1.17.x)
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -1414,7 +1522,20 @@ repositories:
   go-libp2p-pubsub:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       maintain:
         - vyzo
@@ -1693,7 +1814,18 @@ repositories:
   go-libp2p-webrtc-direct:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - web3-bot
@@ -1771,7 +1903,18 @@ repositories:
   go-libp2p:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     collaborators:
       push:
         - web3-bot
@@ -2393,7 +2536,30 @@ repositories:
   js-iprs-record:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjcyOTUwNzE=
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - daviddias
@@ -2602,7 +2768,30 @@ repositories:
   js-libp2p-distributed-record-store:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjcyOTUwNzE=
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - daviddias
@@ -2700,7 +2889,30 @@ repositories:
   js-libp2p-kad-record-store:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjcyOTUwNzE=
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - daviddias
@@ -2718,7 +2930,30 @@ repositories:
   js-libp2p-kad-routing:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjcyOTUwNzE=
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     collaborators:
       admin:
         - daviddias
@@ -3412,7 +3647,30 @@ repositories:
   js-spdy-stream-muxer:
     archived: true
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjc5MDg0Mg==
+          - MDQ6VXNlcjcyOTUwNzE=
+          - MDQ6VXNlcjE0NzQ5Nzg=
+          - MDQ6VXNlcjE1Mjg2Mw==
+          - MDQ6VXNlcjEyMTExNTI=
+          - MDQ6VXNlcjU0NDcwODg=
+          - MDQ6VXNlcjU4ODcx
+          - MDQ6VXNlcjY2NTgxMA==
+          - MDQ6VXNlcjYzOTgzNA==
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: true
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
     default_branch: master
     description: Abstraction on top of spdy-transport, implementing the
       abstract-stream-muxer interface
@@ -3425,7 +3683,20 @@ repositories:
   jvm-libp2p:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
     default_branch: develop
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
     files:
@@ -3679,7 +3950,30 @@ repositories:
   rust-libp2p:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Build and test (--all-features)
+            - Build and test (--benches --all-features)
+            - Build and test (--no-default-features)
+            - Build on WASM (wasm32-unknown-emscripten)
+            - Build on WASM (wasm32-wasi)
+            - Check rustdoc intra-doc links
+            - check-clippy
+            - Integration tests
+            - rustfmt
+          strict: true
     default_branch: master
     description: "The Rust Implementation of the libp2p networking stack. "
     files:
@@ -3730,7 +4024,22 @@ repositories:
   rust-yamux:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - build
+          strict: false
     default_branch: master
     description: Multiplexer over reliable, ordered connections.
     files:
@@ -3774,7 +4083,18 @@ repositories:
   specs:
     archived: false
     branch_protection:
-      master: {}
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     default_branch: master
     description: Technical specifications for the libp2p networking stack
     files:
