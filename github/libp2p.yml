@@ -3964,49 +3964,49 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - Test libp2p-core
-            - Test multistream-select
-            - Test libp2p
-            - Test libp2p-autonat
-            - Test libp2p-request-response
-            - Test libp2p-swarm
-            - Test libp2p-dcutr
-            - Test prost-codec
-            - Test libp2p-floodsub
-            - Test libp2p-identify
-            - Test libp2p-kad
-            - Test libp2p-metrics
-            - Test libp2p-ping
-            - Test libp2p-relay
-            - Test libp2p-gossipsub
-            - Test libp2p-mplex
-            - Test libp2p-noise
-            - Test libp2p-plaintext
-            - Test libp2p-pnet
-            - Test libp2p-rendezvous
-            - Test libp2p-swarm-derive
-            - Test libp2p-uds
-            - Test libp2p-wasm-ext
-            - Test libp2p-yamux
-            - Test libp2p-deflate
-            - Test libp2p-dns
-            - Test libp2p-mdns
-            - Test libp2p-tcp
-            - Test libp2p-tls
-            - Test libp2p-websocket
-            - Test rw-stream-sink
-            - Compile on wasm32-unknown-unknown
+            - Check rustdoc intra-doc links
+            - clippy (stable)
             - Compile on wasm32-unknown-emscripten
+            - Compile on wasm32-unknown-unknown
             - Compile on wasm32-wasi
             - Compile on x86_64-apple-darwin
             - Compile on x86_64-pc-windows-msvc
-            - Compile with select features (mdns tcp dns tokio)
             - Compile with select features (mdns tcp dns async-std)
-            - Check rustdoc intra-doc links
-            - clippy (stable)
+            - Compile with select features (mdns tcp dns tokio)
             # - clippy (beta) # New lints landing in beta should not be a blocker for CI.
             - IPFS Integration tests
             - rustfmt
+            - Test libp2p-autonat
+            - Test libp2p-core
+            - Test libp2p-dcutr
+            - Test libp2p-deflate
+            - Test libp2p-dns
+            - Test libp2p-floodsub
+            - Test libp2p-gossipsub
+            - Test libp2p-identify
+            - Test libp2p-kad
+            - Test libp2p-mdns
+            - Test libp2p-metrics
+            - Test libp2p-mplex
+            - Test libp2p-noise
+            - Test libp2p-ping
+            - Test libp2p-plaintext
+            - Test libp2p-pnet
+            - Test libp2p-relay
+            - Test libp2p-rendezvous
+            - Test libp2p-request-response
+            - Test libp2p-swarm-derive
+            - Test libp2p-swarm
+            - Test libp2p-tcp
+            - Test libp2p-tls
+            - Test libp2p-uds
+            - Test libp2p-wasm-ext
+            - Test libp2p-websocket
+            - Test libp2p-yamux
+            - Test libp2p
+            - Test multistream-select
+            - Test prost-codec
+            - Test rw-stream-sink
           strict: true
     default_branch: master
     description: "The Rust Implementation of the libp2p networking stack. "
