@@ -3569,6 +3569,9 @@ repositories:
     visibility: public
   js-libp2p:
     archived: false
+    collaborators:
+      push:
+        - ckousik
     default_branch: master
     description: The JavaScript Implementation of libp2p networking stack.
     files:
@@ -3581,9 +3584,6 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
-    collaborators:
-      push:
-        - ckousik
     topics:
       - ipfs
       - js-ipfs
