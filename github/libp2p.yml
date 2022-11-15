@@ -3181,6 +3181,11 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+        - js-libp2p ChainSafe Maintainers
+        - w3dt-stewards
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     archived: false
@@ -3559,6 +3564,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - js-libp2p ChainSafe Maintainers
         - w3dt-stewards
     visibility: public
   js-libp2p:
@@ -3575,6 +3581,9 @@ repositories:
         - w3dt-stewards
       push:
         - Repos - JavaScript
+    collaborators:
+      push:
+        - ckousik
     topics:
       - ipfs
       - js-ipfs
