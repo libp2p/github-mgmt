@@ -3181,6 +3181,11 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      push:
+        - Admin
+        - js-libp2p ChainSafe Maintainers
+        - w3dt-stewards
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     archived: false
@@ -3560,9 +3565,14 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      push:
+        - js-libp2p ChainSafe Maintainers
     visibility: public
   js-libp2p:
     archived: false
+    collaborators:
+      push:
+        - ckousik
     default_branch: master
     description: The JavaScript Implementation of libp2p networking stack.
     files:
