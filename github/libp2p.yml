@@ -3564,8 +3564,9 @@ repositories:
     teams:
       admin:
         - Admin
-        - js-libp2p ChainSafe Maintainers
         - w3dt-stewards
+      push:
+        - js-libp2p ChainSafe Maintainers
     visibility: public
   js-libp2p:
     archived: false
