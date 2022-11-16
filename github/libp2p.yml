@@ -3182,7 +3182,7 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
-      admin:
+      push:
         - Admin
         - js-libp2p ChainSafe Maintainers
         - w3dt-stewards
