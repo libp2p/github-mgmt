@@ -457,6 +457,9 @@ repositories:
         - johndmulhausen
     default_branch: master
     description: Documentation site for the libp2p project.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
