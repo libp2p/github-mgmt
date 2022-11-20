@@ -457,9 +457,6 @@ repositories:
         - johndmulhausen
     default_branch: master
     description: Documentation site for the libp2p project.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -2703,7 +2700,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-daemon-protocol:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -3985,7 +3982,6 @@ repositories:
             - Compile on x86_64-pc-windows-msvc
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
-            # - clippy (beta) # New lints landing in beta should not be a blocker for CI.
             - IPFS Integration tests
             - rustfmt
             - Test libp2p-autonat
@@ -4242,12 +4238,7 @@ repositories:
         - ci
     visibility: public
   workspace-go-libp2p:
-    archived: false
-    collaborators:
-      admin:
-        - raulk
-      push:
-        - mcamou
+    archived: true
     default_branch: master
     description: workspace for go-libp2p contributors
     files:
@@ -4256,10 +4247,6 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
-      push:
-        - Admin
-        - go-libp2p Maintainers
-        - Repos - Go
     topics:
       - libp2p
     visibility: public
