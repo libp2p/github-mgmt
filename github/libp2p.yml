@@ -1812,7 +1812,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-webrtc-direct:
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
