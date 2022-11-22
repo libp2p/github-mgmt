@@ -3441,7 +3441,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-direct:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - vasco-santos
@@ -3461,7 +3461,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-peer:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -3474,7 +3474,7 @@ repositories:
         content: .github/workflows/stale.yml
     visibility: public
   js-libp2p-webrtc-star:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - vasco-santos
