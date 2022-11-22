@@ -2608,7 +2608,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-components:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
