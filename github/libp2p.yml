@@ -4007,6 +4007,8 @@ repositories:
             # - clippy (beta) # New lints landing in beta should not be a blocker for CI.
             - IPFS Integration tests
             - rustfmt
+            - run-ping-interop-cross-version / Run a test with different versions
+            - run-ping-interop-cross-implementation / Run a test with different versions
           strict: true
     default_branch: master
     description: "The Rust Implementation of the libp2p networking stack. "
