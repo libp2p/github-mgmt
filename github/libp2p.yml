@@ -4002,6 +4002,9 @@ repositories:
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - IPFS Integration tests
+            - run-ping-interop-cross-implementation / Run a test with different
+              versions
+            - run-ping-interop-cross-version / Run a test with different versions
             - rustfmt
             - Test libp2p-autonat
             - Test libp2p-core
