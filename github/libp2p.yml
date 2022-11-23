@@ -188,7 +188,7 @@ repositories:
         - Repos - Rust
     topics:
       - type-website
-    visibility: public
+    visibility: private
   community:
     archived: false
     default_branch: master
