@@ -3472,6 +3472,12 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-star:
     archived: false
