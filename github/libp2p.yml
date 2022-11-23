@@ -3465,6 +3465,7 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+        - w3dt-stewards
       push:
         - web3-bot
     default_branch: master
