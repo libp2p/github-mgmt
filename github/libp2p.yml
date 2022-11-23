@@ -182,10 +182,10 @@ repositories:
       push:
         - ci
         - go-libp2p Maintainers
-        - rust-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
         - Repos - Rust
+        - rust-libp2p Maintainers
     topics:
       - type-website
     visibility: private
