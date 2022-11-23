@@ -163,6 +163,32 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
     visibility: public
+  blog:
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: master
+    description: Blog site for the libp2p project.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - docs
+      push:
+        - ci
+        - go-libp2p Maintainers
+        - rust-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - Repos - Rust
+    topics:
+      - type-website
+    visibility: public
   community:
     archived: false
     default_branch: master
