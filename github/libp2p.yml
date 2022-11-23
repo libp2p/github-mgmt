@@ -163,6 +163,13 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
     visibility: public
+  blog:
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    visibility: private
   community:
     archived: false
     default_branch: master
