@@ -1,5 +1,5 @@
 import 'reflect-metadata'
-import { Repository } from '../resources/repository'
+import {Repository} from '../resources/repository'
 import {addLabelToAllRepos} from './shared/add-label-to-all-repos'
 
 addLabelToAllRepos(
