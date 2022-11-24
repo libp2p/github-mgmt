@@ -169,9 +169,6 @@ repositories:
       admin:
         - p-shahi
     default_branch: main
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: private
   community:
     archived: false
