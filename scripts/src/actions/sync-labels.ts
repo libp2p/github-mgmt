@@ -78,7 +78,7 @@ async function sync() {
     for (const label of targetLabels) {
       if (!sourceLabels.find(l => l.name === label.name)) {
         core.info(`Removing ${label.name} label from ${repo} repository`)
-        // await removeLabel(repo, label.name)
+        await removeLabel(repo, label.name)
       }
     }
 
@@ -86,7 +86,7 @@ async function sync() {
     for (const label of sourceLabels) {
       if (!targetLabels.some(l => l.name === label.name)) {
         core.info(`Adding ${label.name} label to ${repo} repository`)
-        // await addLabel(repo, label.name, label.color, label.description || undefined)
+        await addLabel(repo, label.name, label.color, label.description || undefined)
       }
     }
   }
