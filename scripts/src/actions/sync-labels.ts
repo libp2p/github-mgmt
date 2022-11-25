@@ -57,7 +57,7 @@ async function removeLabel(repo: string, name: string) {
 
 async function sync() {
   const sourceRepo = 'js-libp2p'
-  const targetRepos = ['js-libp2p-peerstore', 'js-libp2p-connections']
+  const targetRepos = ['js-libp2p-peer-store', 'js-libp2p-connection']
 
   const sourceLabels = await getLabels(sourceRepo)
   core.info(
