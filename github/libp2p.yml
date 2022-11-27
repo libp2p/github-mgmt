@@ -2652,7 +2652,7 @@ repositories:
       - resource-manager
     visibility: public
   js-libp2p-connection:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
