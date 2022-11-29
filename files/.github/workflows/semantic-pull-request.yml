@@ -25,4 +25,3 @@ jobs:
             deps
             test
           requre_scope: false
-          
