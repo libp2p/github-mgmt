@@ -3526,6 +3526,36 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  js-libp2p-webrtc:
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+    collaborators:
+      push:
+        - ckousik
+        - ddimaria
+        - web3-bot
+    default_branch: main
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
+    visibility: public
   js-libp2p-websocket-star-multi:
     archived: true
     collaborators:
@@ -4160,6 +4190,25 @@ repositories:
       push:
         - Repos - Rust
     visibility: public
+  security:
+    archived: false
+    collaborators:
+      admin:
+        - aschmahmann
+        - BigLep
+        - galargh
+        - jacobheun
+        - marten-seemann
+        - momack2
+        - p-shahi
+        - raulk
+        - Stebalien
+      push:
+        - vyzo
+        - yiannisbot
+    default_branch: master
+    description: CONFIDENTIAL
+    visibility: private
   specs:
     archived: false
     branch_protection:
