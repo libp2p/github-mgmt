@@ -1249,6 +1249,11 @@ repositories:
         - go-libp2p Maintainers
       push:
         - Repos - Go
+    topics:
+      - dht
+      - ipfs
+      - kad-dht
+      - libp2p
     visibility: public
   go-libp2p-kbucket:
     archived: false
@@ -3549,9 +3554,6 @@ repositories:
         - ddimaria
         - web3-bot
     default_branch: main
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -4211,9 +4213,6 @@ repositories:
         - yiannisbot
     default_branch: master
     description: CONFIDENTIAL
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     visibility: private
   specs:
     archived: false
@@ -4383,7 +4382,6 @@ teams:
         - yusefnapora
     privacy: closed
   Alumni:
-    create_default_maintainer: false
     members:
       member:
         - aamnv
@@ -4446,7 +4444,6 @@ teams:
         - zuiris
     privacy: closed
   Bifrost:
-    create_default_maintainer: false
     members:
       maintainer:
         - gmasgras
@@ -4530,7 +4527,6 @@ teams:
     parent_team_id: w3dt-stewards
     privacy: closed
   js-libp2p ChainSafe Maintainers:
-    create_default_maintainer: false
     members:
       member:
         - mpetrunic
@@ -4602,7 +4598,6 @@ teams:
         - yusefnapora
     privacy: closed
   rust-libp2p Maintainers:
-    create_default_maintainer: false
     description: Trusted reviewers for merging into rust-libp2p repositories.
     members:
       maintainer:
@@ -4612,7 +4607,6 @@ teams:
         - jxs
         - MarcoPolo
         - thomaseizinger
-    parent_team_id: Repos - Rust
     privacy: closed
   Specs contributors:
     members:
