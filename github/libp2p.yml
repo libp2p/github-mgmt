@@ -3554,6 +3554,9 @@ repositories:
         - ddimaria
         - web3-bot
     default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -4213,6 +4216,9 @@ repositories:
         - yiannisbot
     default_branch: master
     description: CONFIDENTIAL
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: private
   specs:
     archived: false
