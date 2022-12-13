@@ -3955,6 +3955,9 @@ repositories:
     default_branch: main
     description: 🥊 Components to measure Direct Connection Upgrade through Relay
       (DCUtR) performance.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   py-libp2p-slog:
     archived: false
