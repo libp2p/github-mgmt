@@ -3944,6 +3944,18 @@ repositories:
       - mplex
       - pull-stream
     visibility: public
+  punchr:
+    archived: false
+    collaborators:
+      push:
+        - dennis-tra
+        - elenaf9
+        - MarcoPolo
+        - mxinden
+    default_branch: main
+    description: 🥊 Components to measure Direct Connection Upgrade through Relay
+      (DCUtR) performance.
+    visibility: public
   py-libp2p-slog:
     archived: false
     default_branch: main
