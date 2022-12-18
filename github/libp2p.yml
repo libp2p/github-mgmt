@@ -474,6 +474,26 @@ repositories:
     visibility: public
   docs:
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjI1NDk3MDgz
+          - MDQ6VXNlcjk2MTEwMDg=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - fleek/build
+          strict: false
     collaborators:
       admin:
         - johnnymatthews
@@ -3534,21 +3554,6 @@ repositories:
     visibility: public
   js-libp2p-webrtc:
     archived: false
-    branch_protection:
-      main:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
-        required_pull_request_reviews:
-          dismiss_stale_reviews: false
-          require_code_owner_reviews: false
-          required_approving_review_count: 1
-          restrict_dismissals: false
-        required_status_checks:
-          strict: true
     collaborators:
       push:
         - ckousik
