@@ -141,6 +141,7 @@ repositories:
   .github:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -151,6 +152,7 @@ repositories:
   awesome-libp2p:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Useful resources for using libp2p and building things on top of it
     files:
       .github/workflows/stale.yml:
@@ -170,6 +172,7 @@ repositories:
       admin:
         - p-shahi
     default_branch: main
+    delete_branch_on_merge: false
     description: Blog site for the libp2p project.
     files:
       .github/workflows/stale.yml:
@@ -193,6 +196,7 @@ repositories:
   community:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: General discussion and documentation on community practices
     files:
       .github/workflows/stale.yml:
@@ -234,6 +238,7 @@ repositories:
         required_status_checks:
           strict: true
     default_branch: master
+    delete_branch_on_merge: true
     description: C++17 implementation of libp2p
     files:
       .github/workflows/stale.yml:
@@ -250,6 +255,7 @@ repositories:
   cs-libp2p-crypto:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: LibP2P Crypto module
     files:
       .github/workflows/stale.yml:
@@ -262,6 +268,7 @@ repositories:
   cs-libp2p-io:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: IO for libp2p
     files:
       .github/workflows/stale.yml:
@@ -274,6 +281,7 @@ repositories:
   cs-libp2p-peer:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: LibP2P Peer
     files:
       .github/workflows/stale.yml:
@@ -286,6 +294,7 @@ repositories:
   cs-libp2p-protocol:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: ProtocolId
     files:
       .github/workflows/stale.yml:
@@ -298,6 +307,7 @@ repositories:
   cs-libp2p-record:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: DHT Records
     files:
       .github/workflows/stale.yml:
@@ -310,6 +320,7 @@ repositories:
   cs-libp2p-utils:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: LibP2P utilities
     files:
       .github/workflows/stale.yml:
@@ -322,6 +333,7 @@ repositories:
   demo-multi-lang:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Simple libp2p demos implemented in Go, JS and Rust
     files:
       .github/workflows/stale.yml:
@@ -349,6 +361,7 @@ repositories:
   developer-meetings:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: 2018 libp2p Developers Meeting in Berlin
     files:
       .github/workflows/stale.yml:
@@ -368,6 +381,7 @@ repositories:
   devgrants:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
       for incentivization.
     files:
@@ -389,6 +403,7 @@ repositories:
       admin:
         - vyzo
     default_branch: master
+    delete_branch_on_merge: false
     description: testgound plans for DHT hardening
     files:
       .github/workflows/stale.yml:
@@ -400,6 +415,7 @@ repositories:
   dht-tracer-archived:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -410,6 +426,7 @@ repositories:
   dht-tracer:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -429,6 +446,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -442,6 +460,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Some utilities for debugging the libp2p dht
     files:
       .github/workflows/stale.yml:
@@ -453,6 +472,7 @@ repositories:
   dht-vis-v0:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -463,6 +483,7 @@ repositories:
   docs-old:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p documentation website
     files:
       .github/workflows/stale.yml:
@@ -503,6 +524,7 @@ repositories:
       push:
         - johndmulhausen
     default_branch: master
+    delete_branch_on_merge: false
     description: Documentation site for the libp2p project.
     files:
       .github/workflows/stale.yml:
@@ -531,6 +553,7 @@ repositories:
   fclibp2p-zhi:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: New Issues for filecoin<=>libp2p deps workspace
     teams:
       admin:
@@ -560,6 +583,7 @@ repositories:
             - Comment
           strict: true
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -587,6 +611,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Address utilities for libp2p swarm
     teams:
       admin:
@@ -602,6 +627,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -619,6 +645,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Fast IP to CIDR lookup in Golang
     files:
       .github/workflows/stale.yml:
@@ -641,6 +668,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Composable routing framework
     files:
       .github/workflows/stale.yml:
@@ -658,6 +686,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Multiplexed secure transport module for go-libp2p
     teams:
       admin:
@@ -675,6 +704,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] Interfaces for securing libp2p connections; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -692,6 +722,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: DNS over HTTPS resolver
     files:
       .github/workflows/stale.yml:
@@ -711,6 +742,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: a simple and fast eventbus for type-based local event delivery.
     teams:
       admin:
@@ -726,6 +758,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -743,6 +776,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on
       IPv6 addresses for now."
     files:
@@ -762,11 +796,13 @@ repositories:
       admin:
         - aarshkshah1992
     default_branch: feat/init
+    delete_branch_on_merge: false
     description: ASN lookup library for IPv4 and IPv6 addresses.
     visibility: private
   go-libp2p-autonat-svc:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] AutoNAT Service implementation -- use
       github.com/libp2p/go-libp2p-autonat"
     teams:
@@ -789,6 +825,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: "DEPRECATED: NAT Autodiscovery"
     teams:
       admin:
@@ -807,6 +844,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Backoff data structures for libp2p.
     files:
       .github/workflows/stale.yml:
@@ -824,6 +862,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: The thinnest possible host implementation.
     teams:
       admin:
@@ -841,6 +880,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -856,6 +896,7 @@ repositories:
       admin:
         - vyzo
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] Simple testing programs for go-libp2p-circuit"
     teams:
       admin:
@@ -867,6 +908,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Circuit Switching for libp2p
     teams:
       admin:
@@ -883,6 +925,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] A package for libp2p connections"
     teams:
       admin:
@@ -898,6 +941,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: a resource sentinel that keeps connection count under reasonable bounds
     teams:
       admin:
@@ -913,6 +957,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A consensus interface for LibP2P
     files:
       .github/workflows/stale.yml:
@@ -934,6 +979,7 @@ repositories:
         - carospiegly
         - web3-bot
     default_branch: wip
+    delete_branch_on_merge: false
     description: golang implementation of the CoralDHT protocol
     teams:
       admin:
@@ -959,6 +1005,7 @@ repositories:
         - mvdan
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Interfaces and abstractions that make up go-libp2p
     teams:
       admin:
@@ -977,6 +1024,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] Various cryptographic utilities used by libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -994,6 +1042,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
       for use in other languages
     files:
@@ -1013,6 +1062,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: "Active Peer Discovery "
     teams:
       admin:
@@ -1028,6 +1078,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] implementation of go-libp2p-interface-conn"
     teams:
       admin:
@@ -1043,6 +1094,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Example libp2p applications
     teams:
       admin:
@@ -1069,6 +1121,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A simple RPC library for libp2p.
     files:
       .github/workflows/stale.yml:
@@ -1102,6 +1155,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Go "net" wrappers for libp2p
     files:
       .github/workflows/stale.yml:
@@ -1117,6 +1171,7 @@ repositories:
   go-libp2p-holepunch-test:
     archived: false
     default_branch: main
+    delete_branch_on_merge: false
     description: Script for testing Hole Punching among a group of users
     files:
       .github/workflows/stale.yml:
@@ -1131,6 +1186,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] The host interface for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1158,6 +1214,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: HTTP on top of libp2p
     files:
       .github/workflows/stale.yml:
@@ -1181,6 +1238,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: DEPRECATED. Lives in
       github.com/libp2p/go-libp2p/blob/master/p2p/protocol/identify.
     teams:
@@ -1196,6 +1254,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] An interface for libp2p connection objects"
     teams:
       admin:
@@ -1210,6 +1269,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] The interface for go-libp2p connection managers; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1225,6 +1285,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] Interface for restricting communication to private
       networks; use https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1240,6 +1301,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: 🐣 [WIP] introspection endpoint for libp2p hosts
     files:
       .github/workflows/stale.yml:
@@ -1258,6 +1320,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A Kademlia DHT implementation on go-libp2p
     files:
       .github/workflows/stale.yml:
@@ -1282,6 +1345,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A kbucket implementation for use as a routing table
     files:
       .github/workflows/stale.yml:
@@ -1300,6 +1364,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: logging helpers for go-libp2p
     teams:
       admin:
@@ -1315,6 +1380,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] A connection wrapper for go-libp2p that provides
       bandwidth metrics; use https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1331,6 +1397,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: adaptor to integrate the mplex multiplexer into libp2p
     teams:
       admin:
@@ -1347,6 +1414,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: NAT port mapping library for go-libp2p
     teams:
       admin:
@@ -1363,6 +1431,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] Network interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1379,6 +1448,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Utility methods for creating public and private keys for use in test
     teams:
       admin:
@@ -1412,6 +1482,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: a secure channel for go-libp2p based on the Noise protocol framework
     teams:
       admin:
@@ -1432,6 +1503,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] PKI based identities for use in go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1466,6 +1538,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: an object to manage sets of peers, their addresses and other metadata
     teams:
       admin:
@@ -1482,6 +1555,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: Go libp2p ping protocol implementation
     teams:
       admin:
@@ -1497,6 +1571,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: An implementation of go-libp2p-interface-pnet
     teams:
       admin:
@@ -1512,6 +1587,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] Just a type for protocol strings. Nothing more; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1527,6 +1603,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: PubSub interface for go-libp2p
     teams:
       admin:
@@ -1541,6 +1618,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -1561,6 +1639,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Daemon and tools for pubsub tracing
     files:
       .github/workflows/stale.yml:
@@ -1592,6 +1671,7 @@ repositories:
       maintain:
         - vyzo
     default_branch: master
+    delete_branch_on_merge: false
     description: The PubSub implementation for go-libp2p
     files:
       .github/workflows/stale.yml:
@@ -1614,6 +1694,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using QUIC
     teams:
       admin:
@@ -1636,6 +1717,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A LibP2P wrapper for hashicorp/raft implementation.
     files:
       .github/workflows/stale.yml:
@@ -1654,6 +1736,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: signed records for use with routing systems
     files:
       .github/workflows/stale.yml:
@@ -1672,6 +1755,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A standalone libp2p circuit relay daemon providing relay service
       for versions v1 and v2 of the protocol.
     files:
@@ -1687,6 +1771,7 @@ repositories:
   go-libp2p-rendezvous:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Go implementation of rendezvous protocol
     files:
       .github/workflows/stale.yml:
@@ -1707,6 +1792,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: An implementation of the libp2p network resource manager interface
     teams:
       admin:
@@ -1722,6 +1808,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -1739,6 +1826,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] a collection of routing interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -1754,6 +1842,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: a minimal secure channel for libp2p
     teams:
       admin:
@@ -1765,6 +1854,7 @@ repositories:
   go-libp2p-slog:
     archived: false
     default_branch: main
+    delete_branch_on_merge: false
     description: Go API for structured logging and querying
     files:
       .github/workflows/stale.yml:
@@ -1780,6 +1870,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: The libp2p swarm manages groups of connections to peers, and
       handles incoming and outgoing streams
     teams:
@@ -1797,6 +1888,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Test toolbox for go-libp2p modules
     files:
       .github/workflows/stale.yml:
@@ -1820,6 +1912,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: go-libp2p's TLS encrypted transport
     teams:
       admin:
@@ -1838,6 +1931,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     teams:
       admin:
         - Admin
@@ -1853,6 +1947,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] libp2p transport code; moved to
       https://github.com/libp2p/go-libp2p-core/ and
       https://github.com/libp2p/go-libp2p-testing/"
@@ -1882,6 +1977,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A libp2p transport that enables browser-to-server, and
       server-to-server, direct communication over WebRTC without requiring
       signalling servers
@@ -1905,6 +2001,7 @@ repositories:
   go-libp2p-websocket-star-rendezvous:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: The rendezvous service for libp2p-websocket-star written in go
     files:
       .github/workflows/stale.yml:
@@ -1925,6 +2022,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Xor Trie implementation
     files:
       .github/workflows/stale.yml:
@@ -1944,6 +2042,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     teams:
       admin:
         - Admin
@@ -1971,6 +2070,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p implementation in Go
     files:
       .github/workflows/stale.yml:
@@ -1994,6 +2094,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] A library for filtering multiaddrs; please use
       https://github.com/multiformats/go-multiaddr"
     teams:
@@ -2009,6 +2110,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A port of maxogden's multiplex to go
     files:
       .github/workflows/stale.yml:
@@ -2028,6 +2130,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: simple package to r/w length-delimited slices.
     files:
       .github/workflows/stale.yml:
@@ -2047,6 +2150,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: NAT port mapping library for Go
     files:
       .github/workflows/stale.yml:
@@ -2065,6 +2169,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Routing table abstraction library
     files:
       .github/workflows/stale.yml:
@@ -2086,6 +2191,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: OpenSSL bindings for Go
     files:
       .github/workflows/stale.yml:
@@ -2106,6 +2212,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] P2P stream multi-multiplexing in Go "
     teams:
       admin:
@@ -2121,6 +2228,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: A basic transport for automatically (and intelligently) reusing TCP ports
     teams:
       admin:
@@ -2136,6 +2244,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: reuse tcp/udp ports in golang
     files:
       .github/workflows/stale.yml:
@@ -2159,6 +2268,7 @@ repositories:
         - masih
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Definition of the grammar for describing routing objectives
     files:
       .github/workflows/stale.yml:
@@ -2175,6 +2285,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: "ResNetLab Project: Smart Records"
     files:
       .github/workflows/stale.yml:
@@ -2193,6 +2304,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: DEPRECATED - Go Sockaddr -> RawSockaddr conversions
     teams:
       admin:
@@ -2208,6 +2320,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Multiaddr backed systemd socket activation
     files:
       .github/workflows/stale.yml:
@@ -2229,6 +2342,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: With destination address, select the source address from kernel
     teams:
       admin:
@@ -2246,6 +2360,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: multistream implementation of go-stream-muxer
     teams:
       admin:
@@ -2264,6 +2379,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] stream multiplexer interface; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     teams:
@@ -2280,6 +2396,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using tcp
     teams:
       admin:
@@ -2296,6 +2413,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED] A collection of testing utilities for ipfs and
       libp2p; use https://github.com/libp2p/go-libp2p-testing instead."
     teams:
@@ -2308,6 +2426,7 @@ repositories:
   go-udp-transport:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Implementation of an unreliable packet transport for libp2p, using UDP
     files:
       .github/workflows/stale.yml:
@@ -2327,6 +2446,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using utp
     teams:
       admin:
@@ -2342,6 +2462,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: a websocket implementation of a go-libp2p transport
     teams:
       admin:
@@ -2359,6 +2480,7 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     teams:
       admin:
         - Admin
@@ -2372,6 +2494,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -2390,6 +2513,7 @@ repositories:
       admin:
         - vyzo
     default_branch: master
+    delete_branch_on_merge: false
     description: testground plans for evaluating gossipsub under attack scenarios
     files:
       .github/workflows/stale.yml:
@@ -2401,6 +2525,7 @@ repositories:
   haskell-p2pcat:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: nothing to see here, yet!
     files:
       .github/workflows/stale.yml:
@@ -2416,6 +2541,7 @@ repositories:
       admin:
         - guseggert
     default_branch: main
+    delete_branch_on_merge: false
     description: Infrastructure for Hydra Boosters
     files:
       .github/workflows/stale.yml:
@@ -2438,6 +2564,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: A DHT Indexer node & Peer Router
     files:
       .github/workflows/stale.yml:
@@ -2460,6 +2587,7 @@ repositories:
       admin:
         - daviddias
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-connection is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -2471,6 +2599,7 @@ repositories:
   interface-content-routing:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -2482,6 +2611,7 @@ repositories:
   interface-libp2p:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: The interface of all of the interfaces for the libp2p modules.
     files:
       .github/workflows/stale.yml:
@@ -2494,6 +2624,7 @@ repositories:
   interface-peer-discovery:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -2508,6 +2639,7 @@ repositories:
       admin:
         - daviddias
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-routing is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -2522,6 +2654,7 @@ repositories:
       admin:
         - daviddias
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: deprecated in favor of
       https://github.com/ipfs/interface-datastore"
     teams:
@@ -2536,6 +2669,7 @@ repositories:
       admin:
         - daviddias
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -2550,6 +2684,7 @@ repositories:
       admin:
         - daviddias
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-transport is now included in
       https://github.com/libp2p/js-interfaces"
     teams:
@@ -2561,6 +2696,7 @@ repositories:
   interop:
     archived: false
     default_branch: master
+    delete_branch_on_merge: true
     description: Interoperability tests for libp2p Implementations
     files:
       .github/workflows/stale.yml:
@@ -2580,6 +2716,7 @@ repositories:
       admin:
         - p-shahi
     default_branch: main
+    delete_branch_on_merge: false
     description: The website for IPFS Camp 2022
     files:
       .github/workflows/stale.yml:
@@ -2619,6 +2756,7 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: JavaScript IPFS record class implementation
     teams:
       admin:
@@ -2632,6 +2770,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Rail a libp2p node through a bootstrap peer list
     files:
       .github/workflows/stale.yml:
@@ -2652,6 +2791,7 @@ repositories:
         - dryajov
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2665,6 +2805,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Container for libp2p components
     files:
       .github/workflows/stale.yml:
@@ -2679,6 +2820,7 @@ repositories:
   js-libp2p-connection-manager:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2699,6 +2841,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: JS Libp2p connections
     files:
       .github/workflows/stale.yml:
@@ -2713,6 +2856,7 @@ repositories:
   js-libp2p-crypto-secp256k1:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
       https://github.com/libp2p/js-libp2p-crypto"
     teams:
@@ -2727,6 +2871,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: The libp2p crypto primitives, for Node.js and the Browser!
     files:
       .github/workflows/stale.yml:
@@ -2744,6 +2889,7 @@ repositories:
       admin:
         - vasco-santos
     default_branch: master
+    delete_branch_on_merge: true
     description: A js daemon client to interact with a libp2p daemon
     files:
       .github/workflows/stale.yml:
@@ -2760,6 +2906,7 @@ repositories:
       admin:
         - achingbrain
     default_branch: master
+    delete_branch_on_merge: false
     description: Protocol for communication between libp2p-daemon and libp2p-client
     files:
       .github/workflows/stale.yml:
@@ -2771,6 +2918,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: A js-libp2p backed daemon
     files:
       .github/workflows/stale.yml:
@@ -2789,6 +2937,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Leverage other peers in the network to perform Content Routing calls.
     files:
       .github/workflows/stale.yml:
@@ -2806,6 +2955,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Leverage other peers in the network to perform Peer Routing calls.
     files:
       .github/workflows/stale.yml:
@@ -2851,6 +3001,7 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: DEPRECATED
     teams:
       admin:
@@ -2861,6 +3012,7 @@ repositories:
   js-libp2p-examples:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: Examples for the JS implementation of libp2p
     teams:
       admin:
@@ -2875,6 +3027,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Also known as pubsub-flood or just dumbsub, this implementation of
       pubsub focused on delivering an API for Publish/Subscribe, but with no
       CastTree Forming (it just floods the network).
@@ -2896,6 +3049,7 @@ repositories:
       push:
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -2909,6 +3063,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Contains test suites and interfaces you can use to implement the
       various components of js libp2p.
     files:
@@ -2927,6 +3082,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: JavaScript implementation of the DHT for libp2p
     files:
       .github/workflows/stale.yml:
@@ -2972,6 +3128,7 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: DEPRECATED
     teams:
       admin:
@@ -3013,6 +3170,7 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: Implementation of the Kademlia router for libp2p
     teams:
       admin:
@@ -3023,6 +3181,7 @@ repositories:
   js-libp2p-keychain:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
     teams:
       admin:
@@ -3036,6 +3195,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: A logging component for use in js-libp2p modules
     files:
       .github/workflows/stale.yml:
@@ -3053,6 +3213,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: libp2p MulticastDNS Peer Discovery
     files:
       .github/workflows/stale.yml:
@@ -3070,6 +3231,7 @@ repositories:
       admin:
         - achingbrain
     default_branch: main
+    delete_branch_on_merge: false
     description: Extendable implementation of @libp2p/interface-metrics
     files:
       .github/workflows/stale.yml:
@@ -3081,6 +3243,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: JavaScript implementation of https://github.com/libp2p/mplex
     files:
       .github/workflows/stale.yml:
@@ -3098,6 +3261,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: JavaScript implementation of multistream-select
     files:
       .github/workflows/stale.yml:
@@ -3112,6 +3276,7 @@ repositories:
   js-libp2p-nat-mngr:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: NAT manager that allows handling different aspects of NAT traversal
       in libp2p.
     files:
@@ -3130,6 +3295,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Store values against a peer id
     files:
       .github/workflows/stale.yml:
@@ -3147,6 +3313,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: libp2p PeerId implementation in JavaScript
     files:
       .github/workflows/stale.yml:
@@ -3164,6 +3331,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Used to transfer signed peer data across the network
     files:
       .github/workflows/stale.yml:
@@ -3181,6 +3349,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Stores information about peers libp2p knows on the network
     files:
       .github/workflows/stale.yml:
@@ -3201,6 +3370,7 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -3214,6 +3384,7 @@ repositories:
       admin:
         - jacobheun
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -3229,6 +3400,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
+    delete_branch_on_merge: true
     description: Collect libp2p metrics for scraping by Prometheus
     files:
       .github/workflows/stale.yml:
@@ -3245,6 +3417,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
     files:
       .github/workflows/stale.yml:
@@ -3262,6 +3435,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Pubsub base protocol for libp2p pubsub routers
     files:
       .github/workflows/stale.yml:
@@ -3279,6 +3453,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Implementation of go-libp2p-record in JavaScript
     files:
       .github/workflows/stale.yml:
@@ -3293,6 +3468,7 @@ repositories:
   js-libp2p-relay-server:
     archived: false
     default_branch: main
+    delete_branch_on_merge: false
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
     files:
@@ -3309,6 +3485,7 @@ repositories:
   js-libp2p-rendezvous:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: A javascript implementation of the rendezvous protocol for libp2p
     files:
       .github/workflows/stale.yml:
@@ -3328,6 +3505,7 @@ repositories:
       push:
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p SECIO
     teams:
       admin:
@@ -3345,6 +3523,7 @@ repositories:
         - fbaiodias
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: SPDY 3.1 implementation wrapper that is compatible with libp2p
       Stream Muxer expected interface
     teams:
@@ -3359,6 +3538,7 @@ repositories:
       push:
         - mkg20001
     default_branch: master
+    delete_branch_on_merge: false
     description: A better ws-star implementation
     teams:
       admin:
@@ -3370,6 +3550,7 @@ repositories:
   js-libp2p-switch:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     teams:
       admin:
@@ -3383,6 +3564,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: JavaScript implementation of the TCP module that libp2p uses that
       implements the interface-transport spec
     files:
@@ -3401,6 +3583,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: libp2p network topology
     files:
       .github/workflows/stale.yml:
@@ -3418,6 +3601,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Allows tracking of statistics while libp2p is running
     files:
       .github/workflows/stale.yml:
@@ -3432,6 +3616,7 @@ repositories:
   js-libp2p-udp:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Node.js implementation of the UDP module that libp2p uses, which
       implements the abstract-transport interface
     files:
@@ -3447,6 +3632,7 @@ repositories:
   js-libp2p-udt:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Node.js implementation of the UDT module that libp2p uses, which
       implements the abstract-transport interface
     files:
@@ -3465,6 +3651,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
     files:
       .github/workflows/stale.yml:
@@ -3481,6 +3668,7 @@ repositories:
   js-libp2p-utp:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: uTP module libp2p uses. Implements the interface-transport spec
     files:
       .github/workflows/stale.yml:
@@ -3500,6 +3688,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Dial using WebRTC without the need to set up any Signalling
       Rendezvous Point!
     files:
@@ -3520,6 +3709,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: Simple one-to-one WebRTC data channels
     files:
       .github/workflows/stale.yml:
@@ -3539,6 +3729,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p WebRTC transport that includes a discovery mechanism
       provided by the signalling-star
     files:
@@ -3560,6 +3751,7 @@ repositories:
         - ddimaria
         - web3-bot
     default_branch: main
+    delete_branch_on_merge: true
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -3576,6 +3768,7 @@ repositories:
       push:
         - mkg20001
     default_branch: master
+    delete_branch_on_merge: false
     description: Allows to listen on multiple websocket-star servers while ignoring
       offline ones
     teams:
@@ -3590,6 +3783,7 @@ repositories:
       admin:
         - mkg20001
     default_branch: master
+    delete_branch_on_merge: false
     description: The rendezvous service for libp2p-websocket-star enabled nodes meet
       and talk with each other
     teams:
@@ -3601,6 +3795,7 @@ repositories:
   js-libp2p-websocket-star:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p-webrtc-star without webrtc. Just plain socket.io.
     teams:
       admin:
@@ -3614,6 +3809,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: true
     description: "WebSockets module that libp2p uses and that implements the
       interface-transport spec "
     files:
@@ -3632,6 +3828,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
+    delete_branch_on_merge: true
     description: "WebTranport module that libp2p uses and that implements the
       interface-transport spec "
     files:
@@ -3650,6 +3847,7 @@ repositories:
       push:
         - ckousik
     default_branch: master
+    delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
     files:
       .github/workflows/stale.yml:
@@ -3671,6 +3869,7 @@ repositories:
   js-p2pcat:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: A netcat like utility but for the p2p Internet
     files:
       .github/workflows/stale.yml:
@@ -3690,6 +3889,7 @@ repositories:
       push:
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: "[DEPRECATED]: peer-book is now at
       https://github.com/libp2p/js-libp2p/tree/master/src/peer-store as
       PeerStore"
@@ -3702,6 +3902,7 @@ repositories:
   js-peer-id:
     archived: false
     default_branch: master
+    delete_branch_on_merge: true
     description: peer-id implementation in JavaScript. Deprecated; use
       https://github.com/libp2p/js-libp2p-peer-id instead.
     files:
@@ -3725,6 +3926,7 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p Peer abstraction Node.js implementation
     teams:
       admin:
@@ -3760,6 +3962,7 @@ repositories:
         required_status_checks:
           strict: true
     default_branch: master
+    delete_branch_on_merge: false
     description: Abstraction on top of spdy-transport, implementing the
       abstract-stream-muxer interface
     teams:
@@ -3786,6 +3989,7 @@ repositories:
         required_status_checks:
           strict: false
     default_branch: develop
+    delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
     files:
       .github/workflows/stale.yml:
@@ -3800,6 +4004,7 @@ repositories:
   libp2p:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: A modular and extensible networking stack which solves many
       challenges of peer-to-peer applications.
     files:
@@ -3816,6 +4021,7 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
+    delete_branch_on_merge: false
     description: This repo contains the spec of mplex, the friendly Stream
       Multiplexer (that works in 3 languages!)
     teams:
@@ -3830,6 +4036,7 @@ repositories:
   notes:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: libp2p Collaborative Notebook for Research
     files:
       .github/workflows/stale.yml:
@@ -3847,6 +4054,7 @@ repositories:
   npm-go-libp2p-dep:
     archived: false
     default_branch: master
+    delete_branch_on_merge: true
     description: Install go-libp2p from npm as a dependency of your project
     files:
       .github/workflows/stale.yml:
@@ -3865,6 +4073,7 @@ repositories:
       admin:
         - achingbrain
     default_branch: master
+    delete_branch_on_merge: false
     description: Install go-libp2p-daemon via npm
     files:
       .github/workflows/stale.yml:
@@ -3873,6 +4082,7 @@ repositories:
   observation-deck:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
       data, built on libp2p/observer-toolkit
     files:
@@ -3888,6 +4098,7 @@ repositories:
   observer-toolkit:
     archived: false
     default_branch: master
+    delete_branch_on_merge: true
     description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
       useful out-of-the-box widgets
     files:
@@ -3905,6 +4116,7 @@ repositories:
   projects:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: A repo of sub-projects within libp2p for contributors to pick up
     files:
       .github/workflows/stale.yml:
@@ -3925,6 +4137,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     teams:
       admin:
         - Admin
@@ -3933,6 +4146,7 @@ repositories:
   pull-mplex:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: multiplexer implementing the https://github.com/libp2p/mplex spec
       with pull-streams
     files:
@@ -3958,6 +4172,7 @@ repositories:
         - MarcoPolo
         - mxinden
     default_branch: main
+    delete_branch_on_merge: false
     description: 🥊 Components to measure Direct Connection Upgrade through Relay
       (DCUtR) performance.
     files:
@@ -3967,6 +4182,7 @@ repositories:
   py-libp2p-slog:
     archived: false
     default_branch: main
+    delete_branch_on_merge: false
     description: Python API for structured logging and querying
     files:
       .github/workflows/stale.yml:
@@ -3978,6 +4194,7 @@ repositories:
   py-libp2p-xor:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Python facilities for XOR arithmetic and higher-level routing
       computations in XOR space
     files:
@@ -3993,6 +4210,7 @@ repositories:
       admin:
         - carver
     default_branch: master
+    delete_branch_on_merge: false
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
     files:
@@ -4008,6 +4226,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: "[toy project 🎈] a libp2p interactive shell"
     files:
       .github/workflows/stale.yml:
@@ -4022,11 +4241,13 @@ repositories:
   research-dht:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: Moved discussion notes to https://github.com/libp2p/notes
     visibility: public
   research-pubsub:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Research on PubSub algorithms for libp2p
     files:
       .github/workflows/stale.yml:
@@ -4043,6 +4264,7 @@ repositories:
   research:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: "Check https://github.com/libp2p/notes "
     teams:
       admin:
@@ -4181,6 +4403,7 @@ repositories:
             - build
           strict: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Multiplexer over reliable, ordered connections.
     files:
       .github/workflows/stale.yml:
@@ -4237,6 +4460,7 @@ repositories:
         - vyzo
         - yiannisbot
     default_branch: master
+    delete_branch_on_merge: false
     description: CONFIDENTIAL
     files:
       .github/workflows/stale.yml:
@@ -4258,6 +4482,7 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: master
+    delete_branch_on_merge: true
     description: Technical specifications for the libp2p networking stack
     files:
       .github/workflows/stale.yml:
@@ -4275,6 +4500,7 @@ repositories:
   team-mgmt:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: Planning and project management for the libp2p Project
     files:
       .github/workflows/stale.yml:
@@ -4297,6 +4523,7 @@ repositories:
       admin:
         - laurentsenta
     default_branch: master
+    delete_branch_on_merge: false
     description: Testground testplans for libp2p
     files:
       .github/workflows/stale.yml:
@@ -4316,6 +4543,7 @@ repositories:
         - aarshkshah1992
         - jimpick
     default_branch: master
+    delete_branch_on_merge: false
     description: A testlab built with Nomad and Consul to analyze the behavior of
       p2p networks at scale
     teams:
@@ -4332,6 +4560,7 @@ repositories:
       admin:
         - DannyS03
     default_branch: master
+    delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
@@ -4344,6 +4573,7 @@ repositories:
       maintain:
         - DannyS03
     default_branch: master
+    delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
@@ -4360,6 +4590,7 @@ repositories:
   workspace-go-libp2p:
     archived: true
     default_branch: master
+    delete_branch_on_merge: false
     description: workspace for go-libp2p contributors
     files:
       .github/workflows/stale.yml:
@@ -4373,6 +4604,7 @@ repositories:
   xtp:
     archived: false
     default_branch: master
+    delete_branch_on_merge: false
     description: XTP - eXternal Transports Protocol
     files:
       .github/workflows/stale.yml:
@@ -4388,6 +4620,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
+    delete_branch_on_merge: false
     description: mDNS / DNS-SD Service Discovery in pure Go (also known as Bonjour)
     files:
       .github/workflows/stale.yml:
