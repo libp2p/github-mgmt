@@ -224,13 +224,18 @@ export class GitHub {
         })
       ).data
       if (repo.owner.login === env.GITHUB_ORG && repo.name === repository) {
-        return (
+        const file = (
           await this.client.repos.getContent({
             owner: env.GITHUB_ORG,
             repo: repository,
-            path
+            path,
+            ref: repo.default_branch
           })
         ).data as {path: string; url: string}
+        return {
+          ...file,
+          ref: repo.default_branch
+        }
       } else {
         core.debug(
           `${env.GITHUB_ORG}/${repository} has moved to ${repo.owner.login}/${repo.name}`
@@ -241,5 +246,61 @@ export class GitHub {
       core.debug(JSON.stringify(e))
       return undefined
     }
+  }
+
+  async listInvitations() {
+    core.info('Listing invitations...')
+    const invitations = await this.client.paginate(
+      this.client.orgs.listPendingInvitations,
+      {
+        org: env.GITHUB_ORG
+      }
+    )
+    return invitations.filter(
+      i => i.failed_at === null || i.failed_at === undefined
+    )
+  }
+
+  async listRepositoryInvitations() {
+    const repositoryInvitations = []
+    const repositories = await this.listRepositories()
+    for (const repository of repositories) {
+      core.info(`Listing ${repository.name} invitations...`)
+      const invitations = await this.client.paginate(
+        this.client.repos.listInvitations,
+        {
+          owner: env.GITHUB_ORG,
+          repo: repository.name
+        }
+      )
+      repositoryInvitations.push(
+        ...invitations.filter(
+          i => i.expired === false || i.expired === undefined
+        )
+      )
+    }
+    return repositoryInvitations
+  }
+
+  async listTeamInvitations() {
+    this.client.orgs.listInvitationTeams
+    const teamInvitations = []
+    const teams = await this.listTeams()
+    for (const team of teams) {
+      core.info(`Listing ${team.name} invitations...`)
+      const invitations = await this.client.paginate(
+        this.client.teams.listPendingInvitationsInOrg,
+        {
+          org: env.GITHUB_ORG,
+          team_slug: team.slug
+        }
+      )
+      teamInvitations.push(
+        ...invitations
+          .filter(i => i.failed_at === null || i.failed_at === undefined)
+          .map(invitation => ({team, invitation}))
+      )
+    }
+    return teamInvitations
   }
 }

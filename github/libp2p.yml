@@ -35,6 +35,7 @@ members:
     - cemozerr
     - ChihChengLiang
     - DannyS03
+    - dennis-tra
     - dharmapunk82
     - dignifiedquire
     - dirkmc
@@ -162,6 +163,32 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
+    visibility: public
+  blog:
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    description: Blog site for the libp2p project.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - docs
+      push:
+        - ci
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - Repos - Rust
+        - rust-libp2p Maintainers
+    topics:
+      - type-website
     visibility: public
   community:
     archived: false
@@ -447,6 +474,26 @@ repositories:
     visibility: public
   docs:
     archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        push_restrictions:
+          - MDQ6VXNlcjI1NDk3MDgz
+          - MDQ6VXNlcjk2MTEwMDg=
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - fleek/build
+          strict: false
     collaborators:
       admin:
         - johnnymatthews
@@ -1223,6 +1270,11 @@ repositories:
         - go-libp2p Maintainers
       push:
         - Repos - Go
+    topics:
+      - dht
+      - ipfs
+      - kad-dht
+      - libp2p
     visibility: public
   go-libp2p-kbucket:
     archived: false
@@ -1812,7 +1864,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-webrtc-direct:
-    archived: false
+    archived: true
     branch_protection:
       master:
         allows_deletions: false
@@ -2608,7 +2660,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-components:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -2642,7 +2694,7 @@ repositories:
       - resource-manager
     visibility: public
   js-libp2p-connection:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -3441,7 +3493,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-direct:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - vasco-santos
@@ -3461,7 +3513,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-peer:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - achingbrain
@@ -3472,9 +3524,15 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-star:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - vasco-santos
@@ -3490,6 +3548,24 @@ repositories:
       admin:
         - Admin
         - ci
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
+    visibility: public
+  js-libp2p-webrtc:
+    archived: false
+    collaborators:
+      push:
+        - ckousik
+        - ddimaria
+        - web3-bot
+    default_branch: main
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
         - w3dt-stewards
       push:
         - Repos - JavaScript
@@ -3873,6 +3949,21 @@ repositories:
       - mplex
       - pull-stream
     visibility: public
+  punchr:
+    archived: false
+    collaborators:
+      push:
+        - dennis-tra
+        - elenaf9
+        - MarcoPolo
+        - mxinden
+    default_branch: main
+    description: 🥊 Components to measure Direct Connection Upgrade through Relay
+      (DCUtR) performance.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    visibility: public
   py-libp2p-slog:
     archived: false
     default_branch: main
@@ -3986,6 +4077,9 @@ repositories:
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - IPFS Integration tests
+            - run-ping-interop-cross-implementation / Run a test with different
+              versions
+            - run-ping-interop-cross-version / Run a test with different versions
             - rustfmt
             - Test libp2p-autonat
             - Test libp2p-core
@@ -4126,6 +4220,28 @@ repositories:
       push:
         - Repos - Rust
     visibility: public
+  security:
+    archived: false
+    collaborators:
+      admin:
+        - aschmahmann
+        - BigLep
+        - galargh
+        - jacobheun
+        - marten-seemann
+        - momack2
+        - p-shahi
+        - raulk
+        - Stebalien
+      push:
+        - vyzo
+        - yiannisbot
+    default_branch: master
+    description: CONFIDENTIAL
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    visibility: private
   specs:
     archived: false
     branch_protection:
@@ -4294,7 +4410,6 @@ teams:
         - yusefnapora
     privacy: closed
   Alumni:
-    create_default_maintainer: false
     members:
       member:
         - aamnv
@@ -4320,6 +4435,7 @@ teams:
         - JGAntunes
         - jrhea
         - jsoares
+        - julian88110
         - keks
         - kevina
         - kishansagathiya
@@ -4356,7 +4472,6 @@ teams:
         - zuiris
     privacy: closed
   Bifrost:
-    create_default_maintainer: false
     members:
       maintainer:
         - gmasgras
@@ -4440,7 +4555,6 @@ teams:
     parent_team_id: w3dt-stewards
     privacy: closed
   js-libp2p ChainSafe Maintainers:
-    create_default_maintainer: false
     members:
       member:
         - mpetrunic
@@ -4512,7 +4626,6 @@ teams:
         - yusefnapora
     privacy: closed
   rust-libp2p Maintainers:
-    create_default_maintainer: false
     description: Trusted reviewers for merging into rust-libp2p repositories.
     members:
       maintainer:
@@ -4522,7 +4635,6 @@ teams:
         - jxs
         - MarcoPolo
         - thomaseizinger
-    parent_team_id: Repos - Rust
     privacy: closed
   Specs contributors:
     members:
@@ -4542,7 +4654,6 @@ teams:
         - arajasek
         - guseggert
         - Jorropo
-        - julian88110
         - laurentsenta
         - lidel
         - MarcoPolo

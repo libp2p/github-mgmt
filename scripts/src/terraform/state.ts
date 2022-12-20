@@ -9,8 +9,9 @@ import * as cli from '@actions/exec'
 import * as fs from 'fs'
 import * as core from '@actions/core'
 import * as HCL from 'hcl2-parser'
+import * as thisModule from './state'
 
-async function loadState() {
+export async function loadState() {
   let source = ''
   if (env.TF_EXEC === 'true') {
     core.info('Loading state from Terraform state file')
@@ -33,7 +34,7 @@ async function loadState() {
 
 export class State {
   static async New() {
-    return new State(await loadState())
+    return new State(await thisModule.loadState())
   }
 
   private _ignoredProperties: Record<string, string[]> = {}
@@ -76,7 +77,7 @@ export class State {
     if (state.values?.root_module?.resources !== undefined) {
       state.values.root_module.resources = state.values.root_module.resources
         .filter((r: any) => r.mode === 'managed')
-        .filter((r: any) => !this._ignoredTypes.includes(r.type))
+        // .filter((r: any) => !this._ignoredTypes.includes(r.type))
         .map((r: any) => {
           // TODO: remove nested values
           r.values = Object.fromEntries(
@@ -100,13 +101,40 @@ export class State {
     this.setState(source)
   }
 
+  async reset() {
+    this.setState(await thisModule.loadState())
+  }
+
   async refresh() {
     if (env.TF_EXEC === 'true') {
-      await cli.exec(`terraform refresh -lock=${env.TF_LOCK}`, undefined, {
+      await cli.exec(`terraform apply -refresh-only -auto-approve -lock=${env.TF_LOCK}`, undefined, {
         cwd: env.TF_WORKING_DIR
       })
     }
-    this.setState(await loadState())
+    await this.reset()
+  }
+
+  getAllAddresses(): string[] {
+    const addresses = []
+    for (const resourceClass of ResourceConstructors) {
+      const classAddresses = this.getAddresses(resourceClass)
+      addresses.push(...classAddresses)
+    }
+    return addresses
+  }
+
+  getAddresses<T extends Resource>(
+    resourceClass: ResourceConstructor<T>
+  ): string[] {
+    if (ResourceConstructors.includes(resourceClass)) {
+      return (
+        this._state?.values?.root_module?.resources
+          .filter((r: any) => r.type === resourceClass.StateType)
+          .map((r: any) => r.address) || []
+      )
+    } else {
+      throw new Error(`${resourceClass.name} is not supported`)
+    }
   }
 
   getAllResources(): Resource[] {
@@ -126,11 +154,23 @@ export class State {
     }
   }
 
+  isIgnored<T extends Resource>(
+    resourceClass: ResourceConstructor<T>
+  ): boolean {
+    return this._ignoredTypes.includes(resourceClass.StateType)
+  }
+
   async addResource(id: Id, resource: Resource) {
+    await this.addResourceAt(id, resource.getStateAddress().toLowerCase())
+  }
+
+  async addResourceAt(id: Id, address: string) {
     if (env.TF_EXEC === 'true') {
-      const address = resource.getStateAddress().replaceAll('"', '\\"')
       await cli.exec(
-        `terraform import -lock=${env.TF_LOCK} "${address}" "${id}"`,
+        `terraform import -lock=${env.TF_LOCK} "${address.replaceAll(
+          '"',
+          '\\"'
+        )}" "${id}"`,
         undefined,
         {cwd: env.TF_WORKING_DIR}
       )
@@ -138,10 +178,16 @@ export class State {
   }
 
   async removeResource(resource: Resource) {
+    await this.removeResourceAt(resource.getStateAddress().toLowerCase())
+  }
+
+  async removeResourceAt(address: string) {
     if (env.TF_EXEC === 'true') {
-      const address = resource.getStateAddress().replaceAll('"', '\\"')
       await cli.exec(
-        `terraform state rm -lock=${env.TF_LOCK} "${address}"`,
+        `terraform state rm -lock=${env.TF_LOCK} "${address.replaceAll(
+          '"',
+          '\\"'
+        )}"`,
         undefined,
         {cwd: env.TF_WORKING_DIR}
       )
@@ -149,21 +195,19 @@ export class State {
   }
 
   async sync(resources: [Id, Resource][]) {
-    const oldResources = this.getAllResources()
-    for (const resource of oldResources) {
+    const addresses = this.getAllAddresses()
+    for (const address of addresses) {
       if (
         !resources.some(
-          ([_i, r]) => r.getStateAddress() === resource.getStateAddress()
+          ([_, r]) => r.getStateAddress().toLowerCase() === address
         )
       ) {
-        await this.removeResource(resource)
+        await this.removeResourceAt(address)
       }
     }
     for (const [id, resource] of resources) {
       if (
-        !oldResources.some(
-          r => r.getStateAddress() === resource.getStateAddress()
-        )
+        !addresses.some(a => a === resource.getStateAddress().toLowerCase())
       ) {
         await this.addResource(id, resource)
       }
