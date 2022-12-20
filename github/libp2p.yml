@@ -4020,6 +4020,7 @@ repositories:
             - Test rw-stream-sink
           strict: true
     default_branch: master
+    delete_branch_on_merge: true
     description: "The Rust Implementation of the libp2p networking stack. "
     files:
       .github/workflows/stale.yml:
@@ -4066,7 +4067,6 @@ repositories:
       - peer-to-peer
       - rust
     visibility: public
-    delete_branch_on_merge: true
   rust-yamux:
     archived: false
     branch_protection:
