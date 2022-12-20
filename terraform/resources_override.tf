@@ -7,7 +7,6 @@ resource "github_repository" "this" {
       allow_squash_merge,
       archive_on_destroy,
       auto_init,
-      delete_branch_on_merge,
       gitignore_template,
       has_downloads,
       has_issues,
