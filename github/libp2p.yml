@@ -4859,7 +4859,8 @@ teams:
         - yusefnapora
     privacy: closed
   rust-libp2p Maintainers:
-    description: Trusted reviewers for merging into rust-libp2p repositories and publishing to crates.io.
+    description: Trusted reviewers for merging into rust-libp2p repositories and
+      publishing to crates.io.
     members:
       maintainer:
         - mxinden
