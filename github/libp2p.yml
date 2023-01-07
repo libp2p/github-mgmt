@@ -2185,7 +2185,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-openssl:
-    archived: false
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
