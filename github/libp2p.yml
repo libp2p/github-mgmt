@@ -2,6 +2,7 @@
 
 members:
   admin:
+    - andyschwab-admin
     - aschmahmann
     - daviddias
     - galargh
@@ -9,7 +10,6 @@ members:
     - jbenet
     - marten-seemann
     - momack2
-    - protocollabsit
     - raulk
     - Stebalien
     - whyrusleeping
@@ -104,7 +104,6 @@ members:
     - p-shahi
     - petar
     - pipermerriam
-    - protocollabsit-readonly
     - protolambda
     - ralexstokes
     - RichardLitt
@@ -2185,14 +2184,14 @@ repositories:
         - Repos - Go
     visibility: public
   go-openssl:
-    archived: false
+    archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: OpenSSL bindings for Go
+    description: UNMAINTAINED - OpenSSL bindings for Go
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -4357,7 +4356,7 @@ repositories:
                 pull-requests: write
 
               steps:
-              - uses: actions/stale@v6
+              - uses: actions/stale@v7
                 with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
@@ -4857,6 +4856,7 @@ teams:
         - yusefnapora
     privacy: closed
   rust-libp2p Maintainers:
+    create_default_maintainer: false
     description: Trusted reviewers for merging into rust-libp2p repositories and
       publishing to crates.io.
     members:
