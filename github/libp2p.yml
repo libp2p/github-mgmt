@@ -4332,6 +4332,8 @@ repositories:
             - Test libp2p-wasm-ext
             - Test libp2p-websocket
             - Test libp2p-yamux
+            - Test libp2p-quic
+            - Test libp2p-webrtc
             - Test libp2p
             - Test multistream-select
             - Test prost-codec
