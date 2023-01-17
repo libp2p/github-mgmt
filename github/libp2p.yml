@@ -4544,6 +4544,7 @@ repositories:
       push:
         - go-libp2p Maintainers
         - Repos - Go
+        - rust-libp2p Maintainers
     visibility: public
   testlab:
     archived: true
