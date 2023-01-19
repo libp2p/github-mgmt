@@ -4343,6 +4343,7 @@ repositories:
             - Test multistream-select
             - Test prost-codec
             - Test rw-stream-sink
+            - Run testplans test
           strict: true
     default_branch: master
     delete_branch_on_merge: true
