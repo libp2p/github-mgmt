@@ -4309,6 +4309,7 @@ repositories:
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - IPFS Integration tests
+            - Run testplans test
             - rustfmt
             - Test libp2p-autonat
             - Test libp2p-core
@@ -4343,7 +4344,6 @@ repositories:
             - Test multistream-select
             - Test prost-codec
             - Test rw-stream-sink
-            - Run testplans test
           strict: true
     default_branch: master
     delete_branch_on_merge: true
