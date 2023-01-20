@@ -4309,7 +4309,7 @@ repositories:
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - IPFS Integration tests
-            - Run testplans test
+            - Run multidimensional interoperability tests / Run testplans test
             - rustfmt
             - Test libp2p-autonat
             - Test libp2p-core
