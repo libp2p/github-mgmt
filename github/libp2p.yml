@@ -2809,6 +2809,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Cryptographically protected messages using the libp2p keychain
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
@@ -3203,6 +3206,9 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
