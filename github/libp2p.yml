@@ -2801,6 +2801,21 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  js-libp2p-cms:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Cryptographically protected messages using the libp2p keychain
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
+    visibility: public
   js-libp2p-components:
     archived: true
     collaborators:
@@ -3181,13 +3196,17 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-keychain:
-    archived: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
     default_branch: master
     delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
         - Repos - JavaScript
     visibility: public
