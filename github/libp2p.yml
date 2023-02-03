@@ -1474,7 +1474,6 @@ repositories:
           strict: false
     collaborators:
       push:
-        - aarshkshah1992
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
@@ -2802,6 +2801,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Cryptographically protected messages using the libp2p keychain
@@ -3199,6 +3200,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
@@ -4589,9 +4592,6 @@ repositories:
     visibility: public
   website-1:
     archived: true
-    collaborators:
-      push:
-        - DannyS03
     default_branch: master
     delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
