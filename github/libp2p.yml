@@ -4332,8 +4332,7 @@ repositories:
             - Compile on x86_64-pc-windows-msvc
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
-            - Interoperability Testing / Run multidimensional interoperability
-              tests
+            - Run multidimensional interoperability tests
             - IPFS Integration tests
             - rustfmt
             - Test libp2p-autonat
