@@ -51,6 +51,7 @@ members:
     - geoah
     - gmasgras
     - Gozala
+    - guillaumemichel
     - guseggert
     - haadcode
     - hacdias
@@ -83,6 +84,7 @@ members:
     - locotorp
     - magik6k
     - MarcoPolo
+    - maschad
     - masih
     - mbaxter
     - mcamou
@@ -517,11 +519,8 @@ repositories:
     collaborators:
       admin:
         - johnnymatthews
-      maintain:
-        - jennijuju
+      triage:
         - walkerlj0
-      push:
-        - johndmulhausen
     default_branch: master
     delete_branch_on_merge: false
     description: Documentation site for the libp2p project.
@@ -1475,10 +1474,7 @@ repositories:
         required_status_checks:
           strict: false
     collaborators:
-      admin:
-        - yusefnapora
       push:
-        - aarshkshah1992
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
@@ -2801,6 +2797,26 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  js-libp2p-cms:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Cryptographically protected messages using the libp2p keychain
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - Repos - JavaScript
+    visibility: public
   js-libp2p-components:
     archived: true
     collaborators:
@@ -3181,13 +3197,22 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-keychain:
-    archived: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
         - Repos - JavaScript
     visibility: public
@@ -3826,6 +3851,14 @@ repositories:
     visibility: public
   js-libp2p-webtransport:
     archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
     collaborators:
       push:
         - web3-bot
@@ -4300,9 +4333,7 @@ repositories:
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - IPFS Integration tests
-            - run-ping-interop-cross-implementation / Run a test with different
-              versions
-            - run-ping-interop-cross-version / Run a test with different versions
+            - Run multidimensional interoperability tests
             - rustfmt
             - Test libp2p-autonat
             - Test libp2p-core
@@ -4320,6 +4351,7 @@ repositories:
             - Test libp2p-ping
             - Test libp2p-plaintext
             - Test libp2p-pnet
+            - Test libp2p-quic
             - Test libp2p-relay
             - Test libp2p-rendezvous
             - Test libp2p-request-response
@@ -4329,6 +4361,7 @@ repositories:
             - Test libp2p-tls
             - Test libp2p-uds
             - Test libp2p-wasm-ext
+            - Test libp2p-webrtc
             - Test libp2p-websocket
             - Test libp2p-yamux
             - Test libp2p
@@ -4536,6 +4569,7 @@ repositories:
       push:
         - go-libp2p Maintainers
         - Repos - Go
+        - rust-libp2p Maintainers
     visibility: public
   testlab:
     archived: true
@@ -4557,22 +4591,21 @@ repositories:
     visibility: public
   website-1:
     archived: true
-    collaborators:
-      admin:
-        - DannyS03
     default_branch: master
     delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
     visibility: public
   website:
     archived: false
     collaborators:
       admin:
         - momack2
-      maintain:
-        - DannyS03
     default_branch: master
     delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
@@ -4641,7 +4674,6 @@ teams:
         - BigLep
         - Kubuxu
         - mxinden
-        - yusefnapora
     privacy: closed
   Alumni:
     members:
@@ -4712,9 +4744,6 @@ teams:
         - hsanjuan
         - mcamou
         - thattommyhall
-      member:
-        - dharmapunk82
-        - KarolKozlowski
     privacy: closed
   ci:
     description: ci
@@ -4740,12 +4769,9 @@ teams:
   docs:
     members:
       maintainer:
-        - DannyS03
-        - momack2
+        - p-shahi
       member:
-        - jchris
-        - walkerlj0
-        - yusefnapora
+        - DannyS03
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
@@ -4835,13 +4861,12 @@ teams:
         - momack2
       member:
         - achingbrain
-        - hugomrdias
         - lidel
+        - maschad
         - mpetrunic
         - SgtPooki
         - vasco-santos
         - wemeetagain
-        - yusefnapora
     privacy: closed
   Repos - Rust:
     description: "In Rust we tRust "
@@ -4884,8 +4909,6 @@ teams:
         - Stebalien
       member:
         - achingbrain
-        - ajnavarro
-        - arajasek
         - guseggert
         - Jorropo
         - laurentsenta
@@ -4893,5 +4916,4 @@ teams:
         - MarcoPolo
         - mxinden
         - p-shahi
-        - tinytb
     privacy: closed
