@@ -4325,7 +4325,6 @@ repositories:
         required_status_checks:
           contexts:
             - Check rustdoc intra-doc links
-            - clippy (stable)
             - Compile on wasm32-unknown-emscripten
             - Compile on wasm32-unknown-unknown
             - Compile on wasm32-wasi
