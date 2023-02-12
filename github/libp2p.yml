@@ -1000,7 +1000,6 @@ repositories:
           restrict_dismissals: false
     collaborators:
       push:
-        - mvdan
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
