@@ -4106,6 +4106,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+        - marcopolo
+        - p-shahi
     default_branch: master
     delete_branch_on_merge: false
     description: Install go-libp2p-daemon via npm
