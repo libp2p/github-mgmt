@@ -24,4 +24,4 @@ jobs:
             docs
             deps
             test
-          requre_scope: false
+          requireScope: false
