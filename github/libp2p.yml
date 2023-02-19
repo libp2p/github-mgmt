@@ -4106,7 +4106,7 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-        - marcopolo
+        - MarcoPolo
         - p-shahi
     default_branch: master
     delete_branch_on_merge: false
