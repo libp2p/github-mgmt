@@ -4044,6 +4044,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Benchmarks in function of the WebRTC transport implementation for libp2p-go
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     teams:
       admin:
         - Admin
