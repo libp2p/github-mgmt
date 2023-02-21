@@ -24,4 +24,6 @@ jobs:
             docs
             deps
             test
+            refactor
+            ci
           requireScope: false
