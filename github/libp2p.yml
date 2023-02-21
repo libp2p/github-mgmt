@@ -4035,6 +4035,24 @@ repositories:
       push:
         - Repos - Java
     visibility: public
+  libp2p-go-webrtc-benchmarks:
+    archived: false
+    collaborators:
+      admin:
+        - GlenDC
+        - marten-seemann
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Benchmarks in function of the WebRTC transport implementation for libp2p-go
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    teams:
+      admin:
+        - Admin
+      push:
+        - go-libp2p Maintainers
+    visibility: public
   libp2p:
     archived: false
     default_branch: master
@@ -4491,6 +4509,8 @@ repositories:
         - p-shahi
         - raulk
         - Stebalien
+      maintain:
+        - alain2sf
       push:
         - vyzo
         - yiannisbot
