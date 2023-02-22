@@ -2067,6 +2067,8 @@ repositories:
     delete_branch_on_merge: false
     description: libp2p implementation in Go
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -4468,6 +4470,8 @@ repositories:
     delete_branch_on_merge: true
     description: "The Rust Implementation of the libp2p networking stack. "
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: >
           name: Close and mark stale issue
