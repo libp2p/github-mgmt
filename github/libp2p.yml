@@ -4461,7 +4461,7 @@ repositories:
             - Test libp2p-yamux
             - Test libp2p
             - Test multistream-select
-            - Test quick-protobuf-codec
+            - Test prost-codec
             - Test rw-stream-sink
           strict: true
     default_branch: master
