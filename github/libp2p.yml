@@ -2770,6 +2770,8 @@ repositories:
     delete_branch_on_merge: true
     description: Rail a libp2p node through a bootstrap peer list
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -2807,6 +2809,8 @@ repositories:
     delete_branch_on_merge: false
     description: Cryptographically protected messages using the libp2p keychain
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -2891,6 +2895,8 @@ repositories:
     delete_branch_on_merge: true
     description: The libp2p crypto primitives, for Node.js and the Browser!
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -2909,6 +2915,8 @@ repositories:
     delete_branch_on_merge: true
     description: A js daemon client to interact with a libp2p daemon
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -2938,6 +2946,8 @@ repositories:
     delete_branch_on_merge: true
     description: A js-libp2p backed daemon
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -2957,6 +2967,8 @@ repositories:
     delete_branch_on_merge: true
     description: Leverage other peers in the network to perform Content Routing calls.
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -2975,6 +2987,8 @@ repositories:
     delete_branch_on_merge: true
     description: Leverage other peers in the network to perform Peer Routing calls.
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3049,6 +3063,8 @@ repositories:
       pubsub focused on delivering an API for Publish/Subscribe, but with no
       CastTree Forming (it just floods the network).
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3084,6 +3100,8 @@ repositories:
     description: Contains test suites and interfaces you can use to implement the
       various components of js libp2p.
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3102,6 +3120,8 @@ repositories:
     delete_branch_on_merge: true
     description: JavaScript implementation of the DHT for libp2p
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3206,6 +3226,8 @@ repositories:
     delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3224,6 +3246,8 @@ repositories:
     delete_branch_on_merge: true
     description: A logging component for use in js-libp2p modules
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3242,6 +3266,8 @@ repositories:
     delete_branch_on_merge: true
     description: libp2p MulticastDNS Peer Discovery
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3260,6 +3286,8 @@ repositories:
     delete_branch_on_merge: false
     description: Extendable implementation of @libp2p/interface-metrics
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     visibility: public
@@ -3272,6 +3300,8 @@ repositories:
     delete_branch_on_merge: true
     description: JavaScript implementation of https://github.com/libp2p/mplex
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3290,6 +3320,8 @@ repositories:
     delete_branch_on_merge: true
     description: JavaScript implementation of multistream-select
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3306,6 +3338,8 @@ repositories:
     description: NAT manager that allows handling different aspects of NAT traversal
       in libp2p.
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3324,6 +3358,8 @@ repositories:
     delete_branch_on_merge: true
     description: Store values against a peer id
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3342,6 +3378,8 @@ repositories:
     delete_branch_on_merge: true
     description: libp2p PeerId implementation in JavaScript
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3360,6 +3398,8 @@ repositories:
     delete_branch_on_merge: true
     description: Used to transfer signed peer data across the network
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3378,6 +3418,8 @@ repositories:
     delete_branch_on_merge: true
     description: Stores information about peers libp2p knows on the network
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3429,6 +3471,8 @@ repositories:
     delete_branch_on_merge: true
     description: Collect libp2p metrics for scraping by Prometheus
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3446,6 +3490,8 @@ repositories:
     delete_branch_on_merge: true
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3464,6 +3510,8 @@ repositories:
     delete_branch_on_merge: true
     description: Pubsub base protocol for libp2p pubsub routers
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3482,6 +3530,8 @@ repositories:
     delete_branch_on_merge: true
     description: Implementation of go-libp2p-record in JavaScript
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3498,6 +3548,8 @@ repositories:
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3514,6 +3566,8 @@ repositories:
     delete_branch_on_merge: false
     description: A javascript implementation of the rendezvous protocol for libp2p
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3594,6 +3648,8 @@ repositories:
     description: JavaScript implementation of the TCP module that libp2p uses that
       implements the interface-transport spec
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3612,6 +3668,8 @@ repositories:
     delete_branch_on_merge: true
     description: libp2p network topology
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3630,6 +3688,8 @@ repositories:
     delete_branch_on_merge: true
     description: Allows tracking of statistics while libp2p is running
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3646,6 +3706,8 @@ repositories:
     description: Node.js implementation of the UDP module that libp2p uses, which
       implements the abstract-transport interface
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3662,6 +3724,8 @@ repositories:
     description: Node.js implementation of the UDT module that libp2p uses, which
       implements the abstract-transport interface
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3680,6 +3744,8 @@ repositories:
     delete_branch_on_merge: true
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3697,6 +3763,8 @@ repositories:
     delete_branch_on_merge: false
     description: uTP module libp2p uses. Implements the interface-transport spec
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3779,6 +3847,8 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3839,6 +3909,8 @@ repositories:
     description: "WebSockets module that libp2p uses and that implements the
       interface-transport spec "
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3866,6 +3938,8 @@ repositories:
     description: "WebTranport module that libp2p uses and that implements the
       interface-transport spec "
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
@@ -3884,6 +3958,8 @@ repositories:
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     teams:
