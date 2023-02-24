@@ -115,6 +115,7 @@ members:
     - romanb
     - SgtPooki
     - snazha-blkio
+    - StefanBratanov
     - stongo
     - stuckinaboot
     - thattommyhall
@@ -4107,6 +4108,7 @@ repositories:
     teams:
       admin:
         - Admin
+        - Nashatyrev
         - w3dt-stewards
       push:
         - Repos - Java
