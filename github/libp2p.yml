@@ -4099,6 +4099,9 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: false
+    collaborators:
+      admin:
+        - Nashatyrev
     default_branch: develop
     delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
@@ -4108,7 +4111,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - Nashatyrev
         - w3dt-stewards
       push:
         - Repos - Java
