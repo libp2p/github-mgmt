@@ -117,6 +117,7 @@ members:
     - snazha-blkio
     - stongo
     - stuckinaboot
+    - sukunrt
     - thattommyhall
     - thomaseizinger
     - tinytb
@@ -4100,6 +4101,11 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: false
+    collaborators:
+      admin:
+        - Nashatyrev
+      push:
+        - StefanBratanov
     default_branch: develop
     delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
@@ -4945,6 +4951,7 @@ teams:
         - MarcoPolo
         - masih
         - petar
+        - sukunrt
         - vyzo
         - willscott
         - yusefnapora
