@@ -117,6 +117,7 @@ members:
     - snazha-blkio
     - stongo
     - stuckinaboot
+    - sukunrt
     - thattommyhall
     - thomaseizinger
     - tinytb
@@ -4941,6 +4942,7 @@ teams:
         - MarcoPolo
         - masih
         - petar
+        - sukunrt
         - vyzo
         - willscott
         - yusefnapora
