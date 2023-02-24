@@ -115,7 +115,6 @@ members:
     - romanb
     - SgtPooki
     - snazha-blkio
-    - StefanBratanov
     - stongo
     - stuckinaboot
     - thattommyhall
@@ -4102,6 +4101,8 @@ repositories:
     collaborators:
       admin:
         - Nashatyrev
+      push:
+        - StefanBratanov
     default_branch: develop
     delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
