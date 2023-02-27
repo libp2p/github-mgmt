@@ -4476,6 +4476,8 @@ repositories:
     delete_branch_on_merge: true
     description: "The Rust Implementation of the libp2p networking stack. "
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: >
           name: Close and mark stale issue
