@@ -117,6 +117,7 @@ members:
     - snazha-blkio
     - stongo
     - stuckinaboot
+    - sukunrt
     - thattommyhall
     - thomaseizinger
     - tinytb
@@ -4098,6 +4099,11 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: false
+    collaborators:
+      admin:
+        - Nashatyrev
+      push:
+        - StefanBratanov
     default_branch: develop
     delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
@@ -4202,6 +4208,8 @@ repositories:
         - achingbrain
         - MarcoPolo
         - p-shahi
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Install go-libp2p-daemon via npm
@@ -4415,7 +4423,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
-          required_approving_review_count: 1
+          required_approving_review_count: 0
           restrict_dismissals: false
         required_status_checks:
           contexts:
@@ -4468,6 +4476,8 @@ repositories:
     delete_branch_on_merge: true
     description: "The Rust Implementation of the libp2p networking stack. "
     files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: >
           name: Close and mark stale issue
@@ -4939,6 +4949,7 @@ teams:
         - MarcoPolo
         - masih
         - petar
+        - sukunrt
         - vyzo
         - willscott
         - yusefnapora
