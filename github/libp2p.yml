@@ -14,6 +14,7 @@ members:
     - Stebalien
     - whyrusleeping
   member:
+    - 2color
     - aamnv
     - aarshkshah1992
     - achingbrain
@@ -119,6 +120,7 @@ members:
     - stuckinaboot
     - sukunrt
     - thattommyhall
+    - TheDiscordian
     - thomaseizinger
     - tinytb
     - tomaka
@@ -5025,4 +5027,12 @@ teams:
         - MarcoPolo
         - mxinden
         - p-shahi
+    privacy: closed
+  community:
+    description: Developer advocates, community engineers, and other people that need
+      write privs.
+    members:
+      maintainer:
+        - 2color
+        - TheDiscordian
     privacy: closed
