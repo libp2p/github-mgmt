@@ -4860,6 +4860,14 @@ teams:
       member:
         - ipfsbot
     privacy: closed
+  community:
+    description: Developer advocates, community engineers, and other people that
+      need write privs.
+    members:
+      maintainer:
+        - 2color
+        - TheDiscordian
+    privacy: closed
   contributors:
     members:
       member:
@@ -5027,12 +5035,4 @@ teams:
         - MarcoPolo
         - mxinden
         - p-shahi
-    privacy: closed
-  community:
-    description: Developer advocates, community engineers, and other people that need
-      write privs.
-    members:
-      maintainer:
-        - 2color
-        - TheDiscordian
     privacy: closed
