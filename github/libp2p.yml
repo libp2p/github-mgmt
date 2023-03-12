@@ -4213,7 +4213,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Install go-libp2p-daemon via npm
     files:
       .github/workflows/stale.yml:
@@ -4667,7 +4667,7 @@ repositories:
         - laurentsenta
     default_branch: master
     delete_branch_on_merge: false
-    description: Testground testplans for libp2p
+    description: Interoperability tests for libp2p
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -4679,6 +4679,12 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - rust-libp2p Maintainers
+    topics:
+      - go
+      - js
+      - libp2p
+      - nim
+      - rust
     visibility: public
   testlab:
     archived: true
@@ -4697,6 +4703,14 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
+    visibility: public
+  universal-connectivity:
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
     visibility: public
   website-1:
     archived: true
@@ -4861,6 +4875,7 @@ teams:
         - ipfsbot
     privacy: closed
   community:
+    create_default_maintainer: false
     description: Developer advocates, community engineers, and other people that
       need write privs.
     members:
