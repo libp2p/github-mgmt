@@ -4708,8 +4708,8 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - p-shahi
         - 2color
+        - p-shahi
     default_branch: main
     delete_branch_on_merge: false
     visibility: public
