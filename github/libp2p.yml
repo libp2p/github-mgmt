@@ -3545,7 +3545,7 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-relay-server:
-    archived: false
+    archived: true
     default_branch: main
     delete_branch_on_merge: false
     description: An out of the box libp2p relay server implementing v1 of circuit
@@ -4710,6 +4710,8 @@ repositories:
       admin:
         - 2color
         - p-shahi
+      maintain:
+        - TheDiscordian
     default_branch: main
     delete_branch_on_merge: false
     visibility: public
@@ -4882,6 +4884,7 @@ teams:
     members:
       maintainer:
         - 2color
+      member:
         - TheDiscordian
     privacy: closed
   contributors:
