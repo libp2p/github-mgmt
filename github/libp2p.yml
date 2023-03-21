@@ -4441,7 +4441,7 @@ repositories:
             - Ensure that `Cargo.lock` is up-to-date
             - IPFS Integration tests
             - Run multidimensional interoperability tests
-            - Test libp2p
+            - rustfmt
             - Test libp2p-allow-block-list
             - Test libp2p-autonat
             - Test libp2p-connection-limits
@@ -4465,9 +4465,9 @@ repositories:
             - Test libp2p-relay
             - Test libp2p-rendezvous
             - Test libp2p-request-response
-            - Test libp2p-swarm
             - Test libp2p-swarm-derive
             - Test libp2p-swarm-test
+            - Test libp2p-swarm
             - Test libp2p-tcp
             - Test libp2p-tls
             - Test libp2p-uds
@@ -4475,10 +4475,10 @@ repositories:
             - Test libp2p-webrtc
             - Test libp2p-websocket
             - Test libp2p-yamux
+            - Test libp2p
             - Test multistream-select
             - Test quick-protobuf-codec
             - Test rw-stream-sink
-            - rustfmt
           strict: true
     default_branch: master
     delete_branch_on_merge: true
