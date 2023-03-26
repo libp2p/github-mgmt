@@ -1331,6 +1331,7 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+        - kubo maintainers
       push:
         - Repos - Go
     topics:
@@ -4717,7 +4718,7 @@ repositories:
         - 2color
         - p-shahi
       maintain:
-        - TheDiscordian
+        - maschad
     default_branch: main
     delete_branch_on_merge: false
     visibility: public
