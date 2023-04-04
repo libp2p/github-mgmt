@@ -24,6 +24,7 @@ members:
     - ajsutton
     - alanshaw
     - AlanSl
+    - alain2sf
     - alexh
     - andrew
     - andyschwab
@@ -5069,6 +5070,7 @@ teams:
         - Stebalien
       member:
         - achingbrain
+        - alain2sf
         - guillaumemichel
         - guseggert
         - Jorropo
