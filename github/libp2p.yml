@@ -22,6 +22,7 @@ members:
     - AgeManning
     - ajnavarro
     - ajsutton
+    - alain2sf
     - alanshaw
     - AlanSl
     - alexh
@@ -5070,6 +5071,7 @@ teams:
         - Stebalien
       member:
         - achingbrain
+        - alain2sf
         - dhuseby
         - guillaumemichel
         - guseggert
