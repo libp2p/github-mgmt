@@ -38,6 +38,7 @@ members:
     - DannyS03
     - dennis-tra
     - dharmapunk82
+    - dhuseby
     - dignifiedquire
     - dirkmc
     - dryajov
@@ -5069,6 +5070,7 @@ teams:
         - Stebalien
       member:
         - achingbrain
+        - dhuseby
         - guillaumemichel
         - guseggert
         - Jorropo
