@@ -4723,6 +4723,7 @@ repositories:
         - maschad
         - mxinden
       push:
+        - jochasinga
         - TheDiscordian
     default_branch: main
     delete_branch_on_merge: false
