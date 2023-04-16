@@ -2732,6 +2732,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Use an IPNI service to discover content providers
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   js-iprs-record:
     archived: true
@@ -4066,6 +4069,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Use a Reframe service to discover content providers
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     visibility: public
   js-spdy-stream-muxer:
     archived: true
