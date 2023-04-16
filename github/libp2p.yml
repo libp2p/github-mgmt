@@ -39,7 +39,6 @@ members:
     - DannyS03
     - dennis-tra
     - dharmapunk82
-    - dhuseby
     - dignifiedquire
     - dirkmc
     - dryajov
@@ -2725,6 +2724,15 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     visibility: public
+  js-ipni-content-routing:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Use an IPNI service to discover content providers
+    visibility: public
   js-iprs-record:
     archived: true
     branch_protection:
@@ -4050,6 +4058,15 @@ repositories:
       push:
         - Repos - JavaScript
     visibility: public
+  js-reframe-content-routing:
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Use a Reframe service to discover content providers
+    visibility: public
   js-spdy-stream-muxer:
     archived: true
     branch_protection:
@@ -5072,7 +5089,6 @@ teams:
       member:
         - achingbrain
         - alain2sf
-        - dhuseby
         - guillaumemichel
         - guseggert
         - Jorropo
