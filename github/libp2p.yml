@@ -4465,10 +4465,10 @@ repositories:
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - Ensure that `Cargo.lock` is up-to-date
+            - examples
             - IPFS Integration tests
             - Run multidimensional interoperability tests
             - rustfmt
-            - examples
             - Test libp2p-allow-block-list
             - Test libp2p-autonat
             - Test libp2p-connection-limits
