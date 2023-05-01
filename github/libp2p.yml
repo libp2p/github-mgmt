@@ -39,6 +39,7 @@ members:
     - DannyS03
     - dennis-tra
     - dharmapunk82
+    - dhuseby
     - dignifiedquire
     - dirkmc
     - dryajov
@@ -176,6 +177,7 @@ repositories:
     collaborators:
       admin:
         - p-shahi
+        - dhuseby
     default_branch: main
     delete_branch_on_merge: false
     description: Blog site for the libp2p project.
@@ -4623,6 +4625,7 @@ repositories:
       admin:
         - aschmahmann
         - BigLep
+        - dhuseby
         - galargh
         - jacobheun
         - marten-seemann
@@ -4835,6 +4838,7 @@ teams:
         - raulk
       member:
         - BigLep
+        - dhuseby
         - Kubuxu
         - mxinden
     privacy: closed
@@ -4960,6 +4964,7 @@ teams:
       maintainer:
         - aschmahmann
         - BigLep
+        - dhuseby
         - marten-seemann
         - mxinden
       member:
@@ -5096,6 +5101,7 @@ teams:
       member:
         - achingbrain
         - alain2sf
+        - dhuseby
         - guillaumemichel
         - guseggert
         - Jorropo
