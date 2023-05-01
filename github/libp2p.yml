@@ -4389,7 +4389,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   repl:
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
