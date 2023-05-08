@@ -20,7 +20,7 @@ members:
     - galargh
 ```
 
-I push my changes to a new branch and create a PR. An admin reviews the PR and merges it if everything looks OK.
+I push my changes to a new branch and create a PR. An admin reviews the PR and merges it if everything looks OK. **NOTE**: newly added members to a resource will recive an invitation in their inbox on Github and they must accept the inviation before their newly granted capabilities become active.
 
 ### ...modify an existing resource?
 
