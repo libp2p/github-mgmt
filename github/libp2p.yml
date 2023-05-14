@@ -2537,7 +2537,7 @@ repositories:
         - w3dt-stewards
     visibility: public
   hydra-booster-infra:
-    archived: false
+    archived: true
     collaborators:
       admin:
         - guseggert
@@ -2731,6 +2731,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Use an IPNI service to discover content providers
@@ -4068,6 +4070,8 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Use a Reframe service to discover content providers
@@ -4451,7 +4455,7 @@ repositories:
         require_signed_commits: false
         required_linear_history: false
         required_pull_request_reviews:
-          dismiss_stale_reviews: true
+          dismiss_stale_reviews: false
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
