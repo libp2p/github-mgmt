@@ -145,17 +145,28 @@ members:
     - zuiris
 repositories:
   .github:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   awesome-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -163,6 +174,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -173,6 +191,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   blog:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -184,6 +204,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -201,6 +228,8 @@ repositories:
       - type-website
     visibility: public
   community:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -208,18 +237,29 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   cpp-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       develop:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: true
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -233,12 +273,16 @@ repositories:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: true
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
+          pull_request_bypassers:
+            - libp2p/libp2p-mgmt-read-write
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
@@ -250,6 +294,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -260,6 +311,8 @@ repositories:
       - libp2p
     visibility: public
   cs-libp2p-crypto:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -267,12 +320,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   cs-libp2p-io:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -280,12 +342,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   cs-libp2p-peer:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -293,12 +364,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   cs-libp2p-protocol:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -306,12 +386,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   cs-libp2p-record:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -319,12 +408,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   cs-libp2p-utils:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -332,12 +430,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   demo-multi-lang:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -345,6 +452,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -366,6 +480,8 @@ repositories:
       - tutorial
     visibility: public
   developer-meetings:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -373,6 +489,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -386,6 +509,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   devgrants:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -394,6 +519,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -405,6 +537,8 @@ repositories:
       - networking
     visibility: public
   dht-hardening:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -415,28 +549,53 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: private
   dht-tracer-archived:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   dht-tracer:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -446,6 +605,8 @@ repositories:
         - Repos - Go
     visibility: public
   dht-tracer1:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -457,11 +618,20 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   dht-utils:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -472,22 +642,40 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   dht-vis-v0:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   docs-old:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -495,18 +683,29 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   docs:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: true
         enforce_admins: false
+        lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjI1NDk3MDgz
           - MDQ6VXNlcjk2MTEwMDg=
@@ -533,6 +732,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -555,10 +761,19 @@ repositories:
       - type-website
     visibility: public
   fclibp2p-zhi:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
     description: New Issues for filecoin<=>libp2p deps workspace
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -568,12 +783,16 @@ repositories:
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -599,6 +818,13 @@ repositories:
           # The github-mgmt stewards team is responsible for triaging/reviewing configuration change requests
           # The ipdx team is added here temporarily to witness use patterns in github-mgmt
           /github/libp2p.yml @libp2p/github-mgmt-stewards @libp2p/ipdx
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
       maintain:
@@ -609,14 +835,18 @@ repositories:
       - ipdx
     visibility: public
   go-addr-util:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Address utilities for libp2p swarm
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -626,6 +856,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-buffer-pool:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -635,6 +867,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -644,6 +883,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-cidranger:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -654,6 +895,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -665,6 +913,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-composable-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -677,11 +927,20 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   go-conn-security-multistream:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -690,8 +949,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Multiplexed secure transport module for go-libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -701,6 +962,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-conn-security:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -708,9 +971,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Interfaces for securing libp2p connections; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -719,6 +984,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-doh-resolver:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -731,6 +998,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -741,13 +1015,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-eventbus:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a simple and fast eventbus for type-based local event delivery.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -757,6 +1035,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-flow-metrics:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -766,6 +1046,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -775,6 +1062,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-asn-util:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -786,6 +1075,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -795,20 +1091,28 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-asn:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - aarshkshah1992
     default_branch: feat/init
-    delete_branch_on_merge: false
     description: ASN lookup library for IPv4 and IPv6 addresses.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     visibility: private
   go-libp2p-autonat-svc:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] AutoNAT Service implementation -- use
       github.com/libp2p/go-libp2p-autonat"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -822,6 +1126,8 @@ repositories:
       - nat
     visibility: public
   go-libp2p-autonat:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -829,8 +1135,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: "DEPRECATED: NAT Autodiscovery"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -843,6 +1151,8 @@ repositories:
       - nat
     visibility: public
   go-libp2p-backoff:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -853,6 +1163,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -860,14 +1177,18 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   go-libp2p-blankhost:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: The thinnest possible host implementation.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -877,6 +1198,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-certbot:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -888,6 +1211,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Admin
@@ -895,25 +1225,33 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-libp2p-circuit-progs:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - vyzo
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Simple testing programs for go-libp2p-circuit"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
     visibility: public
   go-libp2p-circuit:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Circuit Switching for libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -924,13 +1262,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-conn:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A package for libp2p connections"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -939,14 +1281,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-connmgr:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a resource sentinel that keeps connection count under reasonable bounds
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -956,6 +1302,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-consensus:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -966,6 +1314,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -975,6 +1330,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-coral-dht:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -983,19 +1340,25 @@ repositories:
         - carospiegly
         - web3-bot
     default_branch: wip
-    delete_branch_on_merge: false
     description: golang implementation of the CoralDHT protocol
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   go-libp2p-core:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1008,8 +1371,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Interfaces and abstractions that make up go-libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1022,14 +1387,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-crypto:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Various cryptographic utilities used by libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1038,6 +1407,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-daemon:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -1051,6 +1422,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1060,13 +1438,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-discovery:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: "Active Peer Discovery "
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1076,13 +1458,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-dummy-conn:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] implementation of go-libp2p-interface-conn"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1091,14 +1477,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-examples:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Example libp2p applications
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1107,12 +1497,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-gorpc:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1129,6 +1523,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1138,12 +1539,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-gostream:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1163,6 +1568,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1172,6 +1584,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-holepunch-test:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: main
     delete_branch_on_merge: false
@@ -1179,19 +1593,30 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: private
   go-libp2p-host:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] The host interface for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1200,12 +1625,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-http:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1222,6 +1651,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1236,14 +1672,18 @@ repositories:
       - libp2p
     visibility: public
   go-libp2p-identify:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED. Lives in
       github.com/libp2p/go-libp2p/blob/master/p2p/protocol/identify.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1252,13 +1692,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-interface-conn:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] An interface for libp2p connection objects"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1267,14 +1711,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-interface-connmgr:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] The interface for go-libp2p connection managers; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1283,14 +1731,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-interface-pnet:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Interface for restricting communication to private
       networks; use https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1299,6 +1751,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-introspector:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1309,6 +1763,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1318,6 +1779,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-kad-dht:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1328,6 +1791,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1344,6 +1814,8 @@ repositories:
       - libp2p
     visibility: public
   go-libp2p-kbucket:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1354,6 +1826,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1363,13 +1842,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-loggables:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: logging helpers for go-libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1379,14 +1862,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-metrics:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A connection wrapper for go-libp2p that provides
       bandwidth metrics; use https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1395,14 +1882,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-mplex:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: adaptor to integrate the mplex multiplexer into libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1412,14 +1903,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-nat:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: NAT port mapping library for go-libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1430,14 +1925,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-net:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Network interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1446,14 +1945,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-netutil:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Utility methods for creating public and private keys for use in test
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1463,12 +1966,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-noise:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1483,8 +1990,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a secure channel for go-libp2p based on the Noise protocol framework
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1497,6 +2006,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-peer:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -1504,9 +2015,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] PKI based identities for use in go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1515,12 +2028,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-peerstore:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1539,8 +2056,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: an object to manage sets of peers, their addresses and other metadata
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1551,13 +2070,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-ping:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: Go libp2p ping protocol implementation
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1566,14 +2089,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pnet:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of go-libp2p-interface-pnet
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1583,14 +2110,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-protocol:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Just a type for protocol strings. Nothing more; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1599,13 +2130,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pubsub-DEPRECATED:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: PubSub interface for go-libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1614,6 +2149,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pubsub-router:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1623,6 +2160,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1633,6 +2177,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-pubsub-tracer:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -1645,6 +2191,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - go-libp2p Maintainers
@@ -1652,12 +2205,16 @@ repositories:
         - w3dt-stewards
     visibility: public
   go-libp2p-pubsub:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1677,6 +2234,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1687,6 +2251,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-quic-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -1695,8 +2261,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using QUIC
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1711,6 +2279,8 @@ repositories:
       - quic
     visibility: public
   go-libp2p-raft:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -1723,6 +2293,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1732,6 +2309,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-record:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1742,6 +2321,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1751,6 +2337,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-relay-daemon:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1762,6 +2350,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -1770,6 +2365,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -1777,6 +2374,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1786,6 +2390,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-resource-manager:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -1793,8 +2399,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of the libp2p network resource manager interface
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - w3dt-stewards
@@ -1804,6 +2412,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-routing-helpers:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1813,6 +2423,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1822,14 +2439,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] a collection of routing interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1838,13 +2459,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-secio:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: a minimal secure channel for libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1853,6 +2478,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-slog:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: main
     delete_branch_on_merge: false
@@ -1860,20 +2487,31 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   go-libp2p-swarm:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: The libp2p swarm manages groups of connections to peers, and
       handles incoming and outgoing streams
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1884,6 +2522,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-testing:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -1894,6 +2534,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -1905,6 +2552,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-tls:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -1913,8 +2562,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: go-libp2p's TLS encrypted transport
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1925,6 +2576,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-transport-upgrader:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -1932,7 +2585,9 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1943,15 +2598,19 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] libp2p transport code; moved to
       https://github.com/libp2p/go-libp2p-core/ and
       https://github.com/libp2p/go-libp2p-testing/"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -1960,12 +2619,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-webrtc-direct:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -1978,13 +2641,15 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: A libp2p transport that enables browser-to-server, and
       server-to-server, direct communication over WebRTC without requiring
       signalling servers
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - w3dt-stewards
@@ -2000,6 +2665,8 @@ repositories:
       - webrtc
     visibility: public
   go-libp2p-websocket-star-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -2007,6 +2674,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2016,6 +2690,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-xor:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2028,6 +2704,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2037,13 +2720,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-yamux:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2053,12 +2740,16 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -2076,6 +2767,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2090,14 +2788,18 @@ repositories:
       - p2p
     visibility: public
   go-maddr-filter:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A library for filtering multiaddrs; please use
       https://github.com/multiformats/go-multiaddr"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2106,6 +2808,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-mplex:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2116,6 +2820,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2125,6 +2836,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-msgio:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2136,6 +2849,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2145,6 +2865,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-nat:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2156,6 +2878,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2165,6 +2894,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-netroute:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2175,6 +2906,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2186,17 +2924,21 @@ repositories:
         - Repos - Go
     visibility: public
   go-openssl:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: UNMAINTAINED - OpenSSL bindings for Go
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2208,13 +2950,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-peerstream:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] P2P stream multi-multiplexing in Go "
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2223,14 +2969,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-reuseport-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: A basic transport for automatically (and intelligently) reusing TCP ports
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2240,6 +2990,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-reuseport:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2250,6 +3002,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2260,6 +3019,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-routing-language:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2274,11 +3035,20 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   go-smart-record:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2291,6 +3061,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -2299,14 +3076,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-sockaddr:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED - Go Sockaddr -> RawSockaddr conversions
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2316,6 +3097,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-socket-activation:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2326,6 +3109,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2335,6 +3125,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-src-select:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -2343,8 +3135,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: With destination address, select the source address from kernel
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2353,6 +3147,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-stream-muxer-multistream:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -2361,8 +3157,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: multistream implementation of go-stream-muxer
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2372,6 +3170,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-stream-muxer:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -2380,9 +3180,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] stream multiplexer interface; use
       https://github.com/libp2p/go-libp2p-core/ instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2391,14 +3193,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-tcp-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using tcp
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2409,14 +3215,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-testutil:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A collection of testing utilities for ipfs and
       libp2p; use https://github.com/libp2p/go-libp2p-testing instead."
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2425,6 +3235,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-udp-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -2432,6 +3244,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2441,14 +3260,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-utp-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using utp
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2457,14 +3280,18 @@ repositories:
         - Repos - Go
     visibility: public
   go-ws-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a websocket implementation of a go-libp2p transport
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2475,13 +3302,17 @@ repositories:
         - Repos - Go
     visibility: public
   go-xtp:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2490,6 +3321,8 @@ repositories:
         - Repos - Go
     visibility: public
   go-yamux:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -2499,6 +3332,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2509,6 +3349,8 @@ repositories:
         - Repos - Go
     visibility: public
   gossipsub-hardening:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2519,11 +3361,20 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   haskell-p2pcat:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -2531,22 +3382,33 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   hydra-booster-infra:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - guseggert
     default_branch: main
-    delete_branch_on_merge: false
     description: Infrastructure for Hydra Boosters
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2556,6 +3418,8 @@ repositories:
         - Repos - Go
     visibility: public
   hydra-booster:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2570,6 +3434,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -2583,14 +3454,18 @@ repositories:
       - scalability
     visibility: public
   interface-connection:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-connection is now included in
       https://github.com/libp2p/js-interfaces"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2598,11 +3473,15 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-content-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
       https://github.com/libp2p/js-interfaces"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2610,6 +3489,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -2617,17 +3498,28 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   interface-peer-discovery:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
       https://github.com/libp2p/js-interfaces"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2635,14 +3527,18 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-peer-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-routing is now included in
       https://github.com/libp2p/js-interfaces"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2650,14 +3546,18 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-record-store:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: deprecated in favor of
       https://github.com/ipfs/interface-datastore"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2665,14 +3565,18 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-stream-muxer:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in
       https://github.com/libp2p/js-interfaces"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2680,14 +3584,18 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interface-transport:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-transport is now included in
       https://github.com/libp2p/js-interfaces"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2695,6 +3603,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   interop:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -2705,6 +3615,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2715,6 +3632,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   ipfs-camp-2022:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2725,8 +3644,17 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-ipni-content-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2739,14 +3667,25 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-iprs-record:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjc5MDg0Mg==
           - MDQ6VXNlcjcyOTUwNzE=
@@ -2774,8 +3713,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: JavaScript IPFS record class implementation
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2783,6 +3724,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-bootstrap:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -2795,6 +3738,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2805,14 +3755,18 @@ repositories:
       - libp2p
     visibility: public
   js-libp2p-circuit:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - dryajov
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2820,6 +3774,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-cms:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2834,6 +3790,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2842,16 +3805,20 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-components:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Container for libp2p components
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2860,10 +3827,14 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-connection-manager:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2878,16 +3849,20 @@ repositories:
       - resource-manager
     visibility: public
   js-libp2p-connection:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: JS Libp2p connections
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2896,11 +3871,15 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-crypto-secp256k1:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
       https://github.com/libp2p/js-libp2p-crypto"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -2908,6 +3887,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-crypto:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -2920,6 +3901,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2928,6 +3916,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-daemon-client:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -2940,6 +3930,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -2947,18 +3944,24 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-daemon-protocol:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - achingbrain
     default_branch: master
-    delete_branch_on_merge: false
     description: Protocol for communication between libp2p-daemon and libp2p-client
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     visibility: public
   js-libp2p-daemon:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -2971,6 +3974,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -2980,6 +3990,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-delegated-content-routing:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -2992,6 +4004,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3000,6 +4019,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-delegated-peer-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3012,6 +4033,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3020,12 +4048,16 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-distributed-record-store:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjc5MDg0Mg==
           - MDQ6VXNlcjcyOTUwNzE=
@@ -3053,8 +4085,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3062,10 +4096,14 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-examples:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Examples for the JS implementation of libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3074,6 +4112,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-floodsub:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3088,6 +4128,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3096,6 +4143,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-identify:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3103,8 +4152,10 @@ repositories:
       push:
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3112,6 +4163,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-interfaces:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3125,6 +4178,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3133,6 +4193,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-kad-dht:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3145,6 +4207,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3153,12 +4222,16 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-kad-record-store:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjc5MDg0Mg==
           - MDQ6VXNlcjcyOTUwNzE=
@@ -3186,8 +4259,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3195,12 +4270,16 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-kad-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjc5MDg0Mg==
           - MDQ6VXNlcjcyOTUwNzE=
@@ -3228,8 +4307,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: Implementation of the Kademlia router for libp2p
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3237,6 +4318,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-keychain:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -3251,6 +4334,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3259,6 +4349,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-logger:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3271,6 +4363,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3279,6 +4378,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-mdns:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3291,6 +4392,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3299,6 +4407,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-metrics:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -3311,8 +4421,17 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-libp2p-mplex:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3325,6 +4444,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3333,6 +4459,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-multistream-select:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3345,6 +4473,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3353,6 +4488,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-nat-mngr:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -3363,6 +4500,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3371,6 +4515,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-collections:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3383,6 +4529,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - Admin
@@ -3391,6 +4544,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-id:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3403,6 +4558,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3411,6 +4573,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-record:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3423,6 +4587,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3431,6 +4602,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-peer-store:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3443,6 +4616,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3451,6 +4631,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-ping:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3459,8 +4641,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3468,13 +4652,17 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-pnet:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - jacobheun
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3482,6 +4670,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-prometheus-metrics:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -3496,6 +4686,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     teams:
       push:
         - Admin
@@ -3503,6 +4700,8 @@ repositories:
         - w3dt-stewards
     visibility: public
   js-libp2p-pubsub-peer-discovery:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3515,6 +4714,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3523,6 +4729,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-pubsub:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3535,6 +4743,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3543,6 +4758,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-record:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3555,6 +4772,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3563,9 +4787,10 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-relay-server:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: main
-    delete_branch_on_merge: false
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
     files:
@@ -3573,6 +4798,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3582,6 +4810,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -3591,6 +4821,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3599,6 +4836,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-secio:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3606,8 +4845,10 @@ repositories:
       push:
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p SECIO
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3615,6 +4856,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-spdy:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3624,9 +4867,11 @@ repositories:
         - fbaiodias
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: SPDY 3.1 implementation wrapper that is compatible with libp2p
       Stream Muxer expected interface
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3634,13 +4879,17 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-stardust:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - mkg20001
     default_branch: master
-    delete_branch_on_merge: false
     description: A better ws-star implementation
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - ci
@@ -3649,10 +4898,14 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-switch:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3660,6 +4913,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-tcp:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -3673,6 +4928,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3681,6 +4943,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-topology:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3693,6 +4957,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - Admin
@@ -3701,6 +4972,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-tracked-map:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3713,6 +4986,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - Admin
@@ -3721,6 +5001,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-udp:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -3731,6 +5013,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3739,6 +5028,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-udt:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -3749,6 +5040,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3757,6 +5055,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-utils:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3769,6 +5069,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3779,6 +5086,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-utp:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -3788,6 +5097,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3796,6 +5112,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-direct:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3803,12 +5121,14 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Dial using WebRTC without the need to set up any Signalling
       Rendezvous Point!
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3817,6 +5137,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-peer:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3824,11 +5146,13 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Simple one-to-one WebRTC data channels
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3837,6 +5161,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc-star:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -3844,12 +5170,14 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p WebRTC transport that includes a discovery mechanism
       provided by the signalling-star
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3859,6 +5187,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webrtc:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3872,6 +5202,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3880,14 +5217,18 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star-multi:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - mkg20001
     default_branch: master
-    delete_branch_on_merge: false
     description: Allows to listen on multiple websocket-star servers while ignoring
       offline ones
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       pull:
         - Admin
@@ -3895,14 +5236,18 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
         - mkg20001
     default_branch: master
-    delete_branch_on_merge: false
     description: The rendezvous service for libp2p-websocket-star enabled nodes meet
       and talk with each other
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3910,10 +5255,14 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websocket-star:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p-webrtc-star without webrtc. Just plain socket.io.
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -3921,6 +5270,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-websockets:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3934,6 +5285,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3942,12 +5300,16 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-libp2p-webtransport:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -3963,6 +5325,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3971,6 +5340,8 @@ repositories:
         - js-libp2p ChainSafe Maintainers
     visibility: public
   js-libp2p:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
@@ -3983,6 +5354,13 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3998,6 +5376,8 @@ repositories:
       - p2p
     visibility: public
   js-p2pcat:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4005,6 +5385,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4013,6 +5400,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-peer-book:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -4020,10 +5409,12 @@ repositories:
       push:
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: peer-book is now at
       https://github.com/libp2p/js-libp2p/tree/master/src/peer-store as
       PeerStore"
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -4031,6 +5422,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-peer-id:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: true
@@ -4039,6 +5432,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4049,6 +5449,8 @@ repositories:
       - deprecated
     visibility: public
   js-peer-info:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       admin:
@@ -4057,8 +5459,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p Peer abstraction Node.js implementation
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -4066,6 +5470,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   js-reframe-content-routing:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4078,14 +5484,25 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-spdy-stream-muxer:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjc5MDg0Mg==
           - MDQ6VXNlcjcyOTUwNzE=
@@ -4107,9 +5524,11 @@ repositories:
         required_status_checks:
           strict: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Abstraction on top of spdy-transport, implementing the
       abstract-stream-muxer interface
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -4117,12 +5536,16 @@ repositories:
         - Repos - JavaScript
     visibility: public
   jvm-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4144,6 +5567,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4152,6 +5582,8 @@ repositories:
         - Repos - Java
     visibility: public
   libp2p-go-webrtc-benchmarks:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4163,6 +5595,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4170,6 +5609,8 @@ repositories:
         - go-libp2p Maintainers
     visibility: public
   libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4178,20 +5619,31 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   mplex:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: This repo contains the spec of mplex, the friendly Stream
       Multiplexer (that works in 3 languages!)
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -4202,6 +5654,8 @@ repositories:
         - Repos - Rust
     visibility: public
   notes:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4209,6 +5663,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4220,6 +5681,8 @@ repositories:
         - Repos - Rust
     visibility: public
   npm-go-libp2p-dep:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: true
@@ -4227,6 +5690,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -4236,6 +5706,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   npm-go-libp2p:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -4250,8 +5722,17 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   observation-deck:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4260,6 +5741,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -4268,6 +5756,8 @@ repositories:
       - observability
     visibility: public
   observer-toolkit:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: true
@@ -4276,6 +5766,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -4286,6 +5783,8 @@ repositories:
       - widgets
     visibility: public
   projects:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4293,6 +5792,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4304,18 +5810,24 @@ repositories:
         - Repos - Rust
     visibility: public
   pubsub-notes:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   pull-mplex:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4324,6 +5836,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4336,6 +5855,8 @@ repositories:
       - pull-stream
     visibility: public
   punchr:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -4350,8 +5871,17 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   py-libp2p-slog:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: main
     delete_branch_on_merge: false
@@ -4359,11 +5889,20 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   py-libp2p-xor:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4372,11 +5911,20 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   py-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4388,21 +5936,32 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
     visibility: public
   repl:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: "[toy project 🎈] a libp2p interactive shell"
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - w3dt-stewards
@@ -4411,12 +5970,18 @@ repositories:
         - Repos - Go
     visibility: public
   research-dht:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Moved discussion notes to https://github.com/libp2p/notes
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     visibility: public
   research-pubsub:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4424,6 +5989,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4434,10 +6006,14 @@ repositories:
         - Repos - JavaScript
     visibility: public
   research:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "Check https://github.com/libp2p/notes "
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -4445,12 +6021,16 @@ repositories:
         - contributors
     visibility: public
   rust-libp2p:
+    advanced_security: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4548,6 +6128,13 @@ repositories:
                   days-before-issue-stale: 6
                   days-before-issue-close: 7
                   enable-statistics: true
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - Admin
@@ -4564,12 +6151,16 @@ repositories:
       - rust
     visibility: public
   rust-yamux:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4615,6 +6206,13 @@ repositories:
                   days-before-issue-stale: 6
                   days-before-issue-close: 7
                   enable-statistics: true
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -4624,6 +6222,8 @@ repositories:
         - Repos - Rust
     visibility: public
   security:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4648,14 +6248,25 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
   specs:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4670,6 +6281,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4681,6 +6299,8 @@ repositories:
         - Specs contributors
     visibility: public
   team-mgmt:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4688,6 +6308,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4701,6 +6328,8 @@ repositories:
       - libp2p
     visibility: public
   test-plans:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4711,6 +6340,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4727,15 +6363,19 @@ repositories:
       - rust
     visibility: public
   testlab:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     collaborators:
       push:
         - aarshkshah1992
         - jimpick
     default_branch: master
-    delete_branch_on_merge: false
     description: A testlab built with Nomad and Consul to analyze the behavior of
       p2p networks at scale
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
@@ -4745,6 +6385,8 @@ repositories:
         - Repos - JavaScript
     visibility: public
   universal-connectivity:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4758,20 +6400,33 @@ repositories:
         - TheDiscordian
     default_branch: main
     delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   website-1:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   website:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       admin:
@@ -4784,6 +6439,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4792,13 +6454,17 @@ repositories:
         - ci
     visibility: public
   workspace-go-libp2p:
+    advanced_security: false
+    allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: workspace for go-libp2p contributors
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    secret_scanning_push_protection: false
+    secret_scanning: false
     teams:
       admin:
         - w3dt-stewards
@@ -4806,6 +6472,8 @@ repositories:
       - libp2p
     visibility: public
   xtp:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     default_branch: master
     delete_branch_on_merge: false
@@ -4813,12 +6481,21 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
         - w3dt-stewards
     visibility: public
   zeroconf:
+    advanced_security: false
+    allow_update_branch: false
     archived: false
     collaborators:
       push:
@@ -4829,6 +6506,13 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -4994,7 +6678,6 @@ teams:
       maintainer:
         - galargh
         - laurentsenta
-    parent_team_id: w3dt-stewards
     privacy: closed
   js-libp2p ChainSafe Maintainers:
     members:
