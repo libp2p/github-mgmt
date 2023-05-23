@@ -7181,9 +7181,9 @@ teams:
       maintainer:
         - BigLep
         - marten-seemann
-      member:
-        - iand
         - MarcoPolo
+      member:
+        - sukunrt
         - vyzo
     parent_team_id: Repos - Go
     privacy: closed
