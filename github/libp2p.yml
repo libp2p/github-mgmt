@@ -7180,8 +7180,8 @@ teams:
     members:
       maintainer:
         - BigLep
-        - marten-seemann
         - MarcoPolo
+        - marten-seemann
       member:
         - sukunrt
         - vyzo
