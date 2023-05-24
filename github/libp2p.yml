@@ -7180,10 +7180,10 @@ teams:
     members:
       maintainer:
         - BigLep
+        - MarcoPolo
         - marten-seemann
       member:
-        - iand
-        - MarcoPolo
+        - sukunrt
         - vyzo
     parent_team_id: Repos - Go
     privacy: closed
