@@ -22,7 +22,6 @@ members:
     - AgeManning
     - ajnavarro
     - ajsutton
-    - alain2sf
     - alanshaw
     - AlanSl
     - alexh
@@ -6737,8 +6736,6 @@ repositories:
         - p-shahi
         - raulk
         - Stebalien
-      maintain:
-        - alain2sf
       push:
         - vyzo
         - yiannisbot
@@ -7302,7 +7299,6 @@ teams:
         - Stebalien
       member:
         - achingbrain
-        - alain2sf
         - dhuseby
         - guillaumemichel
         - guseggert
