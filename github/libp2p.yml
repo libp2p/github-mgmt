@@ -6737,8 +6737,6 @@ repositories:
         - p-shahi
         - raulk
         - Stebalien
-      maintain:
-        - alain2sf
       push:
         - vyzo
         - yiannisbot
@@ -7049,6 +7047,7 @@ teams:
     members:
       member:
         - aamnv
+        - alain2sf
         - AlanSl
         - alexh
         - anorth
@@ -7302,7 +7301,6 @@ teams:
         - Stebalien
       member:
         - achingbrain
-        - alain2sf
         - dhuseby
         - guillaumemichel
         - guseggert
