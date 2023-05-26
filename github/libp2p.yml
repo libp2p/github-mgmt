@@ -2838,6 +2838,20 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
     visibility: public
+  go-libp2p-users:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   go-libp2p-webrtc-direct:
     advanced_security: false
     allow_update_branch: false
@@ -5078,11 +5092,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Collect libp2p metrics for scraping by Prometheus
@@ -5102,6 +5111,7 @@ repositories:
       push:
         - Admin
         - js-libp2p ChainSafe Maintainers
+        - Repos - JavaScript
         - w3dt-stewards
     visibility: public
   js-libp2p-pubsub-peer-discovery:
@@ -5803,9 +5813,6 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    collaborators:
-      push:
-        - ckousik
     default_branch: master
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
@@ -5824,9 +5831,9 @@ repositories:
     teams:
       admin:
         - Admin
-        - js-libp2p ChainSafe Maintainers
         - w3dt-stewards
       push:
+        - js-libp2p ChainSafe Maintainers
         - Repos - JavaScript
     topics:
       - ipfs
@@ -7229,7 +7236,6 @@ teams:
         - gammazero
         - hannahhoward
         - hsanjuan
-        - iand
         - Kubuxu
         - lidel
         - MarcoPolo
