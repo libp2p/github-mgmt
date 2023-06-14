@@ -223,6 +223,10 @@ repositories:
                 - 'zebateira'
               labels:
                 - 'dependencies'
+            - package-ecosystem: 'github-actions'
+              directory: '/'
+              schedule:
+                interval: 'weekly'
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
