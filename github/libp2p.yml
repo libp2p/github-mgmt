@@ -201,6 +201,8 @@ repositories:
     delete_branch_on_merge: false
     description: Blog site for the libp2p project.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -729,6 +731,8 @@ repositories:
     delete_branch_on_merge: false
     description: Documentation site for the libp2p project.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: true
@@ -3748,6 +3752,8 @@ repositories:
     delete_branch_on_merge: true
     description: A DHT Indexer node & Peer Router
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -3993,6 +3999,8 @@ repositories:
     delete_branch_on_merge: false
     description: The website for IPFS Camp 2022
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
@@ -6363,6 +6371,8 @@ repositories:
     description: 🥊 Components to measure Direct Connection Upgrade through Relay
       (DCUtR) performance.
     files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
