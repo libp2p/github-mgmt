@@ -9,4 +9,4 @@ on:
 
 jobs:
   main:
-    uses: pl-strflt/.github/workflows/semantic-pull-request.yml@v0.1
+    uses: pl-strflt/.github/.github/workflows/reusable-semantic-pull-request.yml@v0.3
