@@ -6960,7 +6960,9 @@ repositories:
             - Ensure that `Cargo.lock` is up-to-date
             - examples
             - IPFS Integration tests
-            - Run multidimensional interoperability tests
+            - Run all WASM tests
+            - Run multidimensional interoperability tests (chromium)
+            - Run multidimensional interoperability tests (native)
             - rustfmt
             - Test libp2p-allow-block-list
             - Test libp2p-autonat
