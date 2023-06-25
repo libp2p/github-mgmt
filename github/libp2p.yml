@@ -3059,6 +3059,17 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
+      "release-v0[0-9][0-9]":
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_status_checks:
+          strict: false
     collaborators:
       push:
         - web3-bot
@@ -3765,6 +3776,23 @@ repositories:
       admin:
         - w3dt-stewards
     visibility: public
+  governance:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   haskell-p2pcat:
     advanced_security: false
     allow_update_branch: false
@@ -6624,6 +6652,23 @@ repositories:
       - observability
       - widgets
     visibility: public
+  okr-temp:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   projects:
     advanced_security: false
     allow_update_branch: false
