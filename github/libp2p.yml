@@ -3785,9 +3785,6 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4247,7 +4244,16 @@ repositories:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4290,7 +4296,7 @@ repositories:
     visibility: public
   js-libp2p-cms:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -4745,7 +4751,7 @@ repositories:
   js-libp2p-floodsub:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4758,11 +4764,20 @@ repositories:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4813,7 +4828,16 @@ repositories:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4979,7 +5003,16 @@ repositories:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5382,8 +5415,8 @@ repositories:
     visibility: public
   js-libp2p-pubsub:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -5394,11 +5427,20 @@ repositories:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -5636,6 +5678,23 @@ repositories:
       push:
         - Admin
         - Repos - JavaScript
+    visibility: public
+  js-libp2p-streaming-benchmark:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-libp2p-switch:
     advanced_security: false
@@ -6042,7 +6101,16 @@ repositories:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: |
+          name: Close and mark stale issue
+
+          on:
+            schedule:
+            - cron: '0 0 * * *'
+
+          jobs:
+            stale:
+              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6664,9 +6732,6 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
