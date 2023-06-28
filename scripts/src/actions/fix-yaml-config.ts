@@ -7,7 +7,8 @@ import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
 function isInitialised(repository: Repository) {
   return ![
     'fclibp2p-zhi',
-    'universal-connectivity'
+    'okr-temp',
+    'governance'
   ].includes(repository.name)
 }
 
