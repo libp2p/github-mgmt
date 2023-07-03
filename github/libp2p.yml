@@ -3821,7 +3821,6 @@ repositories:
     archived: true
     collaborators:
       admin:
-        - guseggert
     default_branch: main
     delete_branch_on_merge: false
     description: Infrastructure for Hydra Boosters
@@ -7624,6 +7623,7 @@ teams:
         - fsdiogo
         - gavinmcdermott
         - geoah
+        - guseggert
         - haadcode
         - hacdias
         - iceseer
@@ -7767,7 +7767,6 @@ teams:
         - BigLep
         - lidel
       member:
-        - guseggert
         - hacdias
         - Jorropo
     privacy: closed
@@ -7861,7 +7860,6 @@ teams:
         - achingbrain
         - dhuseby
         - guillaumemichel
-        - guseggert
         - Jorropo
         - laurentsenta
         - lidel
