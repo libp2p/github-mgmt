@@ -3878,7 +3878,6 @@ repositories:
       admin:
         - alanshaw
         - daviddias
-        - thattommyhall
       push:
         - web3-bot
     default_branch: master
@@ -7659,6 +7658,7 @@ teams:
         - snazha-blkio
         - stongo
         - stuckinaboot
+        - thattommyhall
         - tinytb
         - travisperson
         - victorb
@@ -7675,7 +7675,6 @@ teams:
         - gmasgras
         - hsanjuan
         - mcamou
-        - thattommyhall
     privacy: closed
   ci:
     description: ci
