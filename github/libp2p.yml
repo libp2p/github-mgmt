@@ -7664,6 +7664,7 @@ teams:
         - victorb
         - Warchant
         - yiannisbot
+        - yusefnapora
         - ZenGround0
         - zixuanzh
         - zuiris
@@ -7797,7 +7798,6 @@ teams:
         - sukunrt
         - vyzo
         - willscott
-        - yusefnapora
     privacy: closed
   Repos - Java:
     members:
@@ -7832,7 +7832,6 @@ teams:
         - jxs
         - thomaseizinger
         - vmx
-        - yusefnapora
     privacy: closed
   rust-libp2p Maintainers:
     create_default_maintainer: false
