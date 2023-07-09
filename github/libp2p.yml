@@ -7362,7 +7362,7 @@ repositories:
       admin:
         - laurentsenta
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Interoperability tests for libp2p
     files:
       .github/workflows/stale.yml:
