@@ -1947,6 +1947,7 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - kubo maintainers
+        - probelab
       push:
         - Repos - Go
     topics:
@@ -7771,6 +7772,15 @@ teams:
       member:
         - hacdias
         - Jorropo
+    privacy: closed
+  probelab:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - dennis-tra
+        - guillaumemichel
+        - iand
+        - yiannisbot
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
