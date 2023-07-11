@@ -7755,6 +7755,15 @@ teams:
         - galargh
         - laurentsenta
     privacy: closed
+  probelab:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - yiannisbot
+        - guillaumemichel
+        - iand
+        - dennis-tra
+    privacy: closed
   js-libp2p ChainSafe Maintainers:
     members:
       member:
