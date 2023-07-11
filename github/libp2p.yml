@@ -7755,15 +7755,6 @@ teams:
         - galargh
         - laurentsenta
     privacy: closed
-  probelab:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - yiannisbot
-        - guillaumemichel
-        - iand
-        - dennis-tra
-    privacy: closed
   js-libp2p ChainSafe Maintainers:
     members:
       member:
@@ -7781,6 +7772,15 @@ teams:
       member:
         - hacdias
         - Jorropo
+    privacy: closed
+  probelab:
+    create_default_maintainer: false
+    members:
+      maintainer:
+        - dennis-tra
+        - guillaumemichel
+        - iand
+        - yiannisbot
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
