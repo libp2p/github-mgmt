@@ -3043,7 +3043,7 @@ repositories:
     visibility: public
   go-libp2p:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       master:
