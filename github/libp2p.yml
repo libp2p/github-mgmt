@@ -7059,7 +7059,7 @@ repositories:
         blocks_creations: false
         enforce_admins: false
         lock_branch: false
-        require_conversation_resolution: false
+        require_conversation_resolution: true
         require_signed_commits: false
         required_linear_history: false
         required_pull_request_reviews:
