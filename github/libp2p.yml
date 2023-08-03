@@ -868,7 +868,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Address utilities for libp2p swarm
@@ -979,7 +978,6 @@ repositories:
         - Stebalien
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Multiplexed secure transport module for go-libp2p
@@ -1060,9 +1058,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: a simple and fast eventbus for type-based local event delivery.
@@ -1189,8 +1184,6 @@ repositories:
     collaborators:
       admin:
         - aarshkshah1992
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "DEPRECATED: NAT Autodiscovery"
@@ -1245,7 +1238,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: The thinnest possible host implementation.
@@ -1316,9 +1308,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Circuit Switching for libp2p
@@ -1369,7 +1358,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: a resource sentinel that keeps connection count under reasonable bounds
@@ -1425,7 +1413,6 @@ repositories:
         - bigs
       push:
         - carospiegly
-        - web3-bot
     default_branch: wip
     delete_branch_on_merge: false
     description: golang implementation of the CoralDHT protocol
@@ -1459,9 +1446,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Interfaces and abstractions that make up go-libp2p
@@ -1543,9 +1527,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "Active Peer Discovery "
@@ -1595,7 +1576,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Example libp2p applications
@@ -1988,9 +1968,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: logging helpers for go-libp2p
@@ -2041,7 +2018,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: adaptor to integrate the mplex multiplexer into libp2p
@@ -2067,7 +2043,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: NAT port mapping library for go-libp2p
@@ -2119,7 +2094,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Utility methods for creating public and private keys for use in test
@@ -2159,9 +2133,6 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           strict: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: a secure channel for go-libp2p based on the Noise protocol framework
@@ -2235,9 +2206,6 @@ repositories:
             - macos (go 1.17.x)
             - ubuntu (go 1.17.x)
           strict: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: an object to manage sets of peers, their addresses and other metadata
@@ -2288,7 +2256,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: An implementation of go-libp2p-interface-pnet
@@ -2467,7 +2434,6 @@ repositories:
         - marten-seemann
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: An implementation of a libp2p transport using QUIC
@@ -2609,8 +2575,6 @@ repositories:
     collaborators:
       admin:
         - vyzo
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: An implementation of the libp2p network resource manager interface
@@ -2733,7 +2697,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: The libp2p swarm manages groups of connections to peers, and
@@ -2793,7 +2756,6 @@ repositories:
         - marten-seemann
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: go-libp2p's TLS encrypted transport
@@ -2820,8 +2782,6 @@ repositories:
     collaborators:
       admin:
         - Stebalien
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     has_discussions: false
@@ -2902,9 +2862,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: A libp2p transport that enables browser-to-server, and
@@ -3023,7 +2980,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     has_discussions: false
@@ -3248,7 +3204,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: UNMAINTAINED - OpenSSL bindings for Go
@@ -3330,7 +3285,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: A basic transport for automatically (and intelligently) reusing TCP ports
@@ -3442,7 +3396,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: DEPRECATED - Go Sockaddr -> RawSockaddr conversions
@@ -3498,7 +3451,6 @@ repositories:
         - Stebalien
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: With destination address, select the source address from kernel
@@ -3525,7 +3477,6 @@ repositories:
         - Stebalien
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: multistream implementation of go-stream-muxer
@@ -3579,7 +3530,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: An implementation of a libp2p transport using tcp
@@ -3656,7 +3606,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: An implementation of a libp2p transport using utp
@@ -3681,7 +3630,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: a websocket implementation of a go-libp2p transport
@@ -3708,7 +3656,6 @@ repositories:
     collaborators:
       push:
         - aarshkshah1992
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     has_discussions: false
@@ -3786,6 +3733,9 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4234,9 +4184,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Rail a libp2p node through a bootstrap peer list
@@ -4329,9 +4276,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Container for libp2p components
@@ -4410,9 +4354,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: JS Libp2p connections
@@ -4485,9 +4426,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: The libp2p crypto primitives, for Node.js and the Browser!
@@ -4752,9 +4690,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Also known as pubsub-flood or just dumbsub, this implementation of
@@ -4817,9 +4752,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Contains test suites and interfaces you can use to implement the
@@ -4856,9 +4788,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: JavaScript implementation of the DHT for libp2p
@@ -4994,8 +4923,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
@@ -5031,9 +4958,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: A logging component for use in js-libp2p modules
@@ -5060,9 +4984,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: libp2p MulticastDNS Peer Discovery
@@ -5112,9 +5033,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: JavaScript implementation of https://github.com/libp2p/mplex
@@ -5141,9 +5059,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: JavaScript implementation of multistream-select
@@ -5197,9 +5112,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Store values against a peer id
@@ -5226,9 +5138,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: libp2p PeerId implementation in JavaScript
@@ -5255,9 +5164,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Used to transfer signed peer data across the network
@@ -5284,9 +5190,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Stores information about peers libp2p knows on the network
@@ -5417,9 +5320,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Pubsub base protocol for libp2p pubsub routers
@@ -5455,9 +5355,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Implementation of go-libp2p-record in JavaScript
@@ -5725,9 +5622,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: JavaScript implementation of the TCP module that libp2p uses that
@@ -5755,9 +5649,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: libp2p network topology
@@ -5784,9 +5675,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Allows tracking of statistics while libp2p is running
@@ -5867,9 +5755,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
@@ -5927,8 +5812,6 @@ repositories:
     collaborators:
       admin:
         - vasco-santos
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Dial using WebRTC without the need to set up any Signalling
@@ -5984,8 +5867,6 @@ repositories:
     collaborators:
       admin:
         - achingbrain
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Simple one-to-one WebRTC data channels
@@ -6040,8 +5921,6 @@ repositories:
     collaborators:
       admin:
         - vasco-santos
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: libp2p WebRTC transport that includes a discovery mechanism
@@ -6099,7 +5978,6 @@ repositories:
       push:
         - ckousik
         - ddimaria
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     files:
@@ -6202,9 +6080,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "WebSockets module that libp2p uses and that implements the
@@ -6242,9 +6117,6 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: "WebTranport module that libp2p uses and that implements the
@@ -6737,6 +6609,9 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6776,9 +6651,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     has_discussions: false
@@ -6937,9 +6809,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "[toy project 🎈] a libp2p interactive shell"
