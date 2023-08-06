@@ -4154,6 +4154,26 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  js-http-v1-content-routing:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Use a Reframe service to discover content providers
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-ipni-content-routing:
     advanced_security: false
     allow_update_branch: true
@@ -6404,29 +6424,6 @@ repositories:
         - Admin
       push:
         - Repos - JavaScript
-    visibility: public
-  js-reframe-content-routing:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    delete_branch_on_merge: true
-    description: Use a Reframe service to discover content providers
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-spdy-stream-muxer:
     advanced_security: false
