@@ -4166,6 +4166,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: Use a Reframe service to discover content providers
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
