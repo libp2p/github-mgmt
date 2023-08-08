@@ -5401,11 +5401,12 @@ repositories:
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
     teams:
-      push:
+      admin:
         - Admin
+        - w3dt-stewards
+      push:
         - js-libp2p ChainSafe Maintainers
         - Repos - JavaScript
-        - w3dt-stewards
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     advanced_security: false
