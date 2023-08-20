@@ -8,7 +8,8 @@ function isInitialised(repository: Repository) {
   return ![
     'fclibp2p-zhi',
     'okr-temp',
-    'governance'
+    'governance',
+    'product'
   ].includes(repository.name)
 }
 
@@ -20,10 +21,16 @@ function isPublic(repository: Repository) {
   return repository.visibility === 'public'
 }
 
+function isFork(repository: Repository) {
+  return [
+    'uci'
+  ].includes(repository.name)
+}
+
 addFileToAllRepos(
   '.github/workflows/stale.yml',
   '.github/workflows/stale.yml',
-  isInitialised
+  r => isInitialised(r) && !isFork(r)
 )
 addFileToAllRepos(
   '.github/workflows/semantic-pull-request.yml',
