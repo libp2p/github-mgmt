@@ -1672,7 +1672,13 @@ repositories:
         required_linear_history: false
         required_status_checks:
           contexts:
-            - All
+            - go-check / All
+            - go-test / macos (go next)
+            - go-test / macos (go this)
+            - go-test / ubuntu (go next)
+            - go-test / ubuntu (go this)
+            - go-test / windows (go next)
+            - go-test / windows (go this)
           strict: false
     collaborators:
       admin:
@@ -6730,12 +6736,13 @@ repositories:
       - observability
       - widgets
     visibility: public
-  okr-temp:
+  product:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
       admin:
+        - dhuseby
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
@@ -7100,6 +7107,7 @@ repositories:
             - Test libp2p-identity
             - Test libp2p-kad
             - Test libp2p-mdns
+            - Test libp2p-memory-connection-limits
             - Test libp2p-metrics
             - Test libp2p-mplex
             - Test libp2p-noise
