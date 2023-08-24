@@ -3919,9 +3919,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-connection is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -3943,9 +3940,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-content-routing is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -3967,9 +3961,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-libp2p is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -3994,9 +3985,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -4042,9 +4030,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: please instead use https://github.com/ipfs/interface-datastore"
@@ -4066,9 +4051,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -4090,9 +4072,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-transport is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -4261,9 +4240,6 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: js-iprs-record is unmaintained"
@@ -4285,9 +4261,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-bootstrap can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-discovery-bootstrap"
@@ -4325,9 +4298,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: circuit relay is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -4381,9 +4351,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Container for libp2p components
@@ -4435,9 +4402,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: the connection manager is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -4464,9 +4428,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: the connection implementation is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -4518,9 +4479,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/crypto"
@@ -4542,9 +4500,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: the crypto implementation can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/crypto"
@@ -4571,9 +4526,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: the daemon client implementation can now be found at https://github.com/libp2p/js-libp2p-daemon/tree/master/packages/libp2p-daemon-client"
@@ -4600,9 +4552,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: the daemon protocol implementation can now be found at https://github.com/libp2p/js-libp2p-daemon/tree/master/packages/libp2p-daemon-protocol"
@@ -4777,9 +4726,6 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: DEPRECATED
@@ -4801,9 +4747,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Examples for the JS implementation of libp2p
@@ -4825,9 +4768,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-floodsub can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/pubsub-floodsub"
@@ -4863,9 +4803,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-identify is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -4887,9 +4824,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "⛔️ DEPRECATED: js-libp2p-interfaces is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -4925,9 +4859,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-kad-dht can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/kad-dht"
@@ -4981,9 +4912,6 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-kad-record-store is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/kad-dht"
@@ -5032,9 +4960,6 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-kad-routing is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/kad-dht"
@@ -5056,9 +4981,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-keychain can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/keychain"
@@ -5094,9 +5016,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-logger can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/logger"
@@ -5123,9 +5042,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-mdns can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-discovery-mdns"
@@ -5152,9 +5068,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-metrics is deprecated"
@@ -5181,9 +5094,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-mplex can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/stream-muxer-mplex"
@@ -5210,9 +5120,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-multistream-select can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/multistream-select"
@@ -5239,9 +5146,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-nat-mngr is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -5268,9 +5172,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-peer-collections can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-collections"
@@ -5297,9 +5198,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-peer-id can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-id"
@@ -5326,9 +5224,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-peer-record can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-record"
@@ -5355,9 +5250,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-peer-store can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-store"
@@ -5384,9 +5276,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-ping is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -5408,9 +5297,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-pnet is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -5432,9 +5318,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-prometheus-metrics can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/metrics-prometheus"
@@ -5493,9 +5376,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-pubsub can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/pubsub"
@@ -5531,9 +5411,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-prometheus-metrics can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/metrics-prometheus"
@@ -5560,13 +5437,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: circuit relay v2 should be used in preference to v1"
-      relay protocol
     files:
       .github/workflows/semantic-pull-request.yml:
         content: >
@@ -5658,9 +5531,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: js-libp2p-rendezvous is unmaintained"
@@ -5687,9 +5557,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: libp2p-secio has been deprecated in favour of libp2p-noise"
@@ -5711,9 +5578,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: js-libp2p-spdy is unmaintained"
@@ -5735,9 +5599,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: js-libp2p-stardust is unmaintained"
@@ -5787,9 +5648,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-switch is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
@@ -5811,9 +5669,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-tcp can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/transport-tcp"
@@ -5840,9 +5695,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "⛔️ DEPRECATED: js-libp2p-topology is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -5869,9 +5721,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "⛔️ DEPRECATED: libp2p-tracked-map is now included in https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -5898,9 +5747,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-udp is unmaintained"
@@ -5927,9 +5773,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-udt is unmaintained"
@@ -5956,9 +5799,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-utils can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/utils"
@@ -5985,9 +5825,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-utp is unmaintained"
@@ -6014,9 +5851,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: libp2p-webrtc-direct is deprecated in favour of @libp2p/webtransport and @libp2p/webrtc"
@@ -6068,9 +5902,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-webrtc-peer is unmaintained"
@@ -6122,9 +5953,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: libp2p-webrtc-star is deprecated in favour of @libp2p/webrtc"
@@ -6176,9 +6004,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-webrtc can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/transport-webrtc"
@@ -6214,9 +6039,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-websocket-star-multi is unmaintained"
@@ -6238,9 +6060,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-websocket-star-rendezvous is unmaintained"
@@ -6262,9 +6081,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-websocket-star is unmaintained"
@@ -6286,9 +6102,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-websockets can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/transport-websockets"
@@ -6325,9 +6138,6 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-webtransport can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/transport-webtransport"
@@ -6389,9 +6199,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: p2pcat is unmaintained"
@@ -6440,9 +6247,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
     description: "📁 ARCHIVED: libp2p-peer-id can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/peer-id"
@@ -6469,12 +6273,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-peer-info can now be found at https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
@@ -6523,9 +6321,6 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "📁 ARCHIVED: libp2p-spdy-stream-muxer is unmaintained"
