@@ -4112,6 +4112,9 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4284,6 +4287,9 @@ repositories:
           jobs:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4341,6 +4347,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4631,6 +4640,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4661,6 +4673,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4690,6 +4705,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5430,6 +5448,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6311,6 +6332,9 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7788,6 +7812,18 @@ teams:
       member:
         - mpetrunic
         - wemeetagain
+    privacy: closed
+  js-libp2p-dev:
+    create_default_maintainer: false
+    description: js-libp2p developers and engineers
+    members:
+      maintainer:
+        - achingbrain
+      member:
+        - maschad
+        - SgtPooki
+        - wemeetagain
+        - whizzzkid
     privacy: closed
   kubo maintainers:
     create_default_maintainer: false
