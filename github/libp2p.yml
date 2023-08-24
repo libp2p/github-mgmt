@@ -2566,7 +2566,7 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A standalone libp2p circuit relay daemon providing relay service
-      for versions v1 and v2 of the protocol.
+      for version v2 of the protocol.
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -3087,7 +3087,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -5446,7 +5446,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
