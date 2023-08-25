@@ -3919,13 +3919,10 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-connection is now included in
-      https://github.com/libp2p/js-interfaces"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3936,8 +3933,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interface-content-routing:
     advanced_security: false
@@ -3946,7 +3944,7 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
-      https://github.com/libp2p/js-interfaces"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3957,16 +3955,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interface-libp2p:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     delete_branch_on_merge: false
-    description: The interface of all of the interfaces for the libp2p modules.
+    description: "⛔️ DEPRECATED: interface-libp2p is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -3981,6 +3981,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   interface-peer-discovery:
     advanced_security: false
@@ -3989,7 +3991,7 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
-      https://github.com/libp2p/js-interfaces"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4000,20 +4002,21 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interface-peer-routing:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-routing is now included in
-      https://github.com/libp2p/js-interfaces"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4024,19 +4027,17 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interface-record-store:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: deprecated in favor of
+    description: "⛔️ DEPRECATED: please instead use
       https://github.com/ipfs/interface-datastore"
     has_discussions: false
     merge_commit_message: PR_TITLE
@@ -4048,20 +4049,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interface-stream-muxer:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in
-      https://github.com/libp2p/js-interfaces"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4072,20 +4071,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interface-transport:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-transport is now included in
-      https://github.com/libp2p/js-interfaces"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4096,8 +4093,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   interop:
     advanced_security: false
@@ -4128,6 +4126,7 @@ repositories:
         - w3dt-stewards
       push:
         - go-libp2p Maintainers
+        - js-libp2p-dev
         - Repos - Go
         - Repos - JavaScript
     visibility: public
@@ -4169,13 +4168,11 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - achingbrain
       push:
         - web3-bot
     default_branch: main
     delete_branch_on_merge: true
-    description: Use a Reframe service to discover content providers
+    description: Use a Routing V1 HTTP API service to discover content providers
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -4186,14 +4183,18 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-ipni-content-routing:
     advanced_security: false
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - achingbrain
       push:
         - web3-bot
     default_branch: main
@@ -4209,6 +4210,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-iprs-record:
     advanced_security: false
@@ -4241,15 +4248,9 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: JavaScript IPFS record class implementation
+    description: "📁 ARCHIVED: js-iprs-record is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4260,19 +4261,19 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-bootstrap:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Rail a libp2p node through a bootstrap peer list
+    description: "📁 ARCHIVED: libp2p-bootstrap can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-discovery-b\
+      ootstrap"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -4299,7 +4300,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     topics:
       - libp2p
     visibility: public
@@ -4307,13 +4308,10 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - dryajov
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    description: "📁 ARCHIVED: circuit relay is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4324,16 +4322,15 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-cms:
     advanced_security: false
     allow_update_branch: true
     archived: false
     collaborators:
-      admin:
-        - achingbrain
       push:
         - web3-bot
     default_branch: main
@@ -4359,15 +4356,12 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-components:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Container for libp2p components
@@ -4413,7 +4407,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-connection-manager:
     advanced_security: false
@@ -4421,7 +4415,8 @@ repositories:
     archived: true
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    description: "📁 ARCHIVED: the connection manager is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4432,10 +4427,9 @@ repositories:
     teams:
       admin:
         - Admin
-      pull:
-        - contributors
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     topics:
       - connection
       - ipfs
@@ -4446,12 +4440,10 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: JS Libp2p connections
+    description: "📁 ARCHIVED: the connection implementation is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     files:
       .github/workflows/stale.yml:
         content: >
@@ -4494,7 +4486,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-crypto-secp256k1:
     advanced_security: false
@@ -4503,7 +4495,7 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
-      https://github.com/libp2p/js-libp2p-crypto"
+      https://github.com/libp2p/js-libp2p/tree/master/packages/crypto"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4514,19 +4506,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-crypto:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: The libp2p crypto primitives, for Node.js and the Browser!
+    description: "📁 ARCHIVED: the crypto implementation can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/crypto"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -4544,18 +4535,17 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-daemon-client:
     advanced_security: false
     allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - vasco-santos
+    archived: true
     default_branch: master
     delete_branch_on_merge: true
-    description: A js daemon client to interact with a libp2p daemon
+    description: "📁 ARCHIVED: the daemon client implementation can now be found at
+      https://github.com/libp2p/js-libp2p-daemon/tree/master/packages/libp2p-da\
+      emon-client"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -4570,20 +4560,21 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-daemon-protocol:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
     default_branch: master
     delete_branch_on_merge: false
-    description: Protocol for communication between libp2p-daemon and libp2p-client
+    description: "📁 ARCHIVED: the daemon protocol implementation can now be found
+      at
+      https://github.com/libp2p/js-libp2p-daemon/tree/master/packages/libp2p-da\
+      emon-protocol"
     files:
       .github/workflows/stale.yml:
         content: >
@@ -4621,6 +4612,12 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-libp2p-daemon:
     advanced_security: false
@@ -4649,11 +4646,10 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - w3dt-stewards
-      pull:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-delegated-content-routing:
     advanced_security: false
@@ -4685,7 +4681,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-delegated-peer-routing:
     advanced_security: false
@@ -4717,7 +4713,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-distributed-record-store:
     advanced_security: false
@@ -4750,12 +4746,6 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
     description: DEPRECATED
@@ -4769,8 +4759,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-examples:
     advanced_security: false
@@ -4791,20 +4782,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-floodsub:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Also known as pubsub-flood or just dumbsub, this implementation of
-      pubsub focused on delivering an API for Publish/Subscribe, but with no
-      CastTree Forming (it just floods the network).
+    description: "📁 ARCHIVED: libp2p-floodsub can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/pubsub-floodsub"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -4831,20 +4818,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-identify:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    description: "⛔️ DEPRECATED: js-libp2p-identify is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4855,20 +4838,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-interfaces:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Contains test suites and interfaces you can use to implement the
-      various components of js libp2p.
+    description: "⛔️ DEPRECATED: js-libp2p-interfaces is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -4895,18 +4876,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-kad-dht:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: JavaScript implementation of the DHT for libp2p
+    description: "📁 ARCHIVED: libp2p-kad-dht can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/kad-dht"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -4924,7 +4903,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-kad-record-store:
     advanced_security: false
@@ -4957,15 +4936,10 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: DEPRECATED
+    description: "⛔️ DEPRECATED: js-libp2p-kad-record-store is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/kad-dht"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4976,8 +4950,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-kad-routing:
     advanced_security: false
@@ -5010,15 +4985,10 @@ repositories:
           restrict_dismissals: true
         required_status_checks:
           strict: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: Implementation of the Kademlia router for libp2p
+    description: "⛔️ DEPRECATED: js-libp2p-kad-routing is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/kad-dht"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5029,21 +4999,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-keychain:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: Key management and cryptographically protected messages
+    description: "📁 ARCHIVED: libp2p-keychain can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/keychain"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5070,18 +5037,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-logger:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: A logging component for use in js-libp2p modules
+    description: "📁 ARCHIVED: libp2p-logger can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/logger"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5099,18 +5064,17 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-mdns:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: libp2p MulticastDNS Peer Discovery
+    description: "📁 ARCHIVED: libp2p-mdns can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-discovery-m\
+      dns"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5128,18 +5092,15 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-metrics:
     advanced_security: false
     allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
+    archived: true
     default_branch: main
     delete_branch_on_merge: false
-    description: Extendable implementation of @libp2p/interface-metrics
+    description: "⛔️ DEPRECATED: js-libp2p-metrics is deprecated"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5152,17 +5113,22 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-libp2p-mplex:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: JavaScript implementation of https://github.com/libp2p/mplex
+    description: "📁 ARCHIVED: libp2p-mplex can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/stream-muxer-mpl\
+      ex"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5180,18 +5146,17 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-multistream-select:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: JavaScript implementation of multistream-select
+    description: "📁 ARCHIVED: libp2p-multistream-select can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/multistream-sele\
+      ct"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5209,7 +5174,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-nat-mngr:
     advanced_security: false
@@ -5217,8 +5182,8 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: NAT manager that allows handling different aspects of NAT traversal
-      in libp2p.
+    description: "⛔️ DEPRECATED: js-libp2p-nat-mngr is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5236,18 +5201,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-peer-collections:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Store values against a peer id
+    description: "📁 ARCHIVED: libp2p-peer-collections can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-collections"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5265,18 +5228,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-peer-id:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: libp2p PeerId implementation in JavaScript
+    description: "📁 ARCHIVED: libp2p-peer-id can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-id"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5294,18 +5255,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-peer-record:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Used to transfer signed peer data across the network
+    description: "📁 ARCHIVED: libp2p-peer-record can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-record"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5323,18 +5282,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-peer-store:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Stores information about peers libp2p knows on the network
+    description: "📁 ARCHIVED: libp2p-peer-store can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-store"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5352,21 +5309,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-ping:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    description: "⛔️ DEPRECATED: js-libp2p-ping is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5377,19 +5329,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-pnet:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - jacobheun
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    description: "⛔️ DEPRECATED: js-libp2p-pnet is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5400,8 +5351,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-prometheus-metrics:
     advanced_security: false
@@ -5409,7 +5361,9 @@ repositories:
     archived: true
     default_branch: main
     delete_branch_on_merge: true
-    description: Collect libp2p metrics for scraping by Prometheus
+    description: "📁 ARCHIVED: libp2p-prometheus-metrics can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/metrics-promethe\
+      us"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5427,8 +5381,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - js-libp2p ChainSafe Maintainers
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     advanced_security: false
@@ -5460,18 +5413,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-pubsub:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Pubsub base protocol for libp2p pubsub routers
+    description: "📁 ARCHIVED: libp2p-pubsub can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/pubsub"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5498,18 +5449,17 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-record:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Implementation of go-libp2p-record in JavaScript
+    description: "📁 ARCHIVED: libp2p-prometheus-metrics can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/metrics-promethe\
+      us"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5527,7 +5477,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-relay-server:
     advanced_security: false
@@ -5535,8 +5485,7 @@ repositories:
     archived: true
     default_branch: main
     delete_branch_on_merge: false
-    description: An out of the box libp2p relay server implementing v1 of circuit
-      relay protocol
+    description: "⛔️ DEPRECATED: circuit relay v2 should be used in preference to v1"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: >
@@ -5622,16 +5571,15 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - ci
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-rendezvous:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     delete_branch_on_merge: false
-    description: A javascript implementation of the rendezvous protocol for libp2p
+    description: "📁 ARCHIVED: js-libp2p-rendezvous is unmaintained"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5649,20 +5597,15 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-secio:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - dignifiedquire
-      push:
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: libp2p SECIO
+    description: "⛔️ DEPRECATED: libp2p-secio has been deprecated in favour of libp2p-noise"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5673,24 +5616,17 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-spdy:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - fbaiodias
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: SPDY 3.1 implementation wrapper that is compatible with libp2p
-      Stream Muxer expected interface
+    description: "📁 ARCHIVED: js-libp2p-spdy is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5701,19 +5637,17 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-stardust:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - mkg20001
     default_branch: master
     delete_branch_on_merge: false
-    description: A better ws-star implementation
+    description: "📁 ARCHIVED: js-libp2p-stardust is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5723,18 +5657,18 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - ci
-      push:
         - Admin
-        - Repos - JavaScript
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-libp2p-streaming-benchmark:
     advanced_security: false
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - p-shahi
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     files:
@@ -5749,6 +5683,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-libp2p-switch:
     advanced_security: false
@@ -5756,7 +5696,8 @@ repositories:
     archived: true
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
+    description: "⛔️ DEPRECATED: js-libp2p-switch is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/libp2p"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5767,20 +5708,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-tcp:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: JavaScript implementation of the TCP module that libp2p uses that
-      implements the interface-transport spec
+    description: "📁 ARCHIVED: libp2p-tcp can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/transport-tcp"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5798,18 +5737,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-topology:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: libp2p network topology
+    description: "⛔️ DEPRECATED: js-libp2p-topology is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5827,18 +5764,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-tracked-map:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Allows tracking of statistics while libp2p is running
+    description: "⛔️ DEPRECATED: libp2p-tracked-map is now included in
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5856,7 +5791,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-udp:
     advanced_security: false
@@ -5864,8 +5799,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: Node.js implementation of the UDP module that libp2p uses, which
-      implements the abstract-transport interface
+    description: "📁 ARCHIVED: libp2p-udp is unmaintained"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5883,7 +5817,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-udt:
     advanced_security: false
@@ -5891,8 +5825,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: Node.js implementation of the UDT module that libp2p uses, which
-      implements the abstract-transport interface
+    description: "📁 ARCHIVED: libp2p-udt is unmaintained"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5910,18 +5843,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-utils:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
+    description: "📁 ARCHIVED: libp2p-utils can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/utils"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5938,10 +5869,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
-      pull:
-        - contributors
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-utp:
     advanced_security: false
@@ -5949,7 +5878,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: uTP module libp2p uses. Implements the interface-transport spec
+    description: "📁 ARCHIVED: libp2p-utp is unmaintained"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -5967,21 +5896,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-webrtc-direct:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - vasco-santos
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: Dial using WebRTC without the need to set up any Signalling
-      Rendezvous Point!
+    description: "⛔️ DEPRECATED: libp2p-webrtc-direct is deprecated in favour of
+      @libp2p/webtransport and @libp2p/webrtc"
     files:
       .github/workflows/stale.yml:
         content: >
@@ -6024,20 +5948,15 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-webrtc-peer:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - achingbrain
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: Simple one-to-one WebRTC data channels
+    description: "📁 ARCHIVED: libp2p-webrtc-peer is unmaintained"
     files:
       .github/workflows/stale.yml:
         content: >
@@ -6080,21 +5999,16 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-webrtc-star:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - vasco-santos
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: libp2p WebRTC transport that includes a discovery mechanism
-      provided by the signalling-star
+    description: "⛔️ DEPRECATED: libp2p-webrtc-star is deprecated in favour of
+      @libp2p/webrtc"
     files:
       .github/workflows/stale.yml:
         content: >
@@ -6135,22 +6049,18 @@ repositories:
     teams:
       admin:
         - Admin
-        - ci
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-webrtc:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - ckousik
-        - ddimaria
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
+    description: "📁 ARCHIVED: libp2p-webrtc can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/transport-webrtc"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -6177,19 +6087,15 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-websocket-star-multi:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - mkg20001
     default_branch: master
     delete_branch_on_merge: false
-    description: Allows to listen on multiple websocket-star servers while ignoring
-      offline ones
+    description: "📁 ARCHIVED: libp2p-websocket-star-multi is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6198,22 +6104,19 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      pull:
+      admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-websocket-star-rendezvous:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - mkg20001
     default_branch: master
     delete_branch_on_merge: false
-    description: The rendezvous service for libp2p-websocket-star enabled nodes meet
-      and talk with each other
+    description: "📁 ARCHIVED: libp2p-websocket-star-rendezvous is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6224,8 +6127,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-websocket-star:
     advanced_security: false
@@ -6233,7 +6137,7 @@ repositories:
     archived: true
     default_branch: master
     delete_branch_on_merge: false
-    description: libp2p-webrtc-star without webrtc. Just plain socket.io.
+    description: "📁 ARCHIVED: libp2p-websocket-star is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6244,20 +6148,19 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-websockets:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      push:
-        - web3-bot
     default_branch: master
     delete_branch_on_merge: true
-    description: "WebSockets module that libp2p uses and that implements the
-      interface-transport spec "
+    description: "📁 ARCHIVED: libp2p-websockets can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/transport-websoc\
+      kets"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -6275,7 +6178,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-libp2p-webtransport:
     advanced_security: false
@@ -6291,13 +6194,11 @@ repositories:
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
-    description: "WebTranport module that libp2p uses and that implements the
-      interface-transport spec "
+    description: "📁 ARCHIVED: libp2p-webtransport can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/transport-webtra\
+      nsport"
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -6315,7 +6216,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - js-libp2p ChainSafe Maintainers
+        - js-libp2p-dev
     visibility: public
   js-libp2p:
     advanced_security: false
@@ -6344,9 +6245,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - js-libp2p ChainSafe Maintainers
         - js-libp2p-dev
-        - Repos - JavaScript
     topics:
       - ipfs
       - js-ipfs
@@ -6357,10 +6256,10 @@ repositories:
   js-p2pcat:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     delete_branch_on_merge: false
-    description: A netcat like utility but for the p2p Internet
+    description: "📁 ARCHIVED: p2pcat is unmaintained"
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -6376,22 +6275,19 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-peer-book:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
       push:
-        - nunofmn
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: "[DEPRECATED]: peer-book is now at
-      https://github.com/libp2p/js-libp2p/tree/master/src/peer-store as
-      PeerStore"
+    description: "📁 ARCHIVED: libp2p-peer-book can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-store"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6402,17 +6298,18 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-peer-id:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     default_branch: master
     delete_branch_on_merge: true
-    description: peer-id implementation in JavaScript. Deprecated; use
-      https://github.com/libp2p/js-libp2p-peer-id instead.
+    description: "📁 ARCHIVED: libp2p-peer-id can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/peer-id"
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -6428,7 +6325,7 @@ repositories:
         - Admin
         - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     topics:
       - deprecated
     visibility: public
@@ -6436,15 +6333,10 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: true
-    collaborators:
-      admin:
-        - daviddias
-      push:
-        - dignifiedquire
-        - nunofmn
     default_branch: master
     delete_branch_on_merge: false
-    description: libp2p Peer abstraction Node.js implementation
+    description: "📁 ARCHIVED: libp2p-peer-info can now be found at
+      https://github.com/libp2p/js-libp2p/tree/master/packages/interface"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6455,8 +6347,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   js-spdy-stream-muxer:
     advanced_security: false
@@ -6491,8 +6384,7 @@ repositories:
           strict: true
     default_branch: master
     delete_branch_on_merge: false
-    description: Abstraction on top of spdy-transport, implementing the
-      abstract-stream-muxer interface
+    description: "📁 ARCHIVED: libp2p-spdy-stream-muxer is unmaintained"
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6503,8 +6395,9 @@ repositories:
     teams:
       admin:
         - Admin
+        - w3dt-stewards
       push:
-        - Repos - JavaScript
+        - js-libp2p-dev
     visibility: public
   jvm-libp2p:
     advanced_security: false
