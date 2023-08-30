@@ -6943,11 +6943,14 @@ repositories:
             - Compile on wasm32-wasi
             - Compile on x86_64-apple-darwin
             - Compile on x86_64-pc-windows-msvc
+            - Compile with MSRV
             - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - Ensure that `Cargo.lock` is up-to-date
             - examples
+            - gather_published_crates
             - IPFS Integration tests
+            - manifest_lint
             - Run all WASM tests
             - Run multidimensional interoperability tests (chromium)
             - Run multidimensional interoperability tests (native)
@@ -6969,6 +6972,7 @@ repositories:
             - Test libp2p-metrics
             - Test libp2p-mplex
             - Test libp2p-noise
+            - Test libp2p-perf
             - Test libp2p-ping
             - Test libp2p-plaintext
             - Test libp2p-pnet
@@ -6976,6 +6980,7 @@ repositories:
             - Test libp2p-relay
             - Test libp2p-rendezvous
             - Test libp2p-request-response
+            - Test libp2p-server
             - Test libp2p-swarm-derive
             - Test libp2p-swarm-test
             - Test libp2p-swarm
@@ -6985,6 +6990,7 @@ repositories:
             - Test libp2p-wasm-ext
             - Test libp2p-webrtc
             - Test libp2p-websocket
+            - Test libp2p-webtransport-websys
             - Test libp2p-yamux
             - Test libp2p
             - Test multistream-select
