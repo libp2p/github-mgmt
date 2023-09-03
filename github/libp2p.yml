@@ -275,6 +275,25 @@ repositories:
         - Admin
         - w3dt-stewards
     visibility: public
+  connectivity-site:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - andyschwab
+        - p-shahi
+        - tbenbow
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   cpp-libp2p:
     advanced_security: false
     allow_update_branch: false
