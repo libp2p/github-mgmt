@@ -6970,7 +6970,6 @@ repositories:
             - Compile with select features (mdns tcp dns tokio)
             - Ensure that `Cargo.lock` is up-to-date
             - examples
-            - gather_published_crates
             - IPFS Integration tests
             - manifest_lint
             - Run all WASM tests
