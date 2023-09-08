@@ -4123,6 +4123,8 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4343,6 +4345,8 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4617,6 +4621,8 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4648,6 +4654,8 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4678,6 +4686,8 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -5373,6 +5383,8 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -6199,6 +6211,8 @@ repositories:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
