@@ -4121,10 +4121,10 @@ repositories:
     delete_branch_on_merge: true
     description: Interoperability tests for libp2p Implementations
     files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
       .github/js_pull_request_template.md:
         content: .github/js_pull_request_template.md
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4341,12 +4341,12 @@ repositories:
     delete_branch_on_merge: false
     description: Cryptographically protected messages using the libp2p keychain
     files:
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      .github/js_pull_request_template.md:
-        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4617,12 +4617,12 @@ repositories:
     delete_branch_on_merge: true
     description: A js-libp2p backed daemon
     files:
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      .github/js_pull_request_template.md:
-        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4650,12 +4650,12 @@ repositories:
     delete_branch_on_merge: true
     description: Leverage other peers in the network to perform Content Routing calls.
     files:
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      .github/js_pull_request_template.md:
-        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -4682,12 +4682,12 @@ repositories:
     delete_branch_on_merge: true
     description: Leverage other peers in the network to perform Peer Routing calls.
     files:
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      .github/js_pull_request_template.md:
-        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -5379,12 +5379,12 @@ repositories:
     delete_branch_on_merge: true
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
     files:
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      .github/js_pull_request_template.md:
-        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -6207,12 +6207,12 @@ repositories:
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
     files:
+      .github/js_pull_request_template.md:
+        content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-      .github/js_pull_request_template.md:
-        content: .github/js_pull_request_template.md
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
