@@ -283,7 +283,6 @@ repositories:
       admin:
         - andyschwab
         - p-shahi
-        - tbenbow
     default_branch: main
     delete_branch_on_merge: false
     files:
@@ -6216,7 +6215,7 @@ repositories:
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -6402,11 +6401,10 @@ repositories:
     collaborators:
       admin:
         - Nashatyrev
-      push:
         - StefanBratanov
     default_branch: develop
     delete_branch_on_merge: false
-    description: a libp2p implementation for the JVM, written in Kotlin 🔥 [WIP]
+    description: a libp2p implementation for the JVM, written in Kotlin 🔥
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
