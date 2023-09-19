@@ -1,8 +1,8 @@
 import 'reflect-metadata'
-import {Repository} from '../resources/repository'
-import {addFileToAllRepos} from './shared/add-file-to-all-repos'
-import {format} from './shared/format'
-import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
+import { Repository } from '../resources/repository'
+import { addFileToAllRepos } from './shared/add-file-to-all-repos'
+import { format } from './shared/format'
+import { setPropertyInAllRepos } from './shared/set-property-in-all-repos'
 
 function isInitialised(repository: Repository) {
   return ![
@@ -35,6 +35,11 @@ addFileToAllRepos(
 addFileToAllRepos(
   '.github/workflows/semantic-pull-request.yml',
   '.github/workflows/semantic-pull-request.yml',
+  r => isInitialised(r) && isJS(r)
+)
+addFileToAllRepos(
+  '.github/workflows/pull_request_template.md',
+  '.github/workflows/pull_request_template.md',
   r => isInitialised(r) && isJS(r)
 )
 setPropertyInAllRepos(
