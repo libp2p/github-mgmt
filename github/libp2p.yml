@@ -5621,6 +5621,11 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Simple in-memory metrics gathering for libp2p
+    files:
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
