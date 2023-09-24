@@ -5613,13 +5613,13 @@ repositories:
     visibility: public
   js-libp2p-simple-metrics:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
         - achingbrain
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Simple in-memory metrics gathering for libp2p
     files:
       .github/workflows/semantic-pull-request.yml:
