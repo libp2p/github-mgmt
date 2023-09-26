@@ -7412,8 +7412,9 @@ repositories:
         - 2color
         - p-shahi
       maintain:
-        - maschad
-        - mxinden
+        - go-libp2p Maintainers
+        - js-libp2p-dev
+        - rust-libp2p Maintainers
       push:
         - jochasinga
         - TheDiscordian
@@ -7422,6 +7423,11 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
+      CODEOWNERS:
+        content: |
+          rust-peer/* @libp2p/rust-libp2p-maintainers
+          go-peer/* @libp2p/go-libp2p-maintainers
+          js-peer/* @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
