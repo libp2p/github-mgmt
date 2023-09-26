@@ -7433,8 +7433,8 @@ repositories:
         - 2color
         - p-shahi
       maintain:
-        - js-libp2p-dev
         - go-libp2p Maintainers
+        - js-libp2p-dev
         - rust-libp2p Maintainers
       push:
         - jochasinga
