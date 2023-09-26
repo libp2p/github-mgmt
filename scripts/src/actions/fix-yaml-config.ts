@@ -14,7 +14,7 @@ function isInitialised(repository: Repository) {
 }
 
 function isJS(repository: Repository) {
-  return repository.name.startsWith('js-libp2p')
+  return repository.name.startsWith('js-libp2p') || ['interop'].includes(repository.name)
 }
 
 function isPublic(repository: Repository) {
@@ -38,8 +38,8 @@ addFileToAllRepos(
   r => isInitialised(r) && isJS(r)
 )
 addFileToAllRepos(
-  '.github/workflows/pull_request_template.md',
-  '.github/workflows/pull_request_template.md',
+  '.github/pull_request_template.md',
+  '.github/js_pull_request_template.md',
   r => isInitialised(r) && isJS(r)
 )
 setPropertyInAllRepos(
