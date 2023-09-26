@@ -1130,27 +1130,6 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
     visibility: public
-  go-libdht:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - guillaumemichel
-    default_branch: main
-    delete_branch_on_merge: false
-    description: Generic Go DHT toolbox
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
   go-libp2p-asn-util:
     advanced_security: false
     allow_update_branch: false
@@ -7456,6 +7435,11 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - go-libp2p Maintainers
+        - js-libp2p-dev
+        - rust-libp2p Maintainers
     visibility: public
   website-1:
     advanced_security: false
