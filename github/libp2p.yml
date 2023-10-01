@@ -4271,6 +4271,27 @@ repositories:
       admin:
         - Admin
     visibility: public
+  js-libp2p-amino-dht-bootstrapper:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: A CLI for starting an Amino DHT bootstrapper
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
+    visibility: public
   js-libp2p-bootstrap:
     advanced_security: false
     allow_update_branch: false
@@ -7405,21 +7426,21 @@ repositories:
     visibility: public
   universal-connectivity:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
         - 2color
         - p-shahi
-      maintain:
-        - go-libp2p Maintainers
-        - js-libp2p-dev
-        - rust-libp2p Maintainers
       push:
         - jochasinga
         - TheDiscordian
     default_branch: main
     delete_branch_on_merge: false
+    description: Realtime decentralised chat with libp2p showing ubiquitous
+      peer-to-peer connectivity between multiple programming languages (Go,
+      Rust, TypeScript) and runtimes (Web, native binary) using WebRTC and
+      WebTransport
     files:
       .github/CODEOWNERS:
         content: |
@@ -7440,6 +7461,15 @@ repositories:
         - go-libp2p Maintainers
         - js-libp2p-dev
         - rust-libp2p Maintainers
+    topics:
+      - go
+      - libp2p
+      - networking
+      - p2p
+      - peer-to-peer
+      - rust
+      - webrtc
+      - webtransport
     visibility: public
   website-1:
     advanced_security: false
