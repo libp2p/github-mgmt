@@ -4275,6 +4275,9 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: A CLI for starting an Amino DHT bootstrapper
@@ -4298,7 +4301,6 @@ repositories:
         - w3dt-stewards
       push:
         - js-libp2p-dev
-        - web3-bot
     visibility: public
   js-libp2p-bootstrap:
     advanced_security: false
