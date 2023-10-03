@@ -4298,6 +4298,7 @@ repositories:
         - w3dt-stewards
       push:
         - js-libp2p-dev
+        - web3-bot
     visibility: public
   js-libp2p-bootstrap:
     advanced_security: false
@@ -7442,6 +7443,7 @@ repositories:
       push:
         - jochasinga
         - TheDiscordian
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Realtime decentralised chat with libp2p showing ubiquitous
