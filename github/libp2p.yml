@@ -4275,6 +4275,9 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    collaborators:
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: A CLI for starting an Amino DHT bootstrapper
@@ -7442,6 +7445,7 @@ repositories:
       push:
         - jochasinga
         - TheDiscordian
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Realtime decentralised chat with libp2p showing ubiquitous
