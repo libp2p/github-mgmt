@@ -4198,6 +4198,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-ipni-content-routing:
     advanced_security: false
@@ -4219,6 +4225,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-iprs-record:
     advanced_security: false
