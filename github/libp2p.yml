@@ -7457,7 +7457,6 @@ repositories:
       push:
         - jochasinga
         - TheDiscordian
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Realtime decentralised chat with libp2p showing ubiquitous
