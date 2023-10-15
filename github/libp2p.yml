@@ -771,8 +771,6 @@ repositories:
     collaborators:
       admin:
         - johnnymatthews
-      triage:
-        - walkerlj0
     default_branch: master
     delete_branch_on_merge: false
     description: Documentation site for the libp2p project.
@@ -7175,7 +7173,7 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_message: PR_BODY
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
@@ -7461,7 +7459,7 @@ repositories:
     delete_branch_on_merge: false
     description: Realtime decentralised chat with libp2p showing ubiquitous
       peer-to-peer connectivity between multiple programming languages (Go,
-      Rust, TypeScript) and runtimes (Web, native binary) using WebRTC and
+      Rust, TypeScript) and runtimes (Web, native binary) using QUIC, WebRTC and
       WebTransport
     files:
       .github/CODEOWNERS:
