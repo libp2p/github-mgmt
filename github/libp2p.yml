@@ -7096,7 +7096,6 @@ repositories:
             - Test libp2p-connection-limits
             - Test libp2p-core
             - Test libp2p-dcutr
-            - Test libp2p-deflate
             - Test libp2p-dns
             - Test libp2p-floodsub
             - Test libp2p-gossipsub
