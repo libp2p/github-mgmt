@@ -4186,6 +4186,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: Use a Delegated Routing V1 HTTP service to discover content providers
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4805,6 +4808,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: An example chat app using libp2p
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4823,6 +4833,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: How to use Circuit Relay to connect two nodes
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4841,6 +4858,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: An example of how to configure connection encryption
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4860,6 +4884,13 @@ repositories:
     delete_branch_on_merge: true
     description: This is a template to create a repo to be fork and go based on an
       example of js-libp2p
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4875,11 +4906,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: Examples for the JS implementation of libp2p
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
