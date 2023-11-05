@@ -36,7 +36,6 @@ members:
     - bigs
     - cemozerr
     - ChihChengLiang
-    - DannyS03
     - dennis-tra
     - dharmapunk82
     - dhuseby
@@ -115,6 +114,7 @@ members:
     - robzajac
     - rolfyone
     - romanb
+    - salmad3
     - SgtPooki
     - snazha-blkio
     - stongo
@@ -4178,8 +4178,8 @@ repositories:
     visibility: public
   js-delegated-routing-v1-http-api-content-routing:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4189,11 +4189,10 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4206,8 +4205,8 @@ repositories:
     visibility: public
   js-ipni-content-routing:
     advanced_security: false
-    allow_update_branch: true
-    archived: false
+    allow_update_branch: false
+    archived: true
     collaborators:
       push:
         - web3-bot
@@ -4220,7 +4219,7 @@ repositories:
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
+    secret_scanning_push_protection: false
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
@@ -4799,6 +4798,24 @@ repositories:
       admin:
         - Admin
     visibility: public
+  js-libp2p-example-browser-pubsub:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use libp2p pubsub in browsers
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-libp2p-example-chat:
     advanced_security: false
     allow_update_branch: false
@@ -4811,14 +4828,34 @@ repositories:
     description: An example chat app using libp2p
     files:
       .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-        overwrite_on_create: true
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-        overwrite_on_create: true
+        content: >
+          # ⚠️ IMPORTANT ⚠️
+
+
+          # Please do not create a Pull Request for this repository
+
+
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+
+
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+
+
+          ## Contributing
+
+
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+
+          4. Push to the Branch (`git push origin feature/amazing-example`)
+
+          5. Open a Pull Request
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4840,13 +4877,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4867,14 +4901,34 @@ repositories:
     description: An example of how to configure connection encryption
     files:
       .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-        overwrite_on_create: true
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-        overwrite_on_create: true
+        content: >
+          # ⚠️ IMPORTANT ⚠️
+
+
+          # Please do not create a Pull Request for this repository
+
+
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+
+
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+
+
+          ## Contributing
+
+
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+
+          4. Push to the Branch (`git push origin feature/amazing-example`)
+
+          5. Open a Pull Request
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4897,13 +4951,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4922,13 +4973,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7882,7 +7930,7 @@ teams:
       maintainer:
         - p-shahi
       member:
-        - DannyS03
+        - salmad3
     privacy: closed
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
