@@ -755,7 +755,6 @@ repositories:
         lock_branch: false
         push_restrictions:
           - MDQ6VXNlcjI1NDk3MDgz
-          - MDQ6VXNlcjk2MTEwMDg=
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -768,9 +767,6 @@ repositories:
           contexts:
             - fleek/build
           strict: false
-    collaborators:
-      admin:
-        - johnnymatthews
     default_branch: master
     delete_branch_on_merge: false
     description: Documentation site for the libp2p project.
