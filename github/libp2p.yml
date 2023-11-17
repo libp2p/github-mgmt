@@ -4806,7 +4806,34 @@ repositories:
     description: How to use libp2p pubsub in browsers
     files:
       .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
+        content: >
+          # ⚠️ IMPORTANT ⚠️
+
+
+          # Please do not create a Pull Request for this repository
+
+
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+
+
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+
+
+          ## Contributing
+
+
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+
+          4. Push to the Branch (`git push origin feature/amazing-example`)
+
+          5. Open a Pull Request
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
       .github/workflows/stale.yml:
@@ -6469,19 +6496,9 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
-    default_branch: master
+    default_branch: main
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @libp2p/js-libp2p-dev
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
