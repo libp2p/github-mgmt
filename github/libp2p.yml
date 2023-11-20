@@ -6499,6 +6499,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7275,13 +7282,13 @@ repositories:
           contexts:
             - Check for changes in proto files
             - Check rustdoc intra-doc links
+            - Compile in feature matrix
             - Compile on wasm32-unknown-emscripten
             - Compile on wasm32-unknown-unknown
             - Compile on wasm32-wasi
             - Compile on x86_64-apple-darwin
             - Compile on x86_64-pc-windows-msvc
             - Compile with MSRV
-            - Compile in feature matrix
             - Ensure that `Cargo.lock` is up-to-date
             - examples
             - IPFS Integration tests
