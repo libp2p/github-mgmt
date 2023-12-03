@@ -4110,19 +4110,9 @@ repositories:
     collaborators:
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     delete_branch_on_merge: true
     description: Interoperability tests for libp2p Implementations
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4171,6 +4161,33 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  iptoasn:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - w3dt-stewards
     visibility: public
   js-delegated-routing-v1-http-api-content-routing:
     advanced_security: false
@@ -4653,19 +4670,9 @@ repositories:
     collaborators:
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     delete_branch_on_merge: true
     description: A js-libp2p backed daemon
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4834,10 +4841,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4886,10 +4889,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4910,11 +4909,34 @@ repositories:
     description: How to use Circuit Relay to connect two nodes
     files:
       .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
+        content: >
+          # ⚠️ IMPORTANT ⚠️
+
+
+          # Please do not create a Pull Request for this repository
+
+
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+
+
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+
+
+          ## Contributing
+
+
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+
+          4. Push to the Branch (`git push origin feature/amazing-example`)
+
+          5. Open a Pull Request
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4963,10 +4985,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
