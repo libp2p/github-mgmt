@@ -4993,6 +4993,60 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
+  js-libp2p-example-custom-protocols:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to create custom protocols for your app
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-delegated-routing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use other libp2p nodes to perform delegated routing
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-discovery-mechanisms:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to configure peer discovery mechanisms
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-libp2p-example-fork-go-template:
     advanced_security: false
     allow_update_branch: true
@@ -5651,19 +5705,9 @@ repositories:
     collaborators:
       push:
         - web3-bot
-    default_branch: master
+    default_branch: main
     delete_branch_on_merge: true
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-      CODEOWNERS:
-        content: |
-          * @libp2p/js-libp2p-dev
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
