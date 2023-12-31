@@ -4113,6 +4113,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: Interoperability tests for libp2p Implementations
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4178,11 +4185,14 @@ repositories:
         required_linear_history: false
     default_branch: main
     delete_branch_on_merge: false
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: false
-    secret_scanning: false
+    secret_scanning_push_protection: true
+    secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
@@ -4673,6 +4683,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: A js-libp2p backed daemon
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4841,6 +4858,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4889,6 +4910,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4937,6 +4962,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4985,6 +5014,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5003,6 +5036,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: How to create custom protocols for your app
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5021,6 +5061,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: How to use other libp2p nodes to perform delegated routing
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5039,6 +5086,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: How to configure peer discovery mechanisms
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5708,6 +5762,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: A js-libp2p module that uses pubsub for mdns like peer discovery
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6561,6 +6622,13 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7324,6 +7392,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Data structures and algorithms for identifying peers in libp2p.
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
