@@ -4116,13 +4116,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4191,7 +4188,6 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4690,13 +4686,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4867,10 +4860,8 @@ repositories:
           5. Open a Pull Request
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4921,10 +4912,8 @@ repositories:
           5. Open a Pull Request
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4975,10 +4964,8 @@ repositories:
           5. Open a Pull Request
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5029,10 +5016,8 @@ repositories:
           5. Open a Pull Request
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5054,13 +5039,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5082,13 +5064,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5110,13 +5089,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5789,13 +5765,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6652,13 +6625,10 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-        overwrite_on_create: true
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7422,10 +7392,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Data structures and algorithms for identifying peers in libp2p.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
