@@ -9,7 +9,8 @@ function isInitialised(repository: Repository) {
     'fclibp2p-zhi',
     'okr-temp',
     'governance',
-    'product'
+    'product',
+    'rust-libp2p-identity'
   ].includes(repository.name)
 }
 
