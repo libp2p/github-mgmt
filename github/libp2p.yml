@@ -341,7 +341,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -4304,6 +4304,24 @@ repositories:
       admin:
         - Admin
     visibility: public
+  js-libp2p-aes-ctr:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Streaming AES-CTR for node and browsers
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-libp2p-amino-dht-bootstrapper:
     advanced_security: false
     allow_update_branch: true
@@ -5963,6 +5981,24 @@ repositories:
         - Admin
         - w3dt-stewards
     visibility: public
+  js-libp2p-rsa:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Utility functions for dealing with legacy RSA keys
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-libp2p-secio:
     advanced_security: false
     allow_update_branch: false
@@ -7256,7 +7292,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
