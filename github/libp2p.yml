@@ -754,7 +754,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjI1NDk3MDgz
+          - /salmad3
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -870,8 +870,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
-      maintain:
-        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      admin:
+        - ipdx
       push:
         - github-mgmt stewards
     topics:
@@ -886,15 +886,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Address utilities for libp2p swarm
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -997,15 +992,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Multiplexed secure transport module for go-libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1024,16 +1014,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Interfaces for securing libp2p connections; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1080,15 +1065,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a simple and fast eventbus for type-based local event delivery.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1161,31 +1141,21 @@ repositories:
       admin:
         - aarshkshah1992
     default_branch: feat/init
-    delete_branch_on_merge: false
     description: ASN lookup library for IPv4 and IPv6 addresses.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: private
   go-libp2p-autonat-svc:
     advanced_security: false
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] AutoNAT Service implementation -- use
       github.com/libp2p/go-libp2p-autonat"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1208,15 +1178,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: "DEPRECATED: NAT Autodiscovery"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1263,15 +1228,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: The thinnest possible host implementation.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1315,15 +1275,10 @@ repositories:
       admin:
         - vyzo
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Simple testing programs for go-libp2p-circuit"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1336,15 +1291,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Circuit Switching for libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1362,15 +1312,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A package for libp2p connections"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1387,15 +1332,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a resource sentinel that keeps connection count under reasonable bounds
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1443,15 +1383,10 @@ repositories:
         - carospiegly
         - web3-bot
     default_branch: wip
-    delete_branch_on_merge: false
     description: golang implementation of the CoralDHT protocol
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -1479,15 +1414,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Interfaces and abstractions that make up go-libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1507,16 +1437,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Various cryptographic utilities used by libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1563,15 +1488,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: "Active Peer Discovery "
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1588,15 +1508,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] implementation of go-libp2p-interface-conn"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1613,15 +1528,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Example libp2p applications
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1751,16 +1661,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] The host interface for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1823,16 +1728,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED. Lives in
       github.com/libp2p/go-libp2p/blob/master/p2p/protocol/identify.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1848,15 +1748,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] An interface for libp2p connection objects"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1872,16 +1767,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] The interface for go-libp2p connection managers; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -1897,16 +1787,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Interface for restricting communication to private
       networks; use https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2014,15 +1899,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: logging helpers for go-libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2039,16 +1919,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A connection wrapper for go-libp2p that provides
       bandwidth metrics; use https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2094,15 +1969,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: NAT port mapping library for go-libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2120,16 +1990,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Network interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2146,15 +2011,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Utility methods for creating public and private keys for use in test
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2188,15 +2048,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a secure channel for go-libp2p based on the Noise protocol framework
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2218,16 +2073,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] PKI based identities for use in go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2264,15 +2114,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: an object to manage sets of peers, their addresses and other metadata
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2290,15 +2135,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: Go libp2p ping protocol implementation
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2315,15 +2155,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of go-libp2p-interface-pnet
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2340,16 +2175,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] Just a type for protocol strings. Nothing more; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2365,15 +2195,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: PubSub interface for go-libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2494,15 +2319,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using QUIC
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2637,15 +2457,10 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of the libp2p network resource manager interface
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -2689,16 +2504,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] a collection of routing interfaces for go-libp2p; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2714,15 +2524,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: a minimal secure channel for libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2760,16 +2565,11 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: The libp2p swarm manages groups of connections to peers, and
       handles incoming and outgoing streams
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2820,15 +2620,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: go-libp2p's TLS encrypted transport
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2848,14 +2643,9 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2873,17 +2663,12 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] libp2p transport code; moved to
       https://github.com/libp2p/go-libp2p-core/ and
       https://github.com/libp2p/go-libp2p-testing/"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -2931,7 +2716,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: A libp2p transport that enables browser-to-server, and
       server-to-server, direct communication over WebRTC without requiring
       signalling servers
@@ -2966,12 +2750,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -3050,14 +2830,9 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3133,16 +2908,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A library for filtering multiaddrs; please use
       https://github.com/multiformats/go-multiaddr"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3275,7 +3045,6 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: UNMAINTAINED - OpenSSL bindings for Go
     files:
       .github/workflows/stale.yml:
@@ -3308,12 +3077,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3332,15 +3097,10 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] P2P stream multi-multiplexing in Go "
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3357,15 +3117,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: A basic transport for automatically (and intelligently) reusing TCP ports
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3469,15 +3224,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED - Go Sockaddr -> RawSockaddr conversions
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3525,15 +3275,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: With destination address, select the source address from kernel
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3552,15 +3297,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: multistream implementation of go-stream-muxer
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3580,16 +3320,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] stream multiplexer interface; use
       https://github.com/libp2p/go-libp2p-core/ instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3606,15 +3341,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using tcp
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3632,16 +3362,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED] A collection of testing utilities for ipfs and
       libp2p; use https://github.com/libp2p/go-libp2p-testing instead."
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3683,15 +3408,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: An implementation of a libp2p transport using utp
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3708,15 +3428,10 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: a websocket implementation of a go-libp2p transport
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3735,14 +3450,9 @@ repositories:
         - aarshkshah1992
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3849,7 +3559,6 @@ repositories:
       admin:
         - guseggert
     default_branch: main
-    delete_branch_on_merge: false
     description: Infrastructure for Hydra Boosters
     files:
       .github/workflows/stale.yml:
@@ -3882,12 +3591,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3941,16 +3646,11 @@ repositories:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-connection is now included in
       https://github.com/libp2p/js-interfaces"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -3960,16 +3660,11 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-content-routing is now included in
       https://github.com/libp2p/js-interfaces"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4001,16 +3696,11 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-discovery is now included in
       https://github.com/libp2p/js-interfaces"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4023,16 +3713,11 @@ repositories:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-peer-routing is now included in
       https://github.com/libp2p/js-interfaces"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4045,16 +3730,11 @@ repositories:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: deprecated in favor of
       https://github.com/ipfs/interface-datastore"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4067,16 +3747,11 @@ repositories:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-stream-muxer is now included in
       https://github.com/libp2p/js-interfaces"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4089,16 +3764,11 @@ repositories:
       admin:
         - daviddias
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: interface-transport is now included in
       https://github.com/libp2p/js-interfaces"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4207,18 +3877,13 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
     description: Use a Delegated Routing V1 HTTP service to discover content providers
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4234,18 +3899,13 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
     description: Use an IPNI service to discover content providers
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4265,15 +3925,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4291,15 +3951,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: JavaScript IPFS record class implementation
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4319,10 +3974,8 @@ repositories:
         content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4370,7 +4023,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Rail a libp2p node through a bootstrap peer list
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -4387,12 +4039,8 @@ repositories:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4409,15 +4057,10 @@ repositories:
         - dryajov
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4462,7 +4105,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Container for libp2p components
     files:
       .github/workflows/stale.yml:
@@ -4495,12 +4137,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4511,15 +4149,10 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4537,7 +4170,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: JS Libp2p connections
     files:
       .github/workflows/stale.yml:
@@ -4570,12 +4202,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4586,16 +4214,11 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "⛔️ DEPRECATED: js-libp2p-crypto-secp256k1 is now included in
       https://github.com/libp2p/js-libp2p-crypto"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4608,7 +4231,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: The libp2p crypto primitives, for Node.js and the Browser!
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -4616,12 +4238,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -4660,7 +4278,6 @@ repositories:
       admin:
         - achingbrain
     default_branch: master
-    delete_branch_on_merge: false
     description: Protocol for communication between libp2p-daemon and libp2p-client
     files:
       .github/workflows/stale.yml:
@@ -4693,12 +4310,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-libp2p-daemon:
     advanced_security: false
@@ -4806,15 +4419,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4832,15 +4445,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5188,7 +4796,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Also known as pubsub-flood or just dumbsub, this implementation of
       pubsub focused on delivering an API for Publish/Subscribe, but with no
       CastTree Forming (it just floods the network).
@@ -5207,12 +4814,8 @@ repositories:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5228,15 +4831,10 @@ repositories:
       push:
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5249,7 +4847,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Contains test suites and interfaces you can use to implement the
       various components of js libp2p.
     files:
@@ -5267,12 +4864,8 @@ repositories:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5286,7 +4879,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: JavaScript implementation of the DHT for libp2p
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5294,12 +4886,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5317,15 +4905,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5343,15 +4931,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: DEPRECATED
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5368,15 +4951,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5394,15 +4977,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: Implementation of the Kademlia router for libp2p
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5417,7 +4995,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Key management and cryptographically protected messages
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5434,12 +5011,8 @@ repositories:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5453,7 +5026,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: A logging component for use in js-libp2p modules
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5461,12 +5033,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5480,7 +5048,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: libp2p MulticastDNS Peer Discovery
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5488,12 +5055,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5529,7 +5092,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: JavaScript implementation of https://github.com/libp2p/mplex
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5537,12 +5099,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5556,7 +5114,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: JavaScript implementation of multistream-select
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5564,12 +5121,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5610,7 +5163,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Store values against a peer id
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5618,12 +5170,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5637,7 +5185,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: libp2p PeerId implementation in JavaScript
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5645,12 +5192,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5664,7 +5207,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Used to transfer signed peer data across the network
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5672,12 +5214,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5691,7 +5229,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Stores information about peers libp2p knows on the network
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5699,12 +5236,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5721,15 +5254,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5742,15 +5270,10 @@ repositories:
       admin:
         - jacobheun
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5760,7 +5283,6 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: main
-    delete_branch_on_merge: true
     description: Collect libp2p metrics for scraping by Prometheus
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5768,12 +5290,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: PR_BODY
-    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - Admin
@@ -5816,7 +5334,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Pubsub base protocol for libp2p pubsub routers
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5833,12 +5350,8 @@ repositories:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5852,7 +5365,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Implementation of go-libp2p-record in JavaScript
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5860,12 +5372,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5876,7 +5384,6 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: main
-    delete_branch_on_merge: false
     description: An out of the box libp2p relay server implementing v1 of circuit
       relay protocol
     files:
@@ -5953,12 +5460,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6005,10 +5508,8 @@ repositories:
         content: .github/js_pull_request_template.md
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
-        overwrite_on_create: true
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-        overwrite_on_create: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -6027,15 +5528,10 @@ repositories:
       push:
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p SECIO
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6077,16 +5573,11 @@ repositories:
         - fbaiodias
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: SPDY 3.1 implementation wrapper that is compatible with libp2p
       Stream Muxer expected interface
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6099,15 +5590,10 @@ repositories:
       push:
         - mkg20001
     default_branch: master
-    delete_branch_on_merge: false
     description: A better ws-star implementation
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - Admin
@@ -6138,15 +5624,10 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: now part of the https://github.com/libp2p/js-libp2p repo"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6159,7 +5640,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: JavaScript implementation of the TCP module that libp2p uses that
       implements the interface-transport spec
     files:
@@ -6168,12 +5648,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6187,7 +5663,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: libp2p network topology
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -6195,12 +5670,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6214,7 +5685,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Allows tracking of statistics while libp2p is running
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -6222,12 +5692,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6295,7 +5761,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -6303,12 +5768,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6350,7 +5811,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Dial using WebRTC without the need to set up any Signalling
       Rendezvous Point!
     files:
@@ -6384,12 +5844,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6405,7 +5861,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: Simple one-to-one WebRTC data channels
     files:
       .github/workflows/stale.yml:
@@ -6438,12 +5893,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6459,7 +5910,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p WebRTC transport that includes a discovery mechanism
       provided by the signalling-star
     files:
@@ -6493,12 +5943,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6514,7 +5960,6 @@ repositories:
         - ddimaria
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -6530,12 +5975,8 @@ repositories:
             stale:
               uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6549,16 +5990,11 @@ repositories:
       push:
         - mkg20001
     default_branch: master
-    delete_branch_on_merge: false
     description: Allows to listen on multiple websocket-star servers while ignoring
       offline ones
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
         - Admin
@@ -6571,16 +6007,11 @@ repositories:
       admin:
         - mkg20001
     default_branch: master
-    delete_branch_on_merge: false
     description: The rendezvous service for libp2p-websocket-star enabled nodes meet
       and talk with each other
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6590,15 +6021,10 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p-webrtc-star without webrtc. Just plain socket.io.
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6611,7 +6037,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
     description: "WebSockets module that libp2p uses and that implements the
       interface-transport spec "
     files:
@@ -6620,12 +6045,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6649,7 +6070,6 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
     description: "WebTranport module that libp2p uses and that implements the
       interface-transport spec "
     files:
@@ -6658,12 +6078,8 @@ repositories:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6735,17 +6151,12 @@ repositories:
       push:
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: "[DEPRECATED]: peer-book is now at
       https://github.com/libp2p/js-libp2p/tree/master/src/peer-store as
       PeerStore"
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6786,15 +6197,10 @@ repositories:
         - dignifiedquire
         - nunofmn
     default_branch: master
-    delete_branch_on_merge: false
     description: libp2p Peer abstraction Node.js implementation
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6811,15 +6217,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -6831,16 +6237,11 @@ repositories:
         required_status_checks:
           strict: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Abstraction on top of spdy-transport, implementing the
       abstract-stream-muxer interface
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -6967,16 +6368,11 @@ repositories:
       push:
         - aarshkshah1992
     default_branch: master
-    delete_branch_on_merge: false
     description: This repo contains the spec of mplex, the friendly Stream
       Multiplexer (that works in 3 languages!)
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -7168,14 +6564,9 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -7329,7 +6720,6 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
     description: "[toy project 🎈] a libp2p interactive shell"
     files:
       .github/workflows/stale.yml:
@@ -7362,12 +6752,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -7380,15 +6766,10 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Moved discussion notes to https://github.com/libp2p/notes
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   research-pubsub:
     advanced_security: false
@@ -7421,15 +6802,10 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: "Check https://github.com/libp2p/notes "
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -7811,16 +7187,11 @@ repositories:
         - aarshkshah1992
         - jimpick
     default_branch: master
-    delete_branch_on_merge: false
     description: A testlab built with Nomad and Consul to analyze the behavior of
       p2p networks at scale
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -7899,17 +7270,12 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -7949,7 +7315,6 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: master
-    delete_branch_on_merge: false
     description: workspace for go-libp2p contributors
     files:
       .github/workflows/stale.yml:
@@ -7982,12 +7347,8 @@ repositories:
                   days-before-issue-close: 7
                   enable-statistics: true
     has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: false
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - w3dt-stewards
@@ -8134,7 +7495,6 @@ teams:
         - ipfsbot
     privacy: closed
   community:
-    create_default_maintainer: false
     description: Developer advocates, community engineers, and other people that
       need write privs.
     members:
@@ -8169,7 +7529,6 @@ teams:
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
     description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated exactly as cautiosly as having an org admin role
@@ -8198,10 +7557,8 @@ teams:
       member:
         - sukunrt
         - vyzo
-    parent_team_id: Repos - Go
     privacy: closed
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
@@ -8214,7 +7571,6 @@ teams:
         - wemeetagain
     privacy: closed
   js-libp2p-dev:
-    create_default_maintainer: false
     description: js-libp2p developers and engineers
     members:
       maintainer:
@@ -8226,7 +7582,6 @@ teams:
         - whizzzkid
     privacy: closed
   kubo maintainers:
-    create_default_maintainer: false
     description: Kubo Maintainers
     members:
       maintainer:
@@ -8238,7 +7593,6 @@ teams:
         - Jorropo
     privacy: closed
   probelab:
-    create_default_maintainer: false
     members:
       maintainer:
         - dennis-tra
@@ -8306,7 +7660,6 @@ teams:
         - vmx
     privacy: closed
   rust-libp2p Maintainers:
-    create_default_maintainer: false
     description: Trusted reviewers for merging into rust-libp2p repositories and
       publishing to crates.io.
     members:
