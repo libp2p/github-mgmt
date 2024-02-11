@@ -7281,7 +7281,7 @@ repositories:
     allow_update_branch: false
     archived: false
     branch_protection:
-      master:
+      main:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
@@ -7299,13 +7299,10 @@ repositories:
       admin:
         - carver
         - pacrob
-    default_branch: master
+    default_branch: main
     delete_branch_on_merge: false
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
