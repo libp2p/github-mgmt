@@ -4,14 +4,10 @@ members:
   admin:
     - andyschwab-admin
     - galargh
+    - p-shahi
     - raulk
     - Stebalien
-    - p-shahi
   member:
-    - andyschwab-admin
-    - galargh
-    - raulk
-    - whyrusleeping
     - 2color
     - aamnv
     - aarshkshah1992
@@ -25,6 +21,7 @@ members:
     - AlanSl
     - alexh
     - andrew
+    - andyschwab-admin
     - andyschwab
     - anorth
     - arajasek
@@ -46,6 +43,7 @@ members:
     - flyingzumwalt
     - frrist
     - fsdiogo
+    - galargh
     - gammazero
     - gavinmcdermott
     - geoah
@@ -106,6 +104,7 @@ members:
     - pipermerriam
     - protolambda
     - ralexstokes
+    - raulk
     - RichardLitt
     - richardschneider
     - robzajac
@@ -133,6 +132,7 @@ members:
     - web3-bot
     - wemeetagain
     - whizzzkid
+    - whyrusleeping
     - willscott
     - xDimon
     - yiannisbot
@@ -7300,6 +7300,9 @@ repositories:
     delete_branch_on_merge: false
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -7675,6 +7678,9 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: CONFIDENTIAL
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
