@@ -3,17 +3,15 @@
 members:
   admin:
     - andyschwab-admin
-    - aschmahmann
-    - daviddias
     - galargh
-    - jacobheun
-    - jbenet
-    - marten-seemann
-    - momack2
     - raulk
     - Stebalien
-    - whyrusleeping
+    - p-shahi
   member:
+    - andyschwab-admin
+    - galargh
+    - raulk
+    - Stebalien
     - 2color
     - aamnv
     - aarshkshah1992
@@ -104,7 +102,6 @@ members:
     - nunofmn
     - olizilla
     - ortyomka
-    - p-shahi
     - petar
     - pipermerriam
     - protolambda
