@@ -8,12 +8,6 @@ members:
     - raulk
     - Stebalien
   member:
-    - aschmahmann
-    - daviddias
-    - jacobheun
-    - jbenet
-    - marten-seemann
-    - momack2
     - 2color
     - aamnv
     - aarshkshah1992
@@ -32,11 +26,13 @@ members:
     - anorth
     - arajasek
     - art-gor
+    - aschmahmann
     - autonome
     - BigLep
     - bigs
     - cemozerr
     - ChihChengLiang
+    - daviddias
     - dennis-tra
     - dharmapunk82
     - dhuseby
@@ -67,6 +63,8 @@ members:
     - iceseer
     - igor-egorov
     - ipfsbot
+    - jacobheun
+    - jbenet
     - jbenetsafer
     - jchris
     - JGAntunes
@@ -88,6 +86,7 @@ members:
     - locotorp
     - magik6k
     - MarcoPolo
+    - marten-seemann
     - maschad
     - masih
     - mbaxter
@@ -97,6 +96,7 @@ members:
     - miyazono
     - mkalinin
     - mkg20001
+    - momack2
     - mpetrunic
     - mvid
     - mxinden
