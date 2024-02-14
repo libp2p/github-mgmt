@@ -341,7 +341,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -754,7 +754,7 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjI1NDk3MDgz
+          - /salmad3
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -870,8 +870,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       # ATTN: do not add teams with push+ access, use github-mgmt stewards team membership instead
-      maintain:
-        - ipdx # NOTE: ipdx are the creators of GitHub Management framework
+      admin:
+        - ipdx
       push:
         - github-mgmt stewards
     topics:
@@ -4207,7 +4207,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Use a Delegated Routing V1 HTTP service to discover content providers
     files:
       .github/workflows/stale.yml:
@@ -4234,7 +4234,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Use an IPNI service to discover content providers
     files:
       .github/workflows/stale.yml:
@@ -4265,15 +4265,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -4303,6 +4303,31 @@ repositories:
     teams:
       admin:
         - Admin
+    visibility: public
+  js-libp2p-aes-ctr:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Streaming AES-CTR for node and browsers
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-libp2p-amino-dht-bootstrapper:
     advanced_security: false
@@ -4343,7 +4368,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Rail a libp2p node through a bootstrap peer list
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -4581,7 +4606,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: The libp2p crypto primitives, for Node.js and the Browser!
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -4779,15 +4804,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5161,7 +5186,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Also known as pubsub-flood or just dumbsub, this implementation of
       pubsub focused on delivering an API for Publish/Subscribe, but with no
       CastTree Forming (it just floods the network).
@@ -5222,7 +5247,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Contains test suites and interfaces you can use to implement the
       various components of js libp2p.
     files:
@@ -5259,7 +5284,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: JavaScript implementation of the DHT for libp2p
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5290,15 +5315,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5341,15 +5366,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -5426,7 +5451,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: A logging component for use in js-libp2p modules
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5453,7 +5478,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: libp2p MulticastDNS Peer Discovery
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5502,7 +5527,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: JavaScript implementation of https://github.com/libp2p/mplex
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5529,7 +5554,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: JavaScript implementation of multistream-select
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5583,7 +5608,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Store values against a peer id
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5610,7 +5635,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: libp2p PeerId implementation in JavaScript
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5637,7 +5662,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Used to transfer signed peer data across the network
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5664,7 +5689,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Stores information about peers libp2p knows on the network
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5733,7 +5758,7 @@ repositories:
     allow_update_branch: false
     archived: true
     default_branch: main
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Collect libp2p metrics for scraping by Prometheus
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5745,8 +5770,8 @@ repositories:
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
     secret_scanning: true
-    squash_merge_commit_message: PR_BODY
-    squash_merge_commit_title: PR_TITLE
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - Admin
@@ -5789,7 +5814,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Pubsub base protocol for libp2p pubsub routers
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5825,7 +5850,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Implementation of go-libp2p-record in JavaScript
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -5962,6 +5987,31 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+    visibility: public
+  js-libp2p-rsa:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Utility functions for dealing with legacy RSA keys
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   js-libp2p-secio:
     advanced_security: false
@@ -6105,7 +6155,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: JavaScript implementation of the TCP module that libp2p uses that
       implements the interface-transport spec
     files:
@@ -6133,7 +6183,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: libp2p network topology
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -6160,7 +6210,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Allows tracking of statistics while libp2p is running
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -6241,7 +6291,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: Package to aggregate shared logic and dependencies for the libp2p ecosystem
     files:
       .github/workflows/semantic-pull-request.yml:
@@ -6460,7 +6510,7 @@ repositories:
         - ddimaria
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     files:
       .github/workflows/semantic-pull-request.yml:
         content: .github/workflows/semantic-pull-request.yml
@@ -6557,7 +6607,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: "WebSockets module that libp2p uses and that implements the
       interface-transport spec "
     files:
@@ -6595,7 +6645,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: true
+    delete_branch_on_merge: false
     description: "WebTranport module that libp2p uses and that implements the
       interface-transport spec "
     files:
@@ -6757,15 +6807,15 @@ repositories:
         enforce_admins: false
         lock_branch: false
         push_restrictions:
-          - MDQ6VXNlcjc5MDg0Mg==
-          - MDQ6VXNlcjcyOTUwNzE=
-          - MDQ6VXNlcjE0NzQ5Nzg=
-          - MDQ6VXNlcjE1Mjg2Mw==
-          - MDQ6VXNlcjEyMTExNTI=
-          - MDQ6VXNlcjU0NDcwODg=
-          - MDQ6VXNlcjU4ODcx
-          - MDQ6VXNlcjY2NTgxMA==
-          - MDQ6VXNlcjYzOTgzNA==
+          - /achingbrain
+          - /alanshaw
+          - /daviddias
+          - /dignifiedquire
+          - /hacdias
+          - /jacobheun
+          - /kumavis
+          - /olizilla
+          - /vasco-santos
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -7231,7 +7281,7 @@ repositories:
     allow_update_branch: false
     archived: false
     branch_protection:
-      master:
+      main:
         allows_deletions: false
         allows_force_pushes: false
         blocks_creations: false
@@ -7249,14 +7299,14 @@ repositories:
       admin:
         - carver
         - pacrob
-    default_branch: master
+    default_branch: main
     delete_branch_on_merge: false
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -8080,7 +8130,6 @@ teams:
         - ipfsbot
     privacy: closed
   community:
-    create_default_maintainer: false
     description: Developer advocates, community engineers, and other people that
       need write privs.
     members:
@@ -8115,7 +8164,6 @@ teams:
   github-mgmt stewards:
     # NOTE: created to capture users with push+ access to github-mgmt repository
     #  using a team instead of direct collaborators because we want to reference it in the CODEOWNERS file
-    create_default_maintainer: false
     description: Users that are effectively org admins
     members:
       # WARN: membership here should be treated exactly as cautiosly as having an org admin role
@@ -8144,10 +8192,8 @@ teams:
       member:
         - sukunrt
         - vyzo
-    parent_team_id: Repos - Go
     privacy: closed
   ipdx:
-    create_default_maintainer: false
     members:
       maintainer:
         - galargh
@@ -8160,7 +8206,6 @@ teams:
         - wemeetagain
     privacy: closed
   js-libp2p-dev:
-    create_default_maintainer: false
     description: js-libp2p developers and engineers
     members:
       maintainer:
@@ -8172,7 +8217,6 @@ teams:
         - whizzzkid
     privacy: closed
   kubo maintainers:
-    create_default_maintainer: false
     description: Kubo Maintainers
     members:
       maintainer:
@@ -8184,7 +8228,6 @@ teams:
         - Jorropo
     privacy: closed
   probelab:
-    create_default_maintainer: false
     members:
       maintainer:
         - dennis-tra
@@ -8252,7 +8295,6 @@ teams:
         - vmx
     privacy: closed
   rust-libp2p Maintainers:
-    create_default_maintainer: false
     description: Trusted reviewers for merging into rust-libp2p repositories and
       publishing to crates.io.
     members:
