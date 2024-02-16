@@ -14,6 +14,8 @@ members:
     # 3. general long-standing sysadmin for these organizations with his past roles at PL Inc
     # 4. This isn't andyschwab's day-to-day GitHub account
     - andyschwab-admin
+    # temporary to migrate from PL fleek account to libp2p fleek account
+    - dhuseby
     # Why @galargh?
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
