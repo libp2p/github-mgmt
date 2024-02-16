@@ -18,6 +18,8 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # temporary to migrate from PL fleek account to libp2p fleek account
+    - dhuseby
   member:
     - 2color
     - aamnv
