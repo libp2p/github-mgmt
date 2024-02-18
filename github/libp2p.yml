@@ -177,6 +177,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   awesome-libp2p:
     advanced_security: false
@@ -200,6 +202,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
@@ -257,6 +260,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - docs
+      pull:
+        - github-mgmt stewards
       push:
         - ci
         - go-libp2p Maintainers
@@ -288,6 +293,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   connectivity-site:
     advanced_security: false
@@ -309,6 +316,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   cpp-libp2p:
     advanced_security: false
@@ -367,6 +377,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - cpp-libp2p
+      pull:
+        - github-mgmt stewards
     topics:
       - cpp17
       - libp2p
@@ -392,6 +404,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   cs-libp2p-io:
     advanced_security: false
@@ -414,6 +428,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   cs-libp2p-peer:
     advanced_security: false
@@ -436,6 +452,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   cs-libp2p-protocol:
     advanced_security: false
@@ -458,6 +476,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   cs-libp2p-record:
     advanced_security: false
@@ -480,6 +500,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   cs-libp2p-utils:
     advanced_security: false
@@ -502,6 +524,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   demo-multi-lang:
     advanced_security: false
@@ -526,6 +550,7 @@ repositories:
       pull:
         - Admin
         - contributors
+        - github-mgmt stewards
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
@@ -564,6 +589,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -590,6 +616,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Admin
     topics:
@@ -620,6 +648,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: private
   dht-tracer-archived:
     advanced_security: false
@@ -640,6 +670,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   dht-tracer:
     advanced_security: false
@@ -662,6 +694,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
         - go-libp2p Maintainers
         - Repos - Go
     visibility: public
@@ -689,6 +722,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   dht-utils:
     advanced_security: false
@@ -713,6 +748,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   dht-vis-v0:
     advanced_security: false
@@ -733,6 +770,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   docs-old:
     advanced_security: false
@@ -755,6 +794,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   docs:
     advanced_security: false
@@ -802,6 +843,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - docs
+      pull:
+        - github-mgmt stewards
       push:
         - ci
         - go-libp2p Maintainers
@@ -837,6 +880,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
     visibility: public
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
@@ -913,6 +957,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -940,6 +986,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -970,6 +1018,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -999,6 +1048,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-conn-security-multistream:
     advanced_security: false
@@ -1024,6 +1075,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1051,6 +1104,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1083,6 +1138,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -1107,6 +1164,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1134,6 +1193,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1163,6 +1224,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1184,6 +1247,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: private
   go-libp2p-autonat-svc:
     advanced_security: false
@@ -1205,6 +1271,7 @@ repositories:
         - Admin
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1235,6 +1302,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1267,6 +1336,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-libp2p-blankhost:
     advanced_security: false
@@ -1290,6 +1361,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1299,9 +1372,8 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - marten-seemann
       push:
+        - marten-seemann
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
@@ -1318,6 +1390,7 @@ repositories:
     teams:
       pull:
         - Admin
+        - github-mgmt stewards
         - go-libp2p Maintainers
         - w3dt-stewards
     visibility: public
@@ -1341,6 +1414,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-libp2p-circuit:
     advanced_security: false
@@ -1365,6 +1440,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -1388,6 +1465,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1414,6 +1493,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1442,6 +1523,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1469,6 +1552,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-libp2p-core:
     advanced_security: false
@@ -1510,6 +1595,7 @@ repositories:
         - go-libp2p Maintainers
       pull:
         - ci
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -1534,6 +1620,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1565,6 +1653,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1590,6 +1680,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1614,6 +1706,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1639,6 +1733,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1681,6 +1777,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1732,6 +1830,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1756,6 +1856,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: private
   go-libp2p-host:
     advanced_security: false
@@ -1778,6 +1880,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1820,6 +1924,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1850,6 +1956,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1874,6 +1982,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1899,6 +2009,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1924,6 +2036,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1952,6 +2066,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -1984,6 +2100,8 @@ repositories:
         - go-libp2p Maintainers
         - kubo maintainers
         - probelab
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     topics:
@@ -2016,6 +2134,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2041,6 +2161,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2066,6 +2188,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2095,6 +2219,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2123,6 +2249,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2147,6 +2275,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2173,6 +2303,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2219,6 +2351,7 @@ repositories:
         - go-libp2p Maintainers
       pull:
         - ci
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2227,10 +2360,9 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - whyrusleeping
       push:
         - aarshkshah1992
+        - whyrusleeping
     default_branch: master
     delete_branch_on_merge: false
     description: "[DEPRECATED] PKI based identities for use in go-libp2p; use
@@ -2245,6 +2377,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2293,6 +2427,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2316,6 +2452,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2342,6 +2480,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2367,6 +2507,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2391,6 +2533,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2420,6 +2564,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2450,6 +2596,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-libp2p-pubsub:
     advanced_security: false
@@ -2494,6 +2642,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2502,7 +2652,7 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      maintain:
         - marten-seemann
       push:
         - aarshkshah1992
@@ -2523,6 +2673,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     topics:
@@ -2556,6 +2708,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2584,6 +2738,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2612,6 +2768,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2637,6 +2795,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2665,6 +2825,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2691,6 +2853,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2716,6 +2880,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2740,6 +2906,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2764,6 +2932,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-libp2p-swarm:
     advanced_security: false
@@ -2790,6 +2960,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2820,6 +2992,7 @@ repositories:
         - go-libp2p Maintainers
       pull:
         - ci
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2828,7 +3001,7 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      maintain:
         - marten-seemann
       push:
         - aarshkshah1992
@@ -2849,6 +3022,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2876,6 +3051,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -2901,6 +3078,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -2921,6 +3100,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: private
   go-libp2p-webrtc-direct:
     advanced_security: false
@@ -2991,6 +3173,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     topics:
@@ -3021,6 +3205,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3051,6 +3237,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3076,6 +3264,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3132,6 +3322,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     topics:
@@ -3160,6 +3352,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3188,6 +3382,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3217,6 +3413,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3246,6 +3444,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3276,6 +3476,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3334,6 +3535,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3358,6 +3560,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3384,6 +3588,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3414,6 +3620,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -3444,6 +3652,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   go-smart-record:
     advanced_security: false
@@ -3470,6 +3680,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3496,6 +3708,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3524,6 +3738,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3551,6 +3767,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3579,6 +3797,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3590,9 +3810,9 @@ repositories:
     collaborators:
       admin:
         - jbenet
-        - whyrusleeping
       push:
         - aarshkshah1992
+        - whyrusleeping
     default_branch: master
     delete_branch_on_merge: false
     description: "[DEPRECATED] stream multiplexer interface; use
@@ -3607,6 +3827,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3635,6 +3857,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -3659,6 +3883,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3684,6 +3910,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3709,6 +3937,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3737,6 +3967,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -3760,6 +3992,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3789,6 +4023,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Go
     visibility: public
@@ -3815,6 +4051,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   governance:
     advanced_security: false
@@ -3832,6 +4070,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: private
   haskell-p2pcat:
     advanced_security: false
@@ -3854,6 +4095,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   hydra-booster-infra:
     advanced_security: false
@@ -3905,6 +4148,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - Bifrost
         - go-libp2p Maintainers
@@ -3938,6 +4183,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -3952,7 +4199,7 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - daviddias
     default_branch: master
     delete_branch_on_merge: false
@@ -3968,6 +4215,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-content-routing:
     advanced_security: false
@@ -3987,6 +4236,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-libp2p:
     advanced_security: false
@@ -4009,6 +4260,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-peer-discovery:
     advanced_security: false
@@ -4028,13 +4281,15 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-peer-routing:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - daviddias
     default_branch: master
     delete_branch_on_merge: false
@@ -4050,13 +4305,15 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-record-store:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - daviddias
     default_branch: master
     delete_branch_on_merge: false
@@ -4072,13 +4329,15 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-stream-muxer:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - daviddias
     default_branch: master
     delete_branch_on_merge: false
@@ -4094,13 +4353,15 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interface-transport:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
+      push:
         - daviddias
     default_branch: master
     delete_branch_on_merge: false
@@ -4116,6 +4377,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   interop:
     advanced_security: false
@@ -4145,6 +4408,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -4182,6 +4447,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   iptoasn:
     advanced_security: false
@@ -4211,6 +4479,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       pull:
+        - github-mgmt stewards
         - w3dt-stewards
     visibility: public
   js-delegated-routing-v1-http-api-content-routing:
@@ -4237,6 +4506,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - js-libp2p-dev
     visibility: public
@@ -4264,6 +4535,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - js-libp2p-dev
     visibility: public
@@ -4299,9 +4572,8 @@ repositories:
         required_status_checks:
           strict: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - nunofmn
     default_branch: master
@@ -4317,6 +4589,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-aes-ctr:
     advanced_security: false
@@ -4342,6 +4616,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-amino-dht-bootstrapper:
     advanced_security: false
@@ -4371,6 +4648,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - js-libp2p-dev
     visibility: public
@@ -4409,6 +4688,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - libp2p
     visibility: public
@@ -4433,6 +4714,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-cms:
     advanced_security: false
@@ -4465,6 +4748,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-components:
     advanced_security: false
@@ -4517,6 +4802,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-connection-manager:
     advanced_security: false
@@ -4535,6 +4822,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     topics:
       - connection
       - ipfs
@@ -4592,6 +4881,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-crypto-secp256k1:
     advanced_security: false
@@ -4611,6 +4902,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-crypto:
     advanced_security: false
@@ -4638,6 +4931,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-daemon-client:
     advanced_security: false
@@ -4663,6 +4958,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-daemon-protocol:
     advanced_security: false
@@ -4711,6 +5008,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-daemon:
     advanced_security: false
@@ -4741,6 +5041,7 @@ repositories:
         - w3dt-stewards
       pull:
         - Admin
+        - github-mgmt stewards
     visibility: public
   js-libp2p-delegated-content-routing:
     advanced_security: false
@@ -4773,6 +5074,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-delegated-peer-routing:
     advanced_security: false
@@ -4805,6 +5108,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-distributed-record-store:
     advanced_security: false
@@ -4838,9 +5143,8 @@ repositories:
         required_status_checks:
           strict: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - nunofmn
     default_branch: master
@@ -4856,6 +5160,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-browser-pubsub:
     advanced_security: false
@@ -4908,6 +5214,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-chat:
     advanced_security: false
@@ -4960,6 +5269,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-circuit-relay:
     advanced_security: false
@@ -5012,6 +5324,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-connection-encryption:
     advanced_security: false
@@ -5064,6 +5379,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-custom-protocols:
     advanced_security: false
@@ -5089,6 +5407,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-delegated-routing:
     advanced_security: false
@@ -5114,6 +5435,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-discovery-mechanisms:
     advanced_security: false
@@ -5139,6 +5463,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-example-fork-go-template:
     advanced_security: false
@@ -5165,6 +5492,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-examples:
     advanced_security: false
@@ -5191,6 +5521,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-floodsub:
     advanced_security: false
@@ -5229,15 +5561,16 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-identify:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - nunofmn
     default_branch: master
     delete_branch_on_merge: false
@@ -5252,6 +5585,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-interfaces:
     advanced_security: false
@@ -5289,6 +5624,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-kad-dht:
     advanced_security: false
@@ -5316,6 +5653,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-kad-record-store:
     advanced_security: false
@@ -5349,9 +5688,8 @@ repositories:
         required_status_checks:
           strict: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - nunofmn
     default_branch: master
@@ -5367,6 +5705,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-kad-routing:
     advanced_security: false
@@ -5400,9 +5740,8 @@ repositories:
         required_status_checks:
           strict: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - nunofmn
     default_branch: master
@@ -5418,6 +5757,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-keychain:
     advanced_security: false
@@ -5456,6 +5797,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-logger:
     advanced_security: false
@@ -5483,6 +5826,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-mdns:
     advanced_security: false
@@ -5510,6 +5855,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-metrics:
     advanced_security: false
@@ -5532,6 +5879,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-mplex:
     advanced_security: false
@@ -5559,6 +5909,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-multistream-select:
     advanced_security: false
@@ -5586,6 +5938,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-nat-mngr:
     advanced_security: false
@@ -5613,6 +5967,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-peer-collections:
     advanced_security: false
@@ -5640,6 +5996,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-peer-id:
     advanced_security: false
@@ -5667,6 +6025,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-peer-record:
     advanced_security: false
@@ -5694,6 +6054,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-peer-store:
     advanced_security: false
@@ -5721,15 +6083,16 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-ping:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - nunofmn
     default_branch: master
@@ -5745,6 +6108,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-pnet:
     advanced_security: false
@@ -5766,6 +6131,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-prometheus-metrics:
     advanced_security: false
@@ -5790,6 +6157,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-pubsub-peer-discovery:
     advanced_security: false
@@ -5819,6 +6188,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-pubsub:
     advanced_security: false
@@ -5855,6 +6226,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-record:
     advanced_security: false
@@ -5882,6 +6255,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-relay-server:
     advanced_security: false
@@ -5975,6 +6350,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-rendezvous:
     advanced_security: false
@@ -6001,6 +6378,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-rsa:
     advanced_security: false
@@ -6026,6 +6405,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-secio:
     advanced_security: false
@@ -6049,6 +6431,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-simple-metrics:
     advanced_security: false
@@ -6074,15 +6458,17 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-spdy:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - fbaiodias
         - nunofmn
@@ -6100,6 +6486,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-stardust:
     advanced_security: false
@@ -6119,6 +6507,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      pull:
+        - github-mgmt stewards
       push:
         - Admin
     visibility: public
@@ -6142,6 +6532,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-switch:
     advanced_security: false
@@ -6160,6 +6553,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-tcp:
     advanced_security: false
@@ -6188,6 +6583,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-topology:
     advanced_security: false
@@ -6215,6 +6612,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-tracked-map:
     advanced_security: false
@@ -6242,6 +6641,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-udp:
     advanced_security: false
@@ -6269,6 +6670,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-udt:
     advanced_security: false
@@ -6296,6 +6699,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-utils:
     advanced_security: false
@@ -6323,6 +6728,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-utp:
     advanced_security: false
@@ -6349,6 +6756,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-webrtc-direct:
     advanced_security: false
@@ -6404,6 +6813,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-webrtc-peer:
     advanced_security: false
@@ -6458,6 +6869,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-webrtc-star:
     advanced_security: false
@@ -6513,6 +6926,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-webrtc:
     advanced_security: false
@@ -6550,6 +6965,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-websocket-star-multi:
     advanced_security: false
@@ -6572,6 +6989,7 @@ repositories:
     teams:
       pull:
         - Admin
+        - github-mgmt stewards
     visibility: public
   js-libp2p-websocket-star-rendezvous:
     advanced_security: false
@@ -6594,6 +7012,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-websocket-star:
     advanced_security: false
@@ -6612,6 +7032,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-websockets:
     advanced_security: false
@@ -6640,6 +7062,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p-webtransport:
     advanced_security: false
@@ -6678,6 +7102,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-libp2p:
     advanced_security: false
@@ -6704,6 +7130,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - js-libp2p-dev
     topics:
@@ -6734,15 +7162,16 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-peer-book:
     advanced_security: false
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - nunofmn
     default_branch: master
     delete_branch_on_merge: false
@@ -6759,6 +7188,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-peer-id:
     advanced_security: false
@@ -6782,6 +7213,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - deprecated
     visibility: public
@@ -6790,9 +7223,8 @@ repositories:
     allow_update_branch: false
     archived: true
     collaborators:
-      admin:
-        - daviddias
       push:
+        - daviddias
         - dignifiedquire
         - nunofmn
     default_branch: master
@@ -6808,6 +7240,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   js-spdy-stream-muxer:
     advanced_security: false
@@ -6854,6 +7288,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
     visibility: public
   jvm-libp2p:
     advanced_security: false
@@ -6916,6 +7352,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Java
     visibility: public
@@ -6943,6 +7381,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
     visibility: public
@@ -6968,6 +7408,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   mplex:
     advanced_security: false
@@ -6990,6 +7432,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7017,6 +7461,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7043,6 +7489,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7072,6 +7520,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   observation-deck:
     advanced_security: false
@@ -7094,6 +7545,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - libp2p
       - observability
@@ -7119,6 +7572,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - libp2p
       - monitoring
@@ -7142,6 +7597,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: private
   projects:
     advanced_security: false
@@ -7164,6 +7622,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7190,6 +7650,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   pull-mplex:
     advanced_security: false
@@ -7213,6 +7675,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     topics:
@@ -7246,6 +7710,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   py-libp2p-slog:
     advanced_security: false
@@ -7267,6 +7734,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   py-libp2p-xor:
     advanced_security: false
@@ -7289,6 +7758,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   py-libp2p:
     advanced_security: false
@@ -7330,6 +7801,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   repl:
     advanced_security: false
@@ -7381,6 +7854,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7399,6 +7874,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   research-pubsub:
     advanced_security: false
@@ -7423,6 +7901,7 @@ repositories:
         - w3dt-stewards
       pull:
         - contributors
+        - github-mgmt stewards
       push:
         - Repos - JavaScript
     visibility: public
@@ -7445,6 +7924,7 @@ repositories:
         - Admin
       pull:
         - contributors
+        - github-mgmt stewards
     visibility: public
   rust-libp2p-identity:
     advanced_security: false
@@ -7466,6 +7946,8 @@ repositories:
     teams:
       maintain:
         - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
     visibility: public
   rust-libp2p:
     advanced_security: false
@@ -7594,6 +8076,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Rust
     topics:
@@ -7671,6 +8155,8 @@ repositories:
         - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
       push:
         - Repos - Rust
     visibility: public
@@ -7680,17 +8166,17 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - aschmahmann
         - BigLep
         - dhuseby
         - galargh
-        - marten-seemann
-        - momack2
         - p-shahi
         - raulk
-        - Stebalien
       push:
+        - aschmahmann
+        - marten-seemann
+        - momack2
         - smagdali
+        - Stebalien
         - yiannisbot
     default_branch: master
     delete_branch_on_merge: false
@@ -7705,6 +8191,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: private
   specs:
     advanced_security: false
@@ -7742,6 +8231,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7769,6 +8260,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7801,6 +8294,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7834,6 +8329,8 @@ repositories:
     teams:
       admin:
         - Admin
+      pull:
+        - github-mgmt stewards
       push:
         - go-libp2p Maintainers
         - Repos - Go
@@ -7856,6 +8353,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
     visibility: public
   universal-connectivity:
     advanced_security: false
@@ -7894,6 +8394,8 @@ repositories:
         - go-libp2p Maintainers
         - js-libp2p-dev
         - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
     topics:
       - go
       - libp2p
@@ -7924,6 +8426,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   website:
     advanced_security: false
@@ -7951,6 +8455,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
       push:
         - ci
     visibility: public
@@ -8001,6 +8507,8 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     topics:
       - libp2p
     visibility: public
@@ -8025,6 +8533,8 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
   zeroconf:
     advanced_security: false
@@ -8049,19 +8559,20 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+      pull:
+        - github-mgmt stewards
     visibility: public
 teams:
   Admin:
     members:
-      maintainer:
-        - aschmahmann
-        - jbenet
-        - raulk
       member:
+        - aschmahmann
         - BigLep
         - dhuseby
+        - jbenet
         - Kubuxu
         - mxinden
+        - raulk
     privacy: closed
   Alumni:
     members:
@@ -8222,8 +8733,8 @@ teams:
       maintainer:
         - BigLep
         - MarcoPolo
-        - marten-seemann
       member:
+        - marten-seemann
         - sukunrt
         - vyzo
     privacy: closed
@@ -8254,10 +8765,10 @@ teams:
     description: Kubo Maintainers
     members:
       maintainer:
-        - aschmahmann
         - BigLep
         - lidel
       member:
+        - aschmahmann
         - hacdias
         - Jorropo
     privacy: closed
@@ -8272,25 +8783,24 @@ teams:
   Repos - Go:
     description: For all things go-libp2p
     members:
-      maintainer:
-        - aschmahmann
-        - jacobheun
-        - marten-seemann
-        - momack2
-        - raulk
-        - Stebalien
       member:
         - alanshaw
+        - aschmahmann
         - BigLep
         - dirkmc
         - gammazero
         - hannahhoward
         - hsanjuan
+        - jacobheun
         - Kubuxu
         - lidel
         - MarcoPolo
+        - marten-seemann
         - masih
+        - momack2
         - petar
+        - raulk
+        - Stebalien
         - sukunrt
         - vyzo
         - willscott
@@ -8305,13 +8815,12 @@ teams:
   Repos - JavaScript:
     description: The team that hacks all the JavaScripts
     members:
-      maintainer:
-        - jacobheun
-        - momack2
       member:
         - achingbrain
+        - jacobheun
         - lidel
         - maschad
+        - momack2
         - SgtPooki
         - vasco-santos
         - whizzzkid
@@ -8347,12 +8856,11 @@ teams:
   w3dt-stewards:
     members:
       maintainer:
-        - aschmahmann
         - BigLep
         - galargh
-        - Stebalien
       member:
         - achingbrain
+        - aschmahmann
         - dhuseby
         - guillaumemichel
         - Jorropo
@@ -8361,4 +8869,5 @@ teams:
         - MarcoPolo
         - mxinden
         - p-shahi
+        - Stebalien
     privacy: closed
