@@ -1,5 +1,5 @@
 resource "github_membership" "this" {
-  for_each = locals.resources.github_membership
+  for_each = local.resources.github_membership
 
   username = each.value.username
   role     = each.value.role
@@ -11,7 +11,7 @@ resource "github_membership" "this" {
 }
 
 resource "github_repository" "this" {
-  for_each = locals.resources.github_repository
+  for_each = local.resources.github_repository
 
   name                                    = each.value.name
   allow_auto_merge                        = try(each.value.allow_auto_merge, null)
@@ -96,7 +96,7 @@ resource "github_repository" "this" {
 }
 
 resource "github_repository_collaborator" "this" {
-  for_each = locals.resources.github_repository_collaborator
+  for_each = local.resources.github_repository_collaborator
 
   depends_on = [github_repository.this]
 
@@ -110,7 +110,7 @@ resource "github_repository_collaborator" "this" {
 }
 
 resource "github_branch_protection" "this" {
-  for_each = locals.resources.github_branch_protection
+  for_each = local.resources.github_branch_protection
 
   pattern = each.value.pattern
 
@@ -147,7 +147,7 @@ resource "github_branch_protection" "this" {
 }
 
 resource "github_team" "this" {
-  for_each = locals.resources.github_team
+  for_each = local.resources.github_team
 
   name = each.value.name
 
@@ -162,7 +162,7 @@ resource "github_team" "this" {
 }
 
 resource "github_team_repository" "this" {
-  for_each = locals.resources.github_team_repository
+  for_each = local.resources.github_team_repository
 
   depends_on = [github_repository.this]
 
@@ -177,7 +177,7 @@ resource "github_team_repository" "this" {
 }
 
 resource "github_team_membership" "this" {
-  for_each = locals.resources.github_team_membership
+  for_each = local.resources.github_team_membership
 
   username = each.value.username
   role     = each.value.role
@@ -190,7 +190,7 @@ resource "github_team_membership" "this" {
 }
 
 resource "github_repository_file" "this" {
-  for_each = locals.resources.github_repository_file
+  for_each = local.resources.github_repository_file
 
   repository = each.value.repository
   file       = each.value.file
@@ -210,7 +210,7 @@ resource "github_repository_file" "this" {
 }
 
 resource "github_issue_label" "this" {
-  for_each = locals.resources.github_issue_label
+  for_each = local.resources.github_issue_label
 
   depends_on = [github_repository.this]
 
