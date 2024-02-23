@@ -56,8 +56,18 @@ async function removeLabel(repo: string, name: string) {
 }
 
 async function sync() {
-  const sourceRepo = 'js-libp2p'
-  const targetRepos = ['js-libp2p-peer-store']
+  const sourceRepo = process.env.SOURCE_REPOSITORY
+  const targetRepos = process.env.TARGET_REPOSITORIES?.split(',')?.map(r =>
+    r.trim()
+  )
+
+  if (!sourceRepo) {
+    throw new Error('SOURCE_REPOSITORY environment variable not set')
+  }
+
+  if (!targetRepos) {
+    throw new Error('TARGET_REPOSITORIES environment variable not set')
+  }
 
   const sourceLabels = await getLabels(sourceRepo)
   core.info(
@@ -86,7 +96,12 @@ async function sync() {
     for (const label of sourceLabels) {
       if (!targetLabels.some(l => l.name === label.name)) {
         core.info(`Adding ${label.name} label to ${repo} repository`)
-        await addLabel(repo, label.name, label.color, label.description || undefined)
+        await addLabel(
+          repo,
+          label.name,
+          label.color,
+          label.description || undefined
+        )
       }
     }
   }
