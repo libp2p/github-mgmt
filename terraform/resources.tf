@@ -280,7 +280,7 @@ resource "github_repository_file" "this" {
           } if lower(config.repository) == repository
           ] : [
           for file, config in local.resources.config.github_repository_file.this : {
-            source = try(local.resources.state.github_repository_file.this[file].content, "") == try(config.content, "") ? "state" : "config"
+            source = "config"
             index  = file
           } if lower(config.repository) == repository
         ]
