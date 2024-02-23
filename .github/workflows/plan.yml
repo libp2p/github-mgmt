@@ -62,6 +62,7 @@ jobs:
       TF_IN_AUTOMATION: 1
       TF_INPUT: 0
       TF_WORKSPACE: ${{ matrix.workspace }}
+      TF_LOG: DEBUG
       AWS_ACCESS_KEY_ID: ${{ secrets.RO_AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.RO_AWS_SECRET_ACCESS_KEY }}
       GITHUB_APP_ID: ${{ secrets.RO_GITHUB_APP_ID }}
