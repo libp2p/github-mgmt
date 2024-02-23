@@ -3,6 +3,10 @@ import {Repository} from '../resources/repository'
 import {addFileToAllRepos} from './shared/add-file-to-all-repos'
 import {format} from './shared/format'
 import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
+import {toggleArchivedRepos} from './shared/toggle-archived-repos'
+import {describeAccessChanges} from './shared/describe-access-changes'
+
+import * as core from '@actions/core'
 
 function isInitialised(repository: Repository) {
   return ![
@@ -28,29 +32,47 @@ function isFork(repository: Repository) {
   ].includes(repository.name)
 }
 
-addFileToAllRepos(
-  '.github/workflows/stale.yml',
-  '.github/workflows/stale.yml',
-  r => isInitialised(r) && !isFork(r)
-)
-addFileToAllRepos(
-  '.github/workflows/semantic-pull-request.yml',
-  '.github/workflows/semantic-pull-request.yml',
-  r => isInitialised(r) && isJS(r)
-)
-addFileToAllRepos(
-  '.github/pull_request_template.md',
-  '.github/js_pull_request_template.md',
-  r => isInitialised(r) && isJS(r)
-)
-setPropertyInAllRepos(
-  'secret_scanning',
-  true,
-  r => isInitialised(r) && isPublic(r)
-)
-setPropertyInAllRepos(
-  'secret_scanning_push_protection',
-  true,
-  r => isInitialised(r) && isPublic(r)
-)
-format()
+async function run() {
+  await addFileToAllRepos(
+    '.github/workflows/stale.yml',
+    '.github/workflows/stale.yml',
+    r => isInitialised(r) && !isFork(r)
+  )
+  await addFileToAllRepos(
+    '.github/workflows/semantic-pull-request.yml',
+    '.github/workflows/semantic-pull-request.yml',
+    r => isInitialised(r) && isJS(r)
+  )
+  await addFileToAllRepos(
+    '.github/pull_request_template.md',
+    '.github/js_pull_request_template.md',
+    r => isInitialised(r) && isJS(r)
+  )
+  await setPropertyInAllRepos(
+    'secret_scanning',
+    true,
+    r => isInitialised(r) && isPublic(r)
+  )
+  await setPropertyInAllRepos(
+    'secret_scanning_push_protection',
+    true,
+    r => isInitialised(r) && isPublic(r)
+  )
+  await toggleArchivedRepos()
+  const accessChangesDescription = await describeAccessChanges()
+  core.setOutput(
+    'comment',
+    `The following access changes will be introduced as a result of applying the plan:
+
+<details><summary>Access Changes</summary>
+
+\`\`\`
+${accessChangesDescription}
+\`\`\`
+
+</details>`
+  )
+  format()
+}
+
+run()
