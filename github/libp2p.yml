@@ -705,8 +705,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - jbenet
       push:
         - web3-bot
     default_branch: master
@@ -1004,8 +1002,6 @@ repositories:
     allow_update_branch: false
     archived: false
     collaborators:
-      admin:
-        - petar
       push:
         - web3-bot
     default_branch: master
@@ -1559,7 +1555,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - aarshkshah1992
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
@@ -2112,7 +2107,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - aarshkshah1992
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
@@ -2143,7 +2137,6 @@ repositories:
     archived: false
     collaborators:
       push:
-        - aarshkshah1992
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
@@ -2590,9 +2583,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - p-shahi
     default_branch: main
     delete_branch_on_merge: false
     description: The website for IPFS Camp 2022
@@ -3780,7 +3770,6 @@ repositories:
     collaborators:
       admin:
         - GlenDC
-        - marten-seemann
     default_branch: main
     delete_branch_on_merge: false
     description: Benchmarks in function of the WebRTC transport implementation for libp2p-go
@@ -4209,9 +4198,6 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
-    collaborators:
-      admin:
-        - mxinden
     default_branch: main
     delete_branch_on_merge: false
     description: Data structures and algorithms for identifying peers in libp2p.
@@ -4446,15 +4432,12 @@ repositories:
     collaborators:
       admin:
         - BigLep
-        - dhuseby
         - galargh
         - p-shahi
         - raulk
       push:
         - aschmahmann
         - marten-seemann
-        - momack2
-        - smagdali
         - Stebalien
         - yiannisbot
     default_branch: master
@@ -4762,11 +4745,13 @@ teams:
         - alain2sf
         - AlanSl
         - alexh
+        - andyschwab-admin
         - anorth
         - autonome
         - bigs
         - cemozerr
         - ChihChengLiang
+        - dharmapunk82
         - dryajov
         - dvdplm
         - elenaf9
@@ -4780,11 +4765,13 @@ teams:
         - haadcode
         - hacdias
         - iceseer
+        - ipfsbot
         - jbenetsafer
         - JGAntunes
         - jrhea
         - jsoares
         - julian88110
+        - KarolKozlowski
         - keks
         - kevina
         - kishansagathiya
@@ -4807,6 +4794,7 @@ teams:
         - RichardLitt
         - richardschneider
         - robzajac
+        - rolfyone
         - romanb
         - snazha-blkio
         - stongo
@@ -4823,26 +4811,13 @@ teams:
         - zuiris
     privacy: closed
   Bifrost:
-    members:
-      maintainer:
-        - gmasgras
-        - hsanjuan
-        - mcamou
     privacy: closed
   ci:
     description: ci
-    members:
-      member:
-        - ipfsbot
     privacy: closed
   community:
     description: Developer advocates, community engineers, and other people that
       need write privs.
-    members:
-      maintainer:
-        - 2color
-      member:
-        - TheDiscordian
     privacy: closed
   contributors:
     members:
@@ -4926,10 +4901,6 @@ teams:
         - laurentsenta
     privacy: closed
   js-libp2p ChainSafe Maintainers:
-    members:
-      member:
-        - mpetrunic
-        - wemeetagain
     privacy: closed
   js-libp2p-dev:
     description: js-libp2p developers and engineers
@@ -4991,7 +4962,6 @@ teams:
       member:
         - ajsutton
         - Nashatyrev
-        - rolfyone
     privacy: closed
   Repos - JavaScript:
     description: The team that hacks all the JavaScripts
