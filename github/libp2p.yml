@@ -4746,10 +4746,11 @@ repositories:
 teams:
   Admin:
     members:
+      maintainer:
+        - dhuseby
       member:
         - aschmahmann
         - BigLep
-        - dhuseby
         - jbenet
         - Kubuxu
         - mxinden
@@ -4887,14 +4888,13 @@ teams:
       # INFO: There are others who could certainly qualify to be members of this team.  
       # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
       # and reducing risk by not having too many with the escalation path that this role affords.
+      maintainer:
+        - dhuseby
       member:
         # Why @achingbrain?
         # 1. Long-time and active libp2p maintainer, especially to js-libp2p.
         # 2. JS leader at IP Shipyard, which is an organization receiving significant grant funding for libp2p development and maintenance.
         - achingbrain
-        # Why @dhuseby?
-        # 1. Project community leader interfacing with multiple implementation teams.
-        - dhuseby
         # Why p-shahi?
         # 1. TPM for libp2p implementations like go-libp2p and js-libp2p as part of IP Shipyard and cross-implementation technical work.
         # 2. Active and experienced with github-mgmt in helping engineering teams the last year.
@@ -5038,11 +5038,11 @@ teams:
     members:
       maintainer:
         - BigLep
+        - dhuseby
         - galargh
       member:
         - achingbrain
         - aschmahmann
-        - dhuseby
         - guillaumemichel
         - Jorropo
         - laurentsenta
