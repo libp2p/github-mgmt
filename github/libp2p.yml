@@ -5036,9 +5036,9 @@ teams:
       publishing to crates.io.
     members:
       maintainer:
+        - jxs
         - mxinden
       member:
-        - jxs
         - MarcoPolo
         - thomaseizinger
     privacy: closed
