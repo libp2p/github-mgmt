@@ -5036,8 +5036,8 @@ teams:
       publishing to crates.io.
     members:
       maintainer:
-        - mxinden
         - jxs
+        - mxinden
       member:
         - MarcoPolo
         - thomaseizinger
