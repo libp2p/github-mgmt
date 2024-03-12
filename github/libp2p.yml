@@ -5037,8 +5037,8 @@ teams:
     members:
       maintainer:
         - mxinden
-      member:
         - jxs
+      member:
         - MarcoPolo
         - thomaseizinger
     privacy: closed
