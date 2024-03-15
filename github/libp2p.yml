@@ -4111,8 +4111,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - w3dt-stewards
         - py-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - py-libp2p Maintainers
       pull:
@@ -4138,8 +4138,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - w3dt-stewards
         - py-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - py-libp2p Maintainers
       pull:
@@ -4180,8 +4180,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - w3dt-stewards
         - py-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - py-libp2p Maintainers
       pull:
