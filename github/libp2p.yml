@@ -5030,14 +5030,14 @@ teams:
         - vmx
     privacy: closed
   rust-libp2p Maintainers:
-    description: Trusted reviewers for merging into rust-libp2p repositories and
-      publishing to crates.io.
+    description: Trusted maintainers, past and present, for merging into rust-libp2p
+      repositories and publishing to crates.io.
     members:
       maintainer:
         - jxs
-        - mxinden
       member:
         - MarcoPolo
+        - mxinden
         - thomaseizinger
     privacy: closed
   Specs contributors:
