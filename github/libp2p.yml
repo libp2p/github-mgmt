@@ -4232,8 +4232,8 @@ repositories:
     teams:
       admin:
         - Admin
-        - w3dt-stewards
         - rust-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -4363,8 +4363,8 @@ repositories:
     teams:
       admin:
         - Admin
-        - w3dt-stewards
         - rust-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -4444,8 +4444,8 @@ repositories:
     teams:
       admin:
         - Admin
-        - w3dt-stewards
         - rust-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -5030,11 +5030,11 @@ teams:
     description: "In Rust we tRust "
     members:
       member:
-        - mxinden
-        - tomaka
         - AgeManning
         - jxs
+        - mxinden
         - thomaseizinger
+        - tomaka
         - vmx
     privacy: closed
   rust-libp2p Active Maintainers:
@@ -5044,7 +5044,8 @@ teams:
         - jxs
     privacy: closed
   rust-libp2p Maintainers:
-    description: Trusted maintainers, past and present, for merging into rust-libp2p repositories and publishing to crates.io.
+    description: Trusted maintainers, past and present, for merging into rust-libp2p
+      repositories and publishing to crates.io.
     members:
       maintainer:
         - jxs
