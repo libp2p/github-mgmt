@@ -4228,6 +4228,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - rust-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -4356,7 +4359,7 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - Admin
+        - rust-libp2p Active Maintainers
         - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
@@ -4436,6 +4439,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
+        - rust-libp2p Active Maintainers
         - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
@@ -5020,24 +5024,29 @@ teams:
   Repos - Rust:
     description: "In Rust we tRust "
     members:
-      maintainer:
-        - mxinden
-        - tomaka
       member:
         - AgeManning
         - jxs
+        - mxinden
         - thomaseizinger
+        - tomaka
         - vmx
     privacy: closed
+  rust-libp2p Active Maintainers:
+    description: Active maintainers of rust-libp2p repositories with Admin privileges.
+    members:
+      member:
+        - jxs
+    privacy: closed
   rust-libp2p Maintainers:
-    description: Trusted reviewers for merging into rust-libp2p repositories and
-      publishing to crates.io.
+    description: Trusted maintainers, past and present, for merging into rust-libp2p
+      repositories and publishing to crates.io.
     members:
       maintainer:
         - jxs
-        - mxinden
       member:
         - MarcoPolo
+        - mxinden
         - thomaseizinger
     privacy: closed
   Specs contributors:
