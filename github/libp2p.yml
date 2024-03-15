@@ -4231,7 +4231,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Admin
         - w3dt-stewards
         - rust-libp2p Active Maintainers
       maintain:
@@ -4362,7 +4361,6 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - Admin
         - w3dt-stewards
         - rust-libp2p Active Maintainers
       maintain:
@@ -4443,7 +4441,6 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - Admin
         - w3dt-stewards
         - rust-libp2p Active Maintainers
       maintain:
