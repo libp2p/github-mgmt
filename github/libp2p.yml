@@ -4112,6 +4112,9 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - py-libp2p Active Maintainers
+      maintain:
+        - py-libp2p Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -4136,6 +4139,9 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - py-libp2p Active Maintainers
+      maintain:
+        - py-libp2p Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -4158,10 +4164,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 0
           restrict_dismissals: false
-    collaborators:
-      admin:
-        - carver
-        - pacrob
     default_branch: main
     delete_branch_on_merge: false
     description: The Python implementation of the libp2p networking stack 🐍 [under
@@ -4179,6 +4181,9 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - py-libp2p Active Maintainers
+      maintain:
+        - py-libp2p Maintainers
       pull:
         - github-mgmt stewards
     visibility: public
@@ -4974,6 +4979,22 @@ teams:
         - guillaumemichel
         - iand
         - yiannisbot
+    privacy: closed
+  py-libp2p Active Maintainers:
+    description: Active maintainers of py-libp2p repositories with admin privileges.
+    members:
+      member:
+        - pacrob
+    privacy: closed
+  py-libp2p Maintainers:
+    description: Trusted maintainers for merging into py-libp2p repositories and
+      publishing to PyPI
+    members:
+      maintainer:
+        - pacrob
+      member:
+        - carver
+        - dhuseby
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
