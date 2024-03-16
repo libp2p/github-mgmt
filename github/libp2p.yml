@@ -925,6 +925,10 @@ repositories:
           contexts:
             - Comment
           strict: true
+    collaborators:
+      push:
+        - dhuseby
+        - p-shahi
     default_branch: master
     delete_branch_on_merge: false
     files:
@@ -3821,7 +3825,7 @@ repositories:
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: true
+    has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
@@ -5049,6 +5053,11 @@ teams:
         - jxs
         - thomaseizinger
         - vmx
+    privacy: closed
+  rust-libp2p Active Maintainers:
+    members:
+      maintainer:
+        - galargh
     privacy: closed
   rust-libp2p Maintainers:
     description: Trusted reviewers for merging into rust-libp2p repositories and
