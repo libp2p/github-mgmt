@@ -169,7 +169,9 @@ resource "github_team_repository" "this" {
   repository = each.value.repository
   permission = each.value.permission
 
-  team_id = github_team.this[split(":", each.key)[0]].id
+  team_id = lookup(github_team.this, split(":", each.key)[0], {
+    id = lookup(each.value, "team_id", null)
+  }).id
 
   lifecycle {
     ignore_changes = []
