@@ -169,9 +169,7 @@ resource "github_team_repository" "this" {
   repository = each.value.repository
   permission = each.value.permission
 
-  team_id = lookup(github_team.this, split(":", each.key)[0], {
-    id = lookup(each.value, "team_id", null)
-  }).id
+  team_id = coalesce(try(each.value.team_id, null), try(github_team.this[split(":", each.key)[0]].id, null))
 
   lifecycle {
     ignore_changes = []
