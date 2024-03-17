@@ -110,6 +110,8 @@ resource "github_repository_collaborator" "this" {
 }
 
 resource "github_branch_protection" "this" {
+  for_each = local.resources.github_branch_protection
+
   pattern = each.value.pattern
 
   repository_id = lookup(each.value, "repository_id", lookup(lookup(github_repository.this, lower(lookup(each.value, "repository", "")), {}), "node_id", null))
