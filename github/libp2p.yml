@@ -4776,8 +4776,14 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+        - aaa
     visibility: public
 teams:
+  aaa:
+    members:
+      maintainer:
+        - galargh
+    privacy: closed
   Admin:
     members:
       maintainer:
