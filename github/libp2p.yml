@@ -5079,21 +5079,3 @@ teams:
       member:
         - mxinden
     privacy: closed
-  w3dt-stewards:
-    members:
-      maintainer:
-        - BigLep
-        - dhuseby
-        - galargh
-      member:
-        - achingbrain
-        - aschmahmann
-        - guillaumemichel
-        - Jorropo
-        - laurentsenta
-        - lidel
-        - MarcoPolo
-        - mxinden
-        - p-shahi
-        - Stebalien
-    privacy: closed
