@@ -4985,12 +4985,14 @@ teams:
         - yiannisbot
     privacy: closed
   py-libp2p Active Maintainers:
+    create_default_maintainer: false
     description: Active maintainers of py-libp2p repositories with admin privileges.
     members:
       member:
         - pacrob
     privacy: closed
   py-libp2p Maintainers:
+    create_default_maintainer: false
     description: Trusted maintainers for merging into py-libp2p repositories and
       publishing to PyPI
     members:
