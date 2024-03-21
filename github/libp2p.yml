@@ -4677,6 +4677,9 @@ repositories:
     advanced_security: false
     allow_update_branch: false
     archived: false
+    collaborators:
+      admin:
+        - momack2
     default_branch: main
     delete_branch_on_merge: false
     description: Rebuild of the libp2p.io website
@@ -4691,8 +4694,13 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - Admin
+        - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - ci
     visibility: public
   website:
     advanced_security: false
