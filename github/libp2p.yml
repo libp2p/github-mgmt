@@ -4239,6 +4239,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
+      admin:
+        - rust-libp2p Active Maintainers
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -4369,6 +4371,7 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+        - rust-libp2p Active Maintainers
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -4448,6 +4451,7 @@ repositories:
     teams:
       admin:
         - w3dt-stewards
+        - rust-libp2p Active Maintainers
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -5059,9 +5063,12 @@ teams:
         - vmx
     privacy: closed
   rust-libp2p Active Maintainers:
+    description: Active maintainers who need occassional admin over rust-libp2p repos.
     members:
       maintainer:
         - galargh
+      member:
+        - jxs
     privacy: closed
   rust-libp2p Maintainers:
     description: Trusted reviewers for merging into rust-libp2p repositories and
