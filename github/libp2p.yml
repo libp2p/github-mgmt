@@ -4370,8 +4370,8 @@ repositories:
     teams:
       admin:
         - Admin
-        - w3dt-stewards
         - rust-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
       pull:
@@ -4450,8 +4450,8 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - w3dt-stewards
         - rust-libp2p Active Maintainers
+        - w3dt-stewards
       maintain:
         - rust-libp2p Maintainers
       pull:
