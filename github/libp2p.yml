@@ -40,7 +40,6 @@ members:
     - autonome
     - BigLep
     - bigs
-    - carver
     - cemozerr
     - ChihChengLiang
     - daviddias
@@ -5011,7 +5010,6 @@ teams:
       maintainer:
         - pacrob
       member:
-        - carver
         - dhuseby
     privacy: closed
   Repos - Go:
@@ -5071,6 +5069,7 @@ teams:
         - vmx
     privacy: closed
   rust-libp2p Active Maintainers:
+    create_default_maintainer: false
     description: Active maintainers who need occassional admin over rust-libp2p repos.
     members:
       maintainer:
