@@ -5075,6 +5075,7 @@ teams:
       maintainer:
         - galargh
       member:
+        - AgeManning
         - jxs
     privacy: closed
   rust-libp2p Maintainers:
@@ -5085,6 +5086,7 @@ teams:
         - jxs
         - mxinden
       member:
+        - AgeManning
         - MarcoPolo
         - thomaseizinger
     privacy: closed
