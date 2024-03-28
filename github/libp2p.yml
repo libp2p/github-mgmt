@@ -18,6 +18,10 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # Why @dhuseby?
+    # 1. community architect of libp2p setting up KPI infrastructure and migrating Fleek accounts
+    # 2. this is only temporary until [this](https://github.com/libp2p/libp2p/issues/177) and [this](https://github.com/libp2p/libp2p/issues/208) are done.
+    - dhuseby
   member:
     - 2color
     - aamnv
@@ -45,7 +49,6 @@ members:
     - daviddias
     - dennis-tra
     - dharmapunk82
-    - dhuseby
     - dignifiedquire
     - dirkmc
     - dryajov
