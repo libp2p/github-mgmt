@@ -930,8 +930,9 @@ repositories:
             - Comment
           strict: true
     collaborators:
-      push:
+      admin:
         - dhuseby
+      push:
         - p-shahi
     default_branch: master
     delete_branch_on_merge: false
@@ -5011,9 +5012,8 @@ teams:
       publishing to PyPI
     members:
       maintainer:
-        - pacrob
-      member:
         - dhuseby
+        - pacrob
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
