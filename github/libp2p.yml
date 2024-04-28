@@ -4958,7 +4958,6 @@ teams:
         - BigLep
         - MarcoPolo
       member:
-        - marten-seemann
         - sukunrt
         - vyzo
     privacy: closed
