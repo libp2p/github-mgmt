@@ -4652,7 +4652,7 @@ repositories:
         content: |
           /rust-peer/ @libp2p/rust-libp2p-maintainers
           /go-peer/   @libp2p/go-libp2p-maintainers
-          /js-peer/   @libp2p/js-libp2p-dev
+          /js-peer/   @libp2p/js-libp2p-dev 2color
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
     has_discussions: false
