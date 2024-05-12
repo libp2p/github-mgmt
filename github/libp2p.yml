@@ -22,6 +22,8 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # Stebalien needs temporary owner access so he can configure [issue deletion](https://docs.github.com/en/organizations/managing-organization-settings/allowing-people-to-delete-issues-in-your-organization) so stewards can delete spam.
+    - Stebalien
   member:
     - 2color
     - aamnv
@@ -134,7 +136,6 @@ members:
     - salmad3
     - SgtPooki
     - snazha-blkio
-    - Stebalien
     - stongo
     - stuckinaboot
     - sukunrt
