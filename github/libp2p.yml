@@ -37,7 +37,6 @@ members:
     - arajasek
     - art-gor
     - aschmahmann
-    - autonome
     - bethanymarz
     - BigLep
     - bigs
@@ -930,9 +929,8 @@ repositories:
             - Comment
           strict: true
     collaborators:
-      admin:
-        - dhuseby
       push:
+        - dhuseby
         - p-shahi
     default_branch: master
     delete_branch_on_merge: false
@@ -1267,7 +1265,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
       for use in other languages
     files:
@@ -3463,33 +3461,7 @@ repositories:
   js-libp2p-secio:
     archived: true
   js-libp2p-simple-metrics:
-    advanced_security: false
-    allow_update_branch: true
-    archived: false
-    collaborators:
-      admin:
-        - achingbrain
-    default_branch: main
-    delete_branch_on_merge: true
-    description: Simple in-memory metrics gathering for libp2p
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
+    archived: true
   js-libp2p-spdy:
     archived: true
   js-libp2p-stardust:
@@ -4815,7 +4787,6 @@ teams:
         - AlanSl
         - alexh
         - anorth
-        - autonome
         - bigs
         - cemozerr
         - ChihChengLiang
@@ -5011,8 +4982,9 @@ teams:
       publishing to PyPI
     members:
       maintainer:
-        - dhuseby
         - pacrob
+      member:
+        - dhuseby
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
