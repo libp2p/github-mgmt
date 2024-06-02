@@ -324,10 +324,9 @@ repositories:
     archived: false
     collaborators:
       admin:
+        - 2color
         - andyschwab
         - p-shahi
-      push:
-        - 2color
     default_branch: main
     delete_branch_on_merge: false
     files:
@@ -346,6 +345,23 @@ repositories:
       pull:
         - github-mgmt stewards
     visibility: public
+  core-fund:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   cpp-libp2p:
     advanced_security: false
     allow_update_branch: false
@@ -906,6 +922,23 @@ repositories:
         - contributors
         - github-mgmt stewards
     visibility: public
+  foundation:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   github-mgmt:
     # WARN: push+ access here should be treated exactly as cautiosly as org admin role
     advanced_security: false
@@ -4601,6 +4634,23 @@ repositories:
       - nim
       - rust
     visibility: public
+  test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
   testlab:
     archived: true
   uci:
@@ -4981,7 +5031,6 @@ teams:
         - lidel
       member:
         - aschmahmann
-        - hacdias
         - Jorropo
     privacy: closed
   probelab:
