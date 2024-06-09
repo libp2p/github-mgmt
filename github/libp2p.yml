@@ -3639,6 +3639,25 @@ repositories:
     archived: true
   js-libp2p-webtransport:
     archived: true
+  js-libp2p-whatwg-fetch:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - MarcoPolo
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Implementation of WHATWG Fetch with support for multiaddrs and
+      libp2p streams.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-libp2p:
     advanced_security: false
     allow_update_branch: true
@@ -4699,7 +4718,7 @@ repositories:
           /js-peer/   @libp2p/js-libp2p-dev 2color
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
-    has_discussions: false
+    has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
