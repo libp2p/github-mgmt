@@ -10,11 +10,14 @@ import * as core from '@actions/core'
 
 function isInitialised(repository: Repository) {
   return ![
+    'core-fund',
     'fclibp2p-zhi',
+    'foundation',
     'okr-temp',
     'governance',
     'product',
-    'rust-libp2p-identity'
+    'rust-libp2p-identity',
+    'test'
   ].includes(repository.name)
 }
 
