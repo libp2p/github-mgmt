@@ -354,9 +354,6 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -934,9 +931,6 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4683,9 +4677,6 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
