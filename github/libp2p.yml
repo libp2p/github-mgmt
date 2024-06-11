@@ -3664,6 +3664,14 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-libp2p:
     advanced_security: false
