@@ -2529,44 +2529,7 @@ repositories:
   hydra-booster-infra:
     archived: true
   hydra-booster:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - alanshaw
-        - daviddias
-      push:
-        - web3-bot
-    default_branch: master
-    delete_branch_on_merge: true
-    description: A DHT Indexer node & Peer Router
-    files:
-      .github/dependabot.yml:
-        content: .github/dependabot.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - go-libp2p Maintainers
-        - Repos - Go
-    topics:
-      - dht
-      - ipfs
-      - libp2p
-      - scalability
-    visibility: public
+    archived: true
   interface-connection:
     archived: true
   interface-content-routing:
@@ -3312,6 +3275,33 @@ repositories:
     visibility: public
   js-libp2p-floodsub:
     archived: true
+  js-libp2p-http-fetch:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - MarcoPolo
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Implementation of WHATWG Fetch with support for multiaddrs and
+      libp2p streams.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - js-libp2p-dev
+    visibility: public
   js-libp2p-identify:
     archived: true
   js-libp2p-interfaces:
@@ -3639,40 +3629,6 @@ repositories:
     archived: true
   js-libp2p-webtransport:
     archived: true
-  js-libp2p-whatwg-fetch:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - MarcoPolo
-    default_branch: main
-    delete_branch_on_merge: false
-    description: Implementation of WHATWG Fetch with support for multiaddrs and
-      libp2p streams.
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - Admin
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - js-libp2p-dev
-    visibility: public
   js-libp2p:
     advanced_security: false
     allow_update_branch: true
@@ -3832,27 +3788,6 @@ repositories:
       push:
         - Repos - Java
     visibility: public
-  libp2p-browser-guide:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-    default_branch: main
-    delete_branch_on_merge: false
-    description: Repository code demonstrating browser connectivity with js-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
   libp2p-go-webrtc-benchmarks:
     advanced_security: false
     allow_update_branch: false
@@ -3880,6 +3815,24 @@ repositories:
         - github-mgmt stewards
       push:
         - go-libp2p Maintainers
+    visibility: public
+  libp2p-webrtc-guide:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Repository code demonstrating browser connectivity with js-libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
   libp2p:
     advanced_security: false
