@@ -3498,6 +3498,24 @@ repositories:
     archived: true
   js-libp2p-prometheus-metrics:
     archived: true
+  js-libp2p-protocol-adventure:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Learn how to develop custom protocols with libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   js-libp2p-pubsub-peer-discovery:
     advanced_security: false
     allow_update_branch: false
