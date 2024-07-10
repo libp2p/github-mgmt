@@ -17,7 +17,8 @@ function isInitialised(repository: Repository) {
     'governance',
     'product',
     'rust-libp2p-identity',
-    'test'
+    'test',
+    'credits'
   ].includes(repository.name)
 }
 
