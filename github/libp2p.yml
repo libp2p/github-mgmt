@@ -1761,6 +1761,8 @@ repositories:
     collaborators:
       maintain:
         - vyzo
+      push:
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: The PubSub implementation for go-libp2p
