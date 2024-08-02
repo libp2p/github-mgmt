@@ -4616,7 +4616,6 @@ repositories:
     archived: false
     collaborators:
       admin:
-        - BigLep
         - galargh
         - p-shahi
         - raulk
@@ -4964,7 +4963,6 @@ teams:
         - dhuseby
       member:
         - aschmahmann
-        - BigLep
         - jbenet
         - Kubuxu
         - mxinden
@@ -5054,7 +5052,6 @@ teams:
   contributors:
     members:
       member:
-        - BigLep
     privacy: closed
   cpp-libp2p:
     members:
@@ -5118,7 +5115,6 @@ teams:
     description: Trusted reviewers for merging into go-libp2p repositories.
     members:
       maintainer:
-        - BigLep
         - MarcoPolo
       member:
         - sukunrt
@@ -5147,7 +5143,6 @@ teams:
     description: Kubo Maintainers
     members:
       maintainer:
-        - BigLep
         - lidel
       member:
         - aschmahmann
@@ -5184,7 +5179,6 @@ teams:
       member:
         - alanshaw
         - aschmahmann
-        - BigLep
         - dirkmc
         - gammazero
         - hannahhoward
@@ -5265,7 +5259,6 @@ teams:
   w3dt-stewards:
     members:
       maintainer:
-        - BigLep
         - dhuseby
         - galargh
       member:
