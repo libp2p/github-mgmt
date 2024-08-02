@@ -5050,8 +5050,6 @@ teams:
       need write privs.
     privacy: closed
   contributors:
-    members:
-      member:
     privacy: closed
   cpp-libp2p:
     members:
