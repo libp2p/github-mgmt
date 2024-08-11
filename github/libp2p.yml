@@ -1764,7 +1764,7 @@ repositories:
       push:
         - web3-bot
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: The PubSub implementation for go-libp2p
     files:
       .github/workflows/stale.yml:
