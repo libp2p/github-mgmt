@@ -3767,6 +3767,11 @@ repositories:
     advanced_security: false
     allow_update_branch: true
     archived: false
+    collaborators:
+      admin:
+        - achingbrain
+        - aschmahmann
+        - MarcoPolo
     default_branch: main
     delete_branch_on_merge: true
     description: The JavaScript Implementation of libp2p networking stack.
@@ -3785,9 +3790,8 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - Admin
-        - w3dt-stewards
+      maintain:
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
