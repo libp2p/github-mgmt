@@ -5251,6 +5251,20 @@ teams:
         - MarcoPolo
         - thomaseizinger
     privacy: closed
+  shipyard:
+    description: Members of Interplanetary Shipyard who work with or on libp2p
+    members:
+      maintainer:
+        - achingbrain
+        - aschmahmann
+        - MarcoPolo
+      member:
+        - 2color
+        - guillaumemichel
+        - lidel
+        - sukunrt
+        - yiannisbot
+    privacy: closed
   Specs contributors:
     members:
       member:
