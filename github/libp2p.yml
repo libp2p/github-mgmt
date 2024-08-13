@@ -2119,6 +2119,10 @@ repositories:
         required_status_checks:
           strict: false
     collaborators:
+      admin:
+        - aschmahmann
+        - MarcoPolo
+        - sukunrt
       push:
         - web3-bot
     default_branch: master
@@ -2135,11 +2139,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
-      admin:
-        - Admin
-        - w3dt-stewards
       maintain:
         - go-libp2p Maintainers
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
