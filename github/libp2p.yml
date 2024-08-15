@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=.schema.json
 
 members:
-  # Admin permissions map to "org owner" permissions listed in 
-  # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare 
+  # Admin permissions map to "org owner" permissions listed in
+  # https://docs.github.com/en/organizations/managing-peoples-access-to-your-organization-with-roles/roles-in-an-organization#permissions-for-organization-rolesare
   # These permissions are very broad, and thus the list of people is intentionally minimal.
-  # Day-to-day administrating is done by those in the "github-mgmt Stewards" team (see team below).  
-  # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.  
+  # Day-to-day administrating is done by those in the "github-mgmt Stewards" team (see team below).
+  # "github-mgmt Stewards" team can still escalate into org owner permissions if/when needed.
   # This minimal owner set plus supporting rationale was documented and discussed in https://github.com/ipfs/ipfs/issues/511 .
   admin:
     # Why @andyschwab-admin?
@@ -5078,7 +5078,7 @@ teams:
         - salmad3
     privacy: closed
   github-mgmt stewards:
-    # Notes: 
+    # Notes:
     # 1. These members have push+ access to the github-mgmt repository (in addition to the ipdx team and the org owners listed in "members.admin" above).
     # 2. This team also has the org-level "moderator" and "security manager" role.
     #    This is configured through the GitHub UI, not in GitHub management.
@@ -5094,7 +5094,7 @@ teams:
       #  - be familiar with GitHub Management
       #  - be ready to triage/review org configuration change request in github-mgmt
       # INFO: Intentionally don't have any "maintainers" so that additional membership is done through github-mgmt rather than the GitHub UI.
-      # INFO: There are others who could certainly qualify to be members of this team.  
+      # INFO: There are others who could certainly qualify to be members of this team.
       # There is a balance to be had to ensure there are enough knowledgeable people available to support the needs/requests of the github org,
       # and reducing risk by not having too many with the escalation path that this role affords.
       maintainer:
@@ -5197,6 +5197,7 @@ teams:
         - masih
         - momack2
         - petar
+        - p-shahi
         - raulk
         - Stebalien
         - sukunrt
@@ -5218,6 +5219,7 @@ teams:
         - lidel
         - maschad
         - momack2
+        - p-shahi
         - SgtPooki
         - vasco-santos
         - whizzzkid
