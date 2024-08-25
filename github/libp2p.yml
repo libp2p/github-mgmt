@@ -42,6 +42,7 @@ members:
     - bigs
     - cemozerr
     - ChihChengLiang
+    - dariusc93
     - daviddias
     - dennis-tra
     - dharmapunk82
@@ -1553,7 +1554,7 @@ repositories:
     visibility: public
   go-libp2p-kad-dht:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       push:
