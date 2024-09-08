@@ -70,7 +70,6 @@ members:
     - hsanjuan
     - hugomrdias
     - iand
-    - iceseer
     - igor-egorov
     - ipfsbot
     - jacobheun
@@ -1146,6 +1145,7 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
+    description: A near-zero-overhead library for tracking bandwidth metrics
     files:
       .github/workflows/stale.yml:
         content: .github/workflows/stale.yml
@@ -1823,35 +1823,7 @@ repositories:
         - Repos - Go
     visibility: public
   go-libp2p-relay-daemon:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: master
-    delete_branch_on_merge: false
-    description: A standalone libp2p circuit relay daemon providing relay service
-      for version v2 of the protocol.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - w3dt-stewards
-      pull:
-        - github-mgmt stewards
-      push:
-        - go-libp2p Maintainers
-        - Repos - Go
-    visibility: public
+    archived: true
   go-libp2p-rendezvous:
     advanced_security: false
     allow_update_branch: false
@@ -4973,7 +4945,6 @@ teams:
         - guseggert
         - haadcode
         - hacdias
-        - iceseer
         - ipfsbot
         - jbenetsafer
         - JGAntunes
