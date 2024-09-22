@@ -3414,6 +3414,7 @@ repositories:
       admin:
         - Admin
         - w3dt-stewards
+        - SgtPooki
       pull:
         - github-mgmt stewards
     visibility: public
