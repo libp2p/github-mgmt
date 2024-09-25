@@ -289,8 +289,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
-        - rust-libp2p Maintainers
+        - sigma-prime
+        - rust-libp2p-contributors
     topics:
       - type-website
     visibility: public
@@ -614,7 +614,8 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
       push:
-        - Repos - Rust
+        - sigma-prime
+        - rust-libp2p-contributors
     topics:
       - demo
       - go
@@ -644,8 +645,8 @@ repositories:
     teams:
       admin:
         - Admin
-        - Repos - Rust
         - w3dt-stewards
+        - sigma-prime
       pull:
         - contributors
         - github-mgmt stewards
@@ -907,7 +908,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - sigma-prime
     topics:
       - documentation
       - knowledge-base
@@ -4071,7 +4072,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - sigma-prime
+        - rust-libp2p-contributors
     visibility: public
   npm-go-libp2p-dep:
     advanced_security: false
@@ -4232,7 +4234,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - sigma-prime
+        - rust-libp2p-contributors
     visibility: public
   pubsub-notes:
     archived: true
@@ -4441,9 +4444,9 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p Active Maintainers
-      maintain:
-        - rust-libp2p Maintainers
+        - sigma-prime
+      push:
+        - rust-libp2p-contributors
       pull:
         - github-mgmt stewards
     visibility: public
@@ -4568,15 +4571,11 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - Admin
-        - rust-libp2p Active Maintainers
-        - w3dt-stewards
-      maintain:
-        - rust-libp2p Maintainers
+        - sigma-prime
+      push:
+        - rust-libp2p-contributors
       pull:
         - github-mgmt stewards
-      push:
-        - Repos - Rust
     topics:
       - decentralization
       - libp2p
@@ -4649,14 +4648,11 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p Active Maintainers
-        - w3dt-stewards
-      maintain:
-        - rust-libp2p Maintainers
+        - sigma-prime
+      push:
+        - rust-libp2p-contributors
       pull:
         - github-mgmt stewards
-      push:
-        - Repos - Rust
     visibility: public
   security:
     advanced_security: false
@@ -4760,7 +4756,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - sigma-prime
     topics:
       - libp2p
     visibility: public
@@ -4793,7 +4789,8 @@ repositories:
       push:
         - go-libp2p Maintainers
         - Repos - Go
-        - rust-libp2p Maintainers
+        - sigma-prime
+        - rust-libp2p-contributors
     topics:
       - go
       - js
@@ -4861,7 +4858,7 @@ repositories:
     files:
       .github/CODEOWNERS:
         content: |
-          /rust-peer/ @libp2p/rust-libp2p-maintainers
+          /rust-peer/ @libp2p/sigma-prime
           /go-peer/   @libp2p/go-libp2p-maintainers
           /js-peer/   @libp2p/js-libp2p-dev 2color
       .github/workflows/stale.yml:
@@ -4877,7 +4874,7 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - js-libp2p-dev
-        - rust-libp2p Maintainers
+        - sigma-prime
       pull:
         - github-mgmt stewards
     topics:
@@ -5264,42 +5261,24 @@ teams:
         - vasco-santos
         - whizzzkid
     privacy: closed
-  Repos - Rust:
-    description: "In Rust we tRust "
-    members:
-      maintainer:
-        - mxinden
-        - tomaka
-      member:
-        - AgeManning
-        - jxs
-        - thomaseizinger
-        - vmx
-    privacy: closed
-  rust-libp2p Active Maintainers:
+  sigma-prime:
     create_default_maintainer: false
-    description: Active maintainers who need occassional admin over rust-libp2p repos.
-    members:
-      maintainer:
-        - galargh
-      member:
-        - AgeManning
-        - dariusc93
-        - jxs
-    privacy: closed
-  rust-libp2p Maintainers:
-    description: Trusted reviewers for merging into rust-libp2p repositories and
-      publishing to crates.io.
+    description: "Current maintainers of Rust-libp2p"
     members:
       maintainer:
         - jxs
-        - mxinden
-      member:
         - AgeManning
-        - guillaumemichel
-        - MarcoPolo
-        - thomaseizinger
     privacy: closed
+  rust-libp2p-contributors:
+    create_default_maintainer: false
+    description: "Contributors to the rust-libp2p repository"
+    members:
+      member:
+      - guillaumemichel
+      - dariusc93
+      - thomaseizinger
+      - mxinden
+      - MarcoPolo
   shipyard:
     create_default_maintainer: false
     description: Members of Interplanetary Shipyard who work with or on libp2p
