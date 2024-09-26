@@ -5156,6 +5156,10 @@ teams:
         # 1. Not involved in the libp2p day-to-day currently, but has a lot of historical knowledge.  Provides an informed outside perspective.
         # 2. Familiar with github-mgmt responsibilities in other orgs.
         - Stebalien
+        # Why @jxs?
+        # 1. Main maintainer of rust-libp2p.
+        # 2. Member of Sigmaprime, current tenants of rust-libp2p
+        - jxs
     privacy: closed
   go-libp2p Maintainers:
     description: Trusted reviewers for merging into go-libp2p repositories.
