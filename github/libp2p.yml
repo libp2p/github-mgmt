@@ -18,6 +18,9 @@ members:
     # 1. co-founder of [IPDX](https://ipdx.co), and IPDX is contracted to look after GitHub for this organization.
     # 2. Multiple years of experience managing GitHub organizations of open source projects, including this org.
     - galargh
+    # Why @p-shahi?
+    # Promoting to temporary admin to resolve https://github.com/libp2p/github-mgmt/pull/252 and related issues
+    - p-shahi
   member:
     - 2color
     - aamnv
@@ -115,7 +118,6 @@ members:
     - nunofmn
     - olizilla
     - ortyomka
-    - p-shahi
     - pacrob
     - petar
     - pipermerriam
