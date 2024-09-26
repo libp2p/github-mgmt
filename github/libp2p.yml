@@ -290,7 +290,7 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
         - rust-libp2p-contributors
-        - sigma-prime
+        - rust-libp2p-maintainers
     topics:
       - type-website
     visibility: public
@@ -615,7 +615,7 @@ repositories:
         - Repos - JavaScript
       push:
         - rust-libp2p-contributors
-        - sigma-prime
+        - rust-libp2p-maintainers
     topics:
       - demo
       - go
@@ -645,7 +645,7 @@ repositories:
     teams:
       admin:
         - Admin
-        - sigma-prime
+        - rust-libp2p-maintainers
         - w3dt-stewards
       pull:
         - contributors
@@ -908,7 +908,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - sigma-prime
+        - rust-libp2p-maintainers
     topics:
       - documentation
       - knowledge-base
@@ -4150,7 +4150,7 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
         - rust-libp2p-contributors
-        - sigma-prime
+        - rust-libp2p-maintainers
     visibility: public
   npm-go-libp2p-dep:
     advanced_security: false
@@ -4312,7 +4312,7 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
         - rust-libp2p-contributors
-        - sigma-prime
+        - rust-libp2p-maintainers
     visibility: public
   pubsub-notes:
     archived: true
@@ -4521,7 +4521,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - sigma-prime
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4648,7 +4648,7 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - sigma-prime
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4725,7 +4725,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - sigma-prime
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4833,7 +4833,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - sigma-prime
+        - rust-libp2p-maintainers
     topics:
       - libp2p
     visibility: public
@@ -4867,7 +4867,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - rust-libp2p-contributors
-        - sigma-prime
+        - rust-libp2p-maintainers
     topics:
       - go
       - js
@@ -4935,7 +4935,7 @@ repositories:
     files:
       .github/CODEOWNERS:
         content: |
-          /rust-peer/ @libp2p/sigma-prime
+          /rust-peer/ @libp2p/rust-libp2p-maintainers
           /go-peer/   @libp2p/go-libp2p-maintainers
           /js-peer/   @libp2p/js-libp2p-dev 2color
       .github/workflows/stale.yml:
@@ -4951,7 +4951,7 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - js-libp2p-dev
-        - sigma-prime
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5364,7 +5364,7 @@ teams:
         - sukunrt
         - yiannisbot
     privacy: closed
-  sigma-prime:
+  rust-libp2p-maintainers:
     create_default_maintainer: false
     description: "Current maintainers of Rust-libp2p"
     members:
