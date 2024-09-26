@@ -5348,6 +5348,14 @@ teams:
         - MarcoPolo
         - mxinden
         - thomaseizinger
+  rust-libp2p-maintainers:
+    create_default_maintainer: false
+    description: "Current maintainers of Rust-libp2p"
+    members:
+      maintainer:
+        - AgeManning
+        - jxs
+    privacy: closed
   shipyard:
     create_default_maintainer: false
     description: Members of Interplanetary Shipyard who work with or on libp2p
@@ -5363,14 +5371,6 @@ teams:
         - p-shahi
         - sukunrt
         - yiannisbot
-    privacy: closed
-  rust-libp2p-maintainers:
-    create_default_maintainer: false
-    description: "Current maintainers of Rust-libp2p"
-    members:
-      maintainer:
-        - AgeManning
-        - jxs
     privacy: closed
   Specs contributors:
     members:
