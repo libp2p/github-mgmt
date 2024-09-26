@@ -5222,6 +5222,10 @@ teams:
         # Why @dhuseby?
         # 1. Project community leader interfacing with multiple implementation teams.
         - dhuseby
+        # Why @jxs?
+        # 1. Primary maintainer of rust-libp2p and member of Sigma Prime, current stewards of rust-libp2p.
+        # 2. Active in maintaining rust-libp2p CI infrastructure and taking leadership role in github-mgmt as well.
+        - jxs
         # Why p-shahi?
         # 1. TPM for libp2p implementations like go-libp2p and js-libp2p as part of IP Shipyard and cross-implementation technical work.
         # 2. Active and experienced with github-mgmt in helping engineering teams the last year.
