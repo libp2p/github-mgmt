@@ -5359,8 +5359,8 @@ teams:
     members:
       maintainer:
         - AgeManning
-        - jxs
         - guillaumemichel
+        - jxs
     privacy: closed
   shipyard:
     create_default_maintainer: false
