@@ -4023,6 +4023,8 @@ repositories:
       admin:
         - Nashatyrev
         - StefanBratanov
+      maintain:
+        - tbenr
     default_branch: develop
     delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥
