@@ -5350,7 +5350,6 @@ teams:
     members:
       member:
         - dariusc93
-        - guillaumemichel
         - MarcoPolo
         - mxinden
         - thomaseizinger
@@ -5361,6 +5360,7 @@ teams:
       maintainer:
         - AgeManning
         - jxs
+        - guillaumemichel
     privacy: closed
   shipyard:
     create_default_maintainer: false
