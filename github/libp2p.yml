@@ -3490,7 +3490,6 @@ repositories:
     teams:
       admin:
         - Admin
-        - SgtPooki
         - w3dt-stewards
       push:
         - js-libp2p-dev
