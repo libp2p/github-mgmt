@@ -3492,6 +3492,8 @@ repositories:
         - Admin
         - SgtPooki
         - w3dt-stewards
+      push:
+        - js-libp2p-dev
       pull:
         - github-mgmt stewards
     visibility: public
