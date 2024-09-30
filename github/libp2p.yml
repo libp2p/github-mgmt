@@ -3493,6 +3493,8 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - js-libp2p-dev
     visibility: public
   js-libp2p-floodsub:
     archived: true
