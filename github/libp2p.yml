@@ -289,8 +289,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
-        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+        - rust-libp2p-maintainers
     topics:
       - type-website
     visibility: public
@@ -614,7 +614,8 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
       push:
-        - Repos - Rust
+        - rust-libp2p-contributors
+        - rust-libp2p-maintainers
     topics:
       - demo
       - go
@@ -644,7 +645,7 @@ repositories:
     teams:
       admin:
         - Admin
-        - Repos - Rust
+        - rust-libp2p-maintainers
         - w3dt-stewards
       pull:
         - contributors
@@ -907,7 +908,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - rust-libp2p-maintainers
     topics:
       - documentation
       - knowledge-base
@@ -4152,7 +4153,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - rust-libp2p-contributors
+        - rust-libp2p-maintainers
     visibility: public
   npm-go-libp2p-dep:
     advanced_security: false
@@ -4313,7 +4315,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - rust-libp2p-contributors
+        - rust-libp2p-maintainers
     visibility: public
   pubsub-notes:
     archived: true
@@ -4522,11 +4525,11 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p Active Maintainers
-      maintain:
-        - rust-libp2p Maintainers
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
+      push:
+        - rust-libp2p-contributors
     visibility: public
   rust-libp2p:
     advanced_security: false
@@ -4649,15 +4652,11 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - Admin
-        - rust-libp2p Active Maintainers
-        - w3dt-stewards
-      maintain:
-        - rust-libp2p Maintainers
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
       push:
-        - Repos - Rust
+        - rust-libp2p-contributors
     topics:
       - decentralization
       - libp2p
@@ -4730,14 +4729,11 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p Active Maintainers
-        - w3dt-stewards
-      maintain:
-        - rust-libp2p Maintainers
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
       push:
-        - Repos - Rust
+        - rust-libp2p-contributors
     visibility: public
   security:
     advanced_security: false
@@ -4841,7 +4837,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - Repos - Rust
+        - rust-libp2p-maintainers
     topics:
       - libp2p
     visibility: public
@@ -4874,7 +4870,8 @@ repositories:
       push:
         - go-libp2p Maintainers
         - Repos - Go
-        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+        - rust-libp2p-maintainers
     topics:
       - go
       - js
@@ -4958,7 +4955,7 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - js-libp2p-dev
-        - rust-libp2p Maintainers
+        - rust-libp2p-maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5349,41 +5346,23 @@ teams:
         - vasco-santos
         - whizzzkid
     privacy: closed
-  Repos - Rust:
-    description: "In Rust we tRust "
-    members:
-      maintainer:
-        - mxinden
-        - tomaka
-      member:
-        - AgeManning
-        - jxs
-        - thomaseizinger
-        - vmx
-    privacy: closed
-  rust-libp2p Active Maintainers:
+  rust-libp2p-contributors:
     create_default_maintainer: false
-    description: Active maintainers who need occassional admin over rust-libp2p repos.
+    description: "Contributors to the rust-libp2p repository"
     members:
-      maintainer:
-        - galargh
       member:
-        - AgeManning
         - dariusc93
-        - jxs
-    privacy: closed
-  rust-libp2p Maintainers:
-    description: Trusted reviewers for merging into rust-libp2p repositories and
-      publishing to crates.io.
+        - MarcoPolo
+        - mxinden
+        - thomaseizinger
+  rust-libp2p-maintainers:
+    create_default_maintainer: false
+    description: "Current maintainers of Rust-libp2p"
     members:
       maintainer:
-        - jxs
-        - mxinden
-      member:
         - AgeManning
         - guillaumemichel
-        - MarcoPolo
-        - thomaseizinger
+        - jxs
     privacy: closed
   shipyard:
     create_default_maintainer: false
