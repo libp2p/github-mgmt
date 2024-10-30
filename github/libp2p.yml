@@ -2521,6 +2521,9 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Cross platform asynchronous network watcher
+    files:
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2984,6 +2987,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3090,6 +3097,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3251,6 +3262,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3302,6 +3317,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3382,6 +3401,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3530,6 +3553,10 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
+      .github/workflows/semantic-pull-request.yml:
+        content: .github/workflows/semantic-pull-request.yml
+      .github/workflows/stale.yml:
+        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
