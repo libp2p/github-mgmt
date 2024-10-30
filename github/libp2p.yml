@@ -2533,7 +2533,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
