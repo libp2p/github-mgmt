@@ -290,7 +290,7 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - type-website
     visibility: public
@@ -615,7 +615,7 @@ repositories:
         - Repos - JavaScript
       push:
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - demo
       - go
@@ -645,7 +645,7 @@ repositories:
     teams:
       admin:
         - Admin
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
         - w3dt-stewards
       pull:
         - contributors
@@ -908,7 +908,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - documentation
       - knowledge-base
@@ -4184,7 +4184,7 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     visibility: public
   npm-go-libp2p-dep:
     advanced_security: false
@@ -4346,7 +4346,7 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     visibility: public
   pubsub-notes:
     archived: true
@@ -4555,7 +4555,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4682,7 +4682,7 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4759,7 +4759,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4867,7 +4867,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - libp2p
     visibility: public
@@ -4901,7 +4901,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - go
       - js
@@ -4985,7 +4985,7 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - js-libp2p-dev
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5386,7 +5386,7 @@ teams:
         - mxinden
         - thomaseizinger
     privacy: secret
-  rust-libp2p-maintainers:
+  rust-libp2p Maintainers:
     create_default_maintainer: false
     description: "Current maintainers of Rust-libp2p"
     members:
