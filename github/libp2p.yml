@@ -289,8 +289,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
+        - rust-libp2p Maintainers
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
     topics:
       - type-website
     visibility: public
@@ -614,8 +614,8 @@ repositories:
         - Repos - Go
         - Repos - JavaScript
       push:
+        - rust-libp2p Maintainers
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
     topics:
       - demo
       - go
@@ -645,7 +645,7 @@ repositories:
     teams:
       admin:
         - Admin
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
         - w3dt-stewards
       pull:
         - contributors
@@ -908,7 +908,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - documentation
       - knowledge-base
@@ -4251,8 +4251,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
+        - rust-libp2p Maintainers
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
     visibility: public
   npm-go-libp2p-dep:
     advanced_security: false
@@ -4413,8 +4413,8 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
+        - rust-libp2p Maintainers
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
     visibility: public
   pubsub-notes:
     archived: true
@@ -4623,7 +4623,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4750,7 +4750,7 @@ repositories:
     squash_merge_commit_title: PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4827,7 +4827,7 @@ repositories:
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
       push:
@@ -4935,7 +4935,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
     topics:
       - libp2p
     visibility: public
@@ -4968,8 +4968,8 @@ repositories:
       push:
         - go-libp2p Maintainers
         - Repos - Go
+        - rust-libp2p Maintainers
         - rust-libp2p-contributors
-        - rust-libp2p-maintainers
     topics:
       - go
       - js
@@ -5053,7 +5053,7 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - js-libp2p-dev
-        - rust-libp2p-maintainers
+        - rust-libp2p Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5444,6 +5444,15 @@ teams:
         - vasco-santos
         - whizzzkid
     privacy: closed
+  rust-libp2p Maintainers:
+    create_default_maintainer: false
+    description: "Current maintainers of Rust-libp2p"
+    members:
+      maintainer:
+        - AgeManning
+        - guillaumemichel
+        - jxs
+    privacy: closed
   rust-libp2p-contributors:
     create_default_maintainer: false
     description: "Contributors to the rust-libp2p repository"
@@ -5454,15 +5463,6 @@ teams:
         - mxinden
         - thomaseizinger
     privacy: secret
-  rust-libp2p-maintainers:
-    create_default_maintainer: false
-    description: "Current maintainers of Rust-libp2p"
-    members:
-      maintainer:
-        - AgeManning
-        - guillaumemichel
-        - jxs
-    privacy: closed
   shipyard:
     create_default_maintainer: false
     description: Members of Interplanetary Shipyard who work with or on libp2p
