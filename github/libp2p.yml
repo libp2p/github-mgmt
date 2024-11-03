@@ -2514,30 +2514,20 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-        required_status_checks:
-          contexts:
-            - build
-          strict: false
+    collaborators:
+      push:
+        - dvc94ch
+        - mxinden
     default_branch: master
     delete_branch_on_merge: false
     description: Cross platform asynchronous network watcher
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - rust-libp2p Maintainers
-      pull:
-        - github-mgmt stewards
-      push:
-        - rust-libp2p-contributors
+    squash_merge_commit_title: PR_TITLE
     visibility: public
   interface-connection:
     archived: true
