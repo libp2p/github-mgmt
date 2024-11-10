@@ -41,6 +41,7 @@ members:
     - BigLep
     - bigs
     - cemozerr
+    - cewood
     - ChihChengLiang
     - dariusc93
     - daviddias
@@ -4658,6 +4659,8 @@ repositories:
             - IPFS Integration tests
             - manifest_lint
             - Run all WASM tests
+            - Run hole-punch interoperability tests
+            - Run transport interoperability tests
             - rustfmt
             - Test libp2p-allow-block-list
             - Test libp2p-autonat
