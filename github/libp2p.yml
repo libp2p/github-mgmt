@@ -2533,6 +2533,9 @@ repositories:
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: PR_TITLE
     visibility: public
+    teams:
+      admin:
+        - rust-libp2p Maintainers
   interface-connection:
     archived: true
   interface-content-routing:
@@ -2560,8 +2563,6 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
-      push:
-        - rust-libp2p Maintainers
     visibility: public
   interface-peer-discovery:
     archived: true
