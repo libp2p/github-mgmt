@@ -2519,6 +2519,7 @@ repositories:
       push:
         - dvc94ch
         - mxinden
+        - rust-libp2p Maintainers
     default_branch: master
     delete_branch_on_merge: false
     description: Cross platform asynchronous network watcher
