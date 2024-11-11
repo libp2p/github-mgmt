@@ -2519,7 +2519,6 @@ repositories:
       push:
         - dvc94ch
         - mxinden
-        - rust-libp2p Maintainers
     default_branch: master
     delete_branch_on_merge: false
     description: Cross platform asynchronous network watcher
@@ -2561,6 +2560,8 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - rust-libp2p Maintainers
     visibility: public
   interface-peer-discovery:
     archived: true
