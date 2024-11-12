@@ -2532,6 +2532,9 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - rust-libp2p Maintainers
     visibility: public
   interface-connection:
     archived: true
