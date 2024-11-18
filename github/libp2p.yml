@@ -5449,9 +5449,9 @@ teams:
     members:
       maintainer:
         - AgeManning
+        - elenaf9
         - guillaumemichel
         - jxs
-        - elenaf9
     privacy: closed
   rust-libp2p-contributors:
     create_default_maintainer: false
