@@ -919,6 +919,24 @@ repositories:
       - type-documentation
       - type-website
     visibility: public
+  error-codes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - sukunrt
+    default_branch: main
+    delete_branch_on_merge: false
+    description: libp2p error codes registry
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
   fclibp2p-zhi:
     advanced_security: false
     allow_update_branch: false
@@ -2498,7 +2516,7 @@ repositories:
     archived: true
   if-watch:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       master:
@@ -2516,6 +2534,8 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     collaborators:
+      maintain:
+        - dariusc93
       push:
         - dvc94ch
         - mxinden
@@ -5451,6 +5471,8 @@ teams:
         - AgeManning
         - guillaumemichel
         - jxs
+      member:
+        - elenaf9
     privacy: closed
   rust-libp2p-contributors:
     create_default_maintainer: false
