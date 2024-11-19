@@ -5474,8 +5474,6 @@ teams:
         - elenaf9
         - guillaumemichel
         - jxs
-      member:
-        - elenaf9
     privacy: closed
   rust-libp2p-contributors:
     create_default_maintainer: false
