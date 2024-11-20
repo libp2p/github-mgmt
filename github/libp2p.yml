@@ -5230,7 +5230,6 @@ teams:
         - dharmapunk82
         - dryajov
         - dvdplm
-        - elenaf9
         - fbaiodias
         - flyingzumwalt
         - frrist
@@ -5472,10 +5471,9 @@ teams:
     members:
       maintainer:
         - AgeManning
+        - elenaf9
         - guillaumemichel
         - jxs
-      member:
-        - elenaf9
     privacy: closed
   rust-libp2p-contributors:
     create_default_maintainer: false
