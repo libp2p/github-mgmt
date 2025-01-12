@@ -3007,10 +3007,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4753,7 +4749,7 @@ repositories:
             - Check rustdoc intra-doc links
             - Compile on wasm32-unknown-emscripten
             - Compile on wasm32-unknown-unknown
-            - Compile on wasm32-wasi
+            - Compile on wasm32-wasip1
             - Compile on x86_64-apple-darwin
             - Compile on x86_64-pc-windows-msvc
             - Compile with MSRV
@@ -4764,8 +4760,6 @@ repositories:
             - IPFS Integration tests
             - manifest_lint
             - Run all WASM tests
-            - Run hole-punch interoperability tests
-            - Run transport interoperability tests
             - rustfmt
             - Test libp2p-allow-block-list
             - Test libp2p-autonat
