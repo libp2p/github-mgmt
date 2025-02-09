@@ -3008,10 +3008,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4108,7 +4104,7 @@ repositories:
     secret_scanning_push_protection: true
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    squash_merge_commit_title: PR_TITLE
     teams:
       maintain:
         - shipyard
@@ -4649,7 +4645,7 @@ repositories:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
-          required_approving_review_count: 0
+          required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: main
     delete_branch_on_merge: false
@@ -5041,7 +5037,7 @@ repositories:
     visibility: public
   test-plans:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
