@@ -1578,6 +1578,7 @@ repositories:
         - go-libp2p Maintainers
         - kubo maintainers
         - probelab
+        - shipyard
       pull:
         - github-mgmt stewards
       push:
@@ -5471,7 +5472,9 @@ teams:
         - lidel
       member:
         - aschmahmann
-        - Jorropo
+        - gammazero
+        - guillaumemichel
+        - hsanjuan
     privacy: closed
   probelab:
     members:
@@ -5576,7 +5579,9 @@ teams:
       member:
         - 2color
         - cewood
+        - gammazero
         - guillaumemichel
+        - hsanjuan
         - lidel
         - SgtPooki
         - sukunrt
