@@ -4600,7 +4600,6 @@ repositories:
     teams:
       admin:
         - py-libp2p Active Maintainers
-        - w3dt-stewards
       maintain:
         - py-libp2p Maintainers
       pull:
@@ -4627,7 +4626,6 @@ repositories:
     teams:
       admin:
         - py-libp2p Active Maintainers
-        - w3dt-stewards
       maintain:
         - py-libp2p Maintainers
       pull:
@@ -4669,7 +4667,6 @@ repositories:
     teams:
       admin:
         - py-libp2p Active Maintainers
-        - w3dt-stewards
       maintain:
         - py-libp2p Maintainers
       pull:
@@ -5126,6 +5123,7 @@ repositories:
       admin:
         - 2color
         - p-shahi
+        - dhuseby
       push:
         - jochasinga
         - TheDiscordian
@@ -5154,7 +5152,9 @@ repositories:
       maintain:
         - go-libp2p Maintainers
         - js-libp2p-dev
+        - py-libp2p Maintainers
         - rust-libp2p Maintainers
+        - universal-connectivity Maintainers
       pull:
         - github-mgmt stewards
     topics:
@@ -5591,6 +5591,15 @@ teams:
     members:
       member:
         - mxinden
+    privacy: closed
+  universal-connectivity Maintainers:
+    create_default_maintainer: false
+    description: Maintainers of universal-connectivity that are not maintainers of other libp2p implementations
+    members:
+      maintainer:
+        - dhuseby
+      member:
+        - kentbull
     privacy: closed
   w3dt-stewards:
     members:
