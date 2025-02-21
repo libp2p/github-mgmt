@@ -5122,8 +5122,8 @@ repositories:
     collaborators:
       admin:
         - 2color
-        - p-shahi
         - dhuseby
+        - p-shahi
       push:
         - jochasinga
         - TheDiscordian
@@ -5594,7 +5594,8 @@ teams:
     privacy: closed
   universal-connectivity Maintainers:
     create_default_maintainer: false
-    description: Maintainers of universal-connectivity that are not maintainers of other libp2p implementations
+    description: Maintainers of universal-connectivity that are not maintainers of
+      other libp2p implementations
     members:
       maintainer:
         - dhuseby
