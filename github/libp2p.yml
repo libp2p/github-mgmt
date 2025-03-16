@@ -159,7 +159,6 @@ members:
     - yiannisbot
     - yusefnapora
     - ZenGround0
-    - zerg-su
     - zixuanzh
     - zuiris
 repositories:
@@ -5385,7 +5384,6 @@ teams:
         - igor-egorov
         - turuslan
         - xDimon
-        - zerg-su
     privacy: closed
   docs:
     members:
