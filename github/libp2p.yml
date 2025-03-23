@@ -168,9 +168,6 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -191,9 +188,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Useful resources for using libp2p and building things on top of it
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -218,9 +212,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: blog.libp2p.io website source
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -270,8 +261,6 @@ repositories:
               directory: '/'
               schedule:
                 interval: 'weekly'
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -304,9 +293,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: General discussion and documentation on community practices
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -332,9 +318,6 @@ repositories:
         - p-shahi
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -407,9 +390,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: C++17 implementation of libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -452,9 +432,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: LibP2P Crypto module
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -476,9 +453,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: IO for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -500,9 +474,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: LibP2P Peer
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -524,9 +495,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: ProtocolId
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -548,9 +516,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: DHT Records
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -572,9 +537,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: LibP2P utilities
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -596,9 +558,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Simple libp2p demos implemented in Go, JS and Rust
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -635,9 +594,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: 2018 libp2p Developers Meeting in Berlin
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -666,9 +622,6 @@ repositories:
     delete_branch_on_merge: false
     description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
       for incentivization.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -698,9 +651,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: testgound plans for DHT hardening
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -720,9 +670,6 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -742,9 +689,6 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -770,9 +714,6 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -796,9 +737,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Some utilities for debugging the libp2p dht
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -818,9 +756,6 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -841,9 +776,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: libp2p documentation website
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -889,8 +821,6 @@ repositories:
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -931,9 +861,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: libp2p error codes registry
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1008,8 +935,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
       CODEOWNERS:
         content: |
           # The ipdx team is responsible for GitHub Management maintenance
@@ -1045,9 +970,6 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1075,9 +997,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Fast IP to CIDR lookup in Golang
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1106,9 +1025,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Composable routing framework
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1138,9 +1054,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: DNS over HTTPS resolver
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1171,9 +1084,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A near-zero-overhead library for tracking bandwidth metrics
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1202,9 +1112,6 @@ repositories:
     delete_branch_on_merge: false
     description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on
       IPv6 addresses for now."
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1242,9 +1149,6 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1277,9 +1181,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A consensus interface for LibP2P
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1316,9 +1217,6 @@ repositories:
     delete_branch_on_merge: true
     description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
       for use in other languages
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1366,9 +1264,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A simple RPC library for libp2p.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1419,9 +1314,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Go "net" wrappers for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1446,9 +1338,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Script for testing Hole Punching among a group of users
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1488,9 +1377,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: HTTP on top of libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1531,9 +1417,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: 🐣 [WIP] introspection endpoint for libp2p hosts
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1561,9 +1444,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A Kademlia DHT implementation on go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1600,9 +1480,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A kbucket implementation for use as a routing table
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1634,9 +1511,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: adaptor to integrate the mplex multiplexer into libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1683,9 +1557,6 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1716,9 +1587,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Daemon and tools for pubsub tracing
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1763,9 +1631,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: The PubSub implementation for go-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1798,9 +1663,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A LibP2P wrapper for hashicorp/raft implementation.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1828,9 +1690,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: signed records for use with routing systems
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1857,9 +1716,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Go implementation of rendezvous protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1888,9 +1744,6 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1919,9 +1772,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Go API for structured logging and querying
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1947,9 +1797,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Test toolbox for go-libp2p modules
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1980,9 +1827,6 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2003,9 +1847,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: The rendezvous service for libp2p-websocket-star written in go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2035,9 +1876,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Xor Trie implementation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2097,9 +1935,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: libp2p implementation in Go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2132,9 +1967,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A port of maxogden's multiplex to go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2162,9 +1994,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: simple package to r/w length-delimited slices.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2192,9 +2021,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: NAT port mapping library for Go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2222,9 +2048,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Routing table abstraction library
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2259,9 +2082,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: reuse tcp/udp ports in golang
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2294,9 +2114,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Definition of the grammar for describing routing objectives
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2322,9 +2139,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: "ResNetLab Project: Smart Records"
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2353,9 +2167,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Multiaddr backed systemd socket activation
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2390,9 +2201,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Implementation of an unreliable packet transport for libp2p, using UDP
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2425,9 +2233,6 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2456,9 +2261,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: testground plans for evaluating gossipsub under attack scenarios
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2499,9 +2301,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: nothing to see here, yet!
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2548,9 +2347,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Cross platform asynchronous network watcher
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2573,9 +2369,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: The interface of all of the interfaces for the libp2p modules.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2613,10 +2406,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2645,18 +2434,6 @@ repositories:
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
-      .github/workflows/stale.yml:
-        content: |
-          name: Close and mark stale issue
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-            workflow_dispatch:
-
-          jobs:
-            stale:
-              uses: pl-strflt/.github/.github/workflows/reusable-stale-issue.yml@v0.3
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2684,9 +2461,6 @@ repositories:
         required_linear_history: false
     default_branch: main
     delete_branch_on_merge: false
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2718,10 +2492,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2746,10 +2516,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2783,10 +2549,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -2824,10 +2586,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2856,10 +2614,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2887,10 +2641,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -2921,10 +2671,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
       CODEOWNERS:
         content: |
           * @libp2p/js-libp2p-dev
@@ -2956,10 +2702,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3010,10 +2752,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3062,10 +2800,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3117,10 +2851,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3172,10 +2902,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3227,10 +2953,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3282,10 +3004,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3337,10 +3055,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3392,10 +3106,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3421,10 +3131,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3476,10 +3182,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3501,10 +3203,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3526,10 +3224,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3551,10 +3245,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3603,10 +3293,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3655,10 +3341,6 @@ repositories:
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
           5. Open a Pull Request
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3677,10 +3359,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3713,10 +3391,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3759,10 +3433,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3789,10 +3459,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3834,10 +3500,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3859,10 +3521,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3893,10 +3551,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3924,10 +3578,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3956,10 +3606,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -3990,10 +3636,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4019,10 +3661,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4049,10 +3687,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4100,10 +3734,6 @@ repositories:
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4132,9 +3762,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A netcat like utility but for the p2p Internet
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4159,9 +3786,6 @@ repositories:
     delete_branch_on_merge: true
     description: peer-id implementation in JavaScript. Deprecated; use
       https://github.com/libp2p/js-libp2p-peer-id instead.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4231,9 +3855,6 @@ repositories:
     default_branch: develop
     delete_branch_on_merge: false
     description: a libp2p implementation for the JVM, written in Kotlin 🔥
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4260,9 +3881,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Benchmarks in function of the WebRTC transport implementation for libp2p-go
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4288,9 +3906,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Repository code demonstrating browser connectivity with js-libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4307,9 +3922,6 @@ repositories:
     delete_branch_on_merge: false
     description: A modular and extensible networking stack which solves many
       challenges of peer-to-peer applications.
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4333,9 +3945,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: libp2p Collaborative Notebook for Research
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4363,9 +3972,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: Install go-libp2p from npm as a dependency of your project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4397,9 +4003,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: Install go-libp2p-daemon via npm
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4419,9 +4022,6 @@ repositories:
     delete_branch_on_merge: false
     description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
       data, built on libp2p/observer-toolkit
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4446,9 +4046,6 @@ repositories:
     delete_branch_on_merge: true
     description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
       useful out-of-the-box widgets
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4495,9 +4092,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: A repo of sub-projects within libp2p for contributors to pick up
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4528,9 +4122,6 @@ repositories:
     delete_branch_on_merge: false
     description: multiplexer implementing the https://github.com/libp2p/mplex spec
       with pull-streams
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4568,8 +4159,6 @@ repositories:
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4588,9 +4177,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Python API for structured logging and querying
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4614,9 +4200,6 @@ repositories:
     delete_branch_on_merge: false
     description: Python facilities for XOR arithmetic and higher-level routing
       computations in XOR space
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4655,9 +4238,6 @@ repositories:
     delete_branch_on_merge: false
     description: The Python implementation of the libp2p networking stack 🐍 [under
       development]
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4684,9 +4264,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Research on PubSub algorithms for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4808,38 +4385,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: "The Rust Implementation of the libp2p networking stack. "
-    files:
-      .github/workflows/semantic-pull-request.yml:
-        content: .github/workflows/semantic-pull-request.yml
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v7
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4887,36 +4432,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Multiplexer over reliable, ordered connections.
-    files:
-      .github/workflows/stale.yml:
-        content: >
-          name: Close and mark stale issue
-
-
-          on:
-            schedule:
-            - cron: '0 0 * * *'
-
-          jobs:
-            stale:
-
-              runs-on: ubuntu-latest
-              permissions:
-                issues: write
-                pull-requests: write
-
-              steps:
-              - uses: actions/stale@v7
-                with:
-                  repo-token: ${{ secrets.GITHUB_TOKEN }}
-                  stale-issue-message: 'Oops, seems like we needed more information for this issue, please comment with more details or this issue will be closed in 7 days.'
-                  close-issue-message: 'This issue was closed because it is missing author input.'
-                  stale-issue-label: 'kind/stale'
-                  any-of-labels: 'need/author-input'
-                  exempt-issue-labels: 'need/triage,need/community-input,need/maintainer-input,need/maintainers-input,need/analysis,status/blocked,status/in-progress,status/ready,status/deferred,status/inactive'
-                  days-before-issue-stale: 6
-                  days-before-issue-close: 7
-                  enable-statistics: true
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4949,9 +4464,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: CONFIDENTIAL
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4985,9 +4497,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: Technical specifications for the libp2p networking stack
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5014,9 +4523,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: Planning and project management for the libp2p Project
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5048,9 +4554,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: true
     description: Interoperability tests for libp2p
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5140,8 +4643,6 @@ repositories:
           /rust-peer/ @libp2p/rust-libp2p-maintainers
           /go-peer/   @libp2p/go-libp2p-maintainers
           /js-peer/   @libp2p/js-libp2p-dev 2color
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5180,9 +4681,6 @@ repositories:
     default_branch: main
     delete_branch_on_merge: false
     description: Rebuild of the libp2p.io website
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5211,9 +4709,6 @@ repositories:
     description: Webpage of the libp2p project. A multi protocol approach for a
       interoperable network stack that follows the 'self description' in favor
       of assumptions
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5239,9 +4734,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: XTP - eXternal Transports Protocol
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -5266,9 +4758,6 @@ repositories:
     default_branch: master
     delete_branch_on_merge: false
     description: mDNS / DNS-SD Service Discovery in pure Go (also known as Bonjour)
-    files:
-      .github/workflows/stale.yml:
-        content: .github/workflows/stale.yml
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
