@@ -38,16 +38,6 @@ function isFork(repository: Repository) {
 
 async function run() {
   await addFileToAllRepos(
-    '.github/workflows/stale.yml',
-    '.github/workflows/stale.yml',
-    r => isInitialised(r) && !isFork(r)
-  )
-  await addFileToAllRepos(
-    '.github/workflows/semantic-pull-request.yml',
-    '.github/workflows/semantic-pull-request.yml',
-    r => isInitialised(r) && isJS(r)
-  )
-  await addFileToAllRepos(
     '.github/pull_request_template.md',
     '.github/js_pull_request_template.md',
     r => isInitialised(r) && isJS(r)
