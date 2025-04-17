@@ -1,10 +1,10 @@
 import 'reflect-metadata'
-import {Repository} from '../resources/repository'
-import {addFileToAllRepos} from './shared/add-file-to-all-repos'
-import {format} from './shared/format'
-import {setPropertyInAllRepos} from './shared/set-property-in-all-repos'
-import {toggleArchivedRepos} from './shared/toggle-archived-repos'
-import {describeAccessChanges} from './shared/describe-access-changes'
+import {Repository} from '../resources/repository.js'
+import {runFormat} from './shared/format.js'
+import {runAddFileToAllRepos} from './shared/add-file-to-all-repos.js'
+import {runSetPropertyInAllRepos} from './shared/set-property-in-all-repos.js'
+import {runToggleArchivedRepos} from './shared/toggle-archived-repos.js'
+import {runDescribeAccessChanges} from './shared/describe-access-changes.js'
 
 import * as core from '@actions/core'
 
@@ -37,23 +37,23 @@ function isFork(repository: Repository) {
 }
 
 async function run() {
-  await addFileToAllRepos(
+  await runAddFileToAllRepos(
     '.github/pull_request_template.md',
     '.github/js_pull_request_template.md',
     r => isInitialised(r) && isJS(r)
   )
-  await setPropertyInAllRepos(
+  await runSetPropertyInAllRepos(
     'secret_scanning',
     true,
     r => isInitialised(r) && isPublic(r)
   )
-  await setPropertyInAllRepos(
+  await runSetPropertyInAllRepos(
     'secret_scanning_push_protection',
     true,
     r => isInitialised(r) && isPublic(r)
   )
-  await toggleArchivedRepos()
-  const accessChangesDescription = await describeAccessChanges()
+  await runToggleArchivedRepos()
+  const accessChangesDescription = await runDescribeAccessChanges()
   core.setOutput(
     'comment',
     `The following access changes will be introduced as a result of applying the plan:
@@ -66,7 +66,7 @@ ${accessChangesDescription}
 
 </details>`
   )
-  format()
+  runFormat()
 }
 
 run()
