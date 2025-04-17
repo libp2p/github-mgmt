@@ -1,8 +1,8 @@
 import 'reflect-metadata'
-import {Repository} from '../resources/repository'
-import {addLabelToAllRepos} from './shared/add-label-to-all-repos'
+import {Repository} from '../resources/repository.js'
+import {runAddLabelToAllRepos} from './shared/add-label-to-all-repos.js'
 
-addLabelToAllRepos(
+runAddLabelToAllRepos(
   'need/author-input',
   'ededed',
   'Needs input from the original author',
