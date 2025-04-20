@@ -239,8 +239,7 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          #
-          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -621,8 +620,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
-      for incentivization.
+    description: want to hack on libp2p? this repo tracks libp2p endeavors eligible for incentivization.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1111,8 +1109,7 @@ repositories:
         - web3-bot
     default_branch: master
     delete_branch_on_merge: false
-    description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on
-      IPv6 addresses for now."
+    description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on IPv6 addresses for now."
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -1216,8 +1213,7 @@ repositories:
         - web3-bot
     default_branch: main
     delete_branch_on_merge: true
-    description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
-      for use in other languages
+    description: a libp2p-backed daemon wrapping the functionalities of go-libp2p for use in other languages
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -2732,32 +2728,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2789,32 +2776,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2849,32 +2827,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2909,32 +2878,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2969,32 +2929,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3029,32 +2980,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3089,32 +3031,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3149,32 +3082,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3199,8 +3123,7 @@ repositories:
         - achingbrain
     default_branch: main
     delete_branch_on_merge: true
-    description: This is a template to create a repo to be fork and go based on an
-      example of js-libp2p
+    description: This is a template to create a repo to be fork and go based on an example of js-libp2p
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
@@ -3234,32 +3157,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3354,32 +3268,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3411,32 +3316,23 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the
-          parent [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
-          made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p
-          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing
-          place to be learn, inspire, and create. Any contributions you make are
-          **greatly appreciated**.
+          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples
-          Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b
-          feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
-          example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3486,8 +3382,7 @@ repositories:
         - MarcoPolo
     default_branch: main
     delete_branch_on_merge: false
-    description: Implementation of WHATWG Fetch with support for multiaddrs and
-      libp2p streams.
+    description: Implementation of WHATWG Fetch with support for multiaddrs and libp2p streams.
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
@@ -3554,8 +3449,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: NAT manager that allows handling different aspects of NAT traversal
-      in libp2p.
+    description: NAT manager that allows handling different aspects of NAT traversal in libp2p.
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
@@ -3731,8 +3625,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: Node.js implementation of the UDP module that libp2p uses, which
-      implements the abstract-transport interface
+    description: Node.js implementation of the UDP module that libp2p uses, which implements the abstract-transport interface
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
@@ -3756,8 +3649,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: Node.js implementation of the UDT module that libp2p uses, which
-      implements the abstract-transport interface
+    description: Node.js implementation of the UDT module that libp2p uses, which implements the abstract-transport interface
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
@@ -3884,8 +3776,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: true
-    description: peer-id implementation in JavaScript. Deprecated; use
-      https://github.com/libp2p/js-libp2p-peer-id instead.
+    description: peer-id implementation in JavaScript. Deprecated; use https://github.com/libp2p/js-libp2p-peer-id instead.
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4020,8 +3911,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: A modular and extensible networking stack which solves many
-      challenges of peer-to-peer applications.
+    description: A modular and extensible networking stack which solves many challenges of peer-to-peer applications.
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4120,8 +4010,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
-      data, built on libp2p/observer-toolkit
+    description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection data, built on libp2p/observer-toolkit
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4144,8 +4033,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: true
-    description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
-      useful out-of-the-box widgets
+    description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few useful out-of-the-box widgets
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4220,8 +4108,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: multiplexer implementing the https://github.com/libp2p/mplex spec
-      with pull-streams
+    description: multiplexer implementing the https://github.com/libp2p/mplex spec with pull-streams
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4254,8 +4141,7 @@ repositories:
         - mxinden
     default_branch: main
     delete_branch_on_merge: false
-    description: 🥊 Components to measure Direct Connection Upgrade through Relay
-      (DCUtR) performance.
+    description: 🥊 Components to measure Direct Connection Upgrade through Relay (DCUtR) performance.
     files:
       .github/dependabot.yml:
         content: .github/dependabot.yml
@@ -4298,8 +4184,7 @@ repositories:
     archived: false
     default_branch: master
     delete_branch_on_merge: false
-    description: Python facilities for XOR arithmetic and higher-level routing
-      computations in XOR space
+    description: Python facilities for XOR arithmetic and higher-level routing computations in XOR space
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4336,8 +4221,7 @@ repositories:
           restrict_dismissals: false
     default_branch: main
     delete_branch_on_merge: false
-    description: The Python implementation of the libp2p networking stack 🐍 [under
-      development]
+    description: The Python implementation of the libp2p networking stack 🐍 [under development]
     has_discussions: true
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4733,10 +4617,7 @@ repositories:
         - TheDiscordian
     default_branch: main
     delete_branch_on_merge: false
-    description: Realtime decentralised chat with libp2p showing ubiquitous
-      peer-to-peer connectivity between multiple programming languages (Go,
-      Rust, TypeScript) and runtimes (Web, native binary) using QUIC, WebRTC and
-      WebTransport
+    description: Realtime decentralised chat with libp2p showing ubiquitous peer-to-peer connectivity between multiple programming languages (Go, Rust, TypeScript) and runtimes (Web, native binary) using QUIC, WebRTC and WebTransport
     files:
       .github/CODEOWNERS:
         content: |
@@ -4806,9 +4687,7 @@ repositories:
         - momack2
     default_branch: master
     delete_branch_on_merge: false
-    description: Webpage of the libp2p project. A multi protocol approach for a
-      interoperable network stack that follows the 'self description' in favor
-      of assumptions
+    description: Webpage of the libp2p project. A multi protocol approach for a interoperable network stack that follows the 'self description' in favor of assumptions
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
@@ -4959,8 +4838,7 @@ teams:
     description: ci
     privacy: closed
   community:
-    description: Developer advocates, community engineers, and other people that
-      need write privs.
+    description: Developer advocates, community engineers, and other people that need write privs.
     privacy: closed
   contributors:
     privacy: closed
@@ -5081,8 +4959,7 @@ teams:
         - pacrob
     privacy: closed
   py-libp2p Maintainers:
-    description: Trusted maintainers for merging into py-libp2p repositories and
-      publishing to PyPI
+    description: Trusted maintainers for merging into py-libp2p repositories and publishing to PyPI
     members:
       maintainer:
         - pacrob
@@ -5178,8 +5055,7 @@ teams:
         - mxinden
     privacy: closed
   universal-connectivity Maintainers:
-    description: Maintainers of universal-connectivity that are not maintainers of
-      other libp2p implementations
+    description: Maintainers of universal-connectivity that are not maintainers of other libp2p implementations
     members:
       maintainer:
         - dhuseby
