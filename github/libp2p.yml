@@ -140,7 +140,7 @@ members:
     - thattommyhall
     - TheDiscordian
     - thomaseizinger
-    - tinytb
+    - TinyTb
     - tomaka
     - travisperson
     - turuslan
@@ -239,7 +239,8 @@ repositories:
         content: >
           # Please see the documentation for all configuration options:
 
-          # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+          #
+          https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 
           version: 2
@@ -2731,23 +2732,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2779,23 +2789,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2830,23 +2849,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2881,23 +2909,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2932,23 +2969,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -2983,23 +3029,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3034,23 +3089,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3085,23 +3149,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3161,23 +3234,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3272,23 +3354,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -3320,23 +3411,32 @@ repositories:
           # Please do not create a Pull Request for this repository
 
 
-          The contents of this repository are automatically synced from the parent [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples) so any changes made to the standalone repository will be lost after the next sync.
+          The contents of this repository are automatically synced from the
+          parent [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples) so any changes
+          made to the standalone repository will be lost after the next sync.
 
 
-          Please open a PR against [js-libp2p Examples](https://github.com/libp2p/js-libp2p-examples) instead.
+          Please open a PR against [js-libp2p
+          Examples](https://github.com/libp2p/js-libp2p-examples) instead.
 
 
           ## Contributing
 
 
-          Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+          Contributions are what make the open source community such an amazing
+          place to be learn, inspire, and create. Any contributions you make are
+          **greatly appreciated**.
 
 
-          1. Fork the [js-libp2p Examples Project](https://github.com/libp2p/js-libp2p-examples)
+          1. Fork the [js-libp2p Examples
+          Project](https://github.com/libp2p/js-libp2p-examples)
 
-          2. Create your Feature Branch (`git checkout -b feature/amazing-example`)
+          2. Create your Feature Branch (`git checkout -b
+          feature/amazing-example`)
 
-          3. Commit your Changes (`git commit -a -m 'feat: add some amazing example'`)
+          3. Commit your Changes (`git commit -a -m 'feat: add some amazing
+          example'`)
 
           4. Push to the Branch (`git push origin feature/amazing-example`)
 
@@ -4843,7 +4943,7 @@ teams:
         - stongo
         - stuckinaboot
         - thattommyhall
-        - tinytb
+        - TinyTb
         - travisperson
         - victorb
         - Warchant
@@ -4975,14 +5075,12 @@ teams:
         - yiannisbot
     privacy: closed
   py-libp2p Active Maintainers:
-    create_default_maintainer: false
     description: Active maintainers of py-libp2p repositories with admin privileges.
     members:
       member:
         - pacrob
     privacy: closed
   py-libp2p Maintainers:
-    create_default_maintainer: false
     description: Trusted maintainers for merging into py-libp2p repositories and
       publishing to PyPI
     members:
@@ -5038,7 +5136,6 @@ teams:
         - whizzzkid
     privacy: closed
   rust-libp2p Maintainers:
-    create_default_maintainer: false
     description: "Current maintainers of Rust-libp2p"
     members:
       maintainer:
@@ -5048,7 +5145,6 @@ teams:
         - jxs
     privacy: closed
   rust-libp2p-contributors:
-    create_default_maintainer: false
     description: "Contributors to the rust-libp2p repository"
     members:
       member:
@@ -5058,7 +5154,6 @@ teams:
         - thomaseizinger
     privacy: secret
   shipyard:
-    create_default_maintainer: false
     description: Members of Interplanetary Shipyard who work with or on libp2p
     members:
       maintainer:
@@ -5083,7 +5178,6 @@ teams:
         - mxinden
     privacy: closed
   universal-connectivity Maintainers:
-    create_default_maintainer: false
     description: Maintainers of universal-connectivity that are not maintainers of
       other libp2p implementations
     members:
