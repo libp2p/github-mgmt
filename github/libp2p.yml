@@ -1,1 +1,4588 @@
-{}
+members:
+  admin:
+    - andyschwab-admin
+    - galargh
+  member:
+    - 2color
+    - aamnv
+    - aarshkshah1992
+    - achingbrain
+    - adlrocha
+    - AgeManning
+    - ajnavarro
+    - ajsutton
+    - alain2sf
+    - alanshaw
+    - AlanSl
+    - alexh
+    - andrew
+    - andyschwab
+    - anorth
+    - arajasek
+    - art-gor
+    - aschmahmann
+    - bethanymarz
+    - BigLep
+    - bigs
+    - cemozerr
+    - cewood
+    - ChihChengLiang
+    - dariusc93
+    - daviddias
+    - dennis-tra
+    - dharmapunk82
+    - dhuseby
+    - dignifiedquire
+    - dirkmc
+    - dryajov
+    - dvdplm
+    - elenaf9
+    - fbaiodias
+    - flyingzumwalt
+    - frrist
+    - fsdiogo
+    - gammazero
+    - gavinmcdermott
+    - geoah
+    - gmasgras
+    - Gozala
+    - guillaumemichel
+    - guseggert
+    - haadcode
+    - hacdias
+    - hannahhoward
+    - Harrm
+    - hsanjuan
+    - hugomrdias
+    - iand
+    - igor-egorov
+    - ipfsbot
+    - jacobheun
+    - jbenet
+    - jbenetsafer
+    - jchris
+    - JGAntunes
+    - Jorropo
+    - jrhea
+    - jsoares
+    - julian88110
+    - jxs
+    - kamilsa
+    - KarolKozlowski
+    - keks
+    - kentbull
+    - kevina
+    - kishansagathiya
+    - Kubuxu
+    - kumavis
+    - laurentsenta
+    - lidel
+    - litzenberger
+    - locotorp
+    - magik6k
+    - MarcoPolo
+    - marten-seemann
+    - maschad
+    - masih
+    - mbaxter
+    - mcamou
+    - mcollina
+    - mhchia
+    - miyazono
+    - mkalinin
+    - mkg20001
+    - momack2
+    - mpetrunic
+    - mvid
+    - mxinden
+    - Nashatyrev
+    - NIC619
+    - nicola
+    - nunofmn
+    - olizilla
+    - ortyomka
+    - p-shahi
+    - pacrob
+    - petar
+    - pipermerriam
+    - protolambda
+    - ralexstokes
+    - raulk
+    - RichardLitt
+    - richardschneider
+    - robzajac
+    - rolfyone
+    - romanb
+    - salmad3
+    - seetadev
+    - SgtPooki
+    - snazha-blkio
+    - Stebalien
+    - stongo
+    - stuckinaboot
+    - sukunrt
+    - thattommyhall
+    - TheDiscordian
+    - thomaseizinger
+    - TinyTb
+    - tomaka
+    - travisperson
+    - turuslan
+    - vasco-santos
+    - victorb
+    - vmx
+    - vyzo
+    - walkerlj0
+    - Warchant
+    - web3-bot
+    - wemeetagain
+    - whizzzkid
+    - whyrusleeping
+    - willscott
+    - xDimon
+    - yiannisbot
+    - yusefnapora
+    - ZenGround0
+    - zixuanzh
+    - zuiris
+repositories:
+  .github:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  awesome-libp2p:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Useful resources for using libp2p and building things on top of it
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - github-mgmt stewards
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+    visibility: public
+  blog-new:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: blog.libp2p.io website source
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  blog:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dhuseby
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Blog site for the libp2p project.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - docs
+      pull:
+        - github-mgmt stewards
+      push:
+        - ci
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+    topics:
+      - type-website
+    visibility: public
+  community:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: General discussion and documentation on community practices
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  connectivity-site:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+        - andyschwab
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  core-fund:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  cpp-libp2p:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      develop:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: true
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: true
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          pull_request_bypassers:
+            - libp2p/libp2p-mgmt-read-write
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: true
+    default_branch: master
+    delete_branch_on_merge: true
+    description: C++17 implementation of libp2p
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - cpp-libp2p
+      pull:
+        - github-mgmt stewards
+    topics:
+      - cpp17
+      - libp2p
+    visibility: public
+  credits:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  cs-libp2p-crypto:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: LibP2P Crypto module
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  cs-libp2p-io:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: IO for libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  cs-libp2p-peer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: LibP2P Peer
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  cs-libp2p-protocol:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: ProtocolId
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  cs-libp2p-record:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: DHT Records
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  cs-libp2p-utils:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: LibP2P utilities
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  demo-multi-lang:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Simple libp2p demos implemented in Go, JS and Rust
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - contributors
+        - github-mgmt stewards
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+      push:
+        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+    topics:
+      - demo
+      - go
+      - javascript
+      - libp2p
+      - rust
+      - sample
+      - tutorial
+    visibility: public
+  developer-meetings:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: 2018 libp2p Developers Meeting in Berlin
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - rust-libp2p Maintainers
+        - w3dt-stewards
+      pull:
+        - contributors
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+    visibility: public
+  devgrants:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: want to hack on libp2p? this repo tracks libp2p endeavors eligible
+      for incentivization.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - Admin
+    topics:
+      - bounty
+      - libp2p
+      - networking
+    visibility: public
+  dht-hardening:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vyzo
+    default_branch: master
+    delete_branch_on_merge: false
+    description: testgound plans for DHT hardening
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  dht-tracer-archived:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  dht-tracer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - github-mgmt stewards
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  dht-tracer1:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  dht-utils:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Some utilities for debugging the libp2p dht
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  dht-vis-v0:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  docs-old:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: libp2p documentation website
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  docs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: true
+        enforce_admins: false
+        lock_branch: false
+        push_restrictions:
+          - /salmad3
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Fleek - docs-libp2p-io
+          strict: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Documentation site for the libp2p project.
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - docs
+      pull:
+        - github-mgmt stewards
+      push:
+        - ci
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - rust-libp2p Maintainers
+    topics:
+      - documentation
+      - knowledge-base
+      - libp2p
+      - networking
+      - peer-to-peer
+      - type-documentation
+      - type-website
+    visibility: public
+  error-codes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - sukunrt
+    default_branch: main
+    delete_branch_on_merge: false
+    description: libp2p error codes registry
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  fclibp2p-zhi:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: New Issues for filecoin<=>libp2p deps workspace
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - contributors
+        - github-mgmt stewards
+    visibility: public
+  foundation:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  github-mgmt:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Comment
+          strict: true
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - ipdx
+      push:
+        - github-mgmt stewards
+    topics:
+      - ipdx
+    visibility: public
+  go-addr-util:
+    archived: true
+  go-buffer-pool:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-cidranger:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Fast IP to CIDR lookup in Golang
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - contributors
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-composable-routing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Composable routing framework
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  go-conn-security-multistream:
+    archived: true
+  go-conn-security:
+    archived: true
+  go-doh-resolver:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vyzo
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: DNS over HTTPS resolver
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    visibility: public
+  go-eventbus:
+    archived: true
+  go-flow-metrics:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A near-zero-overhead library for tracking bandwidth metrics
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-asn-util:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: "[WIP] A library for IP -> ASN mapping. ONLY supports lookups on
+      IPv6 addresses for now."
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-asn:
+    archived: true
+  go-libp2p-autonat-svc:
+    archived: true
+  go-libp2p-autonat:
+    archived: true
+  go-libp2p-backoff:
+    archived: true
+  go-libp2p-blankhost:
+    archived: true
+  go-libp2p-certbot:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - marten-seemann
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - Admin
+        - github-mgmt stewards
+        - go-libp2p Maintainers
+        - w3dt-stewards
+    visibility: public
+  go-libp2p-circuit-progs:
+    archived: true
+  go-libp2p-circuit:
+    archived: true
+  go-libp2p-conn:
+    archived: true
+  go-libp2p-connmgr:
+    archived: true
+  go-libp2p-consensus:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A consensus interface for LibP2P
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-coral-dht:
+    archived: true
+  go-libp2p-core:
+    archived: true
+  go-libp2p-crypto:
+    archived: true
+  go-libp2p-daemon:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - vyzo
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: true
+    description: a libp2p-backed daemon wrapping the functionalities of go-libp2p
+      for use in other languages
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-discovery:
+    archived: true
+  go-libp2p-dummy-conn:
+    archived: true
+  go-libp2p-examples:
+    archived: true
+  go-libp2p-gorpc:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          strict: false
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A simple RPC library for libp2p.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-gostream:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          contexts:
+            - go-check / All
+            - go-test / macos (go next)
+            - go-test / macos (go this)
+            - go-test / ubuntu (go next)
+            - go-test / ubuntu (go this)
+            - go-test / windows (go next)
+            - go-test / windows (go this)
+          strict: false
+    collaborators:
+      admin:
+        - hsanjuan
+        - Stebalien
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Go "net" wrappers for libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-holepunch-test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Script for testing Hole Punching among a group of users
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  go-libp2p-host:
+    archived: true
+  go-libp2p-http:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_status_checks:
+          strict: true
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: HTTP on top of libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    topics:
+      - go
+      - http
+      - ipfs
+      - libp2p
+    visibility: public
+  go-libp2p-identify:
+    archived: true
+  go-libp2p-interface-conn:
+    archived: true
+  go-libp2p-interface-connmgr:
+    archived: true
+  go-libp2p-interface-pnet:
+    archived: true
+  go-libp2p-introspector:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: 🐣 [WIP] introspection endpoint for libp2p hosts
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-kad-dht:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A Kademlia DHT implementation on go-libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+        - kubo maintainers
+        - probelab
+        - shipyard
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    topics:
+      - dht
+      - ipfs
+      - kad-dht
+      - libp2p
+    visibility: public
+  go-libp2p-kbucket:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A kbucket implementation for use as a routing table
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-loggables:
+    archived: true
+  go-libp2p-metrics:
+    archived: true
+  go-libp2p-mplex:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: adaptor to integrate the mplex multiplexer into libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-nat:
+    archived: true
+  go-libp2p-net:
+    archived: true
+  go-libp2p-netutil:
+    archived: true
+  go-libp2p-noise:
+    archived: true
+  go-libp2p-peer:
+    archived: true
+  go-libp2p-peerstore:
+    archived: true
+  go-libp2p-ping:
+    archived: true
+  go-libp2p-pnet:
+    archived: true
+  go-libp2p-protocol:
+    archived: true
+  go-libp2p-pubsub-DEPRECATED:
+    archived: true
+  go-libp2p-pubsub-router:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    visibility: public
+  go-libp2p-pubsub-tracer:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vyzo
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Daemon and tools for pubsub tracing
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  go-libp2p-pubsub:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: true
+        required_status_checks:
+          strict: true
+    collaborators:
+      maintain:
+        - vyzo
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: true
+    description: The PubSub implementation for go-libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    visibility: public
+  go-libp2p-quic-transport:
+    archived: true
+  go-libp2p-raft:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - hsanjuan
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A LibP2P wrapper for hashicorp/raft implementation.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-record:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: signed records for use with routing systems
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-relay-daemon:
+    archived: true
+  go-libp2p-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Go implementation of rendezvous protocol
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-resource-manager:
+    archived: true
+  go-libp2p-routing-helpers:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-routing:
+    archived: true
+  go-libp2p-secio:
+    archived: true
+  go-libp2p-slog:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Go API for structured logging and querying
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  go-libp2p-swarm:
+    archived: true
+  go-libp2p-testing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Test toolbox for go-libp2p modules
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+      pull:
+        - ci
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    visibility: public
+  go-libp2p-tls:
+    archived: true
+  go-libp2p-transport-upgrader:
+    archived: true
+  go-libp2p-transport:
+    archived: true
+  go-libp2p-users:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  go-libp2p-webrtc-direct:
+    archived: true
+  go-libp2p-websocket-star-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: The rendezvous service for libp2p-websocket-star written in go
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-xor:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - petar
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Xor Trie implementation
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-libp2p-yamux:
+    archived: true
+  go-libp2p:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+      release-v0[0-9][0-9]:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: true
+        required_status_checks:
+          strict: false
+    collaborators:
+      admin:
+        - aschmahmann
+        - MarcoPolo
+        - sukunrt
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: libp2p implementation in Go
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: BLANK
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      maintain:
+        - go-libp2p Maintainers
+        - shipyard
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    topics:
+      - libp2p
+      - networking-stack
+      - p2p
+    visibility: public
+  go-maddr-filter:
+    archived: true
+  go-mplex:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A port of maxogden's multiplex to go
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-msgio:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: simple package to r/w length-delimited slices.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-nat:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: NAT port mapping library for Go
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-netroute:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Routing table abstraction library
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - contributors
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-openssl:
+    archived: true
+  go-peerstream:
+    archived: true
+  go-reuseport-transport:
+    archived: true
+  go-reuseport:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: reuse tcp/udp ports in golang
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    visibility: public
+  go-routing-language:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - petar
+      push:
+        - adlrocha
+        - masih
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Definition of the grammar for describing routing objectives
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  go-smart-record:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - petar
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: "ResNetLab Project: Smart Records"
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-sockaddr:
+    archived: true
+  go-socket-activation:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Multiaddr backed systemd socket activation
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-src-select:
+    archived: true
+  go-stream-muxer-multistream:
+    archived: true
+  go-stream-muxer:
+    archived: true
+  go-tcp-transport:
+    archived: true
+  go-testutil:
+    archived: true
+  go-udp-transport:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Implementation of an unreliable packet transport for libp2p, using UDP
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+    visibility: public
+  go-utp-transport:
+    archived: true
+  go-ws-transport:
+    archived: true
+  go-xtp:
+    archived: true
+  go-yamux:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      maintain:
+        - go-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Go
+    visibility: public
+  gossipsub-hardening:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - vyzo
+    default_branch: master
+    delete_branch_on_merge: false
+    description: testground plans for evaluating gossipsub under attack scenarios
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  governance:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  haskell-p2pcat:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: nothing to see here, yet!
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  hydra-booster-infra:
+    archived: true
+  hydra-booster:
+    archived: true
+  if-watch:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    collaborators:
+      maintain:
+        - dariusc93
+      push:
+        - dvc94ch
+        - mxinden
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Cross platform asynchronous network watcher
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - rust-libp2p Maintainers
+    visibility: public
+  interface-connection:
+    archived: true
+  interface-content-routing:
+    archived: true
+  interface-libp2p:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: The interface of all of the interfaces for the libp2p modules.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  interface-peer-discovery:
+    archived: true
+  interface-peer-routing:
+    archived: true
+  interface-record-store:
+    archived: true
+  interface-stream-muxer:
+    archived: true
+  interface-transport:
+    archived: true
+  interop:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Interoperability tests for libp2p Implementations
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+    visibility: public
+  ipfs-camp-2022:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: The website for IPFS Camp 2022
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  iptoasn:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+        - w3dt-stewards
+    visibility: public
+  js-delegated-routing-v1-http-api-content-routing:
+    archived: true
+  js-ipni-content-routing:
+    archived: true
+  js-iprs-record:
+    archived: true
+  js-libp2p-aes-ctr:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Streaming AES-CTR for node and browsers
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-amino-dht-bootstrapper:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: true
+    description: A CLI for starting an Amino DHT bootstrapper
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - js-libp2p-dev
+    visibility: public
+  js-libp2p-bootstrap:
+    archived: true
+  js-libp2p-circuit:
+    archived: true
+  js-libp2p-cms:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Cryptographically protected messages using the libp2p keychain
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-components:
+    archived: true
+  js-libp2p-connection-manager:
+    archived: true
+  js-libp2p-connection:
+    archived: true
+  js-libp2p-crypto-secp256k1:
+    archived: true
+  js-libp2p-crypto:
+    archived: true
+  js-libp2p-daemon-client:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: true
+    description: A js daemon client to interact with a libp2p daemon
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-daemon-protocol:
+    archived: true
+  js-libp2p-daemon:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: true
+    description: A js-libp2p backed daemon
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - Admin
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-delegated-content-routing:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Leverage other peers in the network to perform Content Routing calls.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-delegated-peer-routing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Leverage other peers in the network to perform Peer Routing calls.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-devtools:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: A browser plugin that lets you inspect a running libp2p node
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-distributed-record-store:
+    archived: true
+  js-libp2p-example-auto-tls:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to get a TLS certificate automatically
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-browser-pubsub:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use libp2p pubsub in browsers
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-chat:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: An example chat app using libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-circuit-relay:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use Circuit Relay to connect two nodes
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-connection-encryption:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: An example of how to configure connection encryption
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-custom-protocols:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to create custom protocols for your app
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-delegated-routing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use other libp2p nodes to perform delegated routing
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-discovery-mechanisms:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to configure peer discovery mechanisms
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-fork-go-template:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: true
+    description: This is a template to create a repo to be fork and go based on an
+      example of js-libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-example-peer-and-content-routing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use peer and content routing
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-pnet:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to configure a libp2p private network
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-protocol-and-stream-muxing:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: How to use multiplexed protocol streams
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-pubsub:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: An example using libp2p pubsub
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-transports:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: An example using different types of libp2p transport
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-example-webrtc-private-to-private:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Connect a browser to another browser
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-examples:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Examples for the JS implementation of libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - js-libp2p-dev
+    visibility: public
+  js-libp2p-floodsub:
+    archived: true
+  js-libp2p-http-fetch:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - MarcoPolo
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Implementation of WHATWG Fetch with support for multiaddrs and
+      libp2p streams.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - js-libp2p-dev
+    visibility: public
+  js-libp2p-identify:
+    archived: true
+  js-libp2p-interfaces:
+    archived: true
+  js-libp2p-kad-dht:
+    archived: true
+  js-libp2p-kad-record-store:
+    archived: true
+  js-libp2p-kad-routing:
+    archived: true
+  js-libp2p-keychain:
+    archived: true
+  js-libp2p-logger:
+    archived: true
+  js-libp2p-mdns:
+    archived: true
+  js-libp2p-metrics:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Extendable implementation of @libp2p/interface-metrics
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-mplex:
+    archived: true
+  js-libp2p-multistream-select:
+    archived: true
+  js-libp2p-nat-mngr:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: NAT manager that allows handling different aspects of NAT traversal
+      in libp2p.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-peer-collections:
+    archived: true
+  js-libp2p-peer-id:
+    archived: true
+  js-libp2p-peer-record:
+    archived: true
+  js-libp2p-peer-store:
+    archived: true
+  js-libp2p-ping:
+    archived: true
+  js-libp2p-pnet:
+    archived: true
+  js-libp2p-prometheus-metrics:
+    archived: true
+  js-libp2p-protocol-adventure:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Learn how to develop custom protocols with libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  js-libp2p-pubsub-peer-discovery:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: true
+    description: A js-libp2p module that uses pubsub for mdns like peer discovery
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-pubsub:
+    archived: true
+  js-libp2p-record:
+    archived: true
+  js-libp2p-relay-server:
+    archived: true
+  js-libp2p-rendezvous:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A javascript implementation of the rendezvous protocol for libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-rsa:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Utility functions for dealing with legacy RSA keys
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-secio:
+    archived: true
+  js-libp2p-simple-metrics:
+    archived: true
+  js-libp2p-spdy:
+    archived: true
+  js-libp2p-stardust:
+    archived: true
+  js-libp2p-streaming-benchmark:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-switch:
+    archived: true
+  js-libp2p-tcp:
+    archived: true
+  js-libp2p-topology:
+    archived: true
+  js-libp2p-tracked-map:
+    archived: true
+  js-libp2p-udp:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Node.js implementation of the UDP module that libp2p uses, which
+      implements the abstract-transport interface
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-udt:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Node.js implementation of the UDT module that libp2p uses, which
+      implements the abstract-transport interface
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-utils:
+    archived: true
+  js-libp2p-utp:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: uTP module libp2p uses. Implements the interface-transport spec
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-libp2p-webrtc-direct:
+    archived: true
+  js-libp2p-webrtc-peer:
+    archived: true
+  js-libp2p-webrtc-star:
+    archived: true
+  js-libp2p-webrtc:
+    archived: true
+  js-libp2p-websocket-star-multi:
+    archived: true
+  js-libp2p-websocket-star-rendezvous:
+    archived: true
+  js-libp2p-websocket-star:
+    archived: true
+  js-libp2p-websockets:
+    archived: true
+  js-libp2p-webtransport:
+    archived: true
+  js-libp2p:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+        - aschmahmann
+        - MarcoPolo
+    default_branch: main
+    delete_branch_on_merge: true
+    description: The JavaScript Implementation of libp2p networking stack.
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      maintain:
+        - shipyard
+      pull:
+        - github-mgmt stewards
+      push:
+        - js-libp2p-dev
+    topics:
+      - ipfs
+      - js-ipfs
+      - libp2p
+      - networking-stack
+      - p2p
+    visibility: public
+  js-p2pcat:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A netcat like utility but for the p2p Internet
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  js-peer-book:
+    archived: true
+  js-peer-id:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: true
+    description: peer-id implementation in JavaScript. Deprecated; use
+      https://github.com/libp2p/js-libp2p-peer-id instead.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    topics:
+      - deprecated
+    visibility: public
+  js-peer-info:
+    archived: true
+  js-spdy-stream-muxer:
+    archived: true
+  jvm-libp2p:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      develop:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 0
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - gradle (ubuntu-latest)
+            - gradle (windows-latest)
+          strict: true
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          strict: false
+    collaborators:
+      admin:
+        - Nashatyrev
+        - StefanBratanov
+      maintain:
+        - tbenr
+    default_branch: develop
+    delete_branch_on_merge: false
+    description: a libp2p implementation for the JVM, written in Kotlin 🔥
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - Java
+    visibility: public
+  libp2p-go-webrtc-benchmarks:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - GlenDC
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Benchmarks in function of the WebRTC transport implementation for libp2p-go
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+    visibility: public
+  libp2p-webrtc-guide:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Repository code demonstrating browser connectivity with js-libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+  libp2p:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A modular and extensible networking stack which solves many
+      challenges of peer-to-peer applications.
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  mplex:
+    archived: true
+  notes:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: libp2p Collaborative Notebook for Research
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+    visibility: public
+  npm-go-libp2p-dep:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Install go-libp2p from npm as a dependency of your project
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+    visibility: public
+  npm-go-libp2p:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - achingbrain
+        - MarcoPolo
+        - p-shahi
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Install go-libp2p-daemon via npm
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  observation-deck:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: 🐣 [WIP] Catalogue of widgets for visualising libp2p introspection
+      data, built on libp2p/observer-toolkit
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    topics:
+      - libp2p
+      - observability
+    visibility: public
+  observer-toolkit:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: true
+    description: 🐣 [WIP] toolkit for building libp2p introspection widgets + a few
+      useful out-of-the-box widgets
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    topics:
+      - libp2p
+      - monitoring
+      - observability
+      - widgets
+    visibility: public
+  product:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - dhuseby
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  projects:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: A repo of sub-projects within libp2p for contributors to pick up
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+    visibility: public
+  pubsub-notes:
+    archived: true
+  pull-mplex:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: multiplexer implementing the https://github.com/libp2p/mplex spec
+      with pull-streams
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - Repos - JavaScript
+    topics:
+      - libp2p
+      - mplex
+      - pull-stream
+    visibility: public
+  punchr:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - dennis-tra
+        - elenaf9
+        - MarcoPolo
+        - mxinden
+    default_branch: main
+    delete_branch_on_merge: false
+    description: 🥊 Components to measure Direct Connection Upgrade through Relay
+      (DCUtR) performance.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  py-libp2p-slog:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Python API for structured logging and querying
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - py-libp2p Active Maintainers
+      maintain:
+        - py-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  py-libp2p-xor:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Python facilities for XOR arithmetic and higher-level routing
+      computations in XOR space
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - py-libp2p Active Maintainers
+      maintain:
+        - py-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  py-libp2p:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: The Python implementation of the libp2p networking stack 🐍 [under
+      development]
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - py-libp2p Active Maintainers
+      maintain:
+        - py-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  repl:
+    archived: true
+  research-dht:
+    archived: true
+  research-pubsub:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Research on PubSub algorithms for libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - contributors
+        - github-mgmt stewards
+      push:
+        - Repos - JavaScript
+    visibility: public
+  research:
+    archived: true
+  rust-libp2p-identity:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Data structures and algorithms for identifying peers in libp2p.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - rust-libp2p-contributors
+    visibility: public
+  rust-libp2p:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: true
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - Check for changes in proto files
+            - Check rustdoc intra-doc links
+            - Compile on wasm32-unknown-emscripten
+            - Compile on wasm32-unknown-unknown
+            - Compile on wasm32-wasip1
+            - Compile on x86_64-apple-darwin
+            - Compile on x86_64-pc-windows-msvc
+            - Compile with MSRV
+            - Compile with select features (mdns tcp dns async-std)
+            - Compile with select features (mdns tcp dns tokio)
+            - Ensure that `Cargo.lock` is up-to-date
+            - examples
+            - IPFS Integration tests
+            - manifest_lint
+            - Run all WASM tests
+            - rustfmt
+            - Test libp2p-allow-block-list
+            - Test libp2p-autonat
+            - Test libp2p-connection-limits
+            - Test libp2p-core
+            - Test libp2p-dcutr
+            - Test libp2p-dns
+            - Test libp2p-floodsub
+            - Test libp2p-gossipsub
+            - Test libp2p-identify
+            - Test libp2p-identity
+            - Test libp2p-kad
+            - Test libp2p-mdns
+            - Test libp2p-memory-connection-limits
+            - Test libp2p-metrics
+            - Test libp2p-mplex
+            - Test libp2p-noise
+            - Test libp2p-perf
+            - Test libp2p-ping
+            - Test libp2p-plaintext
+            - Test libp2p-pnet
+            - Test libp2p-quic
+            - Test libp2p-relay
+            - Test libp2p-rendezvous
+            - Test libp2p-request-response
+            - Test libp2p-server
+            - Test libp2p-swarm-derive
+            - Test libp2p-swarm-test
+            - Test libp2p-swarm
+            - Test libp2p-tcp
+            - Test libp2p-tls
+            - Test libp2p-uds
+            - Test libp2p-webrtc
+            - Test libp2p-websocket
+            - Test libp2p-webtransport-websys
+            - Test libp2p-yamux
+            - Test libp2p
+            - Test multistream-select
+            - Test quick-protobuf-codec
+            - Test rw-stream-sink
+          strict: true
+    default_branch: master
+    delete_branch_on_merge: true
+    description: "The Rust Implementation of the libp2p networking stack. "
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: PR_BODY
+    squash_merge_commit_title: PR_TITLE
+    teams:
+      admin:
+        - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - rust-libp2p-contributors
+    topics:
+      - decentralization
+      - libp2p
+      - networking
+      - peer-to-peer
+      - rust
+    visibility: public
+  rust-yamux:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+        required_status_checks:
+          contexts:
+            - build
+          strict: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Multiplexer over reliable, ordered connections.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - rust-libp2p Maintainers
+      pull:
+        - github-mgmt stewards
+      push:
+        - rust-libp2p-contributors
+    visibility: public
+  security:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - galargh
+        - p-shahi
+        - raulk
+      push:
+        - aschmahmann
+        - marten-seemann
+        - Stebalien
+        - yiannisbot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: CONFIDENTIAL
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: private
+  specs:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    branch_protection:
+      master:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Technical specifications for the libp2p networking stack
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - Specs contributors
+    visibility: public
+  team-mgmt:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Planning and project management for the libp2p Project
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - Repos - JavaScript
+        - rust-libp2p Maintainers
+    topics:
+      - libp2p
+    visibility: public
+  test-plans:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - laurentsenta
+    default_branch: master
+    delete_branch_on_merge: true
+    description: Interoperability tests for libp2p
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - go-libp2p Maintainers
+        - Repos - Go
+        - rust-libp2p Maintainers
+        - rust-libp2p-contributors
+    topics:
+      - go
+      - js
+      - libp2p
+      - nim
+      - rust
+    visibility: public
+  test:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - p-shahi
+    default_branch: main
+    delete_branch_on_merge: false
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+  testlab:
+    archived: true
+  uci:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Automatically distribute GitHub Actions workflow across repositories.
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  universal-connectivity:
+    advanced_security: false
+    allow_update_branch: true
+    archived: false
+    collaborators:
+      admin:
+        - 2color
+        - dhuseby
+        - p-shahi
+      push:
+        - jochasinga
+        - TheDiscordian
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Realtime decentralised chat with libp2p showing ubiquitous
+      peer-to-peer connectivity between multiple programming languages (Go,
+      Rust, TypeScript) and runtimes (Web, native binary) using QUIC, WebRTC and
+      WebTransport
+    has_discussions: true
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      maintain:
+        - go-libp2p Maintainers
+        - js-libp2p-dev
+        - py-libp2p Maintainers
+        - rust-libp2p Maintainers
+        - universal-connectivity Maintainers
+      pull:
+        - github-mgmt stewards
+    topics:
+      - go
+      - libp2p
+      - networking
+      - p2p
+      - peer-to-peer
+      - rust
+      - webrtc
+      - webtransport
+    visibility: public
+  website-1:
+    archived: true
+  website-new:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Rebuild of the libp2p.io website
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - ci
+    visibility: public
+  website:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      admin:
+        - momack2
+    default_branch: master
+    delete_branch_on_merge: false
+    description: Webpage of the libp2p project. A multi protocol approach for a
+      interoperable network stack that follows the 'self description' in favor
+      of assumptions
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+      push:
+        - ci
+    visibility: public
+  workspace-go-libp2p:
+    archived: true
+  xtp:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    default_branch: master
+    delete_branch_on_merge: false
+    description: XTP - eXternal Transports Protocol
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - Admin
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+  zeroconf:
+    advanced_security: false
+    allow_update_branch: false
+    archived: false
+    collaborators:
+      push:
+        - web3-bot
+    default_branch: master
+    delete_branch_on_merge: false
+    description: mDNS / DNS-SD Service Discovery in pure Go (also known as Bonjour)
+    has_discussions: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - w3dt-stewards
+      pull:
+        - github-mgmt stewards
+    visibility: public
+teams:
+  Admin:
+    members:
+      maintainer:
+        - dhuseby
+      member:
+        - aschmahmann
+        - jbenet
+        - Kubuxu
+        - mxinden
+        - raulk
+    privacy: closed
+  Alumni:
+    members:
+      maintainer:
+        - andyschwab-admin
+      member:
+        - aamnv
+        - alain2sf
+        - AlanSl
+        - alexh
+        - anorth
+        - bigs
+        - cemozerr
+        - ChihChengLiang
+        - dharmapunk82
+        - dryajov
+        - dvdplm
+        - fbaiodias
+        - flyingzumwalt
+        - frrist
+        - fsdiogo
+        - gavinmcdermott
+        - geoah
+        - guseggert
+        - haadcode
+        - hacdias
+        - ipfsbot
+        - jbenetsafer
+        - JGAntunes
+        - jrhea
+        - jsoares
+        - julian88110
+        - KarolKozlowski
+        - keks
+        - kevina
+        - kishansagathiya
+        - litzenberger
+        - locotorp
+        - mbaxter
+        - mcollina
+        - mhchia
+        - miyazono
+        - mkalinin
+        - mkg20001
+        - mvid
+        - NIC619
+        - nicola
+        - nunofmn
+        - olizilla
+        - ortyomka
+        - pipermerriam
+        - ralexstokes
+        - RichardLitt
+        - richardschneider
+        - robzajac
+        - rolfyone
+        - romanb
+        - snazha-blkio
+        - stongo
+        - stuckinaboot
+        - thattommyhall
+        - TinyTb
+        - travisperson
+        - victorb
+        - Warchant
+        - yiannisbot
+        - yusefnapora
+        - ZenGround0
+        - zixuanzh
+        - zuiris
+    privacy: closed
+  Bifrost:
+    privacy: closed
+  ci:
+    description: ci
+    privacy: closed
+  community:
+    description: Developer advocates, community engineers, and other people that
+      need write privs.
+    privacy: closed
+  contributors:
+    privacy: closed
+  cpp-libp2p:
+    members:
+      maintainer:
+        - kamilsa
+      member:
+        - Harrm
+        - igor-egorov
+        - turuslan
+        - xDimon
+    privacy: closed
+  docs:
+    members:
+      maintainer:
+        - 2color
+        - p-shahi
+      member:
+        - salmad3
+    privacy: closed
+  github-mgmt stewards:
+    description: Users that are effectively org admins
+    members:
+      member:
+        - achingbrain
+        - dhuseby
+        - jxs
+        - p-shahi
+        - raulk
+        - Stebalien
+    privacy: closed
+  go-libp2p Maintainers:
+    description: Trusted reviewers for merging into go-libp2p repositories.
+    members:
+      maintainer:
+        - MarcoPolo
+      member:
+        - sukunrt
+        - vyzo
+    privacy: closed
+  ipdx:
+    members:
+      maintainer:
+        - galargh
+        - laurentsenta
+    privacy: closed
+  js-libp2p ChainSafe Maintainers:
+    privacy: closed
+  js-libp2p-dev:
+    description: js-libp2p developers and engineers
+    members:
+      maintainer:
+        - achingbrain
+      member:
+        - maschad
+        - SgtPooki
+        - wemeetagain
+        - whizzzkid
+    privacy: closed
+  kubo maintainers:
+    description: Kubo Maintainers
+    members:
+      maintainer:
+        - lidel
+      member:
+        - aschmahmann
+        - gammazero
+        - guillaumemichel
+        - hsanjuan
+    privacy: closed
+  probelab:
+    members:
+      maintainer:
+        - dennis-tra
+        - guillaumemichel
+        - iand
+        - yiannisbot
+    privacy: closed
+  py-libp2p Active Maintainers:
+    description: Active maintainers of py-libp2p repositories with admin privileges.
+    members:
+      member:
+        - pacrob
+    privacy: closed
+  py-libp2p Maintainers:
+    description: Trusted maintainers for merging into py-libp2p repositories and
+      publishing to PyPI
+    members:
+      maintainer:
+        - pacrob
+      member:
+        - dhuseby
+        - seetadev
+    privacy: closed
+  Repos - Go:
+    description: For all things go-libp2p
+    members:
+      member:
+        - alanshaw
+        - aschmahmann
+        - dirkmc
+        - gammazero
+        - hannahhoward
+        - hsanjuan
+        - jacobheun
+        - Kubuxu
+        - lidel
+        - MarcoPolo
+        - marten-seemann
+        - masih
+        - momack2
+        - p-shahi
+        - petar
+        - raulk
+        - Stebalien
+        - sukunrt
+        - vyzo
+        - willscott
+    privacy: closed
+  Repos - Java:
+    members:
+      member:
+        - ajsutton
+        - Nashatyrev
+    privacy: closed
+  Repos - JavaScript:
+    description: The team that hacks all the JavaScripts
+    members:
+      member:
+        - achingbrain
+        - jacobheun
+        - lidel
+        - maschad
+        - momack2
+        - p-shahi
+        - SgtPooki
+        - vasco-santos
+        - whizzzkid
+    privacy: closed
+  rust-libp2p Maintainers:
+    description: Current maintainers of Rust-libp2p
+    members:
+      maintainer:
+        - AgeManning
+        - elenaf9
+        - guillaumemichel
+        - jxs
+    privacy: closed
+  rust-libp2p-contributors:
+    description: Contributors to the rust-libp2p repository
+    members:
+      member:
+        - dariusc93
+        - MarcoPolo
+        - mxinden
+        - thomaseizinger
+    privacy: secret
+  shipyard:
+    description: Members of Interplanetary Shipyard who work with or on libp2p
+    members:
+      maintainer:
+        - achingbrain
+        - aschmahmann
+        - MarcoPolo
+        - p-shahi
+      member:
+        - 2color
+        - cewood
+        - gammazero
+        - guillaumemichel
+        - hsanjuan
+        - lidel
+        - SgtPooki
+        - sukunrt
+        - yiannisbot
+    privacy: closed
+  Specs contributors:
+    members:
+      member:
+        - mxinden
+    privacy: closed
+  universal-connectivity Maintainers:
+    description: Maintainers of universal-connectivity that are not maintainers of
+      other libp2p implementations
+    members:
+      maintainer:
+        - dhuseby
+      member:
+        - kentbull
+    privacy: closed
+  w3dt-stewards:
+    members:
+      maintainer:
+        - dhuseby
+        - galargh
+      member:
+        - 2color
+        - achingbrain
+        - aschmahmann
+        - guillaumemichel
+        - Jorropo
+        - laurentsenta
+        - lidel
+        - MarcoPolo
+        - mxinden
+        - p-shahi
+        - Stebalien
+        - sukunrt
+        - yiannisbot
+    privacy: closed
