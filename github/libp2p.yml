@@ -2554,7 +2554,7 @@ repositories:
   iptoasn:
     advanced_security: false
     allow_update_branch: false
-    archived: false
+    archived: true
     branch_protection:
       main:
         allows_deletions: false
