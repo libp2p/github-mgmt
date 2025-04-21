@@ -1,4 +1,5 @@
 import 'reflect-metadata'
+import {Permission} from '../resources/repository-collaborator.js'
 import {Repository} from '../resources/repository.js'
 import {runFormat} from './shared/format.js'
 import {runAddFileToAllRepos} from './shared/add-file-to-all-repos.js'
