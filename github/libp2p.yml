@@ -2804,9 +2804,14 @@ repositories:
     collaborators:
       admin:
         - achingbrain
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: Learn how to create a DHT with libp2p
+    files:
+      .github/pull_request_template.md:
+        content: .github/js_pull_request_template.md
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
