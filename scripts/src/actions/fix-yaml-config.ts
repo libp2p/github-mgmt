@@ -20,7 +20,8 @@ function isInitialised(repository: Repository) {
     'product',
     'rust-libp2p-identity',
     'test',
-    'credits'
+    'credits',
+    'js-libp2p-dht-adventure'
   ].includes(repository.name)
 }
 
