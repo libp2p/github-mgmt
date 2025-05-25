@@ -2561,7 +2561,7 @@ repositories:
     archived: true
   js-libp2p-aes-ctr:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -2569,7 +2569,7 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Streaming AES-CTR for node and browsers
     files:
       .github/pull_request_template.md:
@@ -2774,29 +2774,7 @@ repositories:
         - github-mgmt stewards
     visibility: public
   js-libp2p-devtools:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      admin:
-        - 2color
-        - achingbrain
-      push:
-        - web3-bot
-    default_branch: main
-    delete_branch_on_merge: false
-    description: A browser plugin that lets you inspect a running libp2p node
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    visibility: public
+    archived: true
   js-libp2p-dht-adventure:
     advanced_security: false
     allow_update_branch: false
