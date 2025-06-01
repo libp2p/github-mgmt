@@ -3494,9 +3494,9 @@ repositories:
     visibility: public
   js-libp2p-floodsub:
     archived: true
-  js-libp2p-http-fetch:
+  js-libp2p-http:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     collaborators:
       admin:
@@ -3504,11 +3504,8 @@ repositories:
       push:
         - web3-bot
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Implementation of WHATWG Fetch with support for multiaddrs and libp2p streams.
-    files:
-      .github/pull_request_template.md:
-        content: .github/js_pull_request_template.md
     has_discussions: false
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
