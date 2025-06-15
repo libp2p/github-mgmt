@@ -4830,6 +4830,8 @@ repositories:
     collaborators:
       admin:
         - dhuseby
+      push:
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: An workshop for learning libp2p programming from scratch
@@ -4954,6 +4956,7 @@ repositories:
     collaborators:
       push:
         - dhuseby
+        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: A TUI app for presenting interactive programming workshops
