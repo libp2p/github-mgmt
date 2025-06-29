@@ -4521,7 +4521,6 @@ repositories:
             - Compile on x86_64-apple-darwin
             - Compile on x86_64-pc-windows-msvc
             - Compile with MSRV
-            - Compile with select features (mdns tcp dns async-std)
             - Compile with select features (mdns tcp dns tokio)
             - Ensure that `Cargo.lock` is up-to-date
             - examples
