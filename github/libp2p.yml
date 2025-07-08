@@ -4497,6 +4497,7 @@ repositories:
     collaborators:
       push:
         - mxinden
+        - web3-bot
     default_branch: master
     delete_branch_on_merge: false
     description: Utilities for encoding and decoding frames using `async/await`.
