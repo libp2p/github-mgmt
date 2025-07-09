@@ -4508,6 +4508,11 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - rust-libp2p Maintainers
+      push:
+        - rust-libp2p-contributors
     topics:
       - async-await
       - encoding
