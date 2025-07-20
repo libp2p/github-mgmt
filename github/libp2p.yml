@@ -4648,7 +4648,7 @@ repositories:
     visibility: public
   rust-yamux:
     advanced_security: false
-    allow_update_branch: false
+    allow_update_branch: true
     archived: false
     branch_protection:
       master:
@@ -4667,7 +4667,9 @@ repositories:
           restrict_dismissals: false
         required_status_checks:
           contexts:
-            - build
+            - clippy
+            - fmt
+            - test
           strict: false
     collaborators:
       push:
