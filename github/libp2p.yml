@@ -4763,6 +4763,7 @@ repositories:
         - go-libp2p Maintainers
         - Repos - Go
         - Repos - JavaScript
+        - rust-libp2p Maintainers
         - Specs contributors
     visibility: public
   team-mgmt:
