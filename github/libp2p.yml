@@ -4618,7 +4618,7 @@ repositories:
             - Test multistream-select
             - Test quick-protobuf-codec
             - Test rw-stream-sink
-          strict: true
+          strict: false
     collaborators:
       push:
         - web3-bot
