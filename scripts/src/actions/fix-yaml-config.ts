@@ -1,5 +1,6 @@
 import 'reflect-metadata'
-import {Permission} from '../resources/repository-collaborator.js'
+import {Permission as CollaboratorPermission} from '../resources/repository-collaborator.js'
+import {Permission as TeamPermission} from '../resources/repository-team.js'
 import {Repository} from '../resources/repository.js'
 import {runFormat} from './shared/format.js'
 import {runAddCollaboratorToAllRepos} from './shared/add-collaborator-to-all-repos.js'
@@ -9,6 +10,7 @@ import {runToggleArchivedRepos} from './shared/toggle-archived-repos.js'
 import {runDescribeAccessChanges} from './shared/describe-access-changes.js'
 
 import * as core from '@actions/core'
+import { runAddTeamToAllRepos } from './shared/add-team-to-all-repos.js'
 
 function isInitialised(repository: Repository) {
   return ![
@@ -29,14 +31,12 @@ function isJS(repository: Repository) {
   return repository.name.startsWith('js-libp2p') || ['interop'].includes(repository.name)
 }
 
-function isPublic(repository: Repository) {
-  return repository.visibility === 'public'
+function isGo(repository: Repository) {
+  return repository.name.startsWith('go-')
 }
 
-function isFork(repository: Repository) {
-  return [
-    'uci'
-  ].includes(repository.name)
+function isPublic(repository: Repository) {
+  return repository.visibility === 'public'
 }
 
 async function run() {
@@ -57,7 +57,12 @@ async function run() {
   )
   await runAddCollaboratorToAllRepos(
     'web3-bot',
-    Permission.Push
+    CollaboratorPermission.Push
+  )
+  await runAddTeamToAllRepos(
+    'Repos - Go',
+    TeamPermission.Push,
+    r => isGo(r),
   )
   await runToggleArchivedRepos()
   const accessChangesDescription = await runDescribeAccessChanges()
