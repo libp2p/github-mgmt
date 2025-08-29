@@ -1113,6 +1113,8 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - Repos - Go
     visibility: public
   go-conn-security-multistream:
     archived: true
@@ -1237,6 +1239,8 @@ repositories:
         - github-mgmt stewards
         - go-libp2p Maintainers
         - w3dt-stewards
+      push:
+        - Repos - Go
     visibility: public
   go-libp2p-circuit-progs:
     archived: true
@@ -1427,6 +1431,8 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - Repos - Go
     visibility: private
   go-libp2p-host:
     archived: true
@@ -1867,6 +1873,8 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - Repos - Go
     visibility: public
   go-libp2p-swarm:
     archived: true
@@ -1923,6 +1931,8 @@ repositories:
     teams:
       pull:
         - github-mgmt stewards
+      push:
+        - Repos - Go
     visibility: private
   go-libp2p-webrtc-direct:
     archived: true
@@ -2215,6 +2225,8 @@ repositories:
         - w3dt-stewards
       pull:
         - github-mgmt stewards
+      push:
+        - Repos - Go
     visibility: public
   go-smart-record:
     advanced_security: false
