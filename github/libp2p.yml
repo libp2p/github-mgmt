@@ -1114,6 +1114,7 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
+        - go-libp2p Maintainers
         - Repos - Go
     visibility: public
   go-conn-security-multistream:
@@ -1237,9 +1238,9 @@ repositories:
       pull:
         - Admin
         - github-mgmt stewards
-        - go-libp2p Maintainers
         - w3dt-stewards
       push:
+        - go-libp2p Maintainers
         - Repos - Go
     visibility: public
   go-libp2p-circuit-progs:
@@ -1432,6 +1433,7 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
+        - go-libp2p Maintainers
         - Repos - Go
     visibility: private
   go-libp2p-host:
@@ -1522,6 +1524,9 @@ repositories:
     allow_update_branch: true
     archived: false
     collaborators:
+      admin:
+        - guillaumemichel
+        - lidel
       push:
         - web3-bot
     default_branch: master
@@ -1874,6 +1879,7 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
+        - go-libp2p Maintainers
         - Repos - Go
     visibility: public
   go-libp2p-swarm:
@@ -1932,6 +1938,7 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
+        - go-libp2p Maintainers
         - Repos - Go
     visibility: private
   go-libp2p-webrtc-direct:
@@ -2226,6 +2233,7 @@ repositories:
       pull:
         - github-mgmt stewards
       push:
+        - go-libp2p Maintainers
         - Repos - Go
     visibility: public
   go-smart-record:
