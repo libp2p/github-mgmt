@@ -5304,9 +5304,9 @@ teams:
       maintainer:
         - pacrob
       member:
+        - acul71
         - dhuseby
         - seetadev
-        - acul71
     privacy: closed
   Repos - Go:
     description: For all things go-libp2p
