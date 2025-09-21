@@ -4018,6 +4018,7 @@ repositories:
         - Nashatyrev
         - StefanBratanov
       maintain:
+        - lucassaldanha
         - tbenr
       push:
         - web3-bot
