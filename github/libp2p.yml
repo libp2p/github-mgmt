@@ -3892,7 +3892,7 @@ repositories:
         - web3-bot
     default_branch: main
     delete_branch_on_merge: true
-    description: The JavaScript Implementation of libp2p networking stack.
+    description: A JavaScript Implementation of libp2p networking stack.
     files:
       .github/pull_request_template.md:
         content: .github/js_pull_request_template.md
@@ -4877,26 +4877,7 @@ repositories:
   testlab:
     archived: true
   uci:
-    advanced_security: false
-    allow_update_branch: false
-    archived: false
-    collaborators:
-      push:
-        - web3-bot
-    default_branch: main
-    delete_branch_on_merge: false
-    description: Automatically distribute GitHub Actions workflow across repositories.
-    has_discussions: false
-    merge_commit_message: PR_TITLE
-    merge_commit_title: MERGE_MESSAGE
-    secret_scanning_push_protection: true
-    secret_scanning: true
-    squash_merge_commit_message: COMMIT_MESSAGES
-    squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      pull:
-        - github-mgmt stewards
-    visibility: public
+    archived: true
   universal-connectivity-workshop:
     advanced_security: false
     allow_update_branch: false
