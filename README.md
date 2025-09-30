@@ -1,12 +1,6 @@
+> [!WARNING]
+> As of 2025-10-01, this repository is no longer maintained. To propose changes to the GitHub configuration, please reach out to the repository administrators.
+
 # GitHub Management via Terraform: libp2p
 
 This repository is responsible for managing GitHub configuration of `libp2p` organisation as code with Terraform. It was created from [github-mgmt-template](https://github.com/protocol/github-mgmt-template) and it will receive updates from that repository.
-
-**IMPORTANT**: Having write access to GitHub Management repository can be as powerful as having admin access to the organizations managed by that repository.
-
-*NOTE*: Because we don't have merge queue functionality enabled for the repository yet, after a merge, wait for the `Apply` and `Update` workflows to complete before merging any other PRs.
-
-To learn more, check out:
-- [What is GitHub Management and how does it work?](docs/ABOUT.md)
-- [How to set up GitHub Management?](docs/SETUP.md)
-- [How to work with GitHub Management?](docs/HOWTOS.md)
